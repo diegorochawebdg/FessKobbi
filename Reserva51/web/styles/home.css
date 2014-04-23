@@ -1,0 +1,266 @@
+/* CONTE�DO - HOME */
+#contentHome {
+    width: 100%;
+    margin: -20px 0 0;
+}
+#contentHome #compra {
+    width: 100%;
+    height: 580px;
+    border-bottom: 1px solid #b85700;
+    background: url(../images/compra-background.png) top center no-repeat;
+}
+#contentHome #compra .container {
+    position: relative;
+    width: 1000px;
+}
+#contentHome #compra .box {
+    position: absolute;
+    top: 63px;
+    right: 63px;
+    width: 450px;
+    height: 435px;
+}
+#contentHome #compra .box .titulo {
+    font-size: 30px;
+    font-weight: bold;
+    color: #b85700;
+}
+#contentHome #compra .box .titulo .sub {
+    font-size: 13px;
+    color: #231102;
+}
+#contentHome #compra .box .opiniao {
+    float: left;
+    width: 170px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+#contentHome #compra .box .compartilhar {
+    float: right;
+    width: 270px;
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: right;
+}
+#contentHome #compra .box .info {
+    width: 410px;
+    height: 193px;
+    margin-top: 20px;
+    padding: 30px 20px;
+    border: 1px solid #b85700;
+    border-radius: 8px;
+    background: url(../images/info-background.png) top center repeat-x;
+}
+#contentHome #compra .box .info .valor {
+    float: left;
+    width: 180px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #b85700;
+}
+#contentHome #compra .box .info .valor .por {
+    font-size: 12px;
+    font-weight: normal;
+    color: #b85700;
+}
+#contentHome #compra .box .info .pagamento {
+    margin-top: 0px;
+}
+#contentHome #compra .box .info .pagamento a {
+    font-size: 12px;
+    font-weight: normal;
+    color: #4a270a;
+}
+#contentHome #compra .box .info .comprar {
+    float: right;
+    width: 220px;
+    height: 51px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background: url(../images/botao-comprar.png) center center no-repeat;
+    cursor: pointer;
+}
+#contentHome #compra .box .info .frete {
+    margin-top: 50px;
+}
+#contentHome #compra .box .info .frete .consulte {
+    float: left;
+    width: 200px;
+}
+#contentHome #compra .box .info .frete .consulte p {
+    margin: 0 0 5px;
+    padding: 0;
+    font-weight: normal;
+    font-size: 11px;
+    color: #784619;
+}
+#contentHome #compra .box .info .frete .consulte .titulo {
+    font-size: 14px;
+    color: #b85700;
+}
+#contentHome #compra .box .info .frete .consulte #formFrete .cep {
+    float: left;
+    width: 130px;
+    height: 15px;
+    padding: 9px;
+    margin: 0 7px 0 0;
+    border: 0;
+}
+#contentHome #compra .box .info .frete .consulte #formFrete .ok {
+    float: left;
+    width: 33px;
+    height: 33px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background: url(../images/botao-ok.png) center center no-repeat;
+    cursor: pointer;
+    text-indent: -99999px;
+}
+#contentHome #compra .box .info .frete .consulte .entrega {
+    margin: 5px 0 0;
+    font-size: 12px;
+    color: #3c2c09;
+}
+#contentHome #compra .box .info .frete .consulte .entrega .dias {
+    font-size: 14px;
+    font-weight: bold;
+    color: #b85700;
+}
+#contentHome #compra .box .info .frete .selo {
+    float: right;
+    width: 126px;
+    margin: 20px;
+}
+#contentHome #compra .box .mais {
+    margin-top: 10px;
+}
+#contentHome #compra .box .mais a {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    color: #9e5c21;
+}
+#contentHome #caracteristicas {
+    padding: 20px 0;
+    height: auto;
+    background: #180c02;
+    color: #ffffff;
+}
+
+/*Análise sensorial*/
+.titlecarc{font-family: Arial, Helvetica, sans-serif !important; font-size: 18px; margin:15px 0 35px 0; padding: 0 !important;}
+.textcarc{font-family: Arial, Helvetica, sans-serif !important; line-height: 1.5em; width: 710px; padding: 0 !important; font-size: 14px;}
+.analise-sensorial {
+    width: 880px;
+    height: 288px;
+    background-image: url(../images/bg-analise-sensorial.jpg);
+    padding: 19px 33px 0 0;
+    text-align: right;
+    margin: 47px 0;
+    background-repeat: no-repeat;
+}
+.analise-sensorial p {
+    color: #512f12;
+    font-size: 14px;
+    max-width: 766px;
+    display: inline-block;
+    margin-bottom: 0;
+}
+.analise-sensorial h3,
+.analise-sensorial h4 {
+    color: #b85700;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.analise-sensorial h4 {
+    font-size: 12px !important;
+    padding: 10px 0 0 35px;
+    background-image: url(../images/analise-sensorial-icones.png);
+    background-repeat: no-repeat;
+    height: 40px;
+    margin-bottom: 0 !important;
+}
+.analise-sensorial h4.aroma {
+    background-position: 0 -110px;
+}
+.analise-sensorial h4.sabor {
+    background-position: 0 -219px;
+}
+.analise-sensorial .features {
+    margin: 30px 0;
+    float: right;
+}
+.analise-sensorial .features * {
+    text-align: left;
+}
+.analise-sensorial .features .item {
+    margin-left: 30px;
+    float: left;
+    width: 185px;
+}
+.analise-sensorial .features p {
+    font-size: 12px !important;
+}
+/*End of Análise sensorial*/
+
+/*Reviews*/
+#customer-reviews h3 {
+    font: bold 16px Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+#customer-reviews h3 span {
+    margin-left: 10px;
+}
+#customer-reviews h3 span,
+#customer-reviews h3 span a {
+    font-size: 14px !important;
+}
+.comments strong {
+    float: left;
+    max-width: 200px;
+    font-size: 15px;
+    margin: 20px 5px 0 5px;
+    max-width: 175px;
+}
+.comments .the-comment {
+    border: solid #FFF 1px;
+    padding: 24px;
+    float: right;
+    width: 705px;
+    margin-bottom: 25px;
+}
+.comments .the-comment .stars{
+    float: left;
+    margin-right: 15px;
+}
+.comments .the-comment .stars a{
+    float: left;
+    margin-right: 15px;
+    display: block;
+    background-image: url(../images/stars.png);
+    background-repeat: no-repeat;
+    background-position: 0 -23px;
+    width: 18px;
+    height: 19px;
+}
+.comments .the-comment .stars a.active{
+    background-position: 0 0;
+}
+.comments .the-comment .date {
+    font: bold 12px Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+    display: block; float: left;
+}
+.comments .the-comment p{
+    font-size: 12px;
+    line-height: 1.2em;
+}
+/*End of Reviews*/
+
+/* CONTE�DO - HOME */

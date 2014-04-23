@@ -1,0 +1,246 @@
+@charset "UTF-8";
+
+/*Reset Css*/
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    -webkit-font-smoothing: antialiased;
+    background-repeat: no-repeat;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body, html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background: url(../images/bg-body.png) bottom left #f9f9f9 no-repeat;
+}
+img{
+    display: block;
+}
+a{
+    display: block;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.link-padding{
+    position: relative;
+    overflow: hidden;
+    height: 0;
+}
+.clear{
+    clear: both;
+}
+.animate{
+-webkit-transition: all 200ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+   -moz-transition: all 200ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+     -o-transition: all 200ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+        transition: all 200ms cubic-bezier(0.250, 0.100, 0.250, 1.000);
+}
+.content-center{
+    width: 940px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.main-icons{
+    background-image: url(../images/icons-home.png);
+}
+/*End of Reset Css*/
+
+/*Header*/
+#header{
+    background-color: #f1f1f1;
+}
+#header #logo{
+    width: 293px;
+    padding-top: 72px;
+    float: left;
+    margin-top: 20px;
+}
+#header .header-contents{
+    float: right;
+    width: 595px;
+    margin-bottom: 35px;
+}
+#header .header-contents form{
+    background-color: #FFF;
+    border: solid 1px #d1d3d4;
+    padding: 0 7px;
+    width: 270px;
+    margin-top: 8px;
+    float: left;
+}
+#header .header-contents form input{
+    outline: none;
+    font-size: 11px;
+    color:#d1d3d4;
+    width: 240px;
+    height: 27px;
+    float: left;
+}
+#header .header-contents form #main-menu-search-button{
+    width: 26px;
+    padding-top: 26px;
+    background-position: 0 -132px;
+    cursor: pointer;
+    background-color: #FFF;
+    float: right;
+}
+#header .header-contents .portais-link{
+    float: right;
+    width: 302px;
+    background: #e6e7e7;
+    background: -moz-linear-gradient(top, #e6e7e7 0%, #cdcece 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e6e7e7), color-stop(100%,#cdcece));
+    background: -webkit-linear-gradient(top, #e6e7e7 0%,#cdcece 100%);
+    background: -o-linear-gradient(top, #e6e7e7 0%,#cdcece 100%);
+    background: -ms-linear-gradient(top, #e6e7e7 0%,#cdcece 100%);
+    background: linear-gradient(to bottom, #e6e7e7 0%,#cdcece 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6e7e7', endColorstr='#cdcece',GradientType=0 );
+}
+#header .header-contents .portais-link a{
+    float: left;
+    width: 37%;
+    background-position: 15px -240px;
+    padding: 12px 0 10px 33px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #333;
+}
+#header .header-contents .portais-link .portal-aluno{
+    border-right: solid 1px #f4f4f4;
+}
+#header .header-contents #main-menu-1{
+    background-position: 0 -349px;
+    background-repeat: repeat-x;
+    width: 611px;
+    float: right;
+    margin-top: 40px;
+    min-height: 23px;
+}
+#header .header-contents #main-menu-1 li{
+    display: block;
+    float: left;
+}
+#header .header-contents #main-menu-1 li a{
+    color: #5e5857;
+    font-size: 11px;
+}
+#header .header-contents #main-menu-1 li a:before{
+    content: " | ";
+    color: #5e5857;
+    font-size: 11px;
+    margin:0 4px;
+}
+#header .header-contents #main-menu-1 li:first-child a:before{
+    content: "";
+    margin: 0;
+}
+
+#header .main-menu-2{
+    background: #3b6795;
+    background: -moz-linear-gradient(top,  #3b6795 0%, #4578ad 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3b6795), color-stop(100%,#4578ad));
+    background: -webkit-linear-gradient(top,  #3b6795 0%,#4578ad 100%);
+    background: -o-linear-gradient(top,  #3b6795 0%,#4578ad 100%);
+    background: -ms-linear-gradient(top,  #3b6795 0%,#4578ad 100%);
+    background: linear-gradient(to bottom,  #3b6795 0%,#4578ad 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b6795', endColorstr='#4578ad',GradientType=0 );
+    -webkit-box-shadow: inset 0px 9px 19px -6px rgba(56,56,56,1);
+    -moz-box-shadow: inset 0px 9px 19px -6px rgba(56,56,56,1);
+    box-shadow: inset 0px 9px 19px -6px rgba(56,56,56,1);
+}
+#header .main-menu-2 li{
+    width: 186px;
+    float: left;
+    text-align: center;
+    border-bottom: 4px solid #7cd0f3;
+    border-left: 1px solid #37618a;
+    border-right: 1px solid #5481b0;
+    padding: 14px 0;
+}
+#header .main-menu-2 li a{
+    color:#f1f2f2;
+    font:bold 16px Arial, sans-serif;
+}
+/*End of Header*/
+
+/*Content*/
+#content{
+    padding: 30px 0;
+    min-height: 600px;
+}
+/*End of Content*/
+
+/*Footer*/
+#footer .footer-blue{
+    background-color: #1a365f;
+    -webkit-box-shadow: inset 0px 9px 19px -6px rgba(56,56,56,1);
+    -moz-box-shadow: inset 0px 9px 19px -6px rgba(56,56,56,1);
+    box-shadow: inset 0px 9px 19px -6px rgba(56,56,56,1);
+    padding: 15px 0;
+}
+#footer .footer-blue li{
+    float: left;
+    margin-top: 5px;
+}
+#footer .footer-blue a:before{
+    content:"|";
+    margin: 0 10px;
+}
+#footer .footer-blue li:first-child a:before{
+    content:"";
+    margin: 0;
+}
+#footer .footer-blue a{
+    color: #FFF;
+    font-size: 12px;
+}
+#footer .footer-blue .links-left{
+    float: left;
+    padding-top: 11px;
+}
+#footer .footer-blue .social{
+    float: right;
+    display: table;
+}
+#footer .footer-blue .social a{
+    width: 38px;
+    padding-top: 38px;
+    margin-left: 15px;
+}
+#footer .footer-blue .social a:hover{
+    opacity: 0.7;
+}
+#footer .footer-blue .social .facebook{
+    background-position: 0 -464px;
+}
+#footer .footer-blue .social .twitter{
+    background-position: 0 -576px;
+}
+#footer .footer-blue .social .linkedin{
+    background-position: 0 -688px;
+}
+#footer .footer-blue .social .youtube{
+    background-position: 0 -800px;
+}
+#footer .footer-blue .social .flickr{
+    background-position: 0 -912px;
+}
+#footer .footer-blue .social .feeds{
+    background-position: 0 -1024px;
+}
+#footer .white-footer{
+    background-color: #FFF;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+#footer .white-footer small{
+    font-size: 11px;
+    color: #a0b0c1;
+}
+/*End of Footer*/

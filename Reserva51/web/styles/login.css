@@ -1,0 +1,36 @@
+/* CONTE�DO - LOGIN */
+.box .header{width: auto; text-align: left;}
+#login .entrar {
+	float:left;
+	width:395px;
+	padding-right:35px;
+    border-right: solid 1px #bfb1a4;
+}
+#login .esqueceu {
+	margin-top:20px;
+}
+#login .esqueceu a {
+	color:#4a270a;
+}
+#login .cadastro {
+	float:right;
+	width:395px;
+	/*padding:20px;*/
+}
+#login p {
+    text-align:center;
+}
+#login p.titulo {
+    font-size:14px;
+    color:#4a270a;
+}
+#login p.txt{margin: 59px 0;}
+#login .button {
+    margin:0 auto;
+    -webkit-transition: all 200ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+       -moz-transition: all 200ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+         -o-transition: all 200ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+            transition: all 200ms cubic-bezier(0.250, 0.100, 0.250, 1.000);
+}
+#login .button:hover{background-color: #e0822c;}
+/* CONTE�DO - LOGIN */

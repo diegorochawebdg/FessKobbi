@@ -1,0 +1,232 @@
+@charset "iso-8859-1";
+
+/* CSS Document */
+
+/* GERAL */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+a, img, input[type="checkbox"]{
+    border: none;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #4a270a;
+    background: #180c02 url(../images/background.jpg) center 221px no-repeat;
+}
+.container {
+    width: 950px;
+    height: auto;
+    margin: 0 auto;
+}
+.clear {
+    clear: both;
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+}
+p {
+    margin-bottom: 15px;
+}
+p.right {
+    text-align: right;
+}
+a {
+    color: #4a270a;
+}
+.legend {
+    font-size: 16px;
+    font-weight: bold;
+    color: #e0822c;
+    text-transform: uppercase;
+}
+input {
+    padding: 5px;
+    background: #f2ece6;
+    border: 1px solid #b85700;
+    border-radius: 3px;
+}
+.button {
+    float: none;
+    width: auto;
+    padding: 10px 40px;
+    font-size: 14;
+    font-weight: bold;
+    color: #f2ece6;
+    border: 0;
+    outline: 0;
+    background: #9e5c21;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.button.processo {
+    text-transform: uppercase;
+    background: #e0822c;
+}
+.button.processo-footer {
+    margin-top: 15px;
+    text-transform: uppercase;
+    background: #e0822c;
+}
+hr {
+    margin: 0 0 15px;
+    border: 0;
+    color: #d0c5ba;
+    background-color: #d0c5ba;
+    height: 2px;
+}
+/* GERAL */
+
+/* HEADER */
+
+#header {
+    width: 100%;
+    height: auto;
+}
+#header #nav {
+    width: 100%;
+    height: 34px;
+    padding: 6px 0 0;
+    color: #e2d5c9;
+    background: #9e5c21 url(../images/nav-background.jpg) top center repeat-y;
+}
+#header #nav .televendas {
+    float: left;
+    width: 180px;
+}
+#header #nav .televendas img {
+    margin-right: 5px;
+}
+#header #nav .televendas .bold {
+    font-size: 17px;
+    font-weight: bold;
+}
+#header #nav .menu {
+    float: left;
+    width: 590px;
+    padding: 5px 0 0 10px;
+    font-weight: bold;
+	height: 22px;
+	position: relative;
+}
+#header #nav .menu .cart-icon{
+	background: url(../images/nav-bg.png) no-repeat center;
+	width: 31px;
+	height: 22px;
+	position: absolute;
+	left: 540px; 
+	top: 3px;
+}
+#header #nav .menu a {
+    margin: 0 7px;
+    color: #e2d5c9;
+    text-decoration: none;
+}
+#header #nav .menu a:hover {
+    text-decoration: underline;
+}
+#header #nav .login {
+    float: left;
+    width: 170px;
+    padding: 5px 0 0;
+    text-align: right;
+}
+#header #nav .login a {
+    color: #e2d5c9;
+}
+#header #banner {
+    width: 100%;
+    height: 161px;
+    padding-top: 18px;
+    background: #190c02 url(../images/header-banner.jpg) top center no-repeat;
+    border-bottom: solid 2px #9e5c21;
+}
+/* HEADER */
+
+/* CONTE�DO */
+
+#content {
+    width: 100%;
+    padding: 40px 0;
+}
+#content .box {
+    width: 100%;
+}
+#content .box .header {
+    padding: 15px 25px;
+    background: #4a270a;
+    font-size: 16px;
+    font-weight: bold;
+    color: #e0822c;
+    width: auto;
+    text-align: left;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+#content .box .text {
+    padding: 40px;
+    line-height: 18px;
+    background: #f2ece6;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+/* CONTE�DO */
+
+/* FOOTER */
+
+#footer {
+    width: 100%;
+    height: 110px;
+    padding: 20px 0 15px;
+    background: #ffffff url(../images/footer-background.jpg) top center repeat-y;
+}
+#footer .formas-pagamento {
+    float: left;
+    width: 215px;
+}
+#footer .formas-pagamento .titulo {
+    font-size: 14px;
+    font-weight: bold;
+    color: #180c02;
+    text-transform: uppercase;
+}
+#footer .formas-pagamento .subtitulo {
+    font-size: 12px;
+    font-weight: bold;
+    color: #b85700;
+}
+#footer .selos {
+    float: left;
+    width: 230px;
+}
+#footer .selos .secure {
+    float: left;
+    width: 118px;
+}
+#footer .selos .comodo {
+    float: left;
+    width: 112px;
+    margin-top: 20px;
+    text-align: right;
+}
+#footer .copyright {
+    float: right;
+    width: 500px;
+    font-size: 11px;
+    color: #180c02;
+    text-align: right;
+}
+#footer .copyright a {
+    margin-left: 30px;
+    color: #180c02;
+}
+/* FOOTER */

@@ -1,0 +1,98 @@
+/* CONTE�DO - PROCESSO */
+
+/*Content for all pages*/
+
+/*Step by Step*/
+.step{margin-bottom: 32px;}
+.step ul{margin: 0; padding: 0;}
+.step li{float:left; margin-right: 126px; background-color: #4a270a; border-radius: 10px; padding: 18px 15px; position: relative; list-style-type: none; opacity: 0.4;}
+.step li.active{opacity: 1 !important;}
+.step li:last-child{float: right; margin-right: 10px;}
+.step li a{text-transform: uppercase; color: #FFF; text-decoration: none; font-size: 15px; font-weight: bold; display: block;}
+.step .seta{background-image: url(../images/setas-step.png); width: 10px; height: 21px; position: absolute; right: -10px; top: 16px;}
+/*End of Step by Step*/
+
+#processo { height:auto; }
+#processo p { font-size:16px; color:#4a270a;}
+#processo p.first{font-size: 24px;}
+#processo p.first, #processo p.second{display: table; margin: 0 auto 15px auto;}
+#processo p.first span{font-size: 28px; font-weight: bold;}
+#processo p.second{margin-bottom: 45px;}
+#processo p.second a{text-decoration: underline;}
+#processo hr{margin-bottom: 27px;}
+
+#processo h3{font-weight: bold; font-size: 30px; display: table; margin: 0 auto 25px auto; color:#e0822c;}
+#processo p.envie{font-size: 14px;margin-bottom: 40px;}
+/*End of Content for all pages*/
+
+/*Box*/
+#processo .box{background-color: #e1d8d0; padding: 20px 39px; display: table; margin: 0 auto; width: auto !important; border-radius: 10px;}
+#processo .box .botao{float:left; margin: 44px 60px 0 0;}
+#processo .box .imagem{float:right;}
+#processo .box input:hover{text-decoration: underline;}
+/*End of Box*/
+
+/*Personalize - 2º tela*/
+#processo p.personalize{font-size: 14px; margin-left: 20px;}
+.form{display: table; margin: 0 auto}
+.form label{width: 128px; display: block; float: left; text-align: right; padding-right: 11px; color: #4a270a; font-size: 14px; padding-top: 3px;}
+.form .clear{margin-bottom: 17px;}
+.form input{width: 336px;}
+.form textarea{padding: 5px; background: #f2ece6; border: 1px solid #b85700; border-radius: 3px; overflow: auto; resize: none; width: 336px; float: left; margin-right: 15px; height: 60px;}
+.form .max-chars{display: block; float: left; padding-top: 13px; color: #4a270a; font-size: 11px;}
+.form .file-upload .escolher-arquivo{color: #FFF; font-weight: bold; background-color: #e0822c; padding: 8px 7px; font-size: 14px; text-decoration: none; margin:0 10px 13px 0; display: block; float: left;
+-webkit-transition: all 200ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+   -moz-transition: all 200ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+     -o-transition: all 200ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+        transition: all 200ms cubic-bezier(0.250, 0.100, 0.250, 1.000);}
+.form .file-upload .escolher-arquivo:hover{background-color: #9e5c21;}
+.form .file-upload .arquivo-selecionado{padding-top: 9px; display: block; font-size: 14px; color: #e0822c;}
+.form .file-upload small{display: block; margin-left: 140px;}
+.form button{background-color: #9e5c21; color: #FFF; border: none; padding: 10px 70px; font-size: 14px; border-radius: 3px; display: table; margin: 20px auto 0 auto; cursor: pointer; font-weight: bold;
+-webkit-transition: all 200ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+   -moz-transition: all 200ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+     -o-transition: all 200ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+        transition: all 200ms cubic-bezier(0.250, 0.100, 0.250, 1.000);}
+.form button:hover{background-color: #e0822c;}
+/*End of Personalize - 2º tela*/
+
+/*Personalize - 3ª tela*/
+.the-photo{width: 577px; height: 390px; position: relative; display: table; margin: 30px auto;}
+.the-photo img{position: absolute; top: 20px; left: 20px;}
+.the-photo .border{background: url(../images/moldura-foto.png); width: 577px; height: 384px; position: absolute; z-index: 2;}
+.the-photo .caption{ position: absolute; bottom: 8px; z-index: 2; padding: 23px 0 0 31px;}
+.the-photo .caption p, .the-photo .caption strong, .the-photo-vertical .caption p, .the-photo-vertical .caption strong{color: #140c00; font-family: Lavanderia; -webkit-font-smoothing:antialiased; font-weight: normal !important;}
+.the-photo .caption p, .the-photo-vertical .caption p{font-size: 14px; line-height: 1.3em;}
+.the-photo .caption p strong, .the-photo-vertical .caption p strong{font-size: 23px;}
+.links a{ color: #FFF; border: none; padding: 10px 90px; font-size: 14px; border-radius: 3px;  font-weight: bold; text-decoration: none;
+-webkit-transition: all 200ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+   -moz-transition: all 200ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+     -o-transition: all 200ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+        transition: all 200ms cubic-bezier(0.250, 0.100, 0.250, 1.000);}
+
+.the-photo-vertical .border-vertical{background: url(../images/moldura-foto-vertical.png); width: 385px; height: 577px; position: absolute; z-index: 2;}
+.the-photo-vertical{width: 384px; height: 577px; position: relative; display: table; margin: 30px auto;}
+.the-photo-vertical img{position: absolute; top: 20px; left: 20px;}
+.the-photo-vertical .caption{ position: absolute; bottom: 0; z-index: 2; padding: 0 5px 0 15px;}
+
+.links .voltar{background-color: #9e5c21; margin: 0 171px 0 109px;}
+.links .voltar:hover{background-color: #e0822c;}
+.links .finalizar{background-color: #e0822c;}
+.links .finalizar:hover{background-color: #9e5c21;}
+/*End of Personalize - 3ª tela*/
+
+/*@font-face*/
+@font-face {
+    font-family: 'Lavanderia';
+    src: url('../fonts/lavanderia_regular-webfont.eot');
+    src: url('../fonts/lavanderia_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lavanderia_regular-webfont.svg#lavanderia_regularregular') format('svg'),
+         url('../fonts/lavanderia_regular-webfont.woff') format('woff'),
+         url('../fonts/lavanderia_regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/*End of @font-face*/
+
+/* CONTE�DO - PROCESSO */

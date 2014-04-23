@@ -1,0 +1,33 @@
+/* CONTE�DO - PROCESSO */
+
+/*Content for all pages*/
+
+/*Step by Step*/
+.step{margin-bottom: 32px;}
+.step ul{margin: 0; padding: 0;}
+.step li{float:left; margin-right: 126px; background-color: #4a270a; border-radius: 10px; padding: 18px 15px; position: relative; list-style-type: none; opacity: 0.4;}
+.step li.active{opacity: 1 !important;}
+.step li:last-child{float: right; margin-right: 10px;}
+.step li a{text-transform: uppercase; color: #FFF; text-decoration: none; font-size: 15px; font-weight: bold; display: block;}
+.step .seta{background-image: url(../images/setas-step.png); width: 10px; height: 21px; position: absolute; right: -10px; top: 16px;}
+/*End of Step by Step*/
+
+#processo { height:auto; }
+.box .estado, .box .estado span, .box .estado .select, .box .cidade span, .box .cidade .select{float: left; display: table;}
+.box .estado span, .box .cidade span{font-size: 16px; color: #4a270a; margin-right: 16px;}
+.box .estado .select, .box .cidade .select{position: relative; overflow: hidden; width: 105px; height: 36px; border: solid 1px #af7948; float: left; display: block; margin-top: -8px;}
+.box .estado .select select, .box .cidade .select select{font-size: 18px; font-weight: bold; color: #4a270a; padding-left: 27px; border: none; height: 36px; width: 200px; background: url(../images/select.png) #f2ece6 no-repeat 78px center; cursor: pointer;}
+.box .cidade .select{width:320px;}
+.box .cidade .select select{width:380px; background-position: 280px center}
+.box .cidade{float: right;}
+
+.line{border-bottom:solid 2px #d0c5ba; margin: 30px 0;} 
+
+.result{padding: 0 90px;}
+.result .item{float: left; width: 300px;}
+.result .item h3{color: #4a270a; font-weight: bold; font-size: 16px;}
+.result .item p{color: #4a270a; font-size: 15px; margin: 0;}
+.result .item a{color: #FFF; text-transform: uppercase; font-size: 12px; background-color: #9e5c21; padding: 10px 25px; display: table; text-decoration: none; border-radius: 5px; margin-top: 15px;}
+.result .division{float: left; border-left: 1px solid #d8cec4; margin: 0 42px; height: 122px;}
+.line2{border-bottom:solid 2px #d0c5ba; margin: 24px 0;} 
+/* CONTE�DO - PROCESSO */
