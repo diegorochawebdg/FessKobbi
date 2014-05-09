@@ -1,0 +1,640 @@
+@charset "utf-8";
+
+.bg-pattern{
+	background: url(../images/imoveis/bg-pattern.png) repeat;
+}
+
+/*Captions*/
+.captions{
+	background: url(../images/home/caption-bg.png) repeat;
+	height: 135px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	overflow-x: hidden;
+}
+.captions .content-center{
+	position: relative;
+}
+.captions h3{
+	position: absolute;
+	margin-right: -460px;
+	right: 50%;
+	top: 22px;
+	color: #FFF;
+	font-size: 26px;
+	text-transform: uppercase;
+	font-weight: 400;
+	text-align: right;
+}
+.captions h3 span, .captions h3 strong{
+	font-weight: 900;
+}
+.captions h3 strong{
+	display: block;
+	font-size: 30px;
+}
+.captions span.size{
+	position: absolute;
+	margin-right: -460px;
+	right: 50%;
+	text-align: right;
+	font-size: 20px;
+	top: 95px;
+	color: #FFF;
+}
+
+/*Menu empreendimento*/
+.menu-lancamento{
+    z-index: 2;
+	position: absolute;
+    width: 100%;
+	overflow: hidden;
+	background: #edebe9;
+	background: -moz-linear-gradient(top,  #edebe9 1%, #d5d3d1 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#edebe9), color-stop(100%,#d5d3d1));
+	background: -webkit-linear-gradient(top,  #edebe9 1%,#d5d3d1 100%);
+	background: -o-linear-gradient(top,  #edebe9 1%,#d5d3d1 100%);
+	background: -ms-linear-gradient(top,  #edebe9 1%,#d5d3d1 100%);
+	background: linear-gradient(to bottom,  #edebe9 1%,#d5d3d1 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#edebe9', endColorstr='#d5d3d1',GradientType=0 );
+}
+.menu-lancamento.fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.menu-lancamento.relative{
+    position: relative;
+}
+.menu-lancamento .links{
+	float: right;
+	display: table;
+}
+.menu-lancamento .links li{
+	float: left;
+	border-left: solid 1px #e3e2e0;
+	border-right: solid 1px #bec0c2;
+}
+.menu-lancamento .links li:first-child{
+	border-left: none;
+}
+.menu-lancamento .links li:last-child{
+	border-right: none;
+}
+.menu-lancamento .links li a{
+	height: 43px;
+	padding: 0 29px;
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 12px;
+	color: #6d6e71;
+	text-transform: uppercase;
+}
+.menu-lancamento .links li a.active{
+	background: url(../images/imoveis/menu-active.png) no-repeat center bottom;
+}
+.menu-lancamento .lancamento-caption{
+	background-color: #b3141a;
+	text-align: right;
+	padding: 8px 30px 7px 0;
+	position: absolute;
+	right: 50%;
+	margin-right: 185px;
+	top: 0;
+	width: 50%;
+}
+.menu-lancamento .lancamento-caption span{
+	color: #FFF;
+	text-transform: uppercase;
+	font-size: 24px;
+}
+.menu-lancamento .lancamento-caption .one-caption{
+	background: url(../images/imoveis/one.png);
+	width: 24px;
+	height: 43px;
+	position: absolute;
+	right: -10px;
+	top: 0;
+}
+
+/*Imóvel*/
+#imovel{
+	padding: 95px 0 50px 0;
+}
+#imovel .left{
+	float: left;
+	width: 575px;
+}
+h2{
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 36px;
+	color: #363537;
+	margin-bottom: 10px;
+}
+#imovel .left p{
+	font-size: 14px;
+	color: #808285;
+	margin-bottom: 50px;
+}
+#imovel .left .rooms, #imovel .left .area, #imovel .left .towers, #imovel .left .terrain-area{
+	float: left;
+    margin-right: 40px;
+    max-width: 25%;
+}
+#imovel .left .rooms span, #imovel .left .area span, #imovel .left .towers span, #imovel .left .terrain-area span{
+	color: #808285;
+	font-size: 14px;
+	display: block;
+}
+#imovel .left .rooms span strong, #imovel .left .area span strong, #imovel .left .towers span strong, #imovel .left .terrain-area span strong{
+	color: #c3161c;
+	font-size: 16px;
+	display: block;
+	font-weight: bold;
+	margin-top: -3px;
+}
+#imovel .left .rooms span strong, #imovel .left .towers span strong{
+	margin-top: 3px;
+}
+#imovel .left .terrain-area{
+	margin-right: 0;
+}
+#imovel .right{
+	float: right;
+	width: 267px;
+	background: #bc151b;
+}
+#imovel .right *{
+	color: #FFF;
+}
+#imovel .right h3{
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 16px;
+	letter-spacing: 5px;
+	text-align: center;
+	margin-bottom: 15px;
+}
+#imovel .right .investimento{
+	padding: 20px 26px;
+}
+#imovel .right .investimento .price{
+	padding: 25px;
+	border-top: solid 1px white;
+	border-bottom: solid 1px white;
+}
+#imovel .right .investimento .price span.a-partir{
+	display: block;
+	font-size: 12px;
+	margin-bottom: 5px;
+}
+#imovel .right .investimento .price span.the-price{
+	display: block;
+	font-size: 22px;
+}
+#imovel .right .investimento .price span.the-price strong{
+	font-weight: bold;
+	font-size: 36px;
+}
+#imovel .right .investimento p{
+	font-size: 12px;
+	text-align: center;
+	margin-top: 15px;
+}
+#imovel .right .investimento .simular{
+    color: #890304;
+    font-size: 16px;
+    border-radius: 3px;
+    display: block;
+    text-align: center;
+    padding: 7px 0;
+    margin-top: 15px;
+    background: #fefefe;
+    background: -moz-linear-gradient(top,  #fefefe 0%, #cdcdcd 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fefefe), color-stop(100%,#cdcdcd));
+    background: -webkit-linear-gradient(top,  #fefefe 0%,#cdcdcd 100%);
+    background: -o-linear-gradient(top,  #fefefe 0%,#cdcdcd 100%);
+    background: -ms-linear-gradient(top,  #fefefe 0%,#cdcdcd 100%);
+    background: linear-gradient(to bottom,  #fefefe 0%,#cdcdcd 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#cdcdcd',GradientType=0 );
+}
+
+#imovel .right .fale-corretor{
+	position: relative;
+	padding: 20px 0 20px 64px;
+	background: #720203;
+}
+#imovel .right .fale-corretor img{
+	position: absolute;
+	left: -15px;
+	top: -15px;
+}
+#imovel .right .fale-corretor a{
+	font-size: 14.5px;
+	text-transform: uppercase;
+}
+#imovel .right .fale-corretor a span{
+	font-size: 17px;
+	font-weight: bold;
+	display: block;
+}
+
+/*Plantas*/
+#plantas{
+	padding: 50px 0;
+	background: #edebe9;
+	border-bottom: 2px solid #dfdddb;
+}
+#plantas h2{
+	font-size: 36px;
+	text-transform: uppercase;
+	color: #363537;
+	margin-bottom: 25px;
+	font-weight: normal;
+}
+#plantas .left{
+	float: left;
+	width: 635px;
+}
+#plantas .left .box .title{
+	padding: 13px 27px;
+	background: url(../images/produto/planta-zoom.png) 594px center no-repeat #d6d4d2;
+	background: url(../images/produto/planta-zoom.png) 594px center no-repeat , -moz-linear-gradient(top,  #d6d4d2 1%, #c0bfbd 100%);
+	background: url(../images/produto/planta-zoom.png) 594px center no-repeat , -webkit-gradient(linear, left top, left bottom, color-stop(1%,#d6d4d2), color-stop(100%,#c0bfbd));
+	background: url(../images/produto/planta-zoom.png) 594px center no-repeat , -webkit-linear-gradient(top,  #d6d4d2 1%,#c0bfbd 100%);
+	background: url(../images/produto/planta-zoom.png) 594px center no-repeat , -o-linear-gradient(top,  #d6d4d2 1%,#c0bfbd 100%);
+	background: url(../images/produto/planta-zoom.png) 594px center no-repeat , -ms-linear-gradient(top,  #d6d4d2 1%,#c0bfbd 100%);
+	background: url(../images/produto/planta-zoom.png) 594px center no-repeat , linear-gradient(to bottom,  #d6d4d2 1%,#c0bfbd 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6d4d2', endColorstr='#c0bfbd',GradientType=0 );
+}
+#plantas .left .box .title span{
+	color: #808285;
+	font-size: 18px;
+}
+#plantas .left .box .title span sup{
+	color: #808285;
+	font-size: 12px;
+}
+#plantas .left .box .img{
+	background: #f6f6f3;
+	width: 100%;
+	height: 435px;
+}
+#plantas .left .box .img .img-container{
+	display: none;
+	vertical-align: middle;
+	height: 435px;
+	width: 635px;
+	text-align: center;
+}
+#plantas .left .box .img .img-container:first-child{
+    display: table-cell;
+}
+#plantas .left .box .img img{
+	display: inline;
+	height: auto;
+	width: auto;
+	max-height: 435px;
+	max-width: 635px;
+}
+
+#plantas .right{
+	float: right;
+	width: 267px;
+	position: relative;
+	min-height: 485px;
+}
+#plantas .right li{
+	min-height: 43px;
+	width: 267px;
+	margin-bottom: 5px;
+	text-align: center;
+	border: solid 1px #808285;
+	color: #808285;
+	padding: 5px 0;
+}
+#plantas .right li:first-child{
+	padding: 0;
+	border: none;
+}
+#plantas .right li a{
+	display: table-cell;
+	vertical-align: middle;
+	padding-left: 34px;
+	height: 53px;
+	width: 267px;
+	color: #FFF;
+	line-height: 1em;
+	font: bold 16px Arial, sans-serif;
+	text-transform: uppercase;
+	background: #8b0304;
+	background: url(../images/produto/tour-virtual.png) no-repeat 51px center,  -moz-linear-gradient(top,  #8b0304 0%, #700203 100%);
+	background: url(../images/produto/tour-virtual.png) no-repeat 51px center,  -webkit-gradient(linear, left top, left bottom, color-stop(0%,#8b0304), color-stop(100%,#700203));
+	background: url(../images/produto/tour-virtual.png) no-repeat 51px center,  -webkit-linear-gradient(top,  #8b0304 0%,#700203 100%);
+	background: url(../images/produto/tour-virtual.png) no-repeat 51px center,  -o-linear-gradient(top,  #8b0304 0%,#700203 100%);
+	background: url(../images/produto/tour-virtual.png) no-repeat 51px center, -ms-linear-gradient(top,  #8b0304 0%,#700203 100%);
+	background: url(../images/produto/tour-virtual.png) no-repeat 51px center,  linear-gradient(to bottom,  #8b0304 0%,#700203 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8b0304', endColorstr='#700203',GradientType=0 );
+}
+#plantas .right li span{
+	display: table-cell;
+	vertical-align: middle;
+	height: 43px;
+	text-align: center;
+	width: 267px;
+}
+#plantas .right .obs{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+#plantas .right .obs small{
+	color: #808285;
+	font-size: 10px;
+	display: inline-block;
+	line-height: 1.1em;
+}
+
+/*Localização*/
+#localizacao .box-localizacao{
+	padding: 50px 0;
+}
+#localizacao .box-localizacao{
+	position: relative;
+}
+#localizacao .box-localizacao h2{
+	position:absolute;
+	top: 50%;
+	left: 0;
+	margin-top: -21px;
+}
+#localizacao .box-localizacao .localizacao-txt{
+	float: right;
+	max-width: 583px;
+}
+#localizacao .box-localizacao .localizacao-txt p{
+	font-size: 12px;
+    color: #414042;
+    line-height: 1.4em;
+}
+
+
+/*The Map*/
+#localizacao .the-map{
+    position: relative;
+}
+#localizacao .the-map .links{
+    padding: 18px 0;
+    border-top: solid 2px #e6e5e4;
+    display: none;
+}
+#localizacao .the-map .links ul{
+    display: table;
+    margin: 0 auto;
+}
+#localizacao .the-map .links ul li{
+    float: left;
+    margin-right: 30px;
+}
+#localizacao .the-map .links ul li a{
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 41px;
+    height: 34px;
+    font-size: 12px;
+    color: #414042;
+    background-image: url(../images/produto/google-maps-icons);
+}
+#localizacao .the-map .conheca-regiao{
+    background: url(../images/produto/sombra-conhe.png) repeat-x left bottom;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+#localizacao .the-map .conheca-regiao a.conheca{
+    background: url(../images/produto/bg-conheca-btn.png) no-repeat 0 0;
+    width: 281px;
+    height: 27px;
+    text-align: center;
+    padding-top: 7px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: table;
+    margin: 0 auto;
+}
+#localizacao .the-map .links ul li a.supermercados{
+    background-position: 0 -34px;
+}
+#localizacao .the-map .links ul li a.bancos{
+    background-position: 0 -68px;
+}
+#localizacao .the-map .links ul li a.hospitais{
+    background-position: 0 -102px;
+}
+#localizacao .the-map .links ul li a.padarias{
+    background-position: 0 -136px;
+}
+#localizacao .the-map .links ul li a.restaurantes{
+    background-position: 0 -170px;
+}
+#localizacao .the-map .links ul li a.shoppings{
+    background-position: 0 -204px;
+}
+#localizacao .the-map  .tracar-rota{
+    border: solid 3px #787979;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -338px;
+    display: table;
+}
+#localizacao .the-map .tracar-rota form{
+    position: relative;
+}
+#localizacao .the-map .tracar-rota input{
+    width: 435px;
+    float: left;
+    padding: 0 10px;
+    background: #FFF;
+    height: 55px;
+    font-size: 16px;
+    color: #6d6e71;
+}
+#localizacao .the-map .tracar-rota button.limpar{
+    background: url(../images/produto/limpar.png) no-repeat;
+    width: 20px;
+    padding-top: 20px;
+    position: absolute;
+    left: 423px;
+    top: 18px;
+    cursor: pointer;
+    outline: none;
+}
+#localizacao .the-map .tracar-rota button.tracar-rota-btn{
+    width: 200px;
+    height: 55px;
+    cursor: pointer;
+    float: left;
+    color: #FFF;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-left: 37px;
+    background: url(../images/produto/tracar-rota.png) no-repeat 23px center #8b0304;
+    background: url(../images/produto/tracar-rota.png) no-repeat 23px center , -moz-linear-gradient(top,  #8b0304 0%, #700203 100%);
+    background: url(../images/produto/tracar-rota.png) no-repeat 23px center , -webkit-gradient(linear, left top, left bottom, color-stop(0%,#8b0304), color-stop(100%,#700203));
+    background: url(../images/produto/tracar-rota.png) no-repeat 23px center , -webkit-linear-gradient(top,  #8b0304 0%,#700203 100%);
+    background: url(../images/produto/tracar-rota.png) no-repeat 23px center , -o-linear-gradient(top,  #8b0304 0%,#700203 100%);
+    background: url(../images/produto/tracar-rota.png) no-repeat 23px center , -ms-linear-gradient(top,  #8b0304 0%,#700203 100%);
+    background: url(../images/produto/tracar-rota.png) no-repeat 23px center , linear-gradient(to bottom,  #8b0304 0%,#700203 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8b0304', endColorstr='#700203',GradientType=0 );
+}
+#localizacao .address{
+    padding: 25px 0;
+    text-align: center;
+    background: #d6d4d2;
+    background: -moz-linear-gradient(top,  #d6d4d2 0%, #c0bfbd 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d6d4d2), color-stop(100%,#c0bfbd));
+    background: -webkit-linear-gradient(top,  #d6d4d2 0%,#c0bfbd 100%);
+    background: -o-linear-gradient(top,  #d6d4d2 0%,#c0bfbd 100%);
+    background: -ms-linear-gradient(top,  #d6d4d2 0%,#c0bfbd 100%);
+    background: linear-gradient(to bottom,  #d6d4d2 0%,#c0bfbd 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6d4d2', endColorstr='#c0bfbd',GradientType=0 );
+}
+#localizacao .address address{
+    color: #414042;
+    font-style: normal;
+    font-size: 27px;
+}
+
+/*Gallery*/
+#gallery{
+    border-bottom: 4px solid #8b0304;
+    position: relative;
+}
+#gallery .gallery-title{
+    padding: 45px 0;
+    text-align: center;
+}
+#gallery .gallery-title h3{
+    color: #8b0304;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+#gallery .selectors{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+#gallery .selectors .links{
+    display: table;
+    margin: 0 auto;
+}
+#gallery .selectors a{
+    float: left;
+    border: solid 1px white;
+}
+#gallery .selectors a:hover{
+    opacity: 0.7;
+}
+
+/*Acompanhe*/
+#acompanhe{
+    padding: 55px 97px;
+}
+#acompanhe h2{
+    margin-bottom: 43px;
+}
+#acompanhe .left{
+    float: left;
+    width: 634px;
+}
+#acompanhe .left li{
+    background: #8b0304;
+    padding: 17px 30px;
+    border-bottom: solid 1px #650304;
+    border-top: solid 1px #900d0e;
+}
+#acompanhe .left li *{
+    color: #FFF;
+    font-weight: bold;
+}
+#acompanhe .left li:first-child{
+    border-top: none;
+}
+#acompanhe .left li:first-last{
+    border-bottom: none;
+}
+#acompanhe .left li span.label{
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: block;
+}
+#acompanhe .left li span.percentage{
+    float: right;
+    font-size: 16px;
+    display: block;
+}
+#acompanhe .left .bars{
+    float: left;
+    height: 21px;
+    width: 509px;
+}
+#acompanhe .left .the-bar{
+    background: url(../images/produto/the-bar.png) repeat-x;
+    height: 21px;
+    width: 100%;
+    -webkit-transition: all 1000ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+       -moz-transition: all 1000ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+         -o-transition: all 1000ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+            transition: all 1000ms cubic-bezier(0.250, 0.100, 0.250, 1.000);
+}
+
+#acompanhe .right{
+    float: right;
+    width: 267px;
+    background: #d1d3d4;
+    min-height: 414px;
+}
+#acompanhe .right .right-content{
+    padding: 33px 23px;
+}
+
+#acompanhe .right .right-content a{
+    display: none;
+}
+#acompanhe .right .right-content a.main{
+    display: block !important;
+}
+
+#acompanhe .right .right-content h3{
+    font: bold 20px Arial, sans-serif;
+    color: #363537;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+#acompanhe .right .right-content a img{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 70px;
+}
+#acompanhe .right .right-content .date{
+    text-align: center;
+}
+#acompanhe .right .right-content .date span{
+    text-transform: uppercase;
+    color: #363537;
+    font-size: 14px;
+}
+#acompanhe .right .right-content .date span strong{
+    display: block;
+    font-weight: bold;
+}

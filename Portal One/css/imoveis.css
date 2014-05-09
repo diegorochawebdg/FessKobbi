@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+#slider{
+	height: 160px;
+}
+
+#imoveis h2{
+	color: #4a4b4d;
+	font-weight: 300;
+	font-size: 36px;
+	line-height: 1em;
+	margin-bottom: 5px;
+}
+
+#imoveis img{
+	max-width: 100%;
+	min-height: 305px;
+	height: auto;
+	position: absolute;
+	left: 0;
+}
+#imoveis .items li img{
+	min-height: 305px;
+}
+#imoveis .items li{
+	width: 920px;
+	height: 305px;
+	margin-bottom: 40px;
+	position: relative;
+	overflow: hidden;
+}
+#imoveis .items li:hover{
+	opacity: 0.8;
+}
+#imoveis .items li a:hover{
+	text-decoration: none;
+}
+#imoveis .items li .caption{
+	position: absolute;
+	width: 100%;
+	height: 90px;
+	background: url(../images/home/caption-bg.png) repeat;
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	padding: 17px 30px;
+}
+#imoveis .items li .caption *{
+	color: #FFF;
+	text-transform: uppercase;
+	line-height: 1em !important;
+}
+#imoveis .items li .caption h2{
+	font-size: 20px;
+	margin-bottom: 0;
+}
+#imoveis .items li .caption h2 span{
+	font-weight: bold;
+}
+#imoveis .items li .caption h3{
+	font: 900 31px Lato, sans-serif;
+}
+#imoveis .items li .caption .lancamento{
+	padding: 13px 30px;
+	color: #FFF;
+	background: #b8151a;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	font-size: 14px;
+}
+#imoveis .items li .caption .conheca{
+	color: #FFF;
+	font: bold 14px Arial, Helvetica, sans-serif;
+	padding: 13px 25px;
+	border: solid 2px #FFF;
+	position: absolute;
+	margin-left: 221px;
+	left: 50%;
+	top: 22px;
+	text-transform: uppercase;
+	background: url(../images/home/bg-call-to-action.png);
+}
+
+/*Selectors*/
+#imoveis .selectors{
+	display: table;
+	float: right;
+	margin-bottom: 36px;
+}
+#imoveis .selectors li{
+	float: left;
+	margin-right: 8px;
+}
+#imoveis .selectors li a{
+	border: solid 1px #959698;
+	width:37px;
+	height: 41px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	color: #959698;
+}
+#imoveis .selectors li a.active, #imoveis .selectors li a:hover{
+	border: solid 1px #b8151a;
+	color: #b8151a;
+	text-decoration: none;
+}
+#imoveis .selectors li a.next, #imoveis .selectors li a.prev{
+	display: block;
+	height: 0 !important;
+	padding-top: 41px;
+	background-image: url(../images/imoveis/selectors.png);
+	background-repeat: no-repeat;
+}
+#imoveis .selectors li a.next:hover, #imoveis .selectors li a.prev:hover{
+	border: solid 1px #959698;
+}
+#imoveis .selectors li a.prev{
+	background-position: 10px 7px;
+}
+#imoveis .selectors li a.next{
+	background-position: 12px -51px;
+}
