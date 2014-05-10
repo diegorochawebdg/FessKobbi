@@ -385,6 +385,7 @@ h2{
 /*The Map*/
 #localizacao .the-map{
     position: relative;
+    height: 720px;
 }
 #localizacao .the-map .links{
     padding: 18px 0;

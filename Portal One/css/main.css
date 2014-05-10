@@ -72,6 +72,7 @@ a:hover{
 	margin-left: -472px;
 	z-index: 3;
     height: 120px;
+    box-shadow: #999 5px 5px 25px;
 }
 #top-menu .relative{
     position: relative;
@@ -154,6 +155,7 @@ a:hover{
 #top-menu .links2{
 	background: #eceae7;
 	padding-left: 24px;
+    opacity: 0.9
 }
 #top-menu .links2 h1, #top-menu .links2 li{
 	float: left;
@@ -348,7 +350,7 @@ a:hover{
 
 /*Slider*/
 .bx-wrapper{position:relative; margin:0 auto; padding:0; *zoom:1}
-.bx-wrapper img{max-width:100%; display:block}
+.bx-wrapper img{max-width:100%; display:block; height: auto;}
 #slider .bx-wrapper .bx-viewport{left:0; max-width:875px;}
 .bx-wrapper .bx-viewport{-webkit-transform:translatez(0); -moz-transform:translatez(0);  -ms-transform:translatez(0);  -o-transform:translatez(0);  transform:translatez(0)}
 

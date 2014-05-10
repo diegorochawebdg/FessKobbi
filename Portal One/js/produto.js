@@ -43,7 +43,8 @@ $(document).ready(function(e){
 		moveSlides:  	1,
 		slideWidth: 	1920,
 		controls:       true,
-		pagerCustom:    '#gallery .selectors .links'
+		pagerCustom:    '#gallery .selectors .links',
+        adaptiveHeight: true,
 	});
     /*$('#gallery .selectors .links a').click(function(e){
         e.preventDefault();

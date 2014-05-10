@@ -1,0 +1,159 @@
+@charset "utf-8";
+
+#slider{
+    background: url(../images/contato/header.jpg) no-repeat center;
+    height: 433px;
+}
+#slider .path{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width:100%;
+    padding: 15px 0;
+    background: url(../images/home/caption-bg.png) repeat;
+}
+#slider .path .content-center *{
+    display: block;
+    float: left;
+    margin-right: 5px;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+/*Content*/
+#content{
+	background: url(../images/imoveis/bg-pattern.png) repeat;
+    padding: 70px 0;
+}
+#content h1{
+    color: #363537;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*Left*/
+#content .left{
+    float: left;
+    width: 267px;
+}
+#content .left li{
+    border: solid 2px #bbbcbe;
+    
+    margin-bottom: 7px;
+}
+#content .left li a{
+    color: #808285;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 20px;
+}
+#content .left li.active{
+    border: solid 1px #c4161c;
+}
+#content .left li.active a{
+    color: #c4161c;
+    text-transform: uppercase;
+}
+
+/*Right*/
+#content .right{
+    float: right;
+    width: 615px;
+}
+#content .right .item2, #content .right .item3{
+    display: none;
+}
+#content .right h2{
+    color: #363537;
+    font-size: 22px;
+    margin: 10px 0 25px 0;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+#content .right p{
+    color: #808285;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+#content .right h3{
+    color: #363537;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+#content .right input{
+    background: #FFF;
+    color: #808285;
+    font-size: 12px;
+    margin-bottom: 10px;
+    display: block;
+    width: 43%;
+    padding: 0 17px;
+    height: 45px;
+}
+#content .right .left-input{
+    float: left;
+}
+#content .right .right-input{
+    float: right;
+}
+#content .right textarea{
+    background: #FFF;
+    color: #808285;
+    font-size: 12px;
+    margin-bottom: 10px;
+    display: block;
+    width: 581px;
+    padding: 17px;
+    height: 145px;
+    resize: none;
+    overflow: auto;
+}
+#content .right small{
+    color: #808285;
+    font-size: 12px;
+    margin-left: 10px;
+    float: left;
+}
+#content .right button.enviar{
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: center;
+    padding: 15px 76px;
+    background: #c4161c;
+    float: right;
+    cursor: pointer;
+}
+#content .right button.enviar:hover{
+    opacity: 0.7;
+}
+#content .right .item2 h3{
+    color: #c4161c;
+    margin-bottom: 30px;
+}
+#content .right .item2 h4{
+    color: #363537;
+    font-weight: normal;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+#content .right button.upload{
+    font-size: 12px;
+    background: #808285;
+    color: #FFF;
+    text-transform: uppercase;
+    width: 300px;
+    padding: 0 17px;
+    display: block;
+    height: 45px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+#content .right button.upload:hover{
+    opacity: 0.8;
+}
