@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 #slider{
-    background: url(../images/contato/header.jpg) no-repeat center;
+    background: url(../images/sobre/header.jpg) no-repeat center;
     height: 433px;
 }
 #slider .path{
@@ -68,7 +68,7 @@
 }
 #content .right h2{
     color: #363537;
-    font-size: 22px;
+    font-size: 16px;
     margin: 10px 0 25px 0;
     text-transform: uppercase;
     font-weight: normal;
@@ -76,13 +76,15 @@
 #content .right p{
     color: #808285;
     font-size: 14px;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
+}
+#content .right .red{
+    color: #c4161c;
 }
 #content .right h3{
     color: #363537;
-    font-size: 16px;
-    margin-bottom: 10px;
-    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 5px;
     font-weight: normal;
 }
 #content .right input{
@@ -156,4 +158,31 @@
 }
 #content .right button.upload:hover{
     opacity: 0.8;
+}
+
+#content .right .item3 h3{
+    margin-bottom: 30px;
+}
+#content .right .contact{
+    margin-bottom: 30px;
+}
+#content .right .contact span{
+    color: #808285;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+#content .right .item2 h3, #content .right .item4 h3{
+    text-transform: uppercase;
+    color: #c7131e;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+#content .right .item4 h4{
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #38383a;
 }
