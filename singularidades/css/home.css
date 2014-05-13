@@ -1,0 +1,222 @@
+.icons-home {
+    background-image: url(../images/home/icons-home.png);
+}
+.left-column {
+    float: left;
+    width: 617px;
+}
+/*Slider*/
+.left-column #main-slider-home {
+    margin-bottom: 32px;
+    position: relative;
+}
+
+/*Slider - Pagination*/
+#main-slider-home .pagination {
+    position: absolute;
+    right: 15px;
+    top: 17px;
+    z-index: 9999;
+}
+#main-slider-home .pagination li {
+    width: auto !important;
+}
+#main-slider-home .pagination li a {
+    width: 16px;
+    padding-top: 18px;
+    height: 0;
+    position: relative;
+    overflow: hidden;
+    background: url(../images/home/sliders-selectors.png) -15px -10px no-repeat;
+    margin-right: 3px;
+}
+#main-slider-home .pagination li.current a {
+    background: url(../images/home/sliders-selectors.png) 0px -10px no-repeat;
+}
+
+/*Slider - Cursos*/
+.left-column #cursos-slider {
+    margin: 0 0 35px 10px;
+    border: solid 1px #a7a9ac;
+    padding: 13px 19px 9px 0;
+    background-color: #FFF;
+}
+.left-column #cursos-slider .selectors {
+    float: left;
+}
+.left-column #cursos-slider .selectors .bg {
+    background: url(../images/home/cursos-bg.png) no-repeat;
+    width: 10px;
+    height: 5px;
+    position: absolute;
+    left: 0;
+    top: -5px;
+}
+.left-column #cursos-slider .selectors li {
+    margin: 0 0 5px -10px;
+    background-color: #5c5655;
+    text-align: center;
+    width: 156px;
+    border-bottom: solid 3px #003a64;
+    position: relative;
+}
+.left-column #cursos-slider .selectors li a {
+    color: #dedddd;
+    font-size: 14px;
+    padding: 20px 0;
+}
+.left-column #cursos-slider .selectors li a:hover {
+    text-decoration: none;
+}
+.left-column #cursos-slider .selectors li.selected,
+.left-column #cursos-slider .selectors li.selected2 {
+    background-color: #4374a7;
+    width: 186px;
+}
+.left-column #cursos-slider .selectors li.selected a {
+    color: #FFF;
+    font-size: 16px;
+}
+.left-column #cursos-slider .overflow {
+    float: right;
+    width: 335px;
+}
+.left-column #cursos-slider .overflow li {
+    float: left;
+    width: 335px;
+}
+.left-column #cursos-slider .overflow .item {
+    margin-right: 35px;
+    float: left;
+}
+.left-column #cursos-slider .overflow li .duracao,
+.left-column #cursos-slider .overflow li .tipo-formacao {
+    padding-left: 34px;
+    height: 30px;
+    margin-bottom: 12px;
+}
+.left-column #cursos-slider .overflow h3 {
+    color: #1a365f;
+    font: bold 16px Arial, Helvetica, sans-serif;
+    line-height: 1em;
+    margin: 17px 0;
+}
+.left-column #cursos-slider .overflow strong {
+    color: #4578ad;
+    font: bold 14px Arial, Helvetica, sans-serif;
+}
+.left-column #cursos-slider .overflow h4 {
+    color: #414042;
+    font-size: 11px;
+}
+.left-column #cursos-slider .overflow li .saiba-mais {
+    color: #FFF;
+    font: bold 14px Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 7px;
+    background: #4578ad;
+    margin-left: 5px;
+    background: -moz-linear-gradient(top, #4578ad 0%, #37618b 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #4578ad), color-stop(100%, #37618b));
+    background: -webkit-linear-gradient(top, #4578ad 0%, #37618b 100%);
+    background: -o-linear-gradient(top, #4578ad 0%, #37618b 100%);
+    background: -ms-linear-gradient(top, #4578ad 0%, #37618b 100%);
+    background: linear-gradient(to bottom, #4578ad 0%, #37618b 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#4578ad', endColorstr='#37618b', GradientType=0);
+}
+
+/*Slider Cursos - Pagination*/
+#cursos-slider .pagination {
+    display: table;
+    margin: 15px auto 0 auto;
+}
+#cursos-slider .pagination li {
+    width: auto !important;
+}
+#cursos-slider .pagination li a {
+    width: 11px;
+    padding-top: 10px;
+    height: 0;
+    position: relative;
+    overflow: hidden;
+    background: url(../images/home/sliders-selectors.png) no-repeat;
+    margin-right: 3px;
+}
+#cursos-slider .pagination li.current a {
+    background: url(../images/home/sliders-selectors.png) -11px 0 no-repeat;
+}
+
+/*Redes*/
+.redes,
+.videos {
+    border: solid 1px grey;
+    border-top: solid 5px #4578ad !important;
+    background-color: #f8f8f8;
+    height: 220px;
+}
+.redes {
+    float: left;
+    padding: 15px 13px 14px 23px;
+    width: 255px;
+    position: relative;
+}
+.redes h2,
+.videos h2 {
+    height: 20px;
+    background-position: 222px -239px;
+    margin-bottom: 40px;
+}
+.redes h2 a,
+.videos h2 a {
+    font-size: 14px;
+    color: #4375a9;
+}
+.redes .time {
+    padding-left: 28px;
+    background-position: 0 -357px;
+    height: 16px;
+    font: bold 12px Arial, sans-serif;
+    color: #333;
+    margin-bottom: 18px;
+    display: block;
+}
+.redes p {
+    font-size: 14px;
+    color: #808285;
+}
+.redes .mais {
+    background-position: 0 -470px;
+    width: 22px;
+    padding-top: 22px;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+}
+.videos {
+    padding: 15px 10px 10px 10px;
+    display: table;
+    float: right;
+    position: relative;
+}
+.videos h2 {
+    margin-bottom: 20px;
+}
+.videos .play-preview {
+    width: 62px;
+    height: 65px;
+    position: absolute;
+    left: 111px;
+    background-position: 0 -564px;
+    top: 115px;
+    pointer-events: none;
+}
+.right-column {
+    float: right;
+    width: 293px;
+}
+.right-column img {
+    margin-bottom: 47px;
+}
+.right-column img:last-child {
+    margin-bottom: 0;
+}

@@ -138,15 +138,84 @@ Não é simplesmente o que você faz de melhor, mas a evolução em tudo que voc
         </div>
         <!--End of Right-->
         <div class="clear"></div>
+    
     </div>
+    
+    <!--Portfolio-->
+    <div class="portfolio animate2">
+        <div class="content-center">
+            <div id="portfolio-slider">
+                <div class="slide">
+                    <div class="item">
+                        <h3>São Paulo</h3>
+                        <img src="images/sobre/empreendimento-portfolio.jpg" width="451" height="251" alt="" title="">
+                        <div class="contents">
+                            <h4>Penha</h4>
+                            <span>neque aliquam posuere</span>
+                            <span>2 e 3 dorms.  67 a 81 m<sup>2</sup></span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3>São Paulo</h3>
+                        <img src="images/sobre/empreendimento-portfolio.jpg" width="451" height="251" alt="" title="">
+                        <div class="contents">
+                            <h4>Penha</h4>
+                            <span>neque aliquam posuere</span>
+                            <span>2 e 3 dorms.  67 a 81 m<sup>2</sup></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="item">
+                        <h3>São Paulo</h3>
+                        <img src="images/sobre/empreendimento-portfolio.jpg" width="451" height="251" alt="" title="">
+                        <div class="contents">
+                            <h4>Penha</h4>
+                            <span>neque aliquam posuere</span>
+                            <span>2 e 3 dorms.  67 a 81 m<sup>2</sup></span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3>São Paulo</h3>
+                        <img src="images/sobre/empreendimento-portfolio.jpg" width="451" height="251" alt="" title="">
+                        <div class="contents">
+                            <h4>Penha</h4>
+                            <span>neque aliquam posuere</span>
+                            <span>2 e 3 dorms.  67 a 81 m<sup>2</sup></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="item">
+                        <h3>São Paulo</h3>
+                        <img src="images/sobre/empreendimento-portfolio.jpg" width="451" height="251" alt="" title="">
+                        <div class="contents">
+                            <h4>Penha</h4>
+                            <span>neque aliquam posuere</span>
+                            <span>2 e 3 dorms.  67 a 81 m<sup>2</sup></span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3>São Paulo</h3>
+                        <img src="images/sobre/empreendimento-portfolio.jpg" width="451" height="251" alt="" title="">
+                        <div class="contents">
+                            <h4>Penha</h4>
+                            <span>neque aliquam posuere</span>
+                            <span>2 e 3 dorms.  67 a 81 m<sup>2</sup></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End of Portfolio-->
 </div>
 <!--End of Content-->
 
 <!--Scripts-->
 <script type="text/javascript" src="/js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="/js/jquery.bxslider.min.js"></script>
 <script type="text/javascript" src="/js/sobre.js"></script>
 <!--End of Scripts-->
-
-<link rel="stylesheet" href="/js/fancybox/jquery.fancybox.css">
         
 <?php include "footer.php" ?>

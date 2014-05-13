@@ -75,4 +75,3 @@
     
     <!--Content-->
     <div id="content">
-        <div class="content-center">

@@ -46,9 +46,6 @@ $(document).ready(function(e){
 		pagerCustom:    '#gallery .selectors .links',
         adaptiveHeight: true,
 	});
-    /*$('#gallery .selectors .links a').click(function(e){
-        e.preventDefault();
-    });*/
 });
 
 //Magic Anchor
