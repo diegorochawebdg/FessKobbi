@@ -16,7 +16,7 @@
     position: absolute;
     right: 15px;
     top: 17px;
-    z-index: 9999;
+    z-index: 7;
 }
 #main-slider-home .pagination li {
     width: auto !important;

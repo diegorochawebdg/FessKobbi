@@ -163,7 +163,6 @@
 </div>
 
 <!--Scripts-->
-<script src="js/jquery-1.9.1.min.js"></script>
 <script src="js/jquery.easing.1.3.js"></script>
 <script src="js/slidesjs/slides.jquery.js"></script>
 <script src="js/home.js"></script>
