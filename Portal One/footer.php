@@ -12,6 +12,19 @@
 	</div>
 	<!--End of Social-->
 
+    <!--Float footer-->
+    <div class="float-footer">
+        <div class="content-center">
+            <ul>
+                <li class="float-escolha"><a href="/imoveis.php" title="Escolha o seu One">Escolha o seu <span>One</span></a></li>
+                <li class="float-email"><a href="/contato-form.php" title="Informações por e-mail">Informações <span>por e-mail</span></a></li>
+                <li class="float-ligamos"><a href="/ligamos-form.php" title="Ligamos para você">Ligamos <span>para você</span></a></li>
+                <li class="float-corretor"><div class="img"></div><a href="corretor-form.php" title="Fale agora com um corretor online">Fale agora com um <span>corretor online</span></a></li>
+            </ul>
+        </div>
+    </div>
+    <!--End of Float footer-->
+
 	<!--Footer-->
 	<div id="footer">
 		<div class="content-center">

@@ -153,9 +153,9 @@
     
     <!--Right column-->
     <div class="right-column">
-        <img src="images/home/pos-graduacao-banner.jpg" alt="" title="">
-        <img src="images/home/graduacao-banner.jpg" alt="" title="">
-        <img src="images/home/extensao-banner.jpg" alt="" title="">
+        <a href="#" title="Pós-Graduação"><img src="images/home/pos-graduacao-banner.jpg" alt="" title=""></a>
+        <a href="#" title="Graduação"><img src="images/home/graduacao-banner.jpg" alt="" title=""></a>
+        <a href="#" title="Extensão"><img src="images/home/extensao-banner.jpg" alt="" title=""></a>
     </div>
     <!--End of Left column-->
     <div class="clear"></div>

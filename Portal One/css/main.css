@@ -300,6 +300,76 @@ a:hover{
 	background-position: -350px -200px;
 }
 
+/*Float Footer*/
+.float-footer{
+    position: fixed;
+    z-index: 10;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background: #c4161c;
+    background: -moz-linear-gradient(top,  #c4161c 0%, #9d1216 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c4161c), color-stop(100%,#9d1216));
+    background: -webkit-linear-gradient(top,  #c4161c 0%,#9d1216 100%);
+    background: -o-linear-gradient(top,  #c4161c 0%,#9d1216 100%);
+    background: -ms-linear-gradient(top,  #c4161c 0%,#9d1216 100%);
+    background: linear-gradient(to bottom,  #c4161c 0%,#9d1216 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c4161c', endColorstr='#9d1216',GradientType=0 );
+}
+.float-footer *{
+    color: #FFF;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.float-footer li{
+    float: left;
+    background: url(../images/float-footer.png) no-repeat;
+    border-left: solid #b64145 1px; 
+    border-right: solid #700203 1px; 
+}
+.float-footer li span{
+    font-weight: bold;
+    display: block;
+}
+.float-footer li a{
+    padding: 0 29px;
+    height: 70px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.float-footer .float-escolha{
+    padding-right: 30px;
+    background-position: 185px 29px;
+    border-left: none;
+}
+.float-footer .float-email{
+    padding-left: 53px;
+    background-position: 29px -78px;
+}
+.float-footer .float-ligamos{
+    padding-left: 37px;
+    background-position: 29px -187px;
+    border-right: none;
+}
+.float-footer .float-corretor{
+    padding-left: 78px;
+    background: #860304;
+    position: relative;
+    border: none;
+}
+.float-footer .float-corretor .img{
+    position: absolute;
+    background: url(../images/float-footer.png) no-repeat 0px -299px;
+    width: 80px;
+    height: 69px;
+    left: 30px;
+    top: -10px;
+}
+.float-footer .float-escolha span{
+    display: inline;
+}
+
 /*Footer*/
 #footer{
 	background: #f1f2f2;

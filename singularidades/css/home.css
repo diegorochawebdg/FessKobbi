@@ -214,9 +214,9 @@
     float: right;
     width: 293px;
 }
-.right-column img {
+.right-column a {
     margin-bottom: 47px;
 }
-.right-column img:last-child {
+.right-column a:last-child {
     margin-bottom: 0;
 }

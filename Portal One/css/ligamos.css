@@ -1,0 +1,160 @@
+@charset "utf-8";
+
+/*Reset Css*/
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    -webkit-font-smoothing: antialiased;
+    background-repeat: no-repeat;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+}
+body, html{
+    width: 100%;
+    height: 100%;
+	min-width: 970px;
+}
+#container{
+	width: inherit;
+	height: inherit;
+}
+img{
+    display: block;
+}
+a{
+    display: block;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.link-padding{
+    position: relative;
+    overflow: hidden;
+    height: 0;
+	display: block;
+}
+.clear{
+    clear: both;
+	float: none !important;
+}
+.animate{
+    -webkit-transition: all 200ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+       -moz-transition: all 200ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+         -o-transition: all 200ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+            transition: all 200ms cubic-bezier(0.250, 0.100, 0.250, 1.000);
+}
+#container{
+    width: 920px;
+}
+.content-center{
+    width: 920px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+/*End of Reset Css*/
+
+.all-content{
+    border-bottom: solid 4px #c4161c;
+    height: 550px;
+    background: url(../images/imoveis/bg-pattern.png) repeat;
+}
+.title{
+    background: #e1dfdd;
+}
+.title h1{
+    font-family: Lato;
+    text-transform: uppercase;
+    font-size: 26px;
+    color: white;
+    background: #b9151a url(../images/forms/one.png) no-repeat right top;
+    min-height: 37px;
+    padding: 6px 0 0px 40px;
+    width: 434px;
+    float: left;
+}
+.title .fechar{
+    float: right;
+    margin: 5px;
+    background: url(../images/forms/fechar-contato.png);
+    width: 31px;
+    padding-top: 30px;
+}
+
+.form{
+    padding: 107px 163px;
+}
+.form label.form-title{
+    display: block;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #363537;
+}
+.form input{
+    background: #FFF;
+    padding: 0 5px;
+    height: 44px;
+    display: block;
+    margin-bottom: 10px;
+    width: 98.5%;
+    color: #808285;
+    font-size: 12px;
+}
+.form input.half{
+    width: 47%;
+    float: left;
+}
+.form input.half.right{
+    float: right;
+}
+.form .select{
+    width: 48.5%;
+    background: #FFF;
+    position: relative;
+    overflow: hidden;
+}
+.form .select select{
+    padding: 0 5px;
+    height: 44px;
+    color: #808285;
+    width: 350px;
+    text-transform: uppercase;
+    background: url(../images/forms/select.png) no-repeat 250px center;
+    cursor: pointer;
+}
+.form input[type="checkbox"]{
+    display: block;
+    float: left;
+    width: auto;
+    margin-right: 10px;
+}
+.form .email-info{
+    display: block;
+    float: left;
+    color: #808285;
+    font-size: 12px;
+    padding-top: 16px;
+    text-transform: uppercase;
+}
+.form small{
+    font-size: 12px;
+    color: #808285;
+    display: block;
+    float: left;
+}
+.form button#enviar{
+    font-size: 14px;
+    color: #FFF;
+    display: block;
+    float: right;
+    background: #c4161c;
+    padding: 18px 75px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.form button#enviar:hover{
+    opacity: 0.7;
+}

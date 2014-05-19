@@ -8,58 +8,13 @@
     
     <!--Stylesheets-->
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css">
     <!--End of Stylesheets-->
     
     <!--Scripts-->
     <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function(e){
-            $('#top-menu .item1').hover(function(e){
-                $('#top-menu li.item1').addClass('active');
-                $('#top-menu .calls .item1').stop().hide().fadeIn(200);
-            });
-            $('#top-menu .item1').mouseleave(function(e){
-                $('#top-menu li.item1').removeClass('active');
-                $('#top-menu .calls .item1').stop().hide();
-            });
-            
-            $('#top-menu .item2').hover(function(e){
-                $('#top-menu li.item2').addClass('active');
-                $('#top-menu .calls .item2').stop().hide().fadeIn(200);
-            });
-            $('#top-menu .item2').mouseleave(function(e){
-                $('#top-menu li.item2').removeClass('active');
-                $('#top-menu .calls .item2').stop().hide();
-            });
-            
-            $('#top-menu .item3').hover(function(e){
-                $('#top-menu li.item3').addClass('active');
-                $('#top-menu .calls .item3').stop().hide().fadeIn(200);
-            });
-            $('#top-menu .item3').mouseleave(function(e){
-                $('#top-menu li.item3').removeClass('active');
-                $('#top-menu .calls .item3').stop().hide();
-            });
-            
-            $('#top-menu .item4').hover(function(e){
-                $('#top-menu li.item4').addClass('active');
-                $('#top-menu .calls .item4').stop().hide().fadeIn(200);
-            });
-            $('#top-menu .item4').mouseleave(function(e){
-                $('#top-menu li.item4').removeClass('active');
-                $('#top-menu .calls .item4').stop().hide();
-            });
-            
-            $('#top-menu .item5').hover(function(e){
-                $('#top-menu li.item5').addClass('active');
-                $('#top-menu .calls .item5').stop().hide().fadeIn(200);
-            });
-            $('#top-menu .item5').mouseleave(function(e){
-                $('#top-menu li.item5').removeClass('active');
-                $('#top-menu .calls .item5').stop().hide();
-            });
-        });
-    </script>
+    <script type="text/javascript" src="js/fancybox/jquery.fancybox.pack.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
     <!--End of Scripts-->
 </head>
 
