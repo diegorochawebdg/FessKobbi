@@ -1,0 +1,287 @@
+@charset "utf-8";
+
+/*@font-face*/
+@font-face {
+    font-family: 'Frutiger';
+    src: url('../fonts/frutiger-light.eot');
+    src: url('../fonts/frutiger-light.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/frutiger-light.svg#Frutiger') format('svg'),
+         url('../fonts/frutiger-light.woff') format('woff'),
+         url('../fonts/frutiger-light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Frutiger';
+    src: url('../fonts/frutiger-bold.eot');
+    src: url('../fonts/frutiger-bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/frutiger-bold.svg#Frutiger') format('svg'),
+         url('../fonts/frutiger-bold.woff') format('woff'),
+         url('../fonts/frutiger-bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+/*End of @font-face*/
+
+/*Reset Css*/
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    -webkit-font-smoothing: antialiased;
+    background-repeat: no-repeat;
+    list-style: none;
+    font-family: Frutiger, Arial, Helvetica, sans-serif;
+}
+body, html{
+}
+img{
+    display: block;
+}
+a{
+    display: block;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.link-padding{
+    position: relative;
+    overflow: hidden;
+    height: 0;
+	display: block;
+}
+.clear{
+    clear: both;
+	float: none !important;
+}
+.animate{
+    -webkit-transition: all 200ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+       -moz-transition: all 200ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+         -o-transition: all 200ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+            transition: all 200ms cubic-bezier(0.250, 0.100, 0.250, 1.000);
+}
+#container{
+    background: url(../images/bg-desktop.jpg) no-repeat center top;
+    padding: 20px 0;
+    min-height: 1080px;
+}
+.main-icons{
+    background-image: url(../images/icons.png);
+}
+.font{
+	font-family: 'Lato', 'sans-serif';
+}
+/*End of Reset Css*/
+
+.the-content-bg{
+    width: 731px;
+    margin: 0 auto;
+    background: url(../images/bg-box.jpg);
+    padding: 34px 0 40px 32px;
+    position: relative;
+}
+.bg-top{
+    background: url(../images/bg-top.png);
+    height: 63px;
+    width: 762px;
+    position: absolute;
+    top: 0;
+    left: 1px;
+}
+.bg-bottom{
+    background: url(../images/bg-bottom.png);
+    height: 59px;
+    width: 762px;
+    position: absolute;
+    bottom: 0;
+    left: 1px;
+}
+.the-content{
+    padding: 28px 35px 10px 35px;
+    width: 628px;
+}
+.main-title h1{
+    float: left;
+}
+.main-title h2{
+    float: right;
+}
+.division{
+    background: url(../images/division.png) no-repeat;
+    width: 100%;
+    height: 1px;
+    margin: 24px 0 16px 0;
+}
+.division.last{
+    margin: 15px 0 18px 0;
+}
+
+.description .left{
+    float: left;
+    width: 50%;
+    padding-top: 5px
+}
+.description .left p{
+    font: bold 15px Frutiger, Arial, sans-serif;
+    color: #FFF;
+    text-shadow: #333 1px 1px 3px
+}
+.description .right{
+    float: right;
+    width: 47%;
+}
+.description .right .icon{
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+.description .right .icon img{
+    display: inline;
+    margin-bottom: 5px;
+}
+.description .right .icon span{
+    color: #FFF;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+h3{
+    color: #FFF;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.selecione-container span, .selecione-container li{
+    float: left;
+}
+.selecione-container li{
+    padding: 13px 2%;
+    background: url(../images/list-bg.png) no-repeat left top;
+}
+.selecione-container span{
+    font-size: 18px;
+    text-shadow: #333 1px 1px 1px;
+    color: #FFF;
+    font-weight: bold;
+    width: 18%;
+    padding-top: 7px
+}
+.selecione-container input, .selecione-container label{
+    display: table;
+    float: left;
+}
+.selecione-container input{
+    margin: 9px 9px 0 0;
+}
+.selecione-container label.active{
+    color: #FFF;
+}
+.selecione-container label{
+    font-size: 16px;
+    color: #4f1215;
+    text-transform: uppercase;
+}
+.selecione-container .first{
+    padding-left: 0;
+    background: none;
+}
+.selecione-container .last{
+    padding-right: 0;
+}
+.dados .item{
+    float: left;
+    width: 30%;
+    margin-right: 5%;
+}
+.dados .item.last{
+    margin: 0;
+}
+.dados .item label{
+    display: block;
+    font-weight: bold;
+    color: #FFF;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.dados .item input{
+    display: block;
+    color: #ef3038;
+    font-size: 16px;
+    width: 98%;
+    padding: 12px 1%;
+    background: #4f1215;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#enviar{
+    color: #eb1921;
+    text-transform: uppercase;
+    font-size: 27px;
+    font-weight: bold;
+    text-shadow: inset #333 0 0 2px;
+    padding: 17px 61px;
+    border-radius: 13px;
+    display: table;
+    margin: 0 auto 15px auto;
+    cursor: pointer;
+    background: #ffffff;
+    background: -moz-linear-gradient(top,  #ffffff 0%, #cccccc 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#cccccc));
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#cccccc 100%);
+    background: -o-linear-gradient(top,  #ffffff 0%,#cccccc 100%);
+    background: -ms-linear-gradient(top,  #ffffff 0%,#cccccc 100%);
+    background: linear-gradient(to bottom,  #ffffff 0%,#cccccc 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#cccccc',GradientType=0 );
+}
+#enviar:hover{
+    opacity: 0.7;
+}
+small, small *{
+    color: #FFF;
+    font-size: 12px;
+    display: inline;
+    text-shadow: #000 1px 1px 0px;
+    position: relative;
+    z-index: 2;
+}
+small a{
+    text-decoration: underline;
+}
+
+/*Lightbox*/
+.lightbox{
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    background: url(../images/bg-lightbox.png) repeat;
+    top: 0;
+    left: 0;
+}
+.lightbox .lightbox-wrong-information{
+    background: #ed292f;
+    border: solid 4px white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 275px;
+    text-align: center;
+    padding: 25px;
+    margin: -100px 0 0 -170px;
+}
+.lightbox .lightbox-wrong-information a{
+    background: url(../images/fechar.png) no-repeat center;
+    width: 30px;
+    padding-top: 30px;
+    position: absolute;
+    z-index: 11;
+    right: 10px;
+    top: 10px;
+}
+.lightbox .lightbox-wrong-information p{
+    font-weight: bold;
+    color: #FFF;
+    font-size: 17px;
+}
