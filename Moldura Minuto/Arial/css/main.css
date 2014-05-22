@@ -1,28 +1,5 @@
 @charset "utf-8";
 
-/*@font-face*/
-@font-face {
-    font-family: 'Frutiger';
-    src: url('../fonts/frutiger-light.eot');
-    src: url('../fonts/frutiger-light.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/frutiger-light.svg#Frutiger') format('svg'),
-         url('../fonts/frutiger-light.woff') format('woff'),
-         url('../fonts/frutiger-light.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Frutiger';
-    src: url('../fonts/frutiger-bold.eot');
-    src: url('../fonts/frutiger-bold.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/frutiger-bold.svg#Frutiger') format('svg'),
-         url('../fonts/frutiger-bold.woff') format('woff'),
-         url('../fonts/frutiger-bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
-/*End of @font-face*/
-
 /*Reset Css*/
 *{
     margin: 0;
@@ -31,12 +8,15 @@
     -webkit-font-smoothing: antialiased;
     background-repeat: no-repeat;
     list-style: none;
-    font-family: Frutiger, Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 body, html{
 }
 img{
     display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
 }
 a{
     display: block;
@@ -82,7 +62,7 @@ a:hover{
     position: relative;
 }
 .bg-top{
-    background: url(../images/bg-top.png);
+    background: url(../images/bg-top.png) no-repeat;
     height: 63px;
     width: 762px;
     position: absolute;
@@ -90,7 +70,7 @@ a:hover{
     left: 1px;
 }
 .bg-bottom{
-    background: url(../images/bg-bottom.png);
+    background: url(../images/bg-bottom.png) no-repeat center bottom;
     height: 59px;
     width: 762px;
     position: absolute;
@@ -123,7 +103,7 @@ a:hover{
     padding-top: 5px
 }
 .description .left p{
-    font: bold 15px Frutiger, Arial, sans-serif;
+    font: bold 15px Arial, sans-serif;
     color: #FFF;
     text-shadow: #333 1px 1px 3px
 }
@@ -137,7 +117,7 @@ a:hover{
     text-align: center;
 }
 .description .right .icon img{
-    display: inline;
+    display: inline-block;
     margin-bottom: 5px;
 }
 .description .right .icon span{
@@ -145,6 +125,8 @@ a:hover{
     font-weight: bold;
     font-size: 14px;
     text-transform: uppercase;
+    display: table;
+    margin: 0 auto;
 }
 h3{
     color: #FFF;
@@ -156,7 +138,7 @@ h3{
     float: left;
 }
 .selecione-container li{
-    padding: 13px 2%;
+    padding: 13px 1%;
     background: url(../images/list-bg.png) no-repeat left top;
 }
 .selecione-container span{
@@ -240,7 +222,7 @@ h3{
 }
 small, small *{
     color: #FFF;
-    font-size: 12px;
+    font-size: 11px;
     display: inline;
     text-shadow: #000 1px 1px 0px;
     position: relative;
@@ -262,6 +244,7 @@ small a{
     background: url(../images/bg-lightbox.png) repeat;
     top: 0;
     left: 0;
+    overflow: scroll;
 }
 /*Lightbox Wrong information*/
 .lightbox .lightbox-wrong-information{
@@ -325,7 +308,7 @@ small a{
 }
 .lightbox-voucher p{
     color: #707070;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 1em;
     margin-bottom: 5px;
 }
@@ -346,5 +329,5 @@ small a{
 }
 .lightbox-voucher small{
     text-shadow: none;
-    font-size: 13px;
+    font-size: 12px;
     color: #252525;

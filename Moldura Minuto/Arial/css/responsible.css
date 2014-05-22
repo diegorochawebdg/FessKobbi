@@ -1,0 +1,104 @@
+@charset "utf-8";
+#container{
+    background: #000;
+}
+.the-content-bg, .bg-top, .bg-bottom{
+    background-size:100%;
+    width: 100%;
+}
+.bg-top, .bg-bottom{
+    background-size: 99.7%;
+}
+.the-content-bg, .the-content{
+    width: auto;
+    padding: 4%;
+}
+.main-title h1{
+    max-width: 40%;
+}
+.the-content .main-title h2{
+    max-width: 50%;
+}
+.description .left, .description .right{
+    float: none;
+    width: auto;
+}
+.description .left{
+    margin-bottom: 20px;
+}
+.selecione-container span, .selecione-container li{
+    float: none;
+    width: 100%;
+}
+.selecione-container ul{
+    display: table;
+    margin: 0 auto 20px auto;
+}
+.selecione-container li{
+    background: none;
+    display: table;
+    padding:20px 0; 
+    background: url(../images/division.png) no-repeat center bottom !important;
+}
+.selecione-container li:last-child{
+    background: none !important;
+}
+.selecione-container li br{
+    display: none;
+}
+.selecione-container input, .selecione-container label{
+    display: block;
+    float: left;
+}
+.selecione-container input{
+    margin: 4px 10px 0 0;
+}
+.selecione-container label{
+    text-shadow: #ff5158 1px 1px 0;
+    font-size: 20px;
+}
+.dados .item{
+    float: none;
+    margin: 0;
+    width: 100%;
+}
+.dados .item label{
+    font-size: 20px;
+}
+.dados .item input{
+    font-size: 20px;
+    height: 40px;
+    border-radius: 10px;
+}
+#enviar{
+    width: 100%;
+    padding: 17px 5%;
+}
+.the-content small{
+    display: block
+}
+.the-content small span{
+    display: block;
+    font-size: 15px;
+    text-align: center;
+}
+.the-content small, .the-content small a{
+    text-align: center;
+    font-size: 12px;
+}
+
+/*Voucher*/
+.lightbox-voucher{
+    width: 90%;
+    background: url(../images/bg-voucher-mobile.jpg) repeat-y center;
+    padding: 26px 5% 22px 5%;
+    position: static;
+    display: table;
+    margin: 20px auto;
+}
+.lightbox-voucher .main-title h1{
+    max-width: 40%;
+}
+.lightbox-voucher .main-title h2{
+    max-width: 50%;
+}
