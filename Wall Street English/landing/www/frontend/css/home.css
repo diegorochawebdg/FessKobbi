@@ -1,0 +1,207 @@
+.clear {
+    clear: both;
+    width: 100%;
+    height: 1px;
+    float: left;
+}
+
+.main {
+    width: 940px;
+    padding: 45px 0 15px;
+    margin: 0 auto;
+}
+
+.topo {
+    float: left;
+    width: 100%;
+}
+
+.logo {
+    float: left;
+}
+
+.right {
+    width: 580px;
+    float: right;
+}
+
+.right h1 {
+    font-size: 46px;
+    color: #003768;
+    font-weight: bold;
+    line-height: 46px;
+    margin: 0 0 18px 0;
+}
+
+.right h2 {
+    font-size: 20px;
+    color: #ef4135;
+    margin-bottom: 10px;
+
+}
+
+.right p {
+    font-size: 13px;
+    color: #003768;
+}
+
+.links {
+    padding-top: 20px;
+    float: right;
+    width: 580px;
+    text-align: center;
+    position: relative;
+    z-index: 1000;
+}
+
+.links p {
+    font-weight: bold;
+    font-size: 16px;
+    color: #003768;
+    float: left;
+    margin: 20px 0 0 30px;
+    display:none;
+}
+
+.links p a {
+    color: #003768;
+}
+
+a.botao {
+    font-size: 20px;
+    color: #ffffff;
+    background: #003768;
+    width: 240px;
+    padding: 20px 0;
+    text-decoration: none;
+    display: block;
+    margin: 0 auto;
+    float: left;
+}
+
+
+
+.footer {
+    /*position: fixed;
+    left: 0;
+    bottom: 0;*/
+    width: 100%;
+    text-align: center;
+}
+
+.footer .imagem img {
+    width: 100%;
+}
+
+.footer .azul {
+    background: #0f2a52;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.parabens h1 {
+    margin: 0 0 5px 0;
+}
+
+.clique {
+    background: #0f2a52;
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+    padding: 15px 0;
+}
+
+.clique a {
+    color: #FFF;
+    text-decoration: none;
+}
+.clear{
+    clear: both;
+    float: none !important;
+}
+iframe{
+    height: 0;
+}
+
+/*Discount*/
+.discount{
+    background: #f04237;
+    padding: 45px 0;
+    position: relative;
+}
+.discount .content-center{
+    max-width: 960px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+    
+.discount .blank-arrow{
+    width: 0; 
+    height: 0; 
+    border-left: 17px solid transparent;
+    border-right: 17px solid transparent;
+    border-top: 17px solid white;
+    position: absolute;
+    left: 50%;
+    top: 0;
+}
+.discount .left-column{
+    float: left;
+    width: 26.5%;
+    text-align: center;
+}
+.discount .left-column img{
+    display: inline;
+}
+.discount .right-column{
+    float: right;
+    width: 73.5%;
+    padding-top: 35px;
+}
+.discount .right-column *{
+    color: white;
+}
+.discount .right-column h2{
+    font-family: 'avenirblack';
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 28px;
+    line-height: 1.8em;
+    margin-bottom: 30px;
+}
+.discount .right-column h2 strong{
+    font-size: 54px;
+    line-height: inherit;
+    display: block;
+}
+.discount .right-column p{
+    font-family: 'avenirroman';
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 22.5px;
+    line-height: 1.2em;
+    margin-bottom: 30px;
+}
+.discount .right-column .field{
+    float: left;
+    width: 23%;
+    margin-right: 2.6%;
+    display: block;
+}
+.discount .right-column .field.last{
+    margin-right: 0;
+    float: right;
+}
+.discount .right-column .field label{
+    display: block;
+    text-transform: uppercase;
+    font: normal 15px 'avenirmedium', Arial, sans-serif;
+}
+.discount .right-column .field input{
+    width: 96%;
+    padding: 0 2%;
+    color: #003768;
+    height: 56px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
