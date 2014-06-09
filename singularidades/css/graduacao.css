@@ -1,0 +1,73 @@
+.right .left-column ul{
+    margin-bottom: 20px;
+}
+.right .left-column p{
+    color: #333;
+    font-size: 13px;
+}
+.right .left-column p strong{
+    color: #1a365f;
+}
+.right .right-column{
+    border: none !important;
+}
+.right .right-column .inscreva-se{
+    border: solid 1px #333333;
+    margin-bottom: 20px;
+}
+.right .right-column .inscreva-se .box-padding{
+    padding: 23px;
+}
+.right .right-column .inscreva-se span{
+    display: block;
+    padding-left: 40px;
+    margin-bottom: 15px;
+    font-size: 11px;
+    min-height: 30px;
+    line-height: 1.4em;
+    background-image: url(../images/internals/inscreva-se-icons.png);
+}
+.right .right-column .inscreva-se span.tipo{
+    background-position: 0 -40px;
+}
+.right .right-column .inscreva-se span.tipo{
+    background-position: 0 -40px;
+}
+.right .right-column .inscreva-se span.modalidade{
+    background-position: 0 -83px;
+}
+.right .right-column .inscreva-se span.periodo{
+    background-position: 0 -121px;
+}
+.right .right-column .inscreva-se span.investimento{
+    background-position: 0 -160px;
+}
+.right .right-column .inscreva-se strong{
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+}
+.right .right-column .inscreva-se a.inscreva-se-link{
+    font: bold 16px Arial, sans-serif;
+    color: #FFF;
+    text-align: center;
+    display: block;
+    padding: 13px 0;
+    background: #4578ad;
+    background: -moz-linear-gradient(top,  #4578ad 0%, #37608b 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4578ad), color-stop(100%,#37608b));
+    background: -webkit-linear-gradient(top,  #4578ad 0%,#37608b 100%);
+    background: -o-linear-gradient(top,  #4578ad 0%,#37608b 100%);
+    background: -ms-linear-gradient(top,  #4578ad 0%,#37608b 100%);
+    background: linear-gradient(to bottom,  #4578ad 0%,#37608b 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4578ad', endColorstr='#37608b',GradientType=0 );
+
+}
+
+.right-column .equipe{
+    border: solid 1px #333;
+    border-top: solid 6px #333;
+}
+.right-column .equipe h2{
+    white-space: nowrap;
+}

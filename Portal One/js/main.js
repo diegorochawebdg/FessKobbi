@@ -46,12 +46,10 @@ $(document).ready(function(e){
     });
     
     //Float Footer
-    $('.float-email a, .float-corretor a, .float-ligamos a').fancybox({
+    /*$('.float-email a, .float-corretor a, .float-ligamos a').fancybox({
         type:       'iframe',
         titleShow : false,
-        /*width:      '920',
-        height:     '680'*/
         autoDimensions :    true
-    });
+    });*/
     
 });

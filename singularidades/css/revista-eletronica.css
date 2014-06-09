@@ -1,0 +1,55 @@
+.right .box-missao{
+    border: solid 1px #1a365f;
+    margin-bottom: 30px;
+}
+.right .box-missao .box-padding{
+    padding: 30px;
+}
+.right .box-missao .box-padding h2{
+    font: normal 26px Arial, sans-serif;
+    color: #333;
+    margin-bottom: 15px;
+}
+.right .box-missao .box-padding p{
+    font: normal 12px Arial, sans-serif;
+    color: #939598;
+    margin-bottom: 15px;
+}
+.right .box-missao .box-padding p:last-child{
+    margin-bottom: 0;
+}
+.right .box-missao .box-padding strong{
+    font: bold 12px Arial, sans-serif;
+    color: #606062;
+}
+.right .box-missao .box-padding strong a{
+    display: inline;
+    color: #26406c;
+}
+
+.revistas li{
+    float: left;
+    background: #f8f8f8;
+    width: 30%;
+    margin: 0 1.5% 20px;
+    border: solid 1px #adafb2;
+    border-top: solid 6px #113a64;
+}
+.revistas li a{
+    padding: 10px;
+    -webkit-transition: all 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+    -moz-transition: all 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+    -o-transition: all 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+    transition: all 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000);
+}
+.revistas li a:hover{
+    opacity: 0.7;
+    text-decoration: none;
+}
+.revistas li a span{
+    display: block;
+    margin: 15px 0;
+    color: #4375a9;
+    font-size: 14px;
+    background: url(../images/internals/sub-li-arrow.png) no-repeat right center;
+}

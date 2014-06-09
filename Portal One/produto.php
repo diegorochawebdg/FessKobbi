@@ -207,10 +207,12 @@
 			<!--Selectors-->
 			<div class="selectors">
                 <div class="links">
-                    <a href="" data-slide-index="0" title="" class="animate"><img src="images/produto/slider/gallery-thumbs.jpg" alt="" title=""></a>
                     <a href="" data-slide-index="1" title="" class="animate"><img src="images/produto/slider/gallery-thumbs.jpg" alt="" title=""></a>
                     <a href="" data-slide-index="2" title="" class="animate"><img src="images/produto/slider/gallery-thumbs.jpg" alt="" title=""></a>
                     <a href="" data-slide-index="3" title="" class="animate"><img src="images/produto/slider/gallery-thumbs.jpg" alt="" title=""></a>
+                    <a href="" data-slide-index="4" title="" class="animate"><img src="images/produto/slider/gallery-thumbs.jpg" alt="" title=""></a>
+                    <a href="" data-slide-index="5" title="" class="animate"><img src="images/produto/slider/gallery-thumbs.jpg" alt="" title=""></a>
+                    <a href="" data-slide-index="6" title="" class="animate"><img src="images/produto/slider/gallery-thumbs.jpg" alt="" title=""></a>
                     <div class="clear"></div>
                 </div>
 			</div>

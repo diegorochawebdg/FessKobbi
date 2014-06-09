@@ -1,0 +1,46 @@
+.right h2{
+    color: #26406c;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 1.3em;
+    margin-bottom: 20px;
+}
+.right h3{
+    color: #4375a9;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.right h4{
+    color: #606062;
+    font-size: 16px;
+    margin-bottom: 25px;
+    font-weight: normal;
+}
+.right p{
+    color: #939598;
+    font-weight: normal;
+    font-size: 12px;
+    margin-bottom: 20px;
+    line-height: 1.3em;
+}
+.right ul{
+    margin: 20px;
+}
+.right li{
+    color: #939598;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 1.3em;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+.right p a{
+    display: inline;
+    color: #26406c;
+    font-size: 12px;
+}
+.right p strong{
+    color: #606062;
+    font-weight: normal;
+}
+    

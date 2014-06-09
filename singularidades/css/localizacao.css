@@ -1,0 +1,22 @@
+.right h2{
+    color: #26406c;
+    font-size: 26px;
+    font-weight: normal;
+    margin-bottom: 50px;
+}
+.right h3{
+    color: #606062;
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.right p{
+    color: #939598;
+    font-size: 12px;
+    margin-bottom: 35px;
+}
+.right a{
+    color: #26406c;
+    font-size: 13px;
+    margin-top: 20px;
+}

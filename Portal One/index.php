@@ -59,39 +59,100 @@
 			
 			<!--******** As imagens aqui precisam ter uma dimensão mínima de 920x612px para serem dispostas corretamente sem possíveis cortes *******-->
 			
-			<div class="item four">
-				<img src="images/home/img-destaque.jpg" width="922" height="613" alt="UpOne Jacu Pêssego" title="UpOne Jacu Pêssego">
-				<div class="caption">
-					<h2>Up<span>one</span> Moema</h2>
-					<h3 class="font">2 e 3 dorms</h3>
-					<a href="#" class="lancamento">Breve lançamento</a>
-				</div>
-			</div>
-			<div class="item four">
-				<img src="images/home/img-destaque.jpg" width="922" height="613" alt="UpOne Jacu Pêssego" title="UpOne Jacu Pêssego">
-				<div class="caption">
-					<h2>Up<span>one</span> Moema</h2>
-					<h3 class="font">2 e 3 dorms</h3>
-					<a href="#" class="lancamento">Breve lançamento</a>
-				</div>
-			</div>
-			<div class="item four">
-				<img src="images/home/img-destaque.jpg" width="922" height="613" alt="UpOne Jacu Pêssego" title="UpOne Jacu Pêssego">
-				<div class="caption">
-					<h2>Up<span>one</span> Moema</h2>
-					<h3 class="font">2 e 3 dorms</h3>
-					<a href="#" class="lancamento">Breve lançamento</a>
-				</div>
-			</div>
-			<div class="item four">
-				<img src="images/home/img-destaque.jpg" width="922" height="613" alt="UpOne Jacu Pêssego" title="UpOne Jacu Pêssego">
-				<div class="caption">
-					<h2>Up<span>one</span> Moema</h2>
-					<h3 class="font">2 e 3 dorms</h3>
-					<a href="#" class="lancamento">Breve lançamento</a>
-				</div>
-			</div>
-			<div class="clear"></div>
+            <div class="slide">
+                <div class="item four">
+                    <img src="images/home/img-destaque.jpg" width="922" height="613" alt="UpOne Jacu Pêssego" title="UpOne Jacu Pêssego">
+                    <div class="caption">
+                        <h2>Up<span>one</span> Moema</h2>
+                        <h3 class="font">2 e 3 dorms</h3>
+                        <a href="#" class="lancamento">Breve lançamento</a>
+                    </div>
+                </div>
+                <div class="item four">
+                    <img src="images/home/img-destaque.jpg" width="922" height="613" alt="UpOne Jacu Pêssego" title="UpOne Jacu Pêssego">
+                    <div class="caption">
+                        <h2>Up<span>one</span> Moema</h2>
+                        <h3 class="font">2 e 3 dorms</h3>
+                        <a href="#" class="lancamento">Breve lançamento</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide">
+                <div class="item four">
+                    <img src="images/home/img-destaque.jpg" width="922" height="613" alt="UpOne Jacu Pêssego" title="UpOne Jacu Pêssego">
+                    <div class="caption">
+                        <h2>Up<span>one</span> Moema</h2>
+                        <h3 class="font">2 e 3 dorms</h3>
+                        <a href="#" class="lancamento">Breve lançamento</a>
+                    </div>
+                </div>
+                <div class="item four">
+                    <img src="images/home/img-destaque.jpg" width="922" height="613" alt="UpOne Jacu Pêssego" title="UpOne Jacu Pêssego">
+                    <div class="caption">
+                        <h2>Up<span>one</span> Moema</h2>
+                        <h3 class="font">2 e 3 dorms</h3>
+                        <a href="#" class="lancamento">Breve lançamento</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide">
+                <div class="item four">
+                    <img src="images/home/img-destaque.jpg" width="922" height="613" alt="UpOne Jacu Pêssego" title="UpOne Jacu Pêssego">
+                    <div class="caption">
+                        <h2>Up<span>one</span> Moema</h2>
+                        <h3 class="font">2 e 3 dorms</h3>
+                        <a href="#" class="lancamento">Breve lançamento</a>
+                    </div>
+                </div>
+                <div class="item four">
+                    <img src="images/home/img-destaque.jpg" width="922" height="613" alt="UpOne Jacu Pêssego" title="UpOne Jacu Pêssego">
+                    <div class="caption">
+                        <h2>Up<span>one</span> Moema</h2>
+                        <h3 class="font">2 e 3 dorms</h3>
+                        <a href="#" class="lancamento">Breve lançamento</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide">
+                <div class="item four">
+                    <img src="images/home/img-destaque.jpg" width="922" height="613" alt="UpOne Jacu Pêssego" title="UpOne Jacu Pêssego">
+                    <div class="caption">
+                        <h2>Up<span>one</span> Moema</h2>
+                        <h3 class="font">2 e 3 dorms</h3>
+                        <a href="#" class="lancamento">Breve lançamento</a>
+                    </div>
+                </div>
+                <div class="item four">
+                    <img src="images/home/img-destaque.jpg" width="922" height="613" alt="UpOne Jacu Pêssego" title="UpOne Jacu Pêssego">
+                    <div class="caption">
+                        <h2>Up<span>one</span> Moema</h2>
+                        <h3 class="font">2 e 3 dorms</h3>
+                        <a href="#" class="lancamento">Breve lançamento</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide">
+                <div class="item four">
+                    <img src="images/home/img-destaque.jpg" width="922" height="613" alt="UpOne Jacu Pêssego" title="UpOne Jacu Pêssego">
+                    <div class="caption">
+                        <h2>Up<span>one</span> Moema</h2>
+                        <h3 class="font">2 e 3 dorms</h3>
+                        <a href="#" class="lancamento">Breve lançamento</a>
+                    </div>
+                </div>
+                <div class="item four">
+                    <img src="images/home/img-destaque.jpg" width="922" height="613" alt="UpOne Jacu Pêssego" title="UpOne Jacu Pêssego">
+                    <div class="caption">
+                        <h2>Up<span>one</span> Moema</h2>
+                        <h3 class="font">2 e 3 dorms</h3>
+                        <a href="#" class="lancamento">Breve lançamento</a>
+                    </div>
+                </div>
+            </div>
 		</div>
 	</div>
 </div>

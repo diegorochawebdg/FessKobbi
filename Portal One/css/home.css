@@ -165,3 +165,17 @@
 #imoveis-destaque .destaques-box .item.one .caption .lancamento{
 	background: #b8151a url(../images/home/caption-call-to-action.png) no-repeat 870px center;
 }
+
+
+#slider .bx-wrapper .bx-controls {
+left: 50%;
+top: 170px;
+position: absolute;
+margin-left: 440px;
+}
+#imoveis-destaque .bx-wrapper .bx-controls{
+    margin-top: 30px;
+}
+#imoveis-destaque .bx-wrapper .bx-controls .bx-pager{
+    height: 40px;
+}

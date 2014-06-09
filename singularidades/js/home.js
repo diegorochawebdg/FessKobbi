@@ -1,13 +1,10 @@
 $(document).ready(function(e){
     
     /*Main Slider*/
-    $(function(){
-        $('#main-slider-home').slides({
-            preload: false,
-            play: 8000,
-            pause: 2500,
-            hoverPause: true
-        });
+    $('#main-slider-home .slides_container').bxSlider({
+        pager:      true,
+        controls:   false,
+        auto:       true
     });
     
     /*Selectors Transition*/
@@ -23,14 +20,19 @@ $(document).ready(function(e){
     });
     
     /*Slider Cursos*/
-    $(function(){
+    /*$(function(){
         $('#cursos-slider .overflow .item1').slides({
             preload: false,
             play: 5000,
             pause: 2500,
             hoverPause: true
         });
+    });*/
+    $('#cursos-slider .overflow .item1 .slides_container').bxSlider({
+        pager:      true,
+        controls:   false
     });
+    
     
     
 });

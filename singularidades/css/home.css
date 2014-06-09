@@ -1,3 +1,6 @@
+body{
+    background: url(../images/bg-body.png) bottom left #f9f9f9 no-repeat;
+}
 .icons-home {
     background-image: url(../images/home/icons-home.png);
 }
@@ -12,16 +15,13 @@
 }
 
 /*Slider - Pagination*/
-#main-slider-home .pagination {
+#main-slider-home .bx-controls {
     position: absolute;
-    right: 15px;
-    top: 17px;
+    right: 40px;
+    top: 90px;
     z-index: 7;
 }
-#main-slider-home .pagination li {
-    width: auto !important;
-}
-#main-slider-home .pagination li a {
+#main-slider-home .bx-controls .bx-pager-item a {
     width: 16px;
     padding-top: 18px;
     height: 0;
@@ -30,7 +30,7 @@
     background: url(../images/home/sliders-selectors.png) -15px -10px no-repeat;
     margin-right: 3px;
 }
-#main-slider-home .pagination li.current a {
+#main-slider-home .bx-controls .bx-pager-item a.active {
     background: url(../images/home/sliders-selectors.png) 0px -10px no-repeat;
 }
 
@@ -126,14 +126,7 @@
 }
 
 /*Slider Cursos - Pagination*/
-#cursos-slider .pagination {
-    display: table;
-    margin: 15px auto 0 auto;
-}
-#cursos-slider .pagination li {
-    width: auto !important;
-}
-#cursos-slider .pagination li a {
+#cursos-slider .bx-controls .bx-pager-item a {
     width: 11px;
     padding-top: 10px;
     height: 0;
@@ -142,7 +135,7 @@
     background: url(../images/home/sliders-selectors.png) no-repeat;
     margin-right: 3px;
 }
-#cursos-slider .pagination li.current a {
+#cursos-slider .bx-controls .bx-pager-item a.active {
     background: url(../images/home/sliders-selectors.png) -11px 0 no-repeat;
 }
 

@@ -41,4 +41,10 @@ $(document).ready(function(e){
 		moveSlides:  1,
 		pager:       false
 	});
+    
+    $('a.ficha').click(function(e){
+        console.log('works');
+        e.preventDefault();
+        $('html,body').animate({scrollTop: $('.versions').offset().top},'slow');
+    });
 });

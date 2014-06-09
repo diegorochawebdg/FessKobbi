@@ -1,0 +1,22 @@
+.right .text{
+    width: 100% !important;
+}
+.right .left-column{
+    width: 100% !important;
+}
+.right .left-column li div{
+    padding: 23px 50px !important;
+}
+.right .left-column li div table td.first{
+    width: 20%;
+    font: bold 12px Arial, sans-serif;
+    color: #4375a9;
+    line-height: 1.5em;
+    vertical-align: top;
+}
+.right .left-column li div table td.second{
+    width: 80%;
+    font: normal 12px Arial, sans-serif;
+    color: #939598;
+    line-height: 1.5em;
+}

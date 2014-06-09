@@ -1,0 +1,29 @@
+.right .acesso-biblioteca{
+    background: #f8f8f8;
+    border-top: solid 6px #113a64;
+    border-left: solid 1px #a7a9ac;
+    border-right: solid 1px #a7a9ac;
+    border-bottom: solid 2px #a7a9ac;
+    padding: 25px 27px;
+}
+.right .acesso-biblioteca a{
+    color: #4375a9;
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    background: url(../images/internals/arrow-biblioteca.png) no-repeat right center;
+    height: 20px;
+}
+.right .acesso-biblioteca a span{
+    color: #26406c;
+}
+.right h3{
+    margin: 20px 0;
+}
+.right p{
+    margin-bottom: 3px !important;
+}
+.right p a{
+    display: inline;
+    color: #26406c;
+}

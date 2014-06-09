@@ -213,9 +213,9 @@ Não é simplesmente o que você faz de melhor, mas a evolução em tudo que voc
 <!--End of Content-->
 
 <!--Scripts-->
-<script type="text/javascript" src="/js/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="/js/jquery.bxslider.min.js"></script>
-<script type="text/javascript" src="/js/sobre.js"></script>
+<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+<script type="text/javascript" src="js/sobre.js"></script>
 <!--End of Scripts-->
         
 <?php include "footer.php" ?>

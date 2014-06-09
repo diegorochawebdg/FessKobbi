@@ -40,15 +40,25 @@ $(document).ready(function(e){
     
     //Big Gallery
 	$('#gallery .the-slider').bxSlider({
-		moveSlides:  	1,
+		mode:           'fade',
 		slideWidth: 	1920,
-		controls:       true,
+		controls:       false,
 		pagerCustom:    '#gallery .selectors .links',
         adaptiveHeight: true,
+	});
+    $('#gallery .selectors .links').bxSlider({
+		moveSlides:  	1,
+		slideWidth: 	181,
+        slideMargin:    0,
+        pager:          false,
+		controls:       true,
+        adaptiveHeight: false,
+        minSlides:      7,
+        maxSlides:      2000,
 	});
 });
 
 //Magic Anchor
 function goToByScroll(id){
-    $('html,body').animate({scrollTop: $("#"+id).offset().top},'slow');
+    $('html,body').animate({scrollTop: $('div.versions').offset().top},'slow');
 }

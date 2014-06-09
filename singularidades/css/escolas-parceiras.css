@@ -1,0 +1,116 @@
+.right .text{
+    width: 100% !important;
+}
+.right .left-column{
+    width: 100% !important;
+}
+
+/*Form*/
+.right .form{
+    background: #f8f8f8;
+    border: solid 1px #a7a9ac;
+    border-top: solid 6px #4578ad;
+    margin-top: 20px;
+}
+.right .form .box-padding{
+    padding: 23px;
+}
+.right .form .box-padding p{
+    font-size: 14px;
+    color: #363537;
+}
+.right .form .box-padding input, .right .form .box-padding .select select{
+    border: solid 1px #26406c;
+    font-size: 12px;
+    color: #a9abae;
+    height: 44px;
+    width: 45%;
+    padding: 0 2%;
+    float: left;
+    margin-bottom: 10px;
+    background-color: #FFF;
+}
+.right .form .box-padding input.right-input{
+    float: right;
+}
+.right .form .box-padding .select{
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    width: 49%;
+    border: solid 1px #26406c;
+    height: 44px;
+    cursor: pointer;
+}
+.right .form .box-padding .select select{
+    float: none;
+    border: none;
+    height: 44px;
+    width: 120%;
+    padding: 0 5%;
+    background: #FFF url(../images/internals/select-list-bg.png) no-repeat 280px center;
+    cursor: pointer;
+}
+.right .form .box-padding small{
+    font-size: 12px;
+    color: #939598;
+    display: block;
+    margin: 20px;
+}
+.right .form .box-padding button{
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px;
+    width: 210px;
+    font-size: 14px;
+    font-weight: bold;
+    float: right;
+    cursor: pointer;
+    background: #26406c;
+    background: -moz-linear-gradient(top,  #26406c 1%, #1e3356 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#26406c), color-stop(100%,#1e3356));
+    background: -webkit-linear-gradient(top,  #26406c 1%,#1e3356 100%);
+    background: -o-linear-gradient(top,  #26406c 1%,#1e3356 100%);
+    background: -ms-linear-gradient(top,  #26406c 1%,#1e3356 100%);
+    background: linear-gradient(to bottom,  #26406c 1%,#1e3356 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#26406c', endColorstr='#1e3356',GradientType=0 );
+}
+.right .form .box-padding button:hover{
+    opacity: 0.7;
+}
+.right ul li div{
+    padding: 25px !important;
+}
+.right ol li{
+    background: none !important;
+    border-bottom: solid 1px #a9abae !important;
+    padding: 0 !important;
+}
+.right ol li a{
+    background: url(../images/internals/select-list-bg.png) no-repeat 600px center !important;
+    font-size: 12px !important;
+    font-weight: bold;
+    color: #606062 !important;
+    padding: 13px 0 !important;
+}
+.right ol li a.active{
+    background: url(../images/internals/select-list-bg-active.png) no-repeat 600px center !important;
+}
+.right ol li div{
+    padding: 10px 50px !important;
+    border: none !important;
+}
+.right ol li div span{
+    display: block;
+    font-size: 12px;
+    line-height: 1.5em;
+    color: #939598;
+}
+.right ol li div span a{
+    padding: 0 !important;
+    color: #26406c;
+    line-height: 1.5em;
+    font-weight: normal !important;
+}

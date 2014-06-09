@@ -1,0 +1,71 @@
+.right h2{
+    color: #26406c;
+    font-size: 26px;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+.right h3{
+    color: #4375a9;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.right p{
+    color: #939598;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+.right ul{
+    margin: 20px !important;
+}
+.right li{
+    color: #939598;
+    font-size: 12px;
+    line-height: 1.3em;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+.right a{
+    color: #26406c;
+    font-size: 13px;
+    margin-top: 20px;
+}
+.the-table thead tr{
+    background: #26406c;
+}
+.the-table thead td{
+    color: white;
+    height: 43px;
+    padding: 0 10px;
+    font-size: 12px;
+}
+.the-table tbody tr td{
+    border-left: solid 1px #7cd0f3;
+    border-top: solid 1px #7cd0f3;
+    border-bottom: none;
+}
+.the-table tbody tr td:last-child{
+    border-right: solid 1px #7cd0f3;
+}
+.the-table tbody tr:first-child td{
+    border-top: solid 3px #7cd0f3;
+}
+.the-table tbody tr:last-child td{
+    border-bottom: solid 1px #7cd0f3;
+}
+.the-table tbody td{
+    color: #26406c;
+    height: 39px;
+    padding: 0 10px;
+    font-size: 12px;
+    max-width: 232px;
+}
+.the-table tbody td span.active{
+    background: url(../images/internals/active.png) no-repeat;
+    width: 21px;
+    height: 0;
+    position: relative;
+    overflow: hidden;
+    padding-top: 20px;
+    display: block;
+}
