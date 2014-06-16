@@ -4,28 +4,23 @@
     height: 1px;
     float: left;
 }
-
 .main {
     max-width: 960px;
     padding: 45px 15px;
     margin: 0 auto;
 }
-
 .topo {
     float: left;
     width: 100%;
 }
-
 .logo {
     float: left;
     width: 35%;
 }
-
 .right {
     width: 60%;
     float: right;
 }
-
 .right h1 {
     font-size: 46px;
     color: #003768;
@@ -33,19 +28,15 @@
     line-height: 46px;
     margin: 0 0 18px 0;
 }
-
 .right h2 {
     font-size: 20px;
     color: #ef4135;
     margin-bottom: 10px;
-
 }
-
 .right p {
     font-size: 13px;
     color: #003768;
 }
-
 .links {
     padding-top: 20px;
     float: right;
@@ -54,20 +45,17 @@
     position: relative;
     z-index: 1000;
 }
-
 .links p {
     font-weight: bold;
     font-size: 16px;
     color: #003768;
     float: left;
     margin: 20px 0 0 30px;
-    display:none;
+    display: none;
 }
-
 .links p a {
     color: #003768;
 }
-
 a.botao {
     font-size: 20px;
     color: #ffffff;
@@ -79,12 +67,9 @@ a.botao {
     margin: 0 auto;
     float: left;
 }
-
-
 .parabens h1 {
     margin: 0 0 5px 0;
 }
-
 .clique {
     background: #0f2a52;
     text-align: center;
@@ -92,34 +77,32 @@ a.botao {
     font-weight: bold;
     padding: 15px 0;
 }
-
 .clique a {
     color: #FFF;
     text-decoration: none;
 }
-.clear{
+.clear {
     clear: both;
     float: none !important;
 }
-iframe{
+iframe {
     height: 0;
 }
-
 /*Discount*/
-.discount{
+
+.discount {
     background: #f04237;
     padding: 45px 0;
     position: relative;
 }
-.discount .content-center{
+.discount .content-center {
     max-width: 930px;
     padding: 0 15px;
     margin: 0 auto;
 }
-    
-.discount .blank-arrow{
-    width: 0; 
-    height: 0; 
+.discount .blank-arrow {
+    width: 0;
+    height: 0;
     border-left: 17px solid transparent;
     border-right: 17px solid transparent;
     border-top: 17px solid white;
@@ -127,23 +110,23 @@ iframe{
     left: 50%;
     top: 0;
 }
-.discount .left-column{
+.discount .left-column {
     float: left;
     width: 26.5%;
     text-align: center;
 }
-.discount .left-column img{
+.discount .left-column img {
     display: inline;
 }
-.discount .right-column{
+.discount .right-column {
     float: right;
     width: 73.5%;
     padding-top: 35px;
 }
-.discount .right-column *{
+.discount .right-column * {
     color: white;
 }
-.discount .right-column h2{
+.discount .right-column h2 {
     font-family: 'avenirblack';
     font-weight: normal;
     text-transform: uppercase;
@@ -151,12 +134,12 @@ iframe{
     line-height: 1.8em;
     margin-bottom: 30px;
 }
-.discount .right-column h2 strong{
+.discount .right-column h2 strong {
     font-size: 51px;
     line-height: inherit;
     display: block;
 }
-.discount .right-column p{
+.discount .right-column p {
     font-family: 'avenirroman';
     font-weight: normal;
     text-transform: uppercase;
@@ -164,22 +147,22 @@ iframe{
     line-height: 1.2em;
     margin-bottom: 30px;
 }
-.discount .right-column .field{
+.discount .right-column .field {
     float: left;
     width: 23%;
     margin-right: 2.6%;
     display: block;
 }
-.discount .right-column .field.last{
+.discount .right-column .field.last {
     margin-right: 0;
     float: right;
 }
-.discount .right-column .field label{
+.discount .right-column .field label {
     display: block;
     text-transform: uppercase;
-    font: normal 15px 'avenirmedium', Arial, sans-serif;
+    font: normal 15px'avenirmedium', Arial, sans-serif;
 }
-.discount .right-column .field input{
+.discount .right-column .field input {
     width: 96%;
     padding: 0 2% !important;
     color: #003768;
@@ -189,19 +172,19 @@ iframe{
     border: none !important;
     box-shadow: inset 1px 1px 3px #a3a3a3;
 }
-.discount .right-column .select{
+.discount .right-column .select {
     position: relative;
     overflow: hidden;
     width: 100%;
     box-shadow: inset 1px 1px 3px #a3a3a3;
     background: #FFF url(../images/select.png) no-repeat right center;
 }
-.discount .right-column select{
+.discount .right-column select {
     height: 56px;
     background-color: #FFF;
     border: none;
     color: #003768;
-    font: normal 16px/1em 'avenirmedium', Arial, sans-serif;
+    font: normal 16px/1em'avenirmedium', Arial, sans-serif;
     width: 120%;
     text-transform: uppercase;
     border-radius: 0;
@@ -210,32 +193,32 @@ iframe{
     background: transparent;
     padding-top: 19px;
 }
-.discount .right-column select option{
+.discount .right-column select option {
     color: #003768;
 }
-.discount .right-column button{
+.discount .right-column button {
     padding: 22px 103px;
-    font: normal 23.5px 'avenirheavy', Arial, sans-serif;
+    font: normal 23.5px'avenirheavy', Arial, sans-serif;
     border: 2px solid #899ebf;
     border-radius: 3px;
     text-transform: uppercase;
     background: #1e4d7a;
     display: table;
     margin: 0 auto 30px auto;
-    -webkit-transition: all 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
-       -moz-transition: all 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
-         -o-transition: all 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
-            transition: all 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+    -webkit-transition: all 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000);
+    -moz-transition: all 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000);
+    -o-transition: all 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000);
+    transition: all 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000);
 }
-.discount .right-column button:hover{
+.discount .right-column button:hover {
     opacity: 0.8;
 }
-.discount .right-column small{
+.discount .right-column small {
     display: block;
     font: normal 13px/1.3em Arial, sans-serif;
 }
-
 /*Footer*/
+
 .footer {
     /*position: fixed;
     left: 0;
@@ -243,27 +226,27 @@ iframe{
     width: 100%;
     text-align: center;
 }
-
 .footer .imagem img {
     width: 100%;
 }
-
 .footer .azul {
     background: #0f2a52;
     padding: 15px;
 }
-.footer .azul .relative{
+.footer .azul .relative {
     text-align: left;
     display: table;
     min-height: 60px;
 }
-.footer .azul .relative.item1, .footer .azul .relative.item2{
+.footer .azul .relative.item1,
+.footer .azul .relative.item2 {
     padding-left: 50px;
 }
-.footer .azul .relative.item3, .footer .azul .relative.item4{
+.footer .azul .relative.item3,
+.footer .azul .relative.item4 {
     padding-left: 62px;
 }
-.footer .azul span{
+.footer .azul span {
     color: #FFF;
     display: table-cell;
     vertical-align: middle;
@@ -272,19 +255,19 @@ iframe{
     font-family: 'avenirheavy';
     font-size: 13px;
 }
-.footer .azul .item{
+.footer .azul .item {
     float: left;
     width: 25%;
 }
-.footer .azul .item .item1{
+.footer .azul .item .item1 {
     background: url(../images/footer-1.png) no-repeat 0 center;
 }
-.footer .azul .item .item2{
+.footer .azul .item .item2 {
     background: url(../images/footer-2.png) no-repeat 0 center;
 }
-.footer .azul .item .item3{
+.footer .azul .item .item3 {
     background: url(../images/footer-3.png) no-repeat 0 center;
 }
-.footer .azul .item .item4{
+.footer .azul .item .item4 {
     background: url(../images/footer-4.png) no-repeat 0 center;
 }
