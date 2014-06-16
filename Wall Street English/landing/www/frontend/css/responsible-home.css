@@ -1,0 +1,102 @@
+/*Smaller than 960px*/
+@media screen and (max-width: 960px){
+    .right h1{
+        font-size: 35px;
+    }
+    .discount .right-column h2{
+        font-size: 21px;
+    }
+    .discount .right-column h2 strong{
+        font-size: 40px;
+    }
+    .discount .right-column p{
+        font-size: 19px;
+    }
+    .discount .right-column label{
+        font-size: 12.5px !important;
+        margin-bottom: 5px;
+    }
+    .discount .right-column select, .discount .right-column input{
+        font-size: 14px;
+    }
+    .discount .right-column button{
+        font: normal 20px 'avenirheavy', Arial, sans-serif;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .topo .logo, .topo .right, .discount .left-column, .discount .right-column{
+        float: none;
+        width: 100%;
+    }
+    .topo .logo{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .topo .logo img{
+        display: inline;
+    }
+    .topo .right br{
+        display: none;
+    }
+    .topo .right h1{
+        font-size: 32px;
+        line-height: 1.2em;
+        margin-bottom: 25px;
+    }
+    .discount .field{
+        float: none !important;
+        width: 100% !important;
+    }
+    .discount .right-column .field.last{
+        margin-bottom: 30px;
+    }
+    .discount .right-column select{
+        font: normal 16px/1em 'avenirmedium', Arial, sans-serif;
+    }
+    .footer .azul .item{
+        float: none;
+        width: 100%;
+    }
+    .footer .azul .item br{
+        display: none;
+    }
+}
+@media screen and (max-width: 600px){
+    .topo .logo img{
+        max-width: 70%;
+    }
+    .topo .right h1{
+        font-size: 23px;
+    }
+    .topo .right h2{
+        font-size: 18px !important;
+    }
+    .topo .right p{
+        font-size: 16px !important;
+    }
+    .discount .right-column h2{
+        font-size: 18px;
+        line-height: 1.2em;
+    }
+    .discount .right-column strong{
+        font-size: 32px !important;
+        line-height: 1em !important;
+    }
+    .discount .right-column p{
+        font-size: 18px !important;
+        line-height: 1.2em !important;
+    }
+    .discount .right-column label{
+        font-size: 18px !important;
+    }
+    .discount .right-column select{
+        padding: 6px 0 0 10px !important;
+    }
+    .discount .right-column button{
+        padding: 22px 0;
+        text-align: center;
+        display: block;
+        width: 100%;
+    }
+}

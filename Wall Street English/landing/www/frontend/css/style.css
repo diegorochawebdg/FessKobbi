@@ -2,7 +2,7 @@ body {
     background: #003768;
     padding-bottom: 125px;
 }
-*{
+* {
     -webkit-font-smoothing: antialiased;
 }
 label {
@@ -11,32 +11,26 @@ label {
     display: block;
     padding: 5px 0;
 }
-
 .main {
     padding-bottom: 125px;
     float: left;
     width: 100%;
 }
-
 .container {
     width: 940px;
     padding: 0 15px;
     margin: 0 auto;
 }
-
 .row {
     width: 100%;
     float: left;
     clear: both;
 }
-
 .clear {
     width: 100%;
     clear: both;
     float: left;
 }
-
-
 .transparente {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
     filter: alpha(opacity=20);
@@ -44,7 +38,6 @@ label {
     -khtml-opacity: 0.2;
     opacity: 0.2;
 }
-
 .sep {
     width: 100%;
     float: left;
@@ -53,44 +46,36 @@ label {
     clear: both;
     margin: 60px 0;
 }
-
 .titulo {
     font-size: 22px;
     color: #FFF;
 }
-
 .titulo span {
     font-size: inherit;
     color: #899ebf;
     padding-right: 15px;
 }
-
 .subtitulo {
     font-size: 20px;
     font-weight: bold;
     color: #899ebf;
     line-height: 38px;
 }
-
 .dados {
     padding: 60px 0 0 0;
 }
-
 .dados .titulo {
     margin-bottom: 15px;
 }
-
 .dados p.input {
     float: left;
     margin-right: 30px;
 }
-
 .dados p.last {
     margin: 0;
     width: 195px;
     position: relative;
 }
-
 .dados p.input input {
     border: none;
     background: #FFF;
@@ -98,11 +83,9 @@ label {
     padding: 17px 10px;
     width: 195px;
 }
-
 .dados p.input input#telefone {
     width: 160px;
 }
-
 .dados p.input .customSelectTopo {
     background: url("../images/bg-select-top.jpg") no-repeat;
     width: 188px;
@@ -115,28 +98,23 @@ label {
     border: none;
     left: 0;
 }
-
 .dados p.input .customSelectTopo option {
     background: #FFF;
 }
-
 .customSelectTopoInner {
     width: 100% !important;
 }
-
 .confirmar {
     float: right;
     width: 290px;
     margin: 20px 11px 0 0;
 }
-
 .confirmar label {
     color: #ffffff;
     float: left;
     line-height: 36px;
     margin-left: 10px;
 }
-
 .confirmar a {
     float: left;
     width: 138px;
@@ -150,7 +128,6 @@ label {
     display: block;
     font-weight: bold;
 }
-
 .erro {
     display: none;
     float: left;
@@ -158,28 +135,22 @@ label {
     line-height: 36px;
     color: #ffffff;
     width: 300px;
-
 }
-
 .pergunta {
     margin: 60px 0 0 0;
     float: left;
     width: 100%;
 }
-
 .pergunta .titulo {
     margin-bottom: 25px;
 }
-
-.quiz2 .respostas{
+.quiz2 .respostas {
     font-size: 16px;
 }
-
 .respostas {
     font-size: 26px;
     color: #003768;
 }
-
 .respostas div {
     border: 2px solid #899ebf;
     background: #e8ecf2;
@@ -191,24 +162,22 @@ label {
     position: relative;
     cursor: pointer;
 }
-
 .transparente .respostas div {
     cursor: default;
 }
-
 .respostas.full div {
     width: 846px;
     text-align: left;
     padding: 17px 0 17px 70px;
 }
-
 .respostas span {
     background: url("../images/bg-alternativa.png") no-repeat;
     width: 27px;
     height: 27px;
     display: block;
     line-height: 27px;
-    font-size: 16px; color: #FFF;
+    font-size: 16px;
+    color: #FFF;
     font-family: Arial;
     position: absolute;
     top: 50%;
@@ -216,12 +185,10 @@ label {
     margin-top: -14px;
     text-align: center;
 }
-
 .respostas .selecionada {
     background: #96b6d2;
     border-color: #002555;
 }
-
 .resultado {
     display: none;
     margin-top: 60px;
@@ -230,25 +197,21 @@ label {
     float: left;
     padding: 45px 0 45px;
 }
-
 .resultado .left {
     width: 435px;
     float: left;
     padding-bottom: 30px;
 }
-
 .resultado .right {
     width: 400px;
     float: right;
     border: 1px solid #003768;
     padding: 50px 10px 50px 60px;
 }
-
 .resultado .pontuacao {
     color: #003768;
     font-size: 36px;
 }
-
 .resultado .faca span,
 .resultado .pontuacao span.acertou {
     font-size: 16px;
@@ -256,29 +219,24 @@ label {
     font-weight: bold;
     display: block;
 }
-
 .resultado .info {
     color: #003768;
     font-size: 14px;
     display: none;
 }
-
 .resultado .faca {
     font-size: 26px;
     color: #003768;
 }
-
 .resultado .faca span {
     margin: 10px 0;
 }
-
 .endereco {
     display: none;
     font-size: 14px;
     color: #003768;
     padding: 15px 0;
 }
-
 a.mapa {
     color: #003768;
     text-decoration: none;
@@ -288,15 +246,12 @@ a.mapa {
     display: block;
     margin: 14px 0 0;
 }
-
 a.mapa:hover {
     text-decoration: underline;
 }
-
 .horario {
     display: none;
 }
-
 .customSelect {
     width: 307px;
     height: 19px;
@@ -306,19 +261,9 @@ a.mapa:hover {
     color: #003768;
     cursor: pointer;
 }
-.customSelect.customSelectHover {
-    /* Styles for when the select box is hovered */
-}
-.customSelect.customSelectOpen {
-    /* Styles for when the select box is open */
-}
-.customSelect.customSelectFocus {
-    /* Styles for when the select box is in focus */
-}
 .customSelectInner {
     width: 100% !important;
 }
-
 .selectHorario {
     background: url("../images/bg-select-small.png");
     width: 119px;
@@ -330,11 +275,9 @@ a.mapa:hover {
     float: left;
     border: none;
 }
-
 #horario {
     left: 0;
 }
-
 #datepicker {
     background: url("../images/bg-select-small.png");
     width: 119px;
@@ -342,20 +285,16 @@ a.mapa:hover {
     padding: 22px 20px 20px;
     border: none;
     float: left;
-
 }
-
 .ui-datepicker {
     z-index: 100 !important;
     font-size: 12px !important;
 }
-
 #loading1 {
     float: right;
     margin: 30px 22px 0 0;
     display: none;
 }
-
 #loading2 {
     width: 347px;
     height: 32px;
@@ -366,7 +305,6 @@ a.mapa:hover {
     left: 0;
     z-index: 10;
 }
-
 .botao {
     position: relative;
     width: 349px;
@@ -374,7 +312,6 @@ a.mapa:hover {
     margin-top: 10px;
     float: left;
 }
-
 button.agendar {
     color: #FFF;
     background: #003768;
@@ -387,26 +324,22 @@ button.agendar {
     left: 0;
     z-index: 20;
 }
-
 .espaco {
     width: 100%;
     float: left;
 }
-
 .finalizar {
     margin-top: 50px;
     width: 100%;
     float: left;
     display: none;
 }
-
 .finalizar .holder {
     width: 192px;
     height: 46px;
     margin: 0 auto;
     position: relative;
 }
-
 .finalizar a {
     width: 188px;
     padding: 10px 0;
@@ -423,7 +356,6 @@ button.agendar {
     left: 0;
     z-index: 20;
 }
-
 .finalizar img {
     position: absolute;
     left: 50%;
@@ -432,7 +364,6 @@ button.agendar {
     z-index: 10;
     display: none;
 }
-
 .horario-holder {
     width: 159px;
     height: 61px;
@@ -440,8 +371,6 @@ button.agendar {
     float: left;
     margin-left: 28px;
 }
-
-
 .footer {
     display: none;
     position: fixed;
@@ -453,7 +382,6 @@ button.agendar {
     overflow: hidden;
     z-index: 100;
 }
-
 .footer .contador {
     color: #FFF;
     font-size: 16px;
@@ -461,11 +389,9 @@ button.agendar {
     text-align: center;
     padding: 42px 0 10px;
 }
-
 .footer ul {
     display: block;
 }
-
 .footer li {
     width: 50px;
     border: 2px solid #FFF;
@@ -476,24 +402,20 @@ button.agendar {
     margin-left: 1px;
     cursor: pointer;
 }
-
 .footer li.ativo {
     background: #275885;
 }
-
 .footer .setas {
-    width:120px;
+    width: 120px;
     position: absolute;
     right: 3%;
     top: 30px;
 }
-
 .footer .logo {
     position: absolute;
     left: 3%;
     top: 14px;
 }
-
 .footer .setas .up {
     display: block;
     float: left;
@@ -501,11 +423,16 @@ button.agendar {
     height: 51px;
     background: url("../images/setas.png") top right no-repeat;
 }
-
 .footer .setas .down {
     display: block;
     float: right;
     width: 51px;
     height: 51px;
     background: url("../images/setas.png") top left no-repeat;
+}
+
+/*************Thank you | Discount**************/
+.clear{
+    clear: both;
+    float: none;
 }

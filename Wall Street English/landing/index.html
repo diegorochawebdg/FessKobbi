@@ -3,10 +3,13 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="language" content="pt-br" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="www/frontend/css/reset.css" />
     <link rel="stylesheet" type="text/css" href="www/frontend/css/fonts.css" />
     <link rel="stylesheet" type="text/css" href="www/frontend/css/home.css" />
-    <script src="www/frontend/js/jquery.js"></script>
+    <link rel="stylesheet" href="www/frontend/css/responsible-home.css" media="screen and (max-width: 960px)" />
+    <script type="text/javascript" src="www/frontend/js/jquery.js"></script>
+    <script type="text/javascript" src="www/frontend/js/responsive-img.min.js"></script>
     <title>Wall Street English: Inglês para negócios</title>
     <script>
         $(document).ready(function(){
@@ -37,21 +40,16 @@
 <div class="main">
     <div class="topo">
         <div class="logo">
-            <img src="www/frontend/images/logotipo.png" alt="" />        </div>
+            <img src="www/frontend/images/logotipo.png" width="329" height="233" alt="Logotipo Wall Street English" title="Wall Street English" />        
+        </div>
         <div class="right">
             <h1>
                 NÓS SABEMOS PORQUE <br />
-                 VOCÊ NÃO APRENDEU <br />
-                 A FALAR INGLÊS.
+                VOCÊ NÃO APRENDEU <br />
+                A FALAR INGLÊS.
             </h1>
             <h2>WALL STREET ENGLISH: INGLÊS PARA NEGÓCIOS.</h2>
-            <p>
-                Somos únicos no ensino de inglês para adultos, por isso entendemos sua dificuldade
-                para aprender em outras instituições. Com mais de 40 anos no mercado e uma metodologia
-                exclusiva no Brasil. Aqui, você vive o Inglês o tempo todo, escolhe onde e quando quer
-                estudar, aprende no seu ritmo e pratica em turmas de até 4 pessoas com o mesmo nível
-                de conhecimento.
-            </p>
+            <p>Somos únicos no ensino de inglês para adultos, por isso entendemos sua dificuldade para aprender em outras instituições. Com mais de 40 anos no mercado e uma metodologia exclusiva no Brasil. Aqui, você vive o Inglês o tempo todo, escolhe onde e quando quer estudar, aprende no seu ritmo e pratica em turmas de até 4 pessoas com o mesmo nível de conhecimento.</p>
         </div>
     </div>
 
@@ -98,7 +96,7 @@
                         <div class="clear"></div>
                         <button name="iniciar" id="iniciar">Iniciar teste</button>
                     </form>
-                    <small><sup>*</sup>Incididunt summis quis eu nisi iis elit incididunt aliquip, expetendis et vidisse, dolor vidisse</small>
+                    <small><sup>*</sup>Incididunt summis quis eu nisi iis elit incididunt aliquip, expetendis et vidisse, dolor vidisse Incididunt summis quis eu nisi iis elit incididunt aliquip, expetendis et vidisse, dolor vidisse Incididunt summis quis eu nisi iis elit incididunt</small>
                 </div>
             </div>
             <div class="clear"></div>
@@ -108,9 +106,38 @@
 
 <div class="footer">
     <div class="imagem">
-        <img src="www/frontend/images/imagens-home.jpg" alt="" />    </div>
+        <!--<img src="www/frontend/images/imagens-home.jpg" alt="" />-->    
+        <img alt="" title="" data-src-base="www/frontend/images/" 
+             data-src="<480:imagens-home-smallest.jpg,
+             <768:imagens-home-small.jpg,
+             <960:imagens-home-medium.jpg,
+             >960:imagens-home.jpg" 
+             src="www/frontend/images/imagens-home.jpg">
+    </div>
     <div class="azul">
-        <img src="www/frontend/images/icones-footer.png" alt="" />    </div>
+        <!--<img src="www/frontend/images/icones-footer.png" alt="" />-->
+        <div class="item">
+            <div class="relative item1">
+                <span >28 países <br>450centros <br>2 milhões de alunos <br>formados</span>
+            </div>
+        </div>
+        <div class="item">
+            <div class="relative item2">
+                <span>Estude a hora <br>que quiser</span>
+            </div>
+        </div>
+        <div class="item">
+            <div class="relative item3">
+                <span>Especializada <br>no ensino <br>de inglês</span>
+            </div>
+        </div>
+        <div class="item">
+            <div class="relative item4">
+                <span>Tenha contato <br>com mais de 40 tipos <br>de sotaques</span>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
 </div>
 
 <script type="text/javascript">

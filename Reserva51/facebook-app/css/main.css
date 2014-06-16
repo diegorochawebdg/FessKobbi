@@ -1,0 +1,121 @@
+@charset="utf-8";
+
+/*Reset Css*/
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    -webkit-font-smoothing: antialiased;
+    background-repeat: no-repeat;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body, html{
+    width: 100%;
+    height: 100%;
+}
+img{
+    display: block;
+}
+a{
+    display: block;
+    text-decoration: none;
+}
+.clear{
+    clear: both;
+    float: none !important;
+}
+.animate{
+    -webkit-transition: all 200ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+    -moz-transition: all 200ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+    -o-transition: all 200ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+    transition: all 200ms cubic-bezier(0.250, 0.100, 0.250, 1.000);
+}
+.font{
+    font-family: "Book Antiqua", Palatino, serif;
+    font-weight: normal;
+}
+.absolute{
+    position: absolute;
+}
+
+/*Main Css*/
+#container{
+    width: 808px;
+    height: 822px;
+    background: url(../images/bg.jpg) no-repeat;
+    margin: 0 auto;
+    position: relative;
+}
+#container h1{
+    color: #FFF;
+    font-size: 43px;
+    text-transform: uppercase;
+    text-align: center;
+    top: 108px;
+    left: 0px;
+    width: 100%;
+    text-shadow: #000 3px 3px 15px;
+}
+#container .price{
+    left: 330px;
+    top: 315px;
+    text-align: center;
+    width: 430px;
+}
+#container .price h2{
+    text-transform: uppercase;
+    color: #492005;
+    font-size: 31px;
+    line-height: 1em;
+    margin-bottom: 15px;
+}
+#container .price p{
+    color: #085829;
+    font-size: 21px;
+    line-height: 1em;
+    margin: 20px 0;
+}
+#container .price p strong{
+    text-transform: uppercase;
+}
+#container .price a{
+    text-transform: uppercase;
+    color: white;
+    font-size: 21px;
+    font-weight: bold;
+    margin: 20px auto;
+    background: url(../images/bg-compre.png);
+    width: 340px;
+    height: 48px;
+    padding-top: 18px;
+    display: table;
+}
+#container .price a:hover{
+    opacity: 0.7;
+}
+#container .slogan{
+    left: 311px;
+    top: 615px;
+    width: 370px
+}
+#container .slogan *{
+    color: #FFF;
+    text-shadow: #000 3px 3px 15px;
+}
+#container .slogan h2{
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-size: 30px;
+}
+#container .slogan h3{
+    font-size: 20.5px;
+}
+#container small{
+    font-size: 12px;
+    text-align: right;
+    bottom: 51px;
+    right: 51px;
+    color: #FFF;
+    text-shadow: #000 3px 3px 15px;
+}
