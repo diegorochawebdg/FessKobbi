@@ -1,0 +1,63 @@
+/*Smaller than 960px*/
+@media screen and (max-width: 960px){
+    .discount .left h2{
+        font-size: 62px;
+    }
+    .discount .left h2 span.item1{
+        font-size: 31px;
+    }
+    .discount .left h2 span.item2{
+        font-size: 43px;
+    }
+    .discount .left p{
+        font-size: 18px;
+    }
+    .discount .right h3{
+        font-size: 23px;
+    }
+}
+
+/*Smaller than an iPad*/
+@media screen and (max-width: 767px){
+    .discount .left, .discount .right{
+        float: none;
+        width: 100%;
+    }
+    .discount .left h2{
+        margin: 20px auto;
+        display: table;
+    }
+    .discount .left p{
+        margin-bottom: 40px;
+    }
+    .discount .right h3, .discount .right address{
+        display: table;
+        margin: 0 auto 20px auto;
+    }
+}
+
+/*Small devices*/
+@media screen and (max-width: 600px){
+    .respostas div{
+        width: 75% !important;
+        padding: 17px 10% 17px 15% !important;
+        margin: 0 0 20px 0;
+    }
+    .discount .left h2 {
+        font-size: 51px !important;
+    }
+    .discount .left h2 span.item1 {
+        font-size: 23px !important
+    }
+    .discount .left h2 span.item2 {
+        font-size: 35px !important;
+    }
+    .discount .right h3{
+        font-size: 19px !important;
+    }
+    .discount .right .select{
+        float: none !important;
+        width: 96% !important;
+        padding: 0 2% !important;
+    }
+}
