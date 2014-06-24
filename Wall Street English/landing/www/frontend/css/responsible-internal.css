@@ -30,27 +30,47 @@
     .discount .left p{
         margin-bottom: 40px;
     }
-    .discount .right h3, .discount .right address{
+    /*.discount .right h3, .discount .right address{
         display: table;
         margin: 0 auto 20px auto;
-    }
+    }*/
 }
 
 /*Small devices*/
 @media screen and (max-width: 600px){
+    .titulo, .subtitulo{
+        text-transform: none !important;
+    }
+    .titulo{
+        font-size: 20px;
+        margin-bottom: 5px !important;
+    }
+    .row{
+        padding: 15px 0 !important;
+    }
+    .subtitulo{
+        font-size: 18px;
+    }
     .respostas div{
         width: 75% !important;
         padding: 17px 10% 17px 15% !important;
         margin: 0 0 20px 0;
+        font-size: 16px;
     }
     .discount .left h2 {
-        font-size: 51px !important;
+        font-size: 27px !important;
+        line-height: 1.2em !important;
+        font-weight: bold;
     }
-    .discount .left h2 span.item1 {
-        font-size: 23px !important
+    .discount .left h2 br{
+        display: none;
     }
-    .discount .left h2 span.item2 {
-        font-size: 35px !important;
+    .discount .left h2 span.item1, .discount .left h2 span.item2 {
+        font-size: inherit !important;
+        display: inline;
+    }
+    .discount .left p{
+        text-transform: none !important;
     }
     .discount .right h3{
         font-size: 19px !important;
@@ -59,5 +79,17 @@
         float: none !important;
         width: 96% !important;
         padding: 0 2% !important;
+    }
+    .discount .img img{
+        max-width: 35%;
+    }
+    #datepicker{
+        width: 96% !important;
+    }
+    .botao{
+        margin-bottom: 20px;
+    }
+    .discount a.bottom-link{
+        text-align: center;
     }
 }

@@ -6,8 +6,11 @@
 }
 .main {
     max-width: 960px;
-    padding: 45px 15px;
+    padding: 45px 15px 20px 15px;
     margin: 0 auto;
+}
+.vendedor-mobile{
+    display: none;
 }
 .topo {
     float: left;
@@ -92,7 +95,7 @@ iframe {
 
 .discount {
     background: #f04237;
-    padding: 45px 0;
+    padding: 20px 0;
     position: relative;
 }
 .discount .content-center {
@@ -149,12 +152,10 @@ iframe {
 }
 .discount .right-column .field {
     float: left;
-    width: 23%;
-    margin-right: 2.6%;
+    width: 48%;
     display: block;
 }
 .discount .right-column .field.last {
-    margin-right: 0;
     float: right;
 }
 .discount .right-column .field label {
@@ -204,7 +205,7 @@ iframe {
     text-transform: uppercase;
     background: #1e4d7a;
     display: table;
-    margin: 0 auto 30px auto;
+    margin: 30px auto;
     -webkit-transition: all 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000);
     -moz-transition: all 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000);
     -o-transition: all 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000);
@@ -229,24 +230,27 @@ iframe {
 .footer .imagem img {
     width: 100%;
 }
-.footer .azul {
+.azul {
     background: #0f2a52;
     padding: 15px;
 }
-.footer .azul .relative {
+.azul.mobile {
+    display: none;
+}
+.azul .relative {
     text-align: left;
     display: table;
     min-height: 60px;
 }
-.footer .azul .relative.item1,
-.footer .azul .relative.item2 {
+.azul .relative.item1,
+.azul .relative.item2 {
     padding-left: 50px;
 }
-.footer .azul .relative.item3,
-.footer .azul .relative.item4 {
+.azul .relative.item3,
+.azul .relative.item4 {
     padding-left: 62px;
 }
-.footer .azul span {
+.azul span {
     color: #FFF;
     display: table-cell;
     vertical-align: middle;
@@ -255,19 +259,19 @@ iframe {
     font-family: 'avenirheavy';
     font-size: 13px;
 }
-.footer .azul .item {
+.azul .item {
     float: left;
     width: 25%;
 }
-.footer .azul .item .item1 {
+.azul .item .item1 {
     background: url(../images/footer-1.png) no-repeat 0 center;
 }
-.footer .azul .item .item2 {
+.azul .item .item2 {
     background: url(../images/footer-2.png) no-repeat 0 center;
 }
-.footer .azul .item .item3 {
+.azul .item .item3 {
     background: url(../images/footer-3.png) no-repeat 0 center;
 }
-.footer .azul .item .item4 {
+.azul .item .item4 {
     background: url(../images/footer-4.png) no-repeat 0 center;
 }
