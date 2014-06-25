@@ -31,7 +31,7 @@
             <div class="header-contents">
                 <!--Search form-->
                 <form>
-                    <input type="text" name="main-menu-search" id="main-menu-search" placeholder="Pesquisa">
+                    <input type="text" name="main-menu-search" id="main-menu-search" value="Pesquisa" onfocus="if (this.value==this.defaultValue) this.value = ''" onblur="if (this.value=='') this.value = this.defaultValue">
                     <button type="button" name="main-menu-search-button" id="main-menu-search-button" class="link-padding main-icons">Search</button>
                     <div class="clear"></div>
                 </form>
@@ -49,10 +49,10 @@
                     <li><a href="#" title="Como ingressar">Como ingressar</a></li>
                     <li><a href="#" title="Serviços ao aluno">Serviços ao aluno</a></li>
                     <li><a href="#" title="Revista eletrônica">Revista eletrônica</a></li>
-                    <li><a href="#" title="Programa de bolsas">Programa de bolsas</a></li>
+                    <li><a href="#" title="Programa de benefícios">Programa de benefícios</a></li>
                     <li><a href="#" title="Biblioteca">Biblioteca</a></li>
                     <li><a href="#" title="Escolas parceiras">Escolas parceiras</a></li>
-                    <li><a href="#" title="Contato">Contato</a></li>
+                    <li><a href="#" title="Blog">Blog</a></li>
                 </ul>
                 <!--End of Main menu #1-->
                 <div class="clear"></div>
@@ -66,7 +66,7 @@
             <div class="content-center">
                 <ul>
                     <li class="o-instituto">
-                        <a href="#" title="O Instituto">O Instituto</a>
+                        <a href="#" title="O Singularidades">O Singularidades</a>
                         <div class="submenu">
                             <div class="submenu-padding">
                                 <div class="left">

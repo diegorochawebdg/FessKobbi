@@ -62,6 +62,16 @@
         <p>Proident quid ut vidisse efflorescere, ne malis offendit reprehenderit. Probant dolore doctrina excepteur, irure reprehenderit ingeniis multos probant, excepteur ubi fore e et sint in quorum, se culpa transferrem ex minim incurreret. Proident quid ut vidisse efflorescere, ne malis offendit reprehenderit. Probant dolore doctrina excepteur, irure reprehenderit ingeniis multos probant, excepteur ubi fore e et sint in quorum, se culpa transferrem ex minim incurreret. Proident quid ut vidisse efflorescere, ne malis offendit reprehenderit. Probant dolore doctrina excepteur, irure reprehenderit ingeniis multos probant, excepteur ubi fore e et sint in quorum, se culpa transferrem ex minim incurreret. Proident quid ut vidisse efflorescere, ne malis offendit reprehenderit. Probant dolore doctrina excepteur, irure reprehenderit ingeniis multos probant, excepteur ubi fore e et sint in quorum, se culpa transferrem ex minim incurreret.</p>
         <p>Proident quid ut vidisse efflorescere, ne malis offendit reprehenderit. Probant dolore doctrina excepteur, irure reprehenderit ingeniis multos probant, excepteur ubi fore e et sint in quorum, se culpa transferrem ex minim incurreret. Proident quid ut vidisse efflorescere, ne malis offendit reprehenderit. Probant dolore doctrina excepteur, irure reprehenderit ingeniis multos probant, excepteur ubi fore e et sint in quorum, se culpa transferrem ex minim incurreret. Proident quid ut vidisse efflorescere, ne malis offendit reprehenderit. Probant dolore doctrina excepteur, irure reprehenderit ingeniis multos probant, excepteur ubi fore e et sint in quorum, se culpa transferrem ex minim incurreret. Proident quid ut vidisse efflorescere, ne malis offendit reprehenderit. Probant dolore doctrina excepteur, irure reprehenderit ingeniis multos probant, excepteur ubi fore e et sint in quorum, se culpa transferrem ex minim incurreret.</p>
         
+        <!--Professores responsáveis-->
+        <h3>Professores responsáveis:</h3>
+        <ul class="professores-responsaveis">
+            <li>
+                <img src="http://placehold.it/90x90">
+                
+            </li>
+        </ul>
+        <!--End of Professores responsáveis-->
+        
     </div>
     <!--End of Right-->
     <div class="clear"></div>

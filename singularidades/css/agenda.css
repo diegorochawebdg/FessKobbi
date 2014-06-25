@@ -4,6 +4,9 @@
 .right .left-column{
     width: 100% !important;
 }
+.right ul{
+    margin-bottom: 50px;
+}
 .right .left-column li div{
     padding: 23px 50px !important;
 }

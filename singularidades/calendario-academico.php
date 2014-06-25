@@ -10,12 +10,12 @@
         <span>></span>
         <a href="#" title="o instituto">graduação</a>
         <span>></span>
-        <span>agenda</span>
+        <span>calendário acadêmico</span>
     </div>
     <!--Path-->
     <!--Title-->
     <div class="title">
-        <h1>Graduação / <strong>Agenda</strong></h1>
+        <h1>Graduação / <strong>Calendário acadêmico</strong></h1>
     </div>
     <!--End of Title-->
     
@@ -60,6 +60,7 @@
         <div class="text">
             <!--Left Column-->
             <div class="left-column">
+                <h2>1º Semestre 2014</h2>
                 <ul>
                     <li>
                         <a href="#" title="Janeiro de 2014">Janeiro de 2014</a>
@@ -247,37 +248,10 @@
                             </table>
                         </div>
                     </li>
-                    <li>
-                        <a href="#" title="Julho de 2014">Julho de 2014</a>
-                        <div>
-                            <table cellpadding="0" cellspacing="0" border="0" width="100%">
-                                <tr>
-                                    <td class="first">30(4<sup>a</sup>-feira bla bla)</td>
-                                    <td class="second">&bull; Quem officia litteris do admodum et deserunt, malis Quem officia litteris do admodum et deserunt, malis</td>
-                                </tr>
-                                <tr>
-                                    <td class="first">1(4<sup>a</sup>-feira)</td>
-                                    <td class="second">&bull; Quem officia litteris do admodum et deserunt, malis</td>
-                                </tr>  
-                                <tr>
-                                    <td class="first">1(4<sup>a</sup>-feira)</td>
-                                    <td class="second">&bull; Quem officia litteris do admodum et deserunt, malis</td>
-                                </tr>  
-                                <tr>
-                                    <td class="first">1(4<sup>a</sup>-feira)</td>
-                                    <td class="second">&bull; Quem officia litteris do admodum et deserunt, malis</td>
-                                </tr>  
-                                <tr>
-                                    <td class="first">1(4<sup>a</sup>-feira)</td>
-                                    <td class="second">&bull; Quem officia litteris do admodum et deserunt, malis</td>
-                                </tr>  
-                                <tr>
-                                    <td class="first">1(4<sup>a</sup>-feira)</td>
-                                    <td class="second">&bull; Quem officia litteris do admodum et deserunt, malis</td>
-                                </tr>  
-                            </table>
-                        </div>
-                    </li>
+                </ul>
+                
+                <h2>2º Semestre 2014</h2>
+                <ul>
                     <li>
                         <a href="#" title="Agosto de 2014">Agosto de 2014</a>
                         <div>

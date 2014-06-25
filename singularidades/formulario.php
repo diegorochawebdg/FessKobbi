@@ -46,9 +46,32 @@
             <form>
                 <input type="text" name="nome" id="nome" value="Nome:" onfocus="if (this.value==this.defaultValue) this.value = ''" onblur="if (this.value=='') this.value = this.defaultValue" class="left-input" required>
                 <input type="email" name="email" id="email" value="E-mail:" onfocus="if (this.value==this.defaultValue) this.value = ''" onblur="if (this.value=='') this.value = this.defaultValue" class="right-input" required>
-                <div class="clear"></div>
                 <input type="tel" name="tel" id="tel" value="Tel.: (00) 0000•0000" onfocus="if (this.value==this.defaultValue) this.value = ''" onblur="if (this.value=='') this.value = this.defaultValue" class="left-input" required>
-                <input type="text" name="assunto" id="assunto" value="Assunto:" onfocus="if (this.value==this.defaultValue) this.value = ''" onblur="if (this.value=='') this.value = this.defaultValue" class="right-input" required>
+                
+                <div class="select right-input">
+                    <select name="category">
+                        <option>Ingeniis transferrem</option>
+                        <option>Ingeniis transferrem</option>
+                        <option>Ingeniis transferrem</option>
+                        <option>Ingeniis transferrem</option>
+                    </select>
+                </div>
+                
+                <div class="select left-input">
+                    <select name="category">
+                        <option>Selecione o assunto</option>
+                        <option>Graduação</option>
+                        <option>Pós-Graduação</option>
+                        <option>Extensão</option>
+                        <option>EAD</option>
+                        <option>Assessoria Educacional</option>
+                        <option>Dúvidas</option>
+                        <option>Sugestões</option>
+                    </select>
+                </div>
+                
+                
+                <!--<input type="text" name="assunto" id="assunto" value="Assunto:" onfocus="if (this.value==this.defaultValue) this.value = ''" onblur="if (this.value=='') this.value = this.defaultValue" class="right-input" required>-->
                 <div class="clear"></div>
                 <textarea name="mensagem" id="mensagem" onfocus="if (this.value==this.defaultValue) this.value = ''" onblur="if (this.value=='') this.value = this.defaultValue" required>Mensagem:</textarea>
                 <small>* Todos os campos são obrigatórios</small>

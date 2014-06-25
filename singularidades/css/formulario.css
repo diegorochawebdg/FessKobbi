@@ -22,10 +22,28 @@
     color: #a9abae;
     font: normal 12px Arial, sans-serif;
 }
+.right form .select{
+    width: 49%;
+    height: 45px;
+    border: solid 1px #26406c;
+    margin-bottom: 15px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    background: url(../images/internals/form-select.jpg) no-repeat right center;
+}
+.right form .select select{
+    width: 120%;
+    height: 45px;
+    color: #a9abae;
+    font: normal 12px Arial, sans-serif;
+    background-color: transparent;
+    cursor: pointer;
+}
 .right form input.left-input{
     float: left;
 }
-.right form input.right-input{
+.right form input.right-input, .right form .select.right-input{
     float: right;
 }
 .right form textarea{
