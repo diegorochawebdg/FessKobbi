@@ -1,121 +1,173 @@
 @charset "UTF-8";
-@font-face {
-    font-family: ‘Helvetica Neue’;
-    src: url(‘../fonts/HelveticaNeueBold.eot’);
-    src: url(‘../fonts/HelveticaNeueBold?#iefix’) format(‘embedded-opentype’),
-        url(‘../fonts/HelveticaNeueBold.svg#HelveticaNeueBold’) format(‘svg’),
-        url(‘../fonts/HelveticaNeueBold.ttf’) format(‘truetype’);
-    font-weight: bold;
-    font-style: normal;
-}
-.font{
-    font-family: 'Helvetica Neue', sans-serif;
-}
 #content{
     overflow: hidden;
 }
 
 /*Header*/
-#header{
-    margin-bottom: 25px;
+#header .logged-user{
+    position: absolute;
+    right: 0;
+    top: 15px;
+    background: url(../images/convide/bg-logged-user.png) no-repeat;
+    width: 450px;
+    height: 49px;
+    padding: 30px 0 0 40px;
 }
-#header a{
-    margin-left: 62px;
+#header .logged-user .info, #header .logged-user img{
+    float: left;
+}
+#header .logged-user .info{
+    margin-right: 5px;
+}
+#header .logged-user img{
+    border-radius: 100%;
+    border: solid 2px white;
+    margin-top: -5px
+}
+#header .logged-user .info span.hello{
+    display: block;
+    font-size: 12px;
+    margin-bottom: 7px;
+    text-shadow: #dc9f12 1px 1px 3px;
+    
+}
+#header .logged-user .info a, #header .logged-user .info span.separator{
+    display: inline-block !important;
+    font-size: 12px;
+    text-transform: uppercase;
+    float: none;
+    color: #0d0d0d;
+}
+#header .logged-user .info span.separator{
+    margin: 0 2px;
+}
+#content .right h1{
+    margin: 16px 0 55px 0;
 }
 
-/*Left*/
+/*Numbers*/
 .left{
+    margin-bottom: 55px;
+}
+.right .numbers .item{
+    float: left;
+    width: 288px;
+    height: 144px;
+    text-align: center;
+    margin: -20px 0 0 0;
+}
+.right .numbers .item.points{
+    background: url(../images/convide/bg-pontos-acumulados.png) no-repeat;
+    margin-left: -60px !important;
+}
+.right .numbers .item.friends{
+    background: url(../images/convide/bg-amigos-convidados.png) no-repeat;
+}
+.right .numbers .item.months{
+    background: url(../images/convide/bg-meses-acumulados.png) no-repeat;
+    margin-right: -60px !important;
+}
+.right .numbers .item h3{
+    font-size: 21px;
+    text-shadow: #dda012 1px 1px 1px;
+    padding-top: 10px;
+    text-indent: -17px;
+    margin-bottom: 12px;
+}
+.right .numbers .item span{
+    font: normal 79px Lato, sans-serif;
+}
+
+/*Invite your friends*/
+h2, h3{
+    font-style: italic;
+    font-family: Helvetica Neue, sans-serif;
+}
+.invite{
+    background: #0c0c0c url(../images/convide/bg-convide.png) no-repeat center top;
+    -webkit-box-shadow: inset 0px -18px 21px -10px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    inset 0px -18px 21px -10px rgba(50, 50, 50, 0.75);
+    box-shadow:         inset 0px -18px 21px -10px rgba(50, 50, 50, 0.75);
+}
+.invite h2{
+    padding: 46px 0 40px 0;
+    color: #382908;
+    font-size: 27px;
+    text-shadow: #fcb823 1px 1px 1px
+}
+.content-center2{
+    max-width: 989px;
+    margin: 0 auto;
+}
+.invite .the-list {
+    overflow-y: scroll;
+    max-height: 470px;
+}
+.item{
     float: left;
     text-align: center;
-    width: 28.5%;
+    margin: 20px 1%;
+    width: 8%;
 }
-.left img{
+.item img{
     display: inline;
-    margin-bottom: 13px;
+    border-radius: 100%;
+    border: solid 3px #fbb813;
 }
-.left span{
-    font-size: 28px;
-    letter-spacing: -1px;
-    color: #fcc529;
-    font-weight: bold;
+.item span{
+    color: #fbb813;
+    font-size: 12px;
 }
 
-/*Right*/
-.right{
-    float: right;
-    width: 66.5%;
+/*Another Friends*/
+.another-friends{
+    padding-top: 60px;
+    background: #161616 url(../images/bg-body.png) repeat;
     position: relative;
+    z-index: 2;
+    border-top: solid 1px #292929;
+    -webkit-box-shadow: 0px 0px 45px 15px rgba(0, 0, 0, 1);
+    -moz-box-shadow:    0px 0px 45px 15px rgba(0, 0, 0, 1);
+    box-shadow:         0px 0px 45px 15px rgba(0, 0, 0, 1);
 }
-.right h1{
-    font-size: 45px;
-    margin-bottom: 28px;
+.another-friends .left-content, .another-friends .right-content{
+    width: 45%;
 }
-.right h1 strong{
-    display: block;
-    font-size: 67px;
-    font-family: inherit;
-    color: #fbb813;
-}
-.right p{
-    font-size: 14px;
-    line-height: 1.2em;
-}
-.right form{
-    position: absolute;
-    left: -46px;
-    top: 212px;
-    background: url(../images/home/faixa.png) no-repeat;
-    padding: 15px 0 0 62px;
-    width: 1169px;
-}
-.right form input[type="text"], .right form input[type="email"]{
-    background: #1e1b13;
-    height: 32px;
-    border-radius: 5px;
-    padding: 0 2%;
-    color: #fbb813;
-    font-size: 15px;
-    border: solid 1px #0a0a0a;
-    text-shadow: #000 0 0 3px;
-    width: 50%;
-    max-width: 220px;
-    margin-bottom: 53px;
-}
-.right form input[name="cpf"]{
-    margin-right: 15px;
-}
-.right form input#regulamento{
-    display: none;
-}
-.right form label{
-    display: inline-block;
-    font-size: 12px;
-    color: #fbb813;
-    padding-left: 35px;
-    background: url(../images/home/checkbox.png) no-repeat left bottom;
-    height: 15px;
-    padding-top: 3px;
-    cursor: pointer;
+.another-friends .left-content{
     float: left;
-    margin: 10px 36px 0 44px;
-    -moz-user-select: none;
-    -khtml-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+    background: url(../images/convide/bg-insista.png) no-repeat right 30px;
+    padding: 51px 50px 0 0;
 }
-.right form input#regulamento:checked + label{
-    background: url(../images/home/checkbox.png) no-repeat left top;
+.another-friends .right-content{
+    float: right;
+    background: url(../images/convide/bg-ja-matriculados.png) no-repeat left top;
 }
-.right form label a{
-    display: inline-block;
-    color: inherit;
-    text-decoration: underline;
+.another-friends .item{
+    width: 23%;
 }
-.right form button{
-    background: url(../images/home/entrar.png) no-repeat;
-    width: 146px;
-    padding-top: 39px;
-    float: left;
-    cursor: pointer;
+.another-friends .the-friends{
+    width: 400px;
+    max-height: 460px;
+    position: relative;
+    overflow-y: scroll;
+}
+.another-friends h2{
+    color: #382908;
+    font-size: 24px;
+    text-shadow: #fcb823 1px 1px 1px;
+    width: 100%;
+}
+ .another-friends .left-content .the-friends{
+    float: right;
+}
+.another-friends .left-content h2{
+    margin-bottom: 38px;
+    text-align: right;
+}
+.another-friends .right-content{
+    padding: 50px 0 0 26px;
+}
+.another-friends .right-content h2{
+    padding-left: 16px;
+    margin-bottom: 40px;
 }
