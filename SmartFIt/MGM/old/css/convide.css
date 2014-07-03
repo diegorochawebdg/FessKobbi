@@ -9,7 +9,7 @@
     right: 0;
     top: 15px;
     background: url(../images/convide/bg-logged-user.png) no-repeat;
-    width: 280px;
+    width: 450px;
     height: 49px;
     padding: 30px 0 0 40px;
 }
@@ -41,79 +41,41 @@
 #header .logged-user .info span.separator{
     margin: 0 2px;
 }
-
-.main-content{
-    float: left;
+#content .right h1{
+    margin: 16px 0 55px 0;
 }
 
 /*Numbers*/
-.numbers{
-    float: right;
-    margin: 105px -54px 0 0;
+.left{
+    margin-bottom: 55px;
 }
-.numbers div{
+.right .numbers .item{
+    float: left;
     width: 288px;
-    height: 140px;
+    height: 144px;
     text-align: center;
-    padding-top: 14px;
+    margin: -20px 0 0 0;
 }
-.numbers .amigos{
+.right .numbers .item.points{
+    background: url(../images/convide/bg-pontos-acumulados.png) no-repeat;
+    margin-left: -60px !important;
+}
+.right .numbers .item.friends{
     background: url(../images/convide/bg-amigos-convidados.png) no-repeat;
 }
-.numbers .mensalidades{
-    background: url(../images/convide/bg-mensalidades-free.png) no-repeat;
-    margin: 0 0 10px 30px;
+.right .numbers .item.months{
+    background: url(../images/convide/bg-meses-acumulados.png) no-repeat;
+    margin-right: -60px !important;
 }
-.numbers div h3{
-    font: bold italic 21px 'Helvetica Neue', sans-serif;
-    text-shadow: #ae7a1d -1px -1px 2px;
-    margin-bottom: 10px;
+.right .numbers .item h3{
+    font-size: 21px;
+    text-shadow: #dda012 1px 1px 1px;
+    padding-top: 10px;
+    text-indent: -17px;
+    margin-bottom: 12px;
 }
-.numbers .mensalidades h3{
-    text-indent: 20px
-}
-.numbers div span{
-    font: normal 79px 'Lato', sans-serif;
-    margin-bottom: 20px;
-}
-.numbers small{
-    font-size: 10px;
-    text-align: right;
-    margin-right: 45px;
-    display: block;
-}
-
-/*Steps*/
-.steps{
-    position: absolute;
-    right: 50%;
-    top: 390px;
-    margin-right: -215px;
-    width: 60%;
-}
-.steps .steps-content{
-    float: right;
-}
-.steps .steps-content .step{
-    float: left;
-    margin-left: 95px;
-    max-width: 250px;
-}
-.steps .steps-content .step:first-child{
-    margin-left: 0;
-}
-.steps .steps-content .step.one{
-    width: 105px;
-}
-.steps .steps-content .step.three{
-    width: 140px;
-}
-.steps .steps-content .step img{
-    margin-bottom: 10px;
-}
-.steps .steps-content .step p{
-    font: bold 12px 'Helvetica Neue', sans-serif;
-    text-transform: uppercase;
+.right .numbers .item span{
+    font: normal 79px Lato, sans-serif;
 }
 
 /*Invite your friends*/
@@ -155,24 +117,6 @@ h2, h3{
 .item span{
     color: #fbb813;
     font-size: 12px;
-}
-
-.item .friend-img{
-    position: relative;
-}
-.item .friend-img .invited{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: url(../images/convide/invited.png) no-repeat center;
-    display: none;
-}
-.item.invited .friend-img img, .item.invited span{
-    opacity: 0.6;
-}
-.item.invited .friend-img .invited{
-    display: block;
-    z-index: 2;
 }
 
 /*Another Friends*/
@@ -219,19 +163,11 @@ h2, h3{
 .another-friends .left-content h2{
     margin-bottom: 38px;
     text-align: right;
-    margin-left: -120px;
 }
 .another-friends .right-content{
-    padding: 37px 0 0 26px;
+    padding: 50px 0 0 26px;
 }
 .another-friends .right-content h2{
     padding-left: 16px;
-    margin-bottom: 8px;
-    margin-top: 0 !important;
-}
-.another-friends .right-content h3{
-    padding-left: 16px;
-    margin-bottom: 30px;
-    color: #382908;
-    font-size: 14px;
+    margin-bottom: 40px;
 }

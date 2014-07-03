@@ -70,41 +70,56 @@ a:hover{
         transition: all 200ms cubic-bezier(0.250, 0.100, 0.250, 1.000);
 }
 .content-center{
-    max-width: 975px;
+    max-width: 1120px;
     padding: 0 15px;
     margin: 0 auto;
 }
 /*End of Reset Css*/
 
 #container{
-    padding: 35px 0 50px 0;
+    padding: 15px 0 100px 0;
 }
 
 /*Header*/
 #header{
     margin-bottom: 25px;
-    color: #fbb813;
 }
-#header .main-content{
-    display: table;
-    margin: 0 auto;
+#header a.logo{
+    margin-left: 62px;
 }
-#header .main-content h2{
-    text-transform: uppercase;
-    font-size: 22px;
+
+/*Left*/
+.left{
     float: left;
-    line-height: 1.1em;
-    margin-top: 15px;
+    text-align: center;
+    width: 28.5%;
 }
-#header .main-content h2 strong{
-    display: block;
-    font-size: 45px;
-    color: #fbb813;
-    font-family: inherit;
+.left img{
+    display: inline;
+    margin-bottom: 13px;
 }
-#header .main-content img.adesao{
+.left span{
+    font-size: 28px;
+    letter-spacing: -1px;
+    color: #fcc529;
+    font-weight: bold;
+}
+
+/*Right*/
+.right{
     float: right;
-    margin-right: 20px;
+    width: 66.5%;
+    position: relative;
+}
+.right h1{
+    font-size: 45px;
+    margin-bottom: 28px;
+}
+.right h1 strong{
+    display: block;
+    font-size: 67px;
+    font-family: inherit;
+    color: #fbb813;
 }
 
 /*Footer*/
@@ -121,7 +136,7 @@ a:hover{
     font-size: 11px;
     background: url(../images/smart-fit-footer.png) no-repeat;
     height: 18px;
-    padding-left: 5px;
+    padding: 5px 0 0 70px;
     display: table;
     margin: 0 auto;
 }

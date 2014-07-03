@@ -3,14 +3,15 @@
 <html lang="pt-br">
 
 <head>
-    <title>Você escolhe quemganha adesão e ainda treina de graça | Smart Fit</title>
+    <title>&#35;fitfriend | Smart Fit</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="description" content="">
     <meta name="keywords" lang="pt-br" content="">
     <meta name="Author" content="Fess'Kobbi">
     <link href="favicon.png" rel="icon" type="image/x-icon" />
-    <link rel="stylesheet" href="css/main.min.css">
-    <link rel="stylesheet" href="css/home.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" media="screen and (max-width: 1150px)" href="css/responsible-home.css">
 
     <!--Scripts-->
     <!--End of Scripts-->
@@ -21,40 +22,47 @@
     <div id="container">
         <!--Header-->
         <div id="header">
-            <div class="content-center">
-                <a href="#" title="Smart Fit | A academia inteligente" class="logo"><img src="images/logotipo-smart-fit.png" width="187" height="68" alt="Logotipo Smart Fit" title="Smart Fit | A academia inteligente"></a>
+            <div class="main-content">
+                <h1><img src="images/home/fitfriend-logo.png" width="686" height="233" alt="&#35;fitfriend | Smart Fit" title="&#35;fitfriend | Smart Fit"></h1>
+                <h2 class="font">Seu amigo ganha adesão zero e <strong>você 1 mês free</strong></h2>
+                <img class="adesao" src="images/home/1-adesao-1-mensalidade.png" width="204" height="108" alt="1 adesão = 1 mensalidade" title="1 adesão = 1 mensalidade">
+                <div class="clear"></div>
             </div>
         </div>
         <!--End of Header-->
 
         <!--Content-->
         <div id="content">
-
-            <div class="content-center">
-                <!--Left-->
-                <div class="left">
-                    <img src="http://placehold.it/312x324">
-                    <span class="font">o poder de ser smart fit</span>
-                </div>
-                <!--End of Left-->
                 
-                <!--Right-->
-                <div class="right">
-                    <h1 class="font">Você escolhe quem ganha adesão <strong>e ainda treina de graça</strong></h1>
-                    <p>Se dolor ingeniis occaecat non nam ipsum comprehenderit te quae offendit a duis nulla, ea dolor singulis probant. In minim aliqua ita appellat. Dolor excepteur doctrina do ita quid noster ab quamquam. </p>
-                    
-                    <!--Form-->
-                    <form name="facebook-login">
-                        <input type="text" name="cpf" id="cpf" value="CPF" onfocus="if (this.value==this.defaultValue) this.value = ''" onblur="if (this.value=='') this.value = this.defaultValue">
-                        <input type="email" name="email" id="email" value="E-mail" onfocus="if (this.value==this.defaultValue) this.value = ''" onblur="if (this.value=='') this.value = this.defaultValue">
-                        <div class="clear"></div>
-                        <input type="checkbox" name="regulamento" id="regulamento">
-                        <label for="regulamento">Li e concordo com o <a href="#">regulamento</a></label>
-                        <button title="Entrar" class="link-padding">Entrar</button>
-                    </form>
-                    <!--End of Form-->
+            <!--Stripe-->
+            <div class="stripe">
+                <!--Form-->
+                <form name="facebook-login">
+                    <input type="text" name="cpf" id="cpf" value="CPF" onfocus="if (this.value==this.defaultValue) this.value = ''" onblur="if (this.value=='') this.value = this.defaultValue" tabindex="1">
+                    <input type="email" name="email" id="email" value="E-mail" onfocus="if (this.value==this.defaultValue) this.value = ''" onblur="if (this.value=='') this.value = this.defaultValue" tabindex="2">
+                    <input type="checkbox" name="regulamento" id="regulamento" tabindex="3">
+                    <label for="regulamento">Li e concordo <br>com o <a href="#">regulamento</a></label>
+                    <button title="Entrar" class="link-padding animate" tabindex="4">Entrar</button>
+                    <div class="clear"></div>
+                </form>
+                <!--End of Form-->
+            </div>
+            <!--End of Stripe-->
+            
+            <div class="content-center">
+                <div class="one-half first">
+                    <p class="font">Escolha entre seus amigos do Facebook aquele que você quer treinando ao seu lado sem pagar adesão.</p>
+                    <p class="font">A cada amigo matriculado você ganha 1 mês free*.</p>
+                    <a class="font" href="http://www.smartfit.com.br/blog" title="Consulte o regulamento em smartfit.com.br/blog">Consulte o regulamento em smartfit.com.br/blog</a>
                 </div>
-                <!--End of Right-->
+                <div class="one-half last">
+                    <h3 class="font">Importante:</h3>
+                    <ul>
+                        <li>Leia atentamente o regulamento em smartfit.com.br/blog</li>
+                        <li>A senha e log in  são os mesmos do Espaço do Cliente.</li>
+                        <li>Esqueceu sua Senha, <a href="#" title="Esqueci minha senha">Clique Aqui.</a></li>
+                    </ul>
+                </div>
                 <div class="clear"></div>
             </div>
 
