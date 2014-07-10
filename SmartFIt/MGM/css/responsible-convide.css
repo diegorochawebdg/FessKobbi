@@ -1,63 +1,71 @@
-@media screen and (max-width:1160px){
+@media screen and (max-width:1000px){
     #header .logged-user{
         width: 250px;
     }
-    .right h1{
-        font-size: 37px !important;
-        margin: 16px 0 67px;
+    .main-content{
+        width: 60%;
     }
-    .right h1 strong{
-        font-size: 55px;
+    #header .main-content h2, #header .main-content img.adesao{
+        float: none;
+        margin: 15px auto;
+        display: table;
     }
-    .left span{
-        font-size: 25px;
+    .steps{
+        
     }
-    
-    .right .numbers .item{
-        background-size: 100% !important;
-        width: 33%;
+    #header{
+        margin-bottom: 75px;
     }
-    .right .numbers .item.points{
-        margin-left: 0 !important;
+    .steps{
+        bottom: -77px;
+        top: inherit;
     }
-    .right .numbers .item.months{
-        margin-right: 0 !important;
-    }
-    .right .numbers .item h3{
-        font-size: 16px;
-        margin-bottom: 6px;
-        padding-top: 7px;
-    }
-    .right .numbers .item span{
-        font: 400 60px Lato,sans-serif;
-    }
-    .another-friends .left-content{
-        padding: 51px 25px 0 25px;
-    }
-    .another-friends .right-content{
-        padding: 50px 13px 0 26px !important;
-    }
-    .another-friends h2{
-        font-size: 22px;
-    }
-    .another-friends .left-content h2{
-        text-align: left;
+    .numbers{
+        margin-right: 0;
     }
 }
 @media screen and (max-width:960px){
-    #header a.logo {
-        margin-left: 20px;
+    .steps{
+        margin-right: -145px;
     }
-    .right h1{
-        font-size: 29px !important;
+    .steps .steps-content .step{
+        margin-left: 10px;
     }
-    .right h1 strong{
-        font-size: 43px !important;
+    .numbers div{
+        padding-top: 10px;
+        height: auto;
     }
-    .right .numbers .item h3{
+    .numbers div h3{
+        font-size: 17px;
+    }
+    .numbers div span{
+        font-size: 58px;
+    }
+    
+    .another-friends .the-friends{
+        width: auto;
+    }
+    .another-friends .left-content{
+        padding-right: 40px;
+    }
+    .another-friends .right-content{
+        padding-left: 40px;
+    }
+    .another-friends .left-content h2{
+        font-size: 21px;
+        margin-left: 0;
+    }
+    .another-friends .left-content .the-friends{
+        padding: 0 10px;
+    }
+    .another-friends .right-content {
+        padding: 37px 0 0 15px;
+    }
+    .another-friends .right-content h2{
+        margin-bottom: 2px;
+    }
+    .another-friends .right-content h3{
         font-size: 13px;
-    }
-    .right .numbers .item span {
-        font: 400 42px Lato,sans-serif;
+        margin-bottom: 22px;
     }
 }

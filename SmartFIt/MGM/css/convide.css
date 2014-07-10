@@ -7,7 +7,7 @@
 #header .logged-user{
     position: absolute;
     right: 0;
-    top: 15px;
+    top: -15px;
     background: url(../images/convide/bg-logged-user.png) no-repeat;
     width: 280px;
     height: 49px;
@@ -22,7 +22,9 @@
 #header .logged-user img{
     border-radius: 100%;
     border: solid 2px white;
-    margin-top: -5px
+    margin-top: -5px;
+    max-width: 43px;
+    max-height: 43px;
 }
 #header .logged-user .info span.hello{
     display: block;
@@ -44,25 +46,30 @@
 
 .main-content{
     float: left;
+    width: 68%;
 }
 
 /*Numbers*/
 .numbers{
     float: right;
     margin: 105px -54px 0 0;
+    max-width: 318px;
+    width: 32.5%;
 }
 .numbers div{
-    width: 288px;
+    width: 91%;
     height: 140px;
     text-align: center;
     padding-top: 14px;
+    background-size: 100% !important;
 }
 .numbers .amigos{
     background: url(../images/convide/bg-amigos-convidados.png) no-repeat;
 }
 .numbers .mensalidades{
     background: url(../images/convide/bg-mensalidades-free.png) no-repeat;
-    margin: 0 0 10px 30px;
+    margin-bottom: 10px;
+    float: right;
 }
 .numbers div h3{
     font: bold italic 21px 'Helvetica Neue', sans-serif;
@@ -88,15 +95,15 @@
     position: absolute;
     right: 50%;
     top: 390px;
-    margin-right: -215px;
-    width: 60%;
+    margin-right: -135px;
+    /*width: 60%;*/
 }
 .steps .steps-content{
     float: right;
 }
 .steps .steps-content .step{
     float: left;
-    margin-left: 95px;
+    margin-left: 55px;
     max-width: 250px;
 }
 .steps .steps-content .step:first-child{
@@ -155,6 +162,7 @@ h2, h3{
 .item span{
     color: #fbb813;
     font-size: 12px;
+    clear: both;
 }
 
 .item .friend-img{

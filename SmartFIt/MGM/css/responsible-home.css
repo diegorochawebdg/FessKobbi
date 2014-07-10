@@ -1,14 +1,7 @@
 @charset "UTF-8";
 
-@media all and (max-width:1150px;){
-    .right h1{
-        font-size: 37px !important;
+@media all and (max-width:960px;){
+    #content form label{
+        padding: 0 0 0 15px !important;
     }
-    .right h1 strong{
-        font-size: 55px;
-    }
-    .left span{
-        font-size: 25px;
-    }
-    
 }

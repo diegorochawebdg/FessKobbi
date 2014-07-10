@@ -84,6 +84,7 @@ a:hover{
 #header{
     margin-bottom: 25px;
     color: #fbb813;
+    position: relative;
 }
 #header .main-content{
     display: table;
@@ -119,7 +120,6 @@ a:hover{
 }
 #footer small{
     font-size: 11px;
-    background: url(../images/smart-fit-footer.png) no-repeat;
     height: 18px;
     padding-left: 5px;
     display: table;
