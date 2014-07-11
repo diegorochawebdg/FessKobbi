@@ -32,6 +32,7 @@ img{display:block; max-width:100%; height:auto;}
 textarea {overflow:auto;}
 a{text-decoration:none; display:block;}
 *{-webkit-font-smoothing:antialiased; font-family: Arial, sans-serif;}
+
 /* Shared Css */
 .link-padding{height: 0; position: relative; overflow: hidden; display: block;}
 .clear{clear:both; float:none !important;}
@@ -43,24 +44,24 @@ a{text-decoration:none; display:block;}
 }
 
 /*@font-face*/
-@font-face {
-    font-family: ‘Gothan’;
-    src: url(‘../fonts/gotham-book.eot’);
-    src: url(‘../fonts/gotham-book?#iefix’) format(‘embedded-opentype’),
-        url(‘../fonts/gotham-book.svg#Gothan’) format(‘svg’),
-        url(‘../fonts/gotham-book.ttf’) format(‘truetype’);
+/*@font-face {
+    font-family: ‘Gotham’;
+    src: url(‘fonts/gotham-book.eot’);
+    src: url(‘fonts/gotham-book?#iefix’) format(‘embedded-opentype’),
+        url(‘fonts/gotham-book.svg#Gotham’) format(‘svg’),
+        url(‘fonts/gotham-book.ttf’) format(‘truetype’);
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
-    font-family: ‘Gothan’;
-    src: url(‘../fonts/gotham-bold.eot’);
-    src: url(‘../fonts/gotham-bold?#iefix’) format(‘embedded-opentype’),
-        url(‘../fonts/gotham-bold.svg#Gothan’) format(‘svg’),
-        url(‘../fonts/gotham-bold.ttf’) format(‘truetype’);
+    font-family: ‘Gotham’;
+    src: url(‘fonts/gotham-bold.eot’);
+    src: url(‘fonts/gotham-bold?#iefix’) format(‘embedded-opentype’),
+        url(‘fonts/gotham-bold.svg#Gothan’) format(‘svg’),
+        url(‘fonts/gotham-bold.ttf’) format(‘truetype’);
     font-weight: bold;
     font-style: normal;
-}
+}*/
 
 /* Header */
 header{
@@ -160,9 +161,14 @@ header nav.category-menu li a{
     -ms-transform: skew(10deg);
     -o-transform: skew(10deg);
     transform: skew(10deg);
+    -webkit-transition: all 200ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+   -moz-transition: all 200ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+     -o-transition: all 200ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+        transition: all 200ms cubic-bezier(0.250, 0.100, 0.250, 1.000);
+    
     padding: 0 23px 0 45px;
     color: #FFF;
-    font: bold 13.5px 'Gothan', sans-serif;
+    font: bold 13.5px 'Montserrat', sans-serif;
     text-transform: uppercase;
     display: table-cell;
     height: 46px;
@@ -170,6 +176,10 @@ header nav.category-menu li a{
     text-shadow: #999 1px 1px 1px;
     background-image: url(images/main-menu-icons.png);
     background-repeat: no-repeat;
+}
+header nav.category-menu li a:hover{
+    text-decoration: none;
+    opacity: 0.7;
 }
 header nav.category-menu li.empresa-category a{
     background-position: 10px 11px
@@ -191,5 +201,118 @@ header nav.category-menu li.turismo-category a{
 header .search{
     position: absolute;
     right: 0;
-    bottom: -17px;
+    bottom: -12px;
+    padding: 7px 20px;
+    display: table;
+    -webkit-transform: skew(-10deg);
+    -moz-transform: skew(-10deg);
+    -ms-transform: skew(-10deg);
+    -o-transform: skew(-10deg);
+    transform: skew(-10deg);
+    
+    background: #028eae;
+    background: -moz-linear-gradient(top,  #028eae 0%, #024c68 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#028eae), color-stop(100%,#024c68));
+    background: -webkit-linear-gradient(top,  #028eae 0%,#024c68 100%);
+    background: -o-linear-gradient(top,  #028eae 0%,#024c68 100%);
+    background: -ms-linear-gradient(top,  #028eae 0%,#024c68 100%);
+    background: linear-gradient(to bottom,  #028eae 0%,#024c68 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#028eae', endColorstr='#024c68',GradientType=0 );
+}
+header .search input{
+    border: solid 1px #29768f;
+    color: #FFF;
+    padding: 0 15px;
+    height: 33px;
+    font-size: 13.5px;
+    background: #02728f;
+    background: -moz-linear-gradient(top,  #02728f 0%, #024359 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#02728f), color-stop(100%,#024359));
+    background: -webkit-linear-gradient(top,  #02728f 0%,#024359 100%);
+    background: -o-linear-gradient(top,  #02728f 0%,#024359 100%);
+    background: -ms-linear-gradient(top,  #02728f 0%,#024359 100%);
+    background: linear-gradient(to bottom,  #02728f 0%,#024359 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#02728f', endColorstr='#024359',GradientType=0 );
+    display: block;
+    float: left;
+}
+header .search button{
+    background: url(images/main-menu-icons.png) no-repeat 0 -245px;
+    display: block;
+    width: 27px;
+    padding-top: 28px;
+    border: none;
+    float: left;
+    margin-left: 10px;
+    -webkit-transform: skew(10deg);
+    -moz-transform: skew(10deg);
+    -ms-transform: skew(10deg);
+    -o-transform: skew(10deg);
+    transform: skew(10deg);
+}
+
+/*Content*/
+section#content{
+    background: url(images/bg-content.jpg) repeat;
+    padding: 65px 0 120px 0;
+}
+
+/*Footer*/
+footer{
+    background: #0084a9;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 0;
+    z-index: 3;
+}
+footer *{
+    color: white;
+}
+footer small, footer a.topo, footer a.categorias, footer .btn-group{
+    float: left;
+}
+footer a.topo, footer a.categorias{
+    color: white;
+    font: bold 14px 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    padding-left: 39px;
+    margin: 0 60px;
+}
+footer a.topo{
+    background: url(images/topo-footer.png) no-repeat left bottom;
+    height: 15px;
+    margin-top: 8px;
+}
+footer a.categorias{
+    background: url(images/category-footer.png) no-repeat;
+    height: 27px;
+    padding-top: 6px;
+}
+footer ul.social{
+    float: right;
+}
+footer ul.social li{
+    display: inline-block;
+}
+footer small{
+    background: url(images/pearson-footer.png) no-repeat left center;
+    padding-left: 85px;
+    font-size: 12px;
+    display: block;
+}
+footer .btn{
+    background: transparent;
+    text-transform: uppercase;
+    font: bold 14px 'Montserrat', sans-serif;
+}
+footer .social li{
+    border-right: solid 1px #1890b1;
+}
+footer .social li:last-child{
+    border-right: none;
+}
+footer .social a{
+    padding: 0 10px;
 }

@@ -12,6 +12,7 @@
         
         <!--The css-->
         <link rel="stylesheet" href="style.css">
+        <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
         <!-- Bootstrap core CSS -->
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"></script>
         <!--[if lt IE 9]>
@@ -51,7 +52,7 @@
                 <div class="search">
                     <form name="search">
                         <input type="text" name="search-input" id="search-input" value="LOCALIZAR" onfocus="if (this.value==this.defaultValue) this.value = ''" onblur="if (this.value=='') this.value = this.defaultValue">
-                        <button type="button" name="search-button" id="search-button" title="Procurar no blog...">Procurar no blog...</button>
+                        <button type="button" name="search-button" id="search-button" title="Procurar no blog..." class="link-padding">Procurar no blog...</button>
                         <div class="clear"></div>
                     </form>
                 </div>
