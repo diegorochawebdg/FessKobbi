@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+section#contato-content{
+    padding: 60px 35px;
+    background: #FFF;
+    box-shadow: inset #e4e4e4 0 0 85px; 
+}
+section#contato-content .page-icon{
+    background: url(../images/contato/contato-icon.png) no-repeat;
+    width: 44px;
+    height: 45px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+section#contato-content h1{
+    color: #003768;
+    margin: 0 0 50px 0;
+    padding-bottom: 24px;
+    border-bottom: solid 2px #94abc0;
+    font: bold 32px 'Montserrat', sans-serif;
+}
+section#contato-content p{
+    color: #343434;
+    font: normal 14.5px/1.4em 'Montserrat', sans-serif;
+    margin-bottom: 5px;
+}
+section#contato-content h2{
+    color: #003768;
+    font: bold 18px 'Montserrat', sans-serif;
+    margin-bottom: 10px;
+}
+section#contato-content address *{
+    color: #003768;
+    font: normal 14.5px 'Montserrat', sans-serif;
+}
+section#contato-content address span{
+    display: block;
+}
+section#contato-content address a{
+    display: inline;
+}
+section#contato-content address{
+    margin-bottom: 45px;
+}
+section#contato-content h3{
+    color: #676363;
+    font: bold 21px 'Montserrat', sans-serif;
+    margin-bottom: 40px;
+}
+section#contato-content li{
+    margin-bottom: 80px;
+}
+section#contato-content li:last-child{
+    margin-bottom: 0;
+}
+section#contato-content li h2{
+    padding-bottom: 10px;
+    border-bottom: solid 2px #8ca5bb;
+    margin-bottom: 21px;
+}
+section#contato-content li address, section#contato-content li .tel-contato, section#contato-content li .email-contato{
+    padding-left: 25px;
+    display: block;
+    background: url(../images/contato/icons-address.png) no-repeat;
+}
+section#contato-content li address, section#contato-content li .tel-contato{
+    color: #343434;
+    font: normal 14.5px/1.4em 'Montserrat', sans-serif;
+    margin-bottom: 10px;
+}
+section#contato-content li address{
+    background-position: 0 3px;
+}
+section#contato-content li .tel-contato{
+    background-position: 0 -48px;
+}
+section#contato-content li .email-contato{
+    background-position: 0 -81px;
+    color: #003768;
+    font-size: 11px;
+    min-height: 15px;
+    padding-top: 4px;
+}
+
+@media all and (max-width:1200px){
+}

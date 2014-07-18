@@ -116,3 +116,13 @@
     display: block;
     width: 100%;
 }
+
+/***************Responsible***************/
+@media all and (max-width:1200px){
+    #sidebar .header-sidebar{
+        background-position: right center;
+    }
+    #sidebar .header-sidebar .txt a{
+        width: 72%;
+    }
+}

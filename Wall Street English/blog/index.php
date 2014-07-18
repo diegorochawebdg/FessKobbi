@@ -76,7 +76,32 @@
                 <!--Secundary Content-->
                 <aside class="col-md-4">
                     <?php include 'sidebar.php' ?>
-                    <?php include 'lastests-posts.php' ?>
+                    <section id="lastests-posts">
+                        <ul class="lastests-posts">
+                            <li class="empresa">
+                                <a href="#" class="entire-content">
+                                    <span class="post-category empresa"></span>
+                                    <article class="post-content">
+                                        <time datetime="">2 horas atrás</time>
+                                        <h1>Labore incurreret o multos quid, expetendis malis nam vidisse illustriora</h1>
+                                        <blockquote>cohaerescant, possumus ut consequat, id non aute eiusmod de ex ullamco voluptatibus. Te consequat philosophari. Veniam graviterque eiusmod legamexcepteur o ex dolore relinqueret. Ut labore cohaerescant, ex hic fugiat mandaremus. Anim litteris nescius.</blockquote>
+                                    </article>
+                                    <img src="http://placehold.it/360x253">
+                                </a>
+                            </li>
+                            <li class="carreira">
+                                <a href="#" class="entire-content">
+                                    <span class="post-category empresa"></span>
+                                    <article class="post-content">
+                                        <time datetime="">2 horas atrás</time>
+                                        <h1>Labore incurreret o multos quid, expetendis malis nam vidisse illustriora</h1>
+                                        <blockquote>cohaerescant, possumus ut consequat, id non aute eiusmod de ex ullamco voluptatibus. Te consequat philosophari. Veniam graviterque eiusmod legamexcepteur o ex dolore relinqueret. Ut labore cohaerescant, ex hic fugiat mandaremus. Anim litteris nescius.</blockquote>
+                                    </article>
+                                    <img src="http://placehold.it/360x253">
+                                </a>
+                            </li>
+                        </ul>
+                    </section>
                 </aside>
                 <!--End of Secundary Content-->
             </div>

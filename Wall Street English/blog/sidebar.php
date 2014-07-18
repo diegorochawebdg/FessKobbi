@@ -14,9 +14,10 @@
         <form name="agende">
             <input type="text" name="nome-agende" id="nome-agende" value="NOME" onfocus="if (this.value==this.defaultValue) this.value = ''" onblur="if (this.value=='') this.value = this.defaultValue">
             <input type="email" name="email-agende" id="email-agende" value="E-MAIL" onfocus="if (this.value==this.defaultValue) this.value = ''" onblur="if (this.value=='') this.value = this.defaultValue">
-            <span>Selecione o melhor dia e horário</span>
+            <input type="tel" name="tel-agende" id="tel-agende" value="TELEFONE" required onfocus="if (this.value==this.defaultValue) this.value = ''" onblur="if (this.value=='') this.value = this.defaultValue">
+            <!--<span>Selecione o melhor dia e horário</span>
             <input type="date" name="data-agende" id="data-agende" title="Escolha a melhor data para entrarmos em contato">
-            <input type="time" name="horario-agende" id="horario-agende" title="Escolha o melhor horário para entrarmos em contato">
+            <input type="time" name="horario-agende" id="horario-agende" title="Escolha o melhor horário para entrarmos em contato">-->
             <input type="checkbox" name="news-agende" id="news-agende" checked>
             <label for="news-agende">Sim, quero receber notícias da WSE e seus parceiros.</label>
             <button type="submit" name="agendar-agende" id="agendar-agende" title="Agendar">Agendar</button>

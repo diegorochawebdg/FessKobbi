@@ -26,48 +26,21 @@ h1 strong{
     float: left;
 }
 #content .left li{
-    border: solid 1px #26406c;
     width: 100%;
-    margin-bottom: 2px;
-    background-color: #FFF;
+    background: url(../images/internals/bg-menu-li.png) no-repeat;
 }
-#content .left li.active, #content .left li.active li{
-    background: #efefef;
+#content .left li.active, #content .left li:hover{
+    background: url(../images/internals/bg-menu-li-hover.png) no-repeat;
 }
-#content .left li.active li{
-    background: #efefef;
-    border: solid 1px #a9abae;
-}
-#content .left li li{
-    border: none !important;
+#content .left li:hover a, #content .left li.active a{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
 }
 .left li a{
-    padding: 18px 0 18px 25px;
-    color: #1a365f;
+    padding: 11px 0 13px 25px;
+    color: #6d6e71;
     font-size: 14px;
-}
-.left li a.with-sub-menu{
-    background: url(../images/internals/seta-li.png) no-repeat 180px 22px;
-}
-.left li.active a.with-sub-menu{
-    background: url(../images/internals/seta-li.png) no-repeat 180px -60px;
-}
-.left li ul.secondary{
-    position: relative;
-    overflow: hidden;
-    max-height: 0;
-}
-.left li.active ul.secondary{
-    max-height: 1000px;
-    display: block;
-}
-.left li ul.secondary li{
-    border: none;
-}
-.left li ul.secondary li a{
-    padding: 6px 5px 6px 44px;
-    font-size: 12px;
-    background: url(../images/internals/sub-li-arrow.png) no-repeat 25px center;
 }
 .left .banners a{
     margin-top: 20px;
