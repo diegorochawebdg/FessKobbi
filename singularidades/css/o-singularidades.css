@@ -1,0 +1,108 @@
+.equipe-gestao .banner{
+    margin-bottom: 25px;
+}
+.text{
+    padding: 0 !important;
+}
+.tabs{
+    margin-bottom: 40px;
+}
+    
+.tabs ul.tabs-main li{
+    display: table;
+    float: left;
+    width: 16.4%;
+    height: 40px;
+    margin-right: 0.3%;
+    background: #bdbdbd;
+    background: -moz-linear-gradient(top,  #bdbdbd 0%, #989898 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#bdbdbd), color-stop(100%,#989898));
+    background: -webkit-linear-gradient(top,  #bdbdbd 0%,#989898 100%);
+    background: -o-linear-gradient(top,  #bdbdbd 0%,#989898 100%);
+    background: -ms-linear-gradient(top,  #bdbdbd 0%,#989898 100%);
+    background: linear-gradient(to bottom,  #bdbdbd 0%,#989898 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bdbdbd', endColorstr='#989898',GradientType=0 );
+}
+.tabs ul.tabs-main li:last-child{
+    margin-right: 0;
+}
+.tabs ul.tabs-main li a{
+    color: white;
+    font: normal 13px Arial, sans-serif;
+    display: block;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+}
+.tabs ul.tabs-main li.active a, .tabs ul.tabs-main li a:hover{
+    text-decoration: none;
+    background: #ff9e02;
+    background: -moz-linear-gradient(top,  #ff9e02 0%, #e78d01 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff9e02), color-stop(100%,#e78d01));
+    background: -webkit-linear-gradient(top,  #ff9e02 0%,#e78d01 100%);
+    background: -o-linear-gradient(top,  #ff9e02 0%,#e78d01 100%);
+    background: -ms-linear-gradient(top,  #ff9e02 0%,#e78d01 100%);
+    background: linear-gradient(to bottom,  #ff9e02 0%,#e78d01 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9e02', endColorstr='#e78d01',GradientType=0 );
+}
+.tabs-content .text a{
+    display: block;
+    color: #4375a9;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+.tabs-content .item2, .tabs-content .item3, .tabs-content .item4, .tabs-content .item5, .tabs-content .item6, .tabs-content .item7{
+    display: none;
+}
+
+/*Equipe de Gestão*/
+.equipe-gestao li, .escolas-parceiras li{
+    margin-bottom: 35px;
+} 
+.equipe-gestao li img, .escolas-parceiras li img{
+    float: left;
+} 
+.equipe-gestao li .txt, .escolas-parceiras li .txt{
+    float: right;
+    width: 85%;
+}  
+.equipe-gestao li .txt h4, .escolas-parceiras li .txt h4{
+    font: bold 13px Arial, sans-serif;
+    color: #606062;
+    margin-bottom: 15px;
+}  
+.equipe-gestao li .txt p, .escolas-parceiras li .txt p{
+    color: #939598;
+    font-weight: normal;
+    font-size: 12px;
+    margin-bottom: 20px;
+    line-height: 1.3em;
+}  
+.equipe-gestao li .txt strong, .escolas-parceiras li .txt strong{
+    font: italic normal 13px Arial, sans-serif;
+    color: #4374a8;
+    margin-bottom: 15px;
+    display: block;
+}   
+.equipe-gestao li .txt a, .escolas-parceiras li .txt a{
+    font: normal 13px Arial, sans-serif;
+    color: #26406c;
+    display: block;
+}
+
+/*Infraestrutura*/
+.large-image{
+    width: 699px;
+    height: 230px;
+    margin-bottom: 20px;
+}
+.thumbs li{
+    list-style-type: none !important;
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+.thumbs li img{
+    display: inline;
+}

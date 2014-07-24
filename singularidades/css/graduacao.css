@@ -34,13 +34,19 @@
     background-position: 0 -40px;
 }
 .right .right-column .inscreva-se span.modalidade{
-    background-position: 0 -83px;
+    background-position: 0 -79px;
+}
+.right .right-column .inscreva-se span.local{
+    background-position: 0 -117px;
 }
 .right .right-column .inscreva-se span.periodo{
-    background-position: 0 -121px;
+    background-position: 0 -157px;
+}
+.right .right-column .inscreva-se span.carga-horaria{
+    background-position: 0 -193px;
 }
 .right .right-column .inscreva-se span.investimento{
-    background-position: 0 -160px;
+    background-position: 0 -228px;
 }
 .right .right-column .inscreva-se strong{
     display: block;
@@ -53,15 +59,14 @@
     text-align: center;
     display: block;
     padding: 13px 0;
-    background: #4578ad;
-    background: -moz-linear-gradient(top,  #4578ad 0%, #37608b 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4578ad), color-stop(100%,#37608b));
-    background: -webkit-linear-gradient(top,  #4578ad 0%,#37608b 100%);
-    background: -o-linear-gradient(top,  #4578ad 0%,#37608b 100%);
-    background: -ms-linear-gradient(top,  #4578ad 0%,#37608b 100%);
-    background: linear-gradient(to bottom,  #4578ad 0%,#37608b 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4578ad', endColorstr='#37608b',GradientType=0 );
-
+    background: #29ac4f;
+    background: -moz-linear-gradient(left,  #29ac4f 0%, #208a3f 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#29ac4f), color-stop(100%,#208a3f));
+    background: -webkit-linear-gradient(left,  #29ac4f 0%,#208a3f 100%);
+    background: -o-linear-gradient(left,  #29ac4f 0%,#208a3f 100%);
+    background: -ms-linear-gradient(left,  #29ac4f 0%,#208a3f 100%);
+    background: linear-gradient(to right,  #29ac4f 0%,#208a3f 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#29ac4f', endColorstr='#208a3f',GradientType=1 );
 }
 
 .right-column .equipe{

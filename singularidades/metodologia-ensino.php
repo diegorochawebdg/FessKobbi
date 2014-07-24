@@ -23,26 +23,8 @@
     <div class="left">
         <!--Left Menu-->
         <ul class="main-menu">
-            <li>
-                <a href="#" title="Cursos" class="with-sub-menu animate">Cursos</a>
-                <ul class="secondary animate2">
-                    <li><a href="#" title="">teste</a></li>
-                    <li><a href="#" title="">teste</a></li>
-                    <li><a href="#" title="">teste</a></li>
-                    <li><a href="#" title="">teste</a></li>
-                    <li><a href="#" title="">teste</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="#" title="Como ingressar" class="with-sub-menu animate">Como ingressar</a>
-                <ul class="secondary animate2">
-                    <li><a href="#" title="Vestibular">Vestibular</a></li>
-                    <li><a href="#" title="Transferência">Transferência</a></li>
-                    <li><a href="#" title="Obtenção de novo título">Obtenção de novo título</a></li>
-                    <li><a href="#" title="Reingresso">Reingresso</a></li>
-                    <li><a href="#" title="Destrancamento">Destrancamento</a></li>
-                </ul>
-            </li>
+            <li><a href="#" title="Cursos" class="with-sub-menu animate">Cursos</a</li>
+            <li><a href="#" title="Como ingressar" class="with-sub-menu animate">Como ingressar</a></li>
             <li><a href="#" title="Sobre a graduação">Sobre a graduação</a></li>
             <li class="active"><a href="#" title="Metodologia de ensino">Metodologia de ensino</a></li>
             <li><a href="#" title="Apoio psicológico">Apoio psicológico</a></li>
@@ -56,10 +38,37 @@
     
     <!--Right-->
     <div class="right">
-        
+        <h2>Ad probant eu deserunt, a minim cernantur incurreret ex a lorem quo quid, fugiat</h2>
         <p>Duis singulis expetendis, quorum singulis quamquam. Excepteur sunt velit ita  quorum o iis varias elit noster deserunt a nostrud illum mentitum aliquip autnon tamen non sint. Ut quo quorum admodum, noster proident occaecat in malis</p>
         
-        <iframe width="100%" height="449" src="//www.youtube.com/embed/sJM9k6tpGAA?rel=0" frameborder="0" allowfullscreen></iframe>
+        <!--Vídeos-->
+        <div class="videos">
+            <div class="play-preview icons-home"></div>
+            <h2 class="icons-home"><a href="#" title="Singularidades em Vídeo">Risus convallis consectetur.</a></h2>
+            <a href="#" title="Singularidades em vídeo"><img src="images/internals/video-preview.jpg" width="307" height="184" alt="" title=""></a>
+        </div>
+        <div class="videos last">
+            <div class="play-preview icons-home"></div>
+            <h2 class="icons-home"><a href="#" title="Singularidades em Vídeo">Risus convallis consectetur.</a></h2>
+            <a href="#" title="Singularidades em vídeo"><img src="images/internals/video-preview.jpg" width="307" height="184" alt="" title=""></a>
+        </div>
+        <div class="clear"></div>
+        <!--End of Vídeos-->
+
+        <!--Slider-->
+        <div class="slider">
+            <div class="box-padding">
+                <h2>Convallis consectetur.</h2>
+                <div class="the-slider">
+                    <a href="http://placekitten.com/500/300"><img src="http://placekitten.com/190/113" alt="" width="190" height="113"></a>
+                    <a href="http://placekitten.com/500/300"><img src="http://placekitten.com/190/113" alt="" width="190" height="113"></a>
+                    <a href="http://placekitten.com/500/300"><img src="http://placekitten.com/190/113" alt="" width="190" height="113"></a>
+                    <a href="http://placekitten.com/500/300"><img src="http://placekitten.com/190/113" alt="" width="190" height="113"></a>
+                    <a href="http://placekitten.com/500/300"><img src="http://placekitten.com/190/113" alt="" width="190" height="113"></a>
+                </div>
+            </div>
+        </div>
+        <!--End of Slider-->
         
     </div>
     <!--End of Right-->
@@ -69,3 +78,24 @@
 
 <?php include "footer.php" ?>
 <script type="text/javascript" src="js/internal.js"></script>
+<script src="js/jquery.bxslider.min.js"></script>
+<script src="js/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(e){
+        $(".the-slider").bxSlider({
+            controls:       true,
+            slideWidth:     190,
+            pager:          false,
+            minSlides:      3,
+            maxSlides:      3,
+            slideMargin:    20,
+            moveSlides:     1,
+            infiniteLoop:   false
+        });
+
+        $(".the-slider a").fancybox({
+            type:       'image'
+        });
+    });
+</script>
+<link rel="stylesheet" href="js/fancybox/jquery.fancybox.css">

@@ -171,6 +171,7 @@ a:hover{
     border-bottom: 4px solid #7cd0f3;
     border-left: 1px solid #37618a;
     border-right: 1px solid #5481b0;
+    position: relative;
 }
 #header .main-menu-2 li:hover{
     background: #183359;
@@ -200,75 +201,30 @@ a:hover{
     top: 50px;
     background: #183259;
     z-index: 10;
-    width: 100%;
+    width: 150%;
     box-shadow: #999 2px 2px 7px;
     display: none;
 }
-.submenu-padding{
-    padding: 28px 32px 10px 32px;
-    height: 100%;
-}
-.submenu .left{
-    float: left;
-    width: 335px;
-}
-.pos-graduacao .submenu .left{
-    width: 330px;
-}
-.pos-graduacao .submenu .separator{
-    margin: -7px 40px -7px 0 !important;
-}
-.submenu .left.first{
-    float: left;
-    width: 114px;
-}
-.submenu a{
-    font: bold 14px Arial, Helvetica, sans-serif !important;
-    text-align: left;
-    padding: 0 !important;
-    margin-bottom: 22px
-}
 .submenu a:hover{
-    color: #7cd0f3 !important;
+    color: #183259 !important;
+    background: #FFF;
 }
 .submenu ul{
-    width: 380px
-}
-.submenu ul.cursos{
-    width: auto;
+    margin-top: 10px;
 }
 .submenu li{
-    text-align: left !important;
     border: none !important;
-    float: left !important;
-    width: 170px !important;
-}
-.submenu li:hover{
-    background: none !important;
+    width: auto !important;
+    height: auto !important;
+    float: none !important;
+    padding: 0 15px;
 }
 .submenu li a{
     text-align: left !important;
-    font: normal 12px Arial, Helvetica, sans-serif !important;
-    padding: 0 0 0 20px !important;
-    min-height: 11px !important;
-    background: url(../images/submenu-a.png) no-repeat 0 center;
-}
-.submenu .separator{
-    height: 144px;
-    border-left: solid 1px #142948;
-    border-right: solid 1px #2e4569;
-    float: left;
-    margin: -7px 35px;
-}
-.submenu .right{
-    float: left;
-    width: 335px;
-}
-.submenu .right.graduacao{
-    width: 211px;
-}
-.submenu .right.graduacao2{
-    width: 130px;
+    font: normal 16px Arial, Helvetica, sans-serif !important;
+    padding: 8px 12px !important;
+    color: #a2cae1;
+    border-bottom: solid 1px #132846;
 }
 
 /*End of Header*/

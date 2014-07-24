@@ -4,17 +4,64 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="">
-        <meta name="author" content="">
-        <link rel="icon" href="favicon.ico">
+        <meta name="description" content="<?php bloginfo('description'); ?>">
+        <meta name="author" content="Fess Kobbi Comunicação">
+        <link rel="icon" href="<?php bloginfo('template_directory'); ?>/favicon.ico">
 
-        <title>Blog Wall Street English</title>
+<?php
+@$acao = $_GET['acao'];
+
+if($acao == 'concluido'){
+
+@$nome  = $_POST['nome'];
+@$email = $_POST['email'];
+@$tel   = $_POST['tel'];
+
+require_once("mailer/dispara.php");
+
+echo "
+		<script type='text/javascript'>
+       
+            if(!('fess' in window))window.fess = {};
+            window.fess.cdt =
+            {
+	            id        		: '0',
+	            cliente   		: 'Wall Street',
+	            tipo      		: 'Corporate',
+	            produto         : '',
+	            nome      		: '$nome',
+	            email      		: '$email',
+                ddd      		: '',
+                telefone      	: '$tel'
+	            
+	            
+            };
+ 
+            (function(){
+                var cdt = document.createElement('script'); cdt.type = 'text/javascript'; cdt.async = true;
+                cdt.src = ('http:' == document.location.protocol ? 'http://www.fess.com.br/' : 'https://fess.websiteseguro.com/') + 'cdt/_scripts/cdt.min.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(cdt, s);
+            })();
+		</script>
+
+<script type='text/javascript'>
+window.onload = function() {
+    alert( 'Dados enviados com sucesso' );
+}
+</script>
+
+";
+}
+?>
+
+        <title><?php wp_title(); ?></title>
         
         <!--The css-->
-        <link rel="stylesheet" href="style.min.css">
+        <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" media="all" type="text/css" />
         <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
         <!-- Bootstrap core CSS -->
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"></script>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -28,79 +75,31 @@
                 <!--Main Menu-->
                 <nav class="main-menu">
                     <ul>
-                        <li><a href="#" title="Home">Home</a></li>
-                        <li><a href="#" title="Sobre">Sobre</a></li>
-                        <li><a href="#" title="Contato">Contato</a></li>
+                        <li><a href="<?php echo home_url(); ?>" title="Home">Home</a></li>
+                        <li><a href="<?php echo home_url(); ?>/contato/" title="Contato">Contato</a></li>
+                        <li><a href="<?php echo home_url(); ?>/sobre/" title="Sobre">Sobre</a></li>
                         <li><a href="http://www.wallstreetenglish.com.br/" title="Site institucional Wall Street English">Wall Street English</a></li>
                     </ul>
                 </nav>
-                
-                
-                
-                <div class="navbar navbar-default navbar-static-top mobile-main-menu" role="navigation">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                            <span class="sr-only">Menu</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <!--<a class="navbar-brand" href="#">Project name</a>-->
-                    </div>
-                    <div class="navbar-collapse collapse main-menu">
-                        <ul class="nav navbar-nav">
-                            <li><a href="#" title="Home">Home</a></li>
-                            <li><a href="#" title="Sobre">Sobre</a></li>
-                            <li><a href="#" title="Contato">Contato</a></li>
-                            <li><a href="http://www.wallstreetenglish.com.br/" title="Site institucional Wall Street English">Wall Street English</a></li>
-                        </ul>
-                    </div><!--/.nav-collapse -->
-                </div>
-                
-                
                 <!--End of Main Menu-->
                 
                 <!--Category Menu-->
                 <nav class="category-menu">
                     <ul>
-                        <li class="empresa-category"><a href="#" title="Empresa">Empresa</a></li>
-                        <li class="carreira-category"><a href="#" title="Carreira">Carreira</a></li>
-                        <li class="estudo-category"><a href="#" title="Estudo">Estudo</a></li>
-                        <li class="business-category"><a href="#" title="Business">Business</a></li>
-                        <li class="turismo-category"><a href="#" title="Turismo">Turismo</a></li>
+                        <li class="empresa-category"><a href="<?php home_url() ?>/blog/category/empresa/" title="Empresa">Empresa</a></li>
+                        <li class="carreira-category"><a href="<?php home_url() ?>/blog/category/carreira/" title="Carreira">Carreira</a></li>
+                        <li class="estudo-category"><a href="<?php home_url() ?>/blog/category/estudo/" title="Estudo">Estudo</a></li>
+                        <li class="business-category"><a href="<?php home_url() ?>/blog/category/business/" title="Business">Business</a></li>
+                        <li class="turismo-category"><a href="<?php home_url() ?>/blog/category/turismo/" title="Turismo">Turismo</a></li>
                     </ul>
                 </nav>
-                
-                
-                <div class="navbar navbar-static-top mobile-category-menu" role="navigation">
-                    <div class="container">
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                                <span class="sr-only">Categorias</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                        </div>
-                        <div class="navbar-collapse collapse">
-                            <ul class="nav navbar-nav">
-                                <li class="empresa-category"><a href="#" title="Empresa">Empresa</a></li>
-                                <li class="carreira-category"><a href="#" title="Carreira">Carreira</a></li>
-                                <li class="estudo-category"><a href="#" title="Estudo">Estudo</a></li>
-                                <li class="business-category"><a href="#" title="Business">Business</a></li>
-                                <li class="turismo-category"><a href="#" title="Turismo">Turismo</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                
                 <!--End of Category Menu-->
                 
                 <!--Search-->
                 <div class="search">
-                    <form name="search">
-                        <input type="text" name="search-input" id="search-input" value="LOCALIZAR" onfocus="if (this.value==this.defaultValue) this.value = ''" onblur="if (this.value=='') this.value = this.defaultValue">
-                        <button type="button" name="search-button" id="search-button" title="Procurar no blog..." class="link-padding">Procurar no blog...</button>
+                    <form role="search" method="get" id="searchform" class="searchform" action="<?php bloginfo('url'); ?>/">
+                        <input type="text" name="s" id="search-input" placeholder="Buscar">
+                        <button type="submit" id="search-button" title="Procurar no blog..." class="link-padding">Procurar no blog...</button>
                         <div class="clear"></div>
                     </form>
                 </div>

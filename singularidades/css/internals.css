@@ -77,6 +77,14 @@ h1 strong{
     margin-bottom: 20px;
     line-height: 1.4em;
 }
+.right .text li{
+    color: #939598;
+    font-size: 12px;
+    margin-bottom: 5px;
+    line-height: 1.4em;
+    list-style-type: disc;
+    list-style-position: inside;
+}
 .right .text h3{
     color: #4375a9;
     font-size: 16px;
@@ -84,7 +92,7 @@ h1 strong{
 }
 
 /*Right infraestrutura*/
-.right .text .videos {
+.right .videos {
     padding: 15px 10px 10px 10px;
     display: table;
     float: left;
@@ -96,15 +104,15 @@ h1 strong{
     width: 44%;
     margin-right: 5.9%;
 }
-.right .text .videos.last{
+.right .videos.last{
     margin-right: 0;
 }
-.right .text .videos h2 {
+.right .videos h2 {
     margin-bottom: 20px;
     height: 20px;
     background-position: 222px -239px;
 }
-.right .text .videos h2 a {
+.right .videos h2 a {
     font-size: 14px;
     color: #4375a9;
     display: block;
@@ -112,7 +120,7 @@ h1 strong{
 .icons-home {
     background-image: url(../images/home/icons-home.png);
 }
-.right .text .videos .play-preview {
+.right .videos .play-preview {
     width: 62px;
     height: 65px;
     position: absolute;
@@ -247,15 +255,15 @@ h1 strong{
     background: url(../images/internals/arrows.png) no-repeat -24px 0;
     right: -40px;
 }
-.quem-somos .slider{
+.slider{
     background: #f8f8f8;
     margin-top: 30px;
     padding: 10px;
     border: solid 1px #a8aaad;
     border-top: #113a64 solid 6px;
 }
-.quem-somos .slider h2{
-    font: normal 14px Arial, sans-serif;
+.slider h2{
+    font: normal 14px Arial, sans-serif !important;
     color: #4375a9;
     margin-left: 10px;
 }

@@ -1,0 +1,26 @@
+.right img.main-banner{
+    margin-bottom: 25px;
+}
+.right li{
+    float: left;
+    width: 45%;
+}
+.right li.right{
+    float: right;
+}
+.right li img{
+    margin-bottom: 15px;
+}
+.right li .txt{
+    padding-left: 22px;
+    background: url(../images/programa-de-beneficios/arrow-txt.png) no-repeat 0 3px;
+}
+.right li .txt h2{
+    color: #26406c;
+    font: bold 16px Arial, sans-serif;
+    margin-bottom: 5px;
+}
+.right li .txt p{
+    color: #939598;
+    font: normal 11px Arial, sans-serif;
+}

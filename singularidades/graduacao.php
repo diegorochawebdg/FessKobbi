@@ -21,32 +21,14 @@
     <div class="left">
         <!--Left Menu-->
         <ul class="main-menu">
-            <li>
-                <a href="#" title="Cursos" class="with-sub-menu animate">Cursos</a>
-                <ul class="secondary animate2">
-                    <li><a href="#" title="">teste</a></li>
-                    <li><a href="#" title="">teste</a></li>
-                    <li><a href="#" title="">teste</a></li>
-                    <li><a href="#" title="">teste</a></li>
-                    <li><a href="#" title="">teste</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="#" title="Como ingressar" class="with-sub-menu animate">Como ingressar</a>
-                <ul class="secondary animate2">
-                    <li><a href="#" title="Vestibular">Vestibular</a></li>
-                    <li><a href="#" title="Transferência">Transferência</a></li>
-                    <li><a href="#" title="Obtenção de novo título">Obtenção de novo título</a></li>
-                    <li><a href="#" title="Reingresso">Reingresso</a></li>
-                    <li><a href="#" title="Destrancamento">Destrancamento</a></li>
-                </ul>
-            </li>
-            <li><a href="#" title="Sobre a graduação">Sobre a graduação</a></li>
-            <li><a href="#" title="Metodologia de ensino">Metodologia de ensino</a></li>
-            <li><a href="#" title="Apoio psicopedagógico">Apoio psicopedagógico</a></li>
+            <li><a href="#" title="Cursos" class="with-sub-menu animate">Cursos</a></li>
+            <li><a href="#" title="Como ingressar" class="with-sub-menu animate">Como ingressar</a></li>
             <li><a href="#" title="Vivência em sala de aula">Vivência em sala de aula</a></li>
-            <li><a href="#" title="Agenda">Agenda</a></li>
-            <li><a href="#" title="Manual do aluno">Manual do aluno</a></li>
+            <li><a href="#" title="Curso">Curso</a></li>
+            <li><a href="#" title="Curso">Curso</a></li>
+            <li><a href="#" title="Curso">Curso</a></li>
+            <li><a href="#" title="Curso">Curso</a></li>
+            <li><a href="#" title="Curso">Curso</a></li>
         </ul>
         <!--End of Left Menu-->
     </div>
@@ -124,7 +106,9 @@
                                 <span class="duracao">Duração <strong>4 anos</strong></span>
                                 <span class="tipo">Tipo de formação <strong>Bacharel</strong></span>
                                 <span class="modalidade">Modalidade <strong>Presencial</strong></span>
+                                <span class="local">Local <strong>Alpha 45</strong></span>
                                 <span class="periodo">Período <strong>Noite</strong></span>
+                                <span class="carga-horaria">Carga horária <strong>3200</strong></span>
                                 <span class="investimento">Investimento <strong>R$40.000,00</strong></span>
                             </li>
                         </ul>

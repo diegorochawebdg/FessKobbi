@@ -127,11 +127,4 @@ a.load-more{
     #lastests-posts span.post-category{
         bottom: 177px;
     }
-    a.entire-content img{
-        display: table;
-        margin: 0 auto;
-    }
-}
-@media all and (max-width:767px){
-    
 }

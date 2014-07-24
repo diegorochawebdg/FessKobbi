@@ -53,37 +53,29 @@ header .container{
     position: relative;
     height: inherit;
 }
-.mobile-main-menu, .mobile-category-menu {
-    display: none;
-}
-header .main-menu{
+header nav.main-menu{
     display: table;
     margin: 0 auto;
-    background: transparent;
-    border: none;
 }
 header nav li{
     display: inline-block;
 }
-header .main-menu li a{
-    color: #FFF !important;
+header nav.main-menu li a{
+    color: #FFF;
     padding: 10px 30px;
     text-transform: uppercase;
     font-size: 12px;
 }
-header .main-menu li a:hover{
-    background: #007caf !important;
-}
 
 /*Category menu*/
-header .category-menu{
-    position: absolute !important;
-    bottom: -17px !important;
+header nav.category-menu{
+    position: absolute;
+    bottom: -17px;
 }
-header .category-menu ul{
+header nav.category-menu ul{
     margin-bottom: 0;
 }
-header .category-menu li{
+header nav.category-menu li{
     -webkit-transform: skew(-10deg);
     -moz-transform: skew(-10deg);
     -ms-transform: skew(-10deg);
@@ -92,7 +84,7 @@ header .category-menu li{
     margin-right: 10px;
 
 }
-header .category-menu li.empresa-category{
+header nav.category-menu li.empresa-category{
     background: #004886;
     background: -moz-linear-gradient(top,  #004886 0%, #002648 100%);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#004886), color-stop(100%,#002648));
@@ -102,7 +94,7 @@ header .category-menu li.empresa-category{
     background: linear-gradient(to bottom,  #004886 0%,#002648 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004886', endColorstr='#002648',GradientType=0 );
 }
-header .category-menu li.carreira-category{
+header nav.category-menu li.carreira-category{
     background: #f45545;
     background: -moz-linear-gradient(top,  #f45545 0%, #ea2d25 100%);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f45545), color-stop(100%,#ea2d25));
@@ -112,7 +104,7 @@ header .category-menu li.carreira-category{
     background: linear-gradient(to bottom,  #f45545 0%,#ea2d25 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f45545', endColorstr='#ea2d25',GradientType=0 );
 }
-header .category-menu li.estudo-category{
+header nav.category-menu li.estudo-category{
     background: #c0f1f7;
     background: -moz-linear-gradient(top,  #c0f1f7 0%, #20a9cf 100%);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c0f1f7), color-stop(100%,#20a9cf));
@@ -122,7 +114,7 @@ header .category-menu li.estudo-category{
     background: linear-gradient(to bottom,  #c0f1f7 0%,#20a9cf 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c0f1f7', endColorstr='#20a9cf',GradientType=0 );
 }
-header .category-menu li.business-category{
+header nav.category-menu li.business-category{
     background: #00a9c3;
     background: -moz-linear-gradient(top,  #00a9c3 0%, #005f8f 100%);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#00a9c3), color-stop(100%,#005f8f));
@@ -132,7 +124,7 @@ header .category-menu li.business-category{
     background: linear-gradient(to bottom,  #00a9c3 0%,#005f8f 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00a9c3', endColorstr='#005f8f',GradientType=0 );
 }
-header .category-menu li.turismo-category{
+header nav.category-menu li.turismo-category{
     background: #fbc4ad;
     background: -moz-linear-gradient(top,  #fbc4ad 0%, #f79065 100%);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fbc4ad), color-stop(100%,#f79065));
@@ -143,7 +135,7 @@ header .category-menu li.turismo-category{
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbc4ad', endColorstr='#f79065',GradientType=0 );
 }
 
-header .category-menu li a{
+header nav.category-menu li a{
     -webkit-transform: skew(10deg);
     -moz-transform: skew(10deg);
     -ms-transform: skew(10deg);
@@ -165,23 +157,23 @@ header .category-menu li a{
     background-image: url(images/main-menu-icons.png);
     background-repeat: no-repeat;
 }
-header .category-menu li a:hover{
+header nav.category-menu li a:hover{
     text-decoration: none;
     opacity: 0.7;
 }
-header .category-menu li.empresa-category a{
+header nav.category-menu li.empresa-category a{
     background-position: 10px 11px
 }
-header .category-menu li.carreira-category a{
+header nav.category-menu li.carreira-category a{
     background-position: 10px -39px
 }
-header .category-menu li.estudo-category a{
+header nav.category-menu li.estudo-category a{
     background-position: 10px -90px
 }
-header .category-menu li.business-category a{
+header nav.category-menu li.business-category a{
     background-position: 10px -140px
 }
-header .category-menu li.turismo-category a{
+header nav.category-menu li.turismo-category a{
     background-position: 10px -188px
 }
 
@@ -312,10 +304,10 @@ footer .social a{
     header{
         background: url(images/bg-header-1200.jpg) center no-repeat !important;
     }
-    header .category-menu li{
+    header nav.category-menu li{
         margin-right: 5px;
     }
-    header .category-menu li a{
+    header nav.category-menu li a{
         font-size: 12px;
     }
     header .search input{
@@ -330,15 +322,4 @@ footer .social a{
         background: url(images/bg-header-992.jpg) center no-repeat !important;
     }
     
-}
-@media all and (max-width:767px){
-    footer{
-        display: none !important;
-    }
-    .mobile-main-menu, .mobile-category-menu {
-        display: block;
-    }
-    header .main-menu, header .category-menu{
-        display: none;
-    }
 }

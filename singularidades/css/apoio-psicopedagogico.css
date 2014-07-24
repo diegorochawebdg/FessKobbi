@@ -1,0 +1,49 @@
+.right h2{
+    color: #26406c;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 1.3em;
+    margin-bottom: 20px;
+}
+.right h3{
+    color: #4375a9;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.right p{
+    color: #939598;
+    font-weight: normal;
+    font-size: 12px;
+    margin-bottom: 20px;
+    line-height: 1.3em;
+}
+.right p strong{
+    color: #606062;
+    font-weight: normal;
+}
+.right li{
+    margin-bottom: 35px;
+} 
+.right li img{
+    float: left;
+} 
+.right li .txt{
+    float: right;
+    width: 85%;
+}  
+.right li .txt h4{
+    font: bold 13px Arial, sans-serif;
+    color: #606062;
+    margin-bottom: 15px;
+}  
+.right li .txt strong{
+    font: italic normal 13px Arial, sans-serif;
+    color: #4374a8;
+    margin-bottom: 15px;
+    display: block;
+}   
+.right li .txt a{
+    font: normal 13px Arial, sans-serif;
+    color: #26406c;
+    display: block;
+}   

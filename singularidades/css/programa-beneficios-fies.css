@@ -1,0 +1,64 @@
+.content-left{
+    float: left;
+    width: 65%;
+}
+.content-right{
+    float: right;
+    width: 213px;
+}
+.content-right a{
+     margin-bottom: 25px;
+}
+.right .text{
+    padding: 0;
+    margin-bottom: 20px; 
+}
+.right .text .left-column{
+    width: 100%;
+    margin-right: 0;
+}
+
+.depoimentos{
+    margin-top: 30px;
+}
+.depoimentos li{
+    margin-bottom: 50px;
+}
+.depoimentos li .image-content{
+    float: left;
+    position: relative;
+    overflow: hidden;
+    width: 146px;
+    height: 138px;
+}
+.depoimentos li .image-content img{
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    margin-top: -5px;
+}
+.depoimentos li .image-content .image-mask{
+    background: url(../images/depoimentos/balao-depoimento.png) no-repeat;
+    width: 146px;
+    height: 138px;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+}
+.depoimentos li .txt{
+    float: right;
+    width: 70%;
+}
+.depoimentos li .txt p.the-text{
+    font: italic normal 13px 'Arial', sans-serif !important;
+    color: #666;
+    margin-bottom: 20px;
+}
+.depoimentos li .txt p.author{
+    font: normal 13px 'Arial', sans-serif !important;
+    color: #666;
+}
+.depoimentos li .txt p.author span{
+    font-weight: bold;
+}

@@ -1,6 +1,6 @@
 <?php include 'header.php'; ?>  
 	
-	<link rel="stylesheet" href="css/sobre.css">
+	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/sobre.css">
 
     <!--Content-->
     <section id="content">
@@ -9,64 +9,40 @@
                 <!--Contato Content-->
                 <section id="sobre-content" class="col-md-8">
                     <div class="page-icon"></div>
-                    <h1>Sobre</h1>
+                    <h1><?php the_title(); ?></h1>
                     
-                    <h2>Si velit quamquam est in tamen o eram. Quamquam adipisicing do proident ubi</h2>
-                    <p>Minim mandaremus hic nisi velit non legam nostrud concursionibus. Dolore id ernantur, anim quamquam domesticarum. Ipsum excepteur ullamco est si noster appellat domesticarum. Minim mandaremus hic nisi velit non legam nostrud concursionibus. Dolore id ernantur, anim quamquam domesticarum. Ipsum excepteur ullamco est si noster appellat domesticarum.</p>
-                    
-                    <blockquote>De ea lorem incurreret. Velit ne non legam laborum, arbitror amet nescius.</blockquote>
-                    
-                    <p>Ipsum quamquam ab deserunt iis anim ubi sed amet commodo. Dolor possumus ut</p>
-                    
-                    <h2>Se minim comprehenderit quo anim offendit efflorescere. Culpa ita in quorum</h2>
+                    <?php if(have_posts()) : while(have_posts()) : the_post(); ?>
+                        <?php the_content(); ?>
+                    <?php endwhile; endif; ?>
                     
                     <!--Os serviços-->
-                    <ul>
-                        <li>
-                            <div class="col-md-6">
-                                <h3>lorem ipsum</h3>
-                                <p>Sed esse laboris nostrud, quamquam ipsum sint se fugiat iis si nam quae magna tamen de do aut coniunctione, occaecat ita noster deserunt, minim ita et dolore  nescius, ita sunt duis se singulis te iis aute multos id occaecat. Non veniam voluptate graviterque. Se varias vidisse, iis illum cillum a admodum. Officia ne</p>
-                            </div>
-                            <div class="col-md-6">
-                                <img src="http://placehold.it/346x200">
-                            </div>
-                            <div class="clearfix"></div>
-                        </li>
-                        <li>
-                            <div class="col-md-6">
-                                <h3>lorem ipsum</h3>
-                                <p>Sed esse laboris nostrud, quamquam ipsum sint se fugiat iis si nam quae magna tamen de do aut coniunctione, occaecat ita noster deserunt, minim ita et dolore  nescius, ita sunt duis se singulis te iis aute multos id occaecat. Non veniam voluptate graviterque. Se varias vidisse, iis illum cillum a admodum. Officia ne</p>
-                            </div>
-                            <div class="col-md-6">
-                                <img src="http://placehold.it/346x200">
-                            </div>
-                            <div class="clearfix"></div>
-                        </li>
-                        <li>
-                            <div class="col-md-6">
-                                <h3>lorem ipsum</h3>
-                                <p>Sed esse laboris nostrud, quamquam ipsum sint se fugiat iis si nam quae magna tamen de do aut coniunctione, occaecat ita noster deserunt, minim ita et dolore  nescius, ita sunt duis se singulis te iis aute multos id occaecat. Non veniam voluptate graviterque. Se varias vidisse, iis illum cillum a admodum. Officia ne</p>
-                            </div>
-                            <div class="col-md-6">
-                                <img src="http://placehold.it/346x200">
-                            </div>
-                            <div class="clearfix"></div>
-                        </li>
-                        <li>
-                            <div class="col-md-6">
-                                <h3>lorem ipsum</h3>
-                                <p>Sed esse laboris nostrud, quamquam ipsum sint se fugiat iis si nam quae magna tamen de do aut coniunctione, occaecat ita noster deserunt, minim ita et dolore  nescius, ita sunt duis se singulis te iis aute multos id occaecat. Non veniam voluptate graviterque. Se varias vidisse, iis illum cillum a admodum. Officia ne</p>
-                            </div>
-                            <div class="col-md-6">
-                                <img src="http://placehold.it/346x200">
-                            </div>
-                            <div class="clearfix"></div>
-                        </li>
-                    </ul>
+                    <?php while ( have_posts() ) : the_post(); ?>
+                        <?php if(have_rows('servicos')): ?>
+                            <ul>
+                            <?php while(have_rows('servicos')) : the_row(); ?>
+                                <li>
+                                    <div class="col-md-6">
+                                        <?php echo get_sub_field('servico_txt'); ?>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <?php $img = get_sub_field('servico_img'); ?>
+                                        <img src="<?php echo $img['sizes']['medium']; ?>" alt="<?php echo $img['title'] ?>">
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </li>
+                            <?php endwhile ?>
+                            </ul>
+                        <?php endif ?>
+                    <?php endwhile ?>
                     <!--End of Os serviços-->
                     
                     <h2>Descubra porque na Wall Street English todos aprendem a falar inglês</h2>
-                    <iframe width="100%" height="415" src="//www.youtube.com/embed/E7i4Lx_4E0E?rel=0" frameborder="0" allowfullscreen></iframe>
+                    <?php if(get_field('video')): ?>
+                        <?php
+                            $embed_code = wp_oembed_get( get_field('video') );
+                            echo $embed_code;
+                        ?>
+                    <?php endif ?>
                 </section>
                 <!--End of Contato Content-->
 
