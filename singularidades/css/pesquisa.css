@@ -1,0 +1,56 @@
+.right h2{
+    color: #26406c;
+    font: normal 26px Arial, sans-serif;
+    margin-bottom: 40px;
+}
+.right p{
+    color: #939598;
+    font: normal 12px Arial, sans-serif;
+    margin-bottom: 10px;
+}
+.right a{
+    color: #26406c;
+    font: normal 12px Arial, sans-serif;
+}
+
+.pesquisa .the-search li{
+    margin-bottom: 30px;
+}
+.pesquisa li h3{
+    color: #606062;
+    font: bold 14px/1em Arial, sans-serif;
+    margin-bottom: 5px;
+}
+.pesquisa li span.time{
+    color: #939598;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 15px;
+}
+.pesquisa .navigation{
+    border: solid 1px #274268;
+    padding: 14px 29px;
+}
+.pesquisa .navigation .results{
+    font: bold 12px Arial, sans-serif;
+    color: #4375a9;
+    padding-top: 6px;
+    display: block;
+    float: left;
+}
+.pesquisa .navigation .the-navigation{
+    float: right;
+    display: table;
+}
+.pesquisa .navigation .the-navigation li{
+    display: inline-block;
+}
+.pesquisa .navigation .the-navigation li a{
+    color: white;
+    font-size: 12px;
+    background: #4070a1;
+    padding: 7px;
+}
+.pesquisa .navigation .the-navigation li.active a{
+    background: #1a365f;
+}

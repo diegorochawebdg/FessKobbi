@@ -1,3 +1,24 @@
+.right .agenda .agenda-left{
+    float: left;
+    width: 49%;
+}
+.right .agenda .agenda-right{
+    float: right;
+    width: 49%;
+    background: #4272a5;
+    border-bottom: solid 4px #7cd0f3;
+}
+.right .agenda .agenda-right .box-padding{
+    padding: 30px;
+}
+.right .agenda .agenda-right .box-padding *{
+    color: white;
+}
+.right .agenda .agenda-right .box-padding p{
+    text-align: justify;
+}
+
+
 .right .text{
     width: 100% !important;
 }

@@ -58,6 +58,23 @@
     <div class="right">
         
         <div class="text">
+            
+            <!--Agenda-->
+            <div class="agenda">
+                <div class="agenda-left">
+                    
+                </div>
+                <div class="agenda-right">
+                    <div class="box-padding">
+                        <h3>Dia 26 de junho</h3>
+                        <p>Sed nostrud non admodum, nostrud graviterque o ingeniis. Laboris irure aut incurreret transferrem si si deserunt firmissimum. Id esse possumus  exercitation. Quid laboris incurreret, quamquam philosophari ad possumus,  eiusmod o vidisse, arbitror labore proident, minim est hic quorum proident</p>
+                        <p>Sed nostrud non admodum, nostrud graviterque o ingeniis. Laboris irure aut incurreret transferrem si si deserunt firmissimum. Id esse possumus  exercitation. Quid laboris incurreret, quamquam philosophari ad possumus,  eiusmod o vidisse, arbitror labore proident, minim est hic quorum proident</p>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <!--End Agenda-->
+            
             <!--Left Column-->
             <div class="left-column">
                 <h2>1º Semestre 2014</h2>

@@ -1,0 +1,52 @@
+.right h2{
+    color: #26406c;
+    font: normal 26px Arial, sans-serif;
+    margin-bottom: 20px;
+}
+.right p{
+    color: #939598;
+    font: normal 14px Arial, sans-serif;
+    margin-bottom: 40px;
+}
+
+.releases .the-releases li{
+    margin-bottom: 50px;
+}
+.releases li h3{
+    color: #4375a9;
+    font: bold 16px/1em Arial, sans-serif;
+    margin-bottom: 5px;
+}
+.releases li span.time{
+    color: #939598;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 15px;
+}
+.releases .navigation{
+    border: solid 1px #274268;
+    padding: 14px 29px;
+}
+.releases .navigation .results{
+    font: bold 12px Arial, sans-serif;
+    color: #4375a9;
+    padding-top: 6px;
+    display: block;
+    float: left;
+}
+.releases .navigation .the-navigation{
+    float: right;
+    display: table;
+}
+.releases .navigation .the-navigation li{
+    display: inline-block;
+}
+.releases .navigation .the-navigation li a{
+    color: white;
+    font-size: 12px;
+    background: #4070a1;
+    padding: 7px;
+}
+.releases .navigation .the-navigation li.active a{
+    background: #1a365f;
+}

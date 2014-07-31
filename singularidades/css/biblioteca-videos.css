@@ -1,0 +1,67 @@
+.videos-biblioteca .the-videos li{
+    margin-bottom: 30px;
+    border: solid 1px #a7a9ac;
+    border-top: solid 5px #113a64;
+}
+.videos-biblioteca .the-videos li .box-padding{
+    padding: 15px 12px;
+}
+.videos-biblioteca li h2{
+    color: #4375a9;
+    font: bold 16px/1em Arial, sans-serif;
+    margin-bottom: 5px;
+}
+.videos-biblioteca .the-videos li span.time{
+    color: #606062;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 15px;
+}
+.videos-biblioteca .the-videos li .the-video{
+    position: relative;
+    float: left; 
+    width: 48%;
+}
+.videos-biblioteca .the-videos li .the-video .video-icon{
+    position: absolute;
+    background: url(../images/biblioteca/video-preview.png) no-repeat;
+    width: 61px;
+    height: 61px;
+    left: 50%;
+    top: 50%;
+    margin-left: -30px;
+    margin-top: -30px;
+}
+.videos-biblioteca .the-videos li .video-txt p{
+    color: #939598;
+    font-size: 13px;
+    line-height: 1.3em;
+    margin: 5px 0;
+}
+.videos-biblioteca .navigation{
+    border: solid 1px #274268;
+    padding: 14px 29px;
+}
+.videos-biblioteca .navigation .results{
+    font: bold 12px Arial, sans-serif;
+    color: #4375a9;
+    padding-top: 6px;
+    display: block;
+    float: left;
+}
+.videos-biblioteca .navigation .the-navigation{
+    float: right;
+    display: table;
+}
+.videos-biblioteca .navigation .the-navigation li{
+    display: inline-block;
+}
+.videos-biblioteca .navigation .the-navigation li a{
+    color: white;
+    font-size: 12px;
+    background: #4070a1;
+    padding: 7px;
+}
+.videos-biblioteca .navigation .the-navigation li.active a{
+    background: #1a365f;
+}

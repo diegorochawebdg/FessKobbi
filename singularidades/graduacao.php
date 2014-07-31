@@ -28,7 +28,7 @@
             <li><a href="#" title="Curso">Curso</a></li>
             <li><a href="#" title="Curso">Curso</a></li>
             <li><a href="#" title="Curso">Curso</a></li>
-            <li><a href="#" title="Curso">Curso</a></li>
+            <li><a href="galeria-eventos.php" title="Curso" class="galeria">Curso</a></li>
         </ul>
         <!--End of Left Menu-->
     </div>
@@ -181,3 +181,20 @@
 
 <?php include "footer.php" ?>
 <script type="text/javascript" src="js/internal.js"></script>
+<link rel="stylesheet" href="js/fancybox/jquery.fancybox.css">
+<script type="text/javascript" src="js/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(e){
+        $('ul.main-menu a.galeria').fancybox({
+            type:               'iframe',
+            width:              '100%',
+            height:             '100%',
+            margin:             0,
+            padding:            0,
+            modal:              'false',
+            helpers: { 
+                title: null
+            }
+        });
+    });
+</script>

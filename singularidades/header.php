@@ -38,8 +38,25 @@
                 <!--End of Search form-->
                 
                 <div class="portais-link">
-                    <a href="#" class="portal-aluno main-icons">Portal do aluno</a>
-                    <a href="#" class="portal-professor main-icons">Portal do professor</a>
+                    <ul>
+                        <li>
+                            <a href="#" class="portal-aluno main-icons">Portal do aluno</a>
+                            <ul class="submenu-header aluno-submenu">
+                                <li><a href="#" title="Item1">Item1</a></li>
+                                <li><a href="#" title="Item2">Item2</a></li>
+                                <li><a href="#" title="Item3">Item3</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="portal-professor main-icons">Portal do professor</a>
+                            <ul class="submenu-header aluno-submenu">
+                                <li><a href="#" title="Item1">Item1</a></li>
+                                <li><a href="#" title="Item2">Item2</a></li>
+                                <li><a href="#" title="Item3">Item3</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    
                     <div class="clear"></div>
                 </div>
                 <div class="clear"></div>

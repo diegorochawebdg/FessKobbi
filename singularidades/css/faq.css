@@ -1,0 +1,62 @@
+.faq h2{
+    color: #26406c;
+    font: normal 26px Arial, sans-serif;
+    margin-bottom: 20px;
+}
+.faq p{
+    color: #939598;
+    font: normal 14px Arial, sans-serif;
+    margin-bottom: 20px;
+}
+.faq .faq-search{
+    margin-bottom: 25px;
+}
+.faq .faq-search input{
+    color: #939598;
+    font: normal 16px Arial, sans-serif;
+    border: solid 1px #26406c;
+    width: 66%;
+    padding: 0 2%;
+    height: 45px;
+    margin-right: 3%;
+}
+.faq .faq-search button{
+    color: white;
+    font: normal 14px Arial, sans-serif;
+    width: 25%;
+    padding: 15.5px 0;
+    text-transform: uppercase;
+    background: #20355a;
+    cursor: pointer;
+}
+.faq .faq-search button:hover{
+    opacity: 0.7;
+}
+.faq .the-faq h3{
+    font: bold 16px Arial, sans-serif;
+    color: #4375a9;
+    margin-bottom: 25px;
+}
+.faq .the-faq ul{
+    margin-bottom: 30px;
+}
+.faq .the-faq li{
+    padding-left: 16px;
+    background: url(../images/faq/li-closed.png) no-repeat;
+    margin-bottom: 10px;
+}
+.faq .the-faq li.active{
+    background: url(../images/faq/li-open.png) no-repeat;
+}
+
+.faq .the-faq li a{
+    color: #26406c;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.faq .the-faq li p{
+    font-size: 12px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    display: none;
+}
