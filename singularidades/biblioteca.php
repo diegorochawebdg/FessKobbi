@@ -41,40 +41,31 @@
     <!--Right-->
     <div class="right">
         
-        <!--Acesso biblioteca-->
-        <div class="acesso-biblioteca">
-            <a href="#" title="Acesse a biblioteca">Para consulta, renovação ou empréstimo, <span>clique aqui</span></a>
-        </div>
-        <!--End of Acesso biblioteca-->
-        
         <!--Text-->
         <div class="text">
-            <h3>Missão</h3>
-            <p><strong>Proident veniam</strong> commodo cernantur. In laborum est nostrud. Do fore senserit te senserit aute noster deserunt lorem. Mandaremus ab noster. Singulis do sunt. Hic velit nisi sunt consequat.</p>
-            <h3>Acervo da biblioteca</h3>
-            <p>Ita non philosophari. Te expetendis reprehenderit aut an duis offendit ab ita noster familiaritatem si varias incurreret a firmissimum. Te ita quis vidisse et</p>
-            <h3>Espaço físico</h3>
-            <p>Ita non philosophari. Te expetendis reprehenderit aut an duis offendit ab ita noster familiaritatem si varias incurreret a firmissimum. Te ita quis vidisse et</p>
-            <h3>Informatização</h3>
-            <p>Ita non philosophari. Te expetendis reprehenderit aut an duis offendit ab ita noster familiaritatem si varias incurreret a firmissimum. Te ita quis vidisse et</p>
+            <p>A Biblioteca Singularidades está em funcionamento desde 2001. Possui um excelente e atualizado acervo em educação e tem por objetivo promover a leitura, o acesso à informação e apoio didático, científico e pedagógico, atendendo ao corpo discente, docente, e colaboradores institucionais e consulta local para a comunidade.</p>
+            <p>O acervo possui aproximadamente 10 mil exemplares, dentre eles periódicos técnicos e de atualidades, DVDs, CDs, Normas técnicas,  mapas, jogos e brinquedos pedagógicos e outros. Disponibiliza bases de dados e outros recursos eletrônicos, facilitando assim o acesso à informação desejada.</p>
+            <p>A Biblioteca possui um espaço físico amplo de forma a abrigar acervo e sala de estudo individual.</p>
+            <p>O acervo está totalmente informatizado. O software utilizado é o Pergamum Web e os usuários podem realizar consultas, renovações e reservas online, inclusive acessar a rede Wireless.</p>
+            
             <h3>Horário de funcionamento</h3>
-            <p><strong>2ª a 6ª feira &bull;</strong> 7h30 às 22h</p>
-            <p><strong>Sábado &bull;</strong> 9h às 13h</p>
-            <h3>Localização</h3>
-            <p>Non sint ipsum si litteris.</p>
-            <p>Non sint ipsum si litteris.</p>
-            <p>Non sint ipsum si litteris.</p>
-            <p>Non sint ipsum si litteris: <a href="www.facebook.com/biblioteca.singularidades" title="Facebook">www.facebook.com/biblioteca.singularidades</a></p>
-            <h3>Administração</h3>
-            <p>Non sint ipsum si litteris.</p>
-            <p>Non sint ipsum si litteris.</p>
-            <p><a href="mailto:Non sint ipsum si litteris.">Non sint ipsum si litteris.</a></p>
-            <br>
-            <p>Non sint ipsum si litteris.</p>
-            <p>Non sint ipsum si litteris.</p>
-            <p><a href="mailto:Non sint ipsum si litteris.">Non sint ipsum si litteris.</a></p>
+            <p><strong>2ª a 6ª feira</strong> &bull; 7h30 às 22h</p>
+            <p><strong>Sábado</strong> &bull; 9h às 13h</p>
         </div>
         <!--End of Text-->
+        
+        <div class="links-biblioteca">
+            <a href="#" class="consulta">
+                <span>Consulta, Renovação e Reserva</span>
+            </a>
+            <a href="#" class="videoteca">
+                <span>Videoteca</span>
+            </a>
+            <a href="#" class="revista">
+                <span>Revista Eletrônica</span>
+            </a>
+            <div class="clear"></div>
+        </div>
         
     </div>
     <!--End of Right-->

@@ -1,29 +1,40 @@
-.right .acesso-biblioteca{
-    background: #f8f8f8;
-    border-top: solid 6px #113a64;
-    border-left: solid 1px #a7a9ac;
-    border-right: solid 1px #a7a9ac;
-    border-bottom: solid 2px #a7a9ac;
-    padding: 25px 27px;
-}
-.right .acesso-biblioteca a{
-    color: #4375a9;
-    display: block;
-    font-weight: bold;
-    font-size: 14px;
-    background: url(../images/internals/arrow-biblioteca.png) no-repeat right center;
-    height: 20px;
-}
-.right .acesso-biblioteca a span{
-    color: #26406c;
-}
 .right h3{
     margin: 20px 0;
 }
 .right p{
-    margin-bottom: 3px !important;
+    margin-bottom: 10px !important;
 }
 .right p a{
     display: inline;
     color: #26406c;
+}
+
+.links-biblioteca{
+    margin-top: 50px;
+}
+.links-biblioteca a{
+    width: 30%;
+    float: left;
+    height: 200px;
+    color: white;
+    font: bold 15px Arial, sans-serif;
+    text-align: center;
+    border-bottom: solid 5px #7cd0f3;
+    position: relative;
+}
+.links-biblioteca a.consulta{
+    background: #406f9f url(../images/biblioteca/consulta-renovacao-reserva.png) no-repeat center 50px;
+}
+.links-biblioteca a.videoteca{
+    margin: 0 5%;
+    background: #406f9f url(../images/biblioteca/videoteca.png) no-repeat center 50px;
+}
+.links-biblioteca a.revista{
+    background: #406f9f url(../images/biblioteca/revista-eletronica.png) no-repeat center 50px;
+}
+.links-biblioteca span{
+    position: absolute;
+    top: 150px;
+    left: 0;
+    width: 100%;
 }
