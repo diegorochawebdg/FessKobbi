@@ -8,7 +8,7 @@
     <title>Grupo Renauto</title>
     
     <!--Stylesheets-->
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main.min.css">
     <!--End of Stylesheets-->
     
 </head>
