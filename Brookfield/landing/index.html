@@ -41,6 +41,17 @@
 			</div>
 		</div>
 		<!--End of header-->
+        
+        <!--Slider-->
+        <div id="slider">
+            <div class="content-center">
+                <ul>
+                    <li><a href="#" title="Expo Brookfield"><img src="images/slider/banner_v101.jpg" width="940" height="300" alt="Expo Brookfield" title="Expo Brookfield"></a></li>
+                    <li><a href="#" title="Para morar, trabalhar e investir com condições imperdíveis"><img src="images/slider/banner_v102.jpg" width="940" height="300" alt="Para morar, trabalhar e investir com condições imperdíveis" title="Para morar, trabalhar e investir com condições imperdíveis"></a></li>
+                </ul>
+            </div>
+        </div>
+        <!--End Slider-->
 		
 		<!--Content-->
 		<div id="content">
@@ -302,18 +313,30 @@
     </div>
 	
 	<!--Scripts-->
-	<script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
 	<script type="text/javascript" src="js/jquery.appear.js"></script>
-	<script type="application/javascript">
-		$('#footer').appear();
-		$('#footer').on('appear', function(event, $all_appeared_elements) {
-			console.log("works");
-			$('#float-bar').css("position","static");
-		});
-		$('#footer').on('disappear', function(event, $all_appeared_elements) {
-			console.log("works2");
-			$('#float-bar').css("position","fixed");
-		});
+	<script type="text/javascript">
+        $(document).ready(function(e){
+            //Slider
+            $('#slider ul').bxSlider({
+                pager:          true,
+                slideWidth:     '940',
+                controls:       false,
+                auto:           true,
+                pause:          7000
+            });
+
+            $('#footer').appear();
+            $('#footer').on('appear', function(event, $all_appeared_elements) {
+                console.log("works");
+                $('#float-bar').css("position","static");
+            });
+            $('#footer').on('disappear', function(event, $all_appeared_elements) {
+                console.log("works2");
+                $('#float-bar').css("position","fixed");
+            });
+        });
 	</script>
 	<!--End of Scripts-->
 </body>
