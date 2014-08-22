@@ -59,7 +59,7 @@
     color: inherit;
     text-decoration: underline;
 }
-#content form button{
+#content form a.login{
     background: url(../images/home/entrar.png) no-repeat;
     width: 146px;
     padding-top: 41px;
@@ -67,7 +67,7 @@
     display: block;
     float: right;
 }
-#content form button:hover{
+#content form a.login:hover{
     opacity: 0.7;
 }
 #content .one-half{

@@ -5,13 +5,14 @@
 <head>
     <title>&#35;fitfriend | Smart Fit</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="keywords" lang="pt-br" content="">
     <meta name="Author" content="Fess'Kobbi">
     <link href="favicon.png" rel="icon" type="image/x-icon" />
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/home.css">
-    <link rel="stylesheet" media="screen and (max-width: 960px)" href="css/responsible-home.css">
+    <link rel="stylesheet" media="screen and (max-width: 767px)" href="css/responsible-home.min.css">
 
     <!--Scripts-->
     <!--End of Scripts-->
@@ -24,7 +25,10 @@
         <div id="header">
             <div class="main-content">
                 <h1><img src="images/home/fitfriend-logo.png" width="686" height="233" alt="&#35;fitfriend | Smart Fit" title="&#35;fitfriend | Smart Fit"></h1>
-                <h2 class="font">Seu amigo ganha adesão zero e <strong>você 1 mês free</strong></h2>
+                <div class="main-txt">
+                    <h2 class="font">Seu amigo ganha adesão zero e <strong>você 1 mês free</strong></h2>
+                    <span class="obs">Promoção válida apenas para alunos Smart Fit</span>
+                </div>
                 <img class="adesao" src="images/home/1-adesao-1-mensalidade.png" width="204" height="108" alt="1 adesão = 1 mensalidade" title="1 adesão = 1 mensalidade">
                 <div class="clear"></div>
             </div>
@@ -38,11 +42,13 @@
             <div class="stripe">
                 <!--Form-->
                 <form name="facebook-login">
-                    <input type="text" name="cpf" id="cpf" value="CPF" onfocus="if (this.value==this.defaultValue) this.value = ''" onblur="if (this.value=='') this.value = this.defaultValue" tabindex="1">
-                    <input type="email" name="email" id="email" value="E-mail" onfocus="if (this.value==this.defaultValue) this.value = ''" onblur="if (this.value=='') this.value = this.defaultValue" tabindex="2">
+                    <div class="inputs">
+                        <input type="text" name="cpf" id="cpf" value="CPF" onfocus="if (this.value==this.defaultValue) this.value = ''" onblur="if (this.value=='') this.value = this.defaultValue" tabindex="1">
+                        <input type="email" name="email" id="email" value="E-mail" onfocus="if (this.value==this.defaultValue) this.value = ''" onblur="if (this.value=='') this.value = this.defaultValue" tabindex="2">
+                    </div>
                     <input type="checkbox" name="regulamento" id="regulamento" tabindex="3">
                     <label for="regulamento">Li e concordo <br>com o <a href="#">regulamento</a></label>
-                    <button title="Entrar" class="link-padding animate" tabindex="4">Entrar</button>
+                    <a title="Entrar" class="login link-padding animate" tabindex="4">Entrar</a>
                     <div class="clear"></div>
                 </form>
                 <!--End of Form-->
