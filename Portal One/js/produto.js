@@ -60,5 +60,5 @@ $(document).ready(function(e){
 
 //Magic Anchor
 function goToByScroll(id){
-    $('html,body').animate({scrollTop: $('div.versions').offset().top},'slow');
+    $('html,body').animate({scrollTop: $('div#info').offset().top},'slow');
 }

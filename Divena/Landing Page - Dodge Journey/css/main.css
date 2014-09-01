@@ -1,0 +1,293 @@
+@charset "UTF-8";
+
+/*Font*/
+@font-face {
+    font-family: 'Tungsten-Book';
+    src: url('../fonts/Tungsten-Book.eot');
+    src: url('../fonts/Tungsten-Book?#iefix') format('embedded-opentype'),
+        url('../fonts/Tungsten-Book.svg#Tungsten-Book') format('svg'),
+        url('../fonts/Tungsten-Book.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*Reset Css*/
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    -webkit-font-smoothing: antialiased;
+    background-repeat: no-repeat;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1em;
+    color: white;
+}
+body, html{
+    width: 100%;
+    min-height: 100%;
+}
+img{
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+}
+a{
+    display: block;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.link-padding{
+    position: relative;
+    overflow: hidden;
+    height: 0;
+}
+.clear{
+    clear: both;
+}
+.animate{
+-webkit-transition: all 200ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+   -moz-transition: all 200ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+     -o-transition: all 200ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+        transition: all 200ms cubic-bezier(0.250, 0.100, 0.250, 1.000);
+}
+.content-center{
+    width: 980px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+/*End of Reset Css*/
+
+/*Header*/
+#header{
+    background: url(../images/bg-header.jpg) no-repeat center;
+    height: 123px;
+}
+#header #menu-institucional{
+    float: right;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+}
+#header #menu-institucional li{
+    float: left;
+}
+#header #menu-institucional li:first-child{
+    border-right: solid 1px white;
+    padding-right: 10px;
+}
+#header #menu-institucional li:last-child{
+    padding-left: 10px;
+}
+#header #menu-institucional li a{
+    font: normal 11px Arial, sans-serif;
+}
+#header #brands-menu h1{
+    background: url(../images/dodge-logo.png) no-repeat;
+    width: 279px;
+    padding-top: 41px;
+    float: left;
+}
+#header #brands-menu a.divena-logo{
+    background: url(../images/divena-logo.png) no-repeat;
+    width: 100px;
+    padding-top: 25px;
+    float: right;
+    margin-right: 40px;
+}
+
+/*Journey RT*/
+#journey-rt{
+    background: url(../images/bg-journey-rt.jpg) no-repeat center;
+    height: 455px;
+}
+#journey-rt .content-center{
+    position: relative;
+}
+#journey-rt img.car-image{
+    position: absolute;
+    top: 119px;
+    left: 0;
+}
+#journey-rt .text{
+    position: absolute;
+    top: 21px;
+    right: -56px;
+    width: 407px;
+}
+#journey-rt .relative{
+    position: relative;
+}
+#journey-rt .text h2{
+    background: url(../images/title-journey-rt.png) no-repeat;
+    width: 407px;
+    padding-top: 126px;
+    margin-bottom: 64px;
+}
+#journey-rt .text strong.price{
+    background: url(../images/price-journey-rt.png) no-repeat;
+    width: 171px;
+    height: 67px;
+    position: absolute;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 46px;
+    right: 92px;
+    top: 103px;
+    font-family: 'Tungsten-Book';
+    font-weight: normal;
+    text-indent: 20px;
+}
+#journey-rt .text strong.price span{
+    font-size: 29.5px;
+    font-family: 'Tungsten-Book';
+    font-weight: normal;
+}
+#journey-rt .text ul{
+    margin: 0 45px 15px 45px;
+}
+#journey-rt .text ul li{
+    color: #c5c5c5;
+    font-size: 14px;
+    line-height: 1.4em;
+    background: url(../images/bg-li.png) no-repeat left 5px;
+    padding-left: 15px;
+}
+#journey-rt .text a{
+    display: table;
+    margin: 0 auto;
+    font-family: 'Tungsten-Book';
+    font-weight: bold;
+    font-size: 21px;
+    border-radius: 2px;
+    text-shadow: #a6221a -1px -1px 2px;
+    text-transform: uppercase;
+    padding: 10px 14px;
+    background: #f64536;
+    background: -moz-linear-gradient(top,  #f64536 0%, #f64536 49%, #e61712 50%, #e61712 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f64536), color-stop(49%,#f64536), color-stop(50%,#e61712), color-stop(100%,#e61712));
+    background: -webkit-linear-gradient(top,  #f64536 0%,#f64536 49%,#e61712 50%,#e61712 100%);
+    background: -o-linear-gradient(top,  #f64536 0%,#f64536 49%,#e61712 50%,#e61712 100%);
+    background: -ms-linear-gradient(top,  #f64536 0%,#f64536 49%,#e61712 50%,#e61712 100%);
+    background: linear-gradient(to bottom,  #f64536 0%,#f64536 49%,#e61712 50%,#e61712 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f64536', endColorstr='#e61712',GradientType=0 );
+}
+
+/*Journey SXT*/
+#journey-sxt{
+    background: url(../images/bg-journey-sxt.jpg) no-repeat center;
+    height: 438px;
+}
+
+#journey-sxt .content-center{
+    position: relative;
+}
+#journey-sxt img.car-image{
+    position: absolute;
+    top: 5px;
+    right: 35px;
+}
+#journey-sxt .text{
+    position: absolute;
+    top: 0px;
+    left: -68px;
+    width: 429px;
+}
+#journey-sxt .relative{
+    position: relative;
+}
+#journey-sxt .text h2{
+    background: url(../images/title-journey-sxt.png) no-repeat;
+    width: 429px;
+    padding-top: 142px;
+    margin-bottom: 54px;
+}
+#journey-sxt .text strong.price{
+    background: url(../images/price-journey-rt.png) no-repeat;
+    width: 171px;
+    height: 67px;
+    position: absolute;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 46px;
+    right: 92px;
+    top: 103px;
+    font-family: 'Tungsten-Book';
+    font-weight: normal;
+    text-indent: 20px;
+}
+#journey-sxt .text strong.price span{
+    font-size: 29.5px;
+    font-family: 'Tungsten-Book';
+    font-weight: normal;
+}
+#journey-sxt .text ul{
+    margin: 0 0 15px 87px;
+}
+#journey-sxt .text ul li{
+    color: #c5c5c5;
+    font-size: 14px;
+    line-height: 1.4em;
+    background: url(../images/bg-li.png) no-repeat left 5px;
+    padding-left: 15px;
+}
+#journey-sxt .text a{
+    display: table;
+    margin-left: 87px;
+    font-family: 'Tungsten-Book';
+    font-weight: bold;
+    font-size: 21px;
+    border-radius: 2px;
+    text-shadow: #a6221a -1px -1px 2px;
+    text-transform: uppercase;
+    padding: 10px 14px;
+    background: #f64536;
+    background: -moz-linear-gradient(top,  #f64536 0%, #f64536 49%, #e61712 50%, #e61712 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f64536), color-stop(49%,#f64536), color-stop(50%,#e61712), color-stop(100%,#e61712));
+    background: -webkit-linear-gradient(top,  #f64536 0%,#f64536 49%,#e61712 50%,#e61712 100%);
+    background: -o-linear-gradient(top,  #f64536 0%,#f64536 49%,#e61712 50%,#e61712 100%);
+    background: -ms-linear-gradient(top,  #f64536 0%,#f64536 49%,#e61712 50%,#e61712 100%);
+    background: linear-gradient(to bottom,  #f64536 0%,#f64536 49%,#e61712 50%,#e61712 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f64536', endColorstr='#e61712',GradientType=0 );
+}
+
+/*Footer*/
+#footer{
+    padding: 35px 0;
+}
+#footer *{
+    color: #333;
+}
+#footer .name{
+    display: table;
+    margin: 0 auto 35px auto;
+}
+#footer .name span{
+    font-family: 'Tungsten-Book';
+    font-size: 30px;
+    margin-bottom: 10px;
+    display: block;
+}
+#footer .name a{
+    font-family: 'Tungsten-Book';
+    font-size: 20px;
+    display: block;
+}
+#footer small{
+    font-size: 10px;
+    margin-bottom: 20px;
+    display: block;
+    text-align: justify;
+}
+#footer .alert img{
+    float: left;
+    margin-right: 10px;
+}
+#footer .alert span{
+    float: left;
+    font-size: 19px;
+    padding-top: 46px;
+}

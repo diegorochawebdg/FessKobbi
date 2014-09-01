@@ -1,0 +1,260 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'CorporateS-Regular';
+    src: url('../fonts/CorporateS-Regular.eot');
+    src: url('../fonts/CorporateS-Regular?#iefix') format('embedded-opentype'),
+        url('../fonts/CorporateS-Regular.svg#CorporateS-Regular') format('svg'),
+        url('../fonts/CorporateS-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#container{
+    background: none;
+}
+.main-bg-img{
+    background: url(../images/interna-landing/bg-car.jpg) no-repeat center;
+    height: 497px;
+    border-bottom: solid 1px white;
+}
+#header{
+    margin-bottom: 317px;
+}
+
+/*Content*/
+#content{
+    padding-top: 100px;
+    position: relative;
+}
+
+/*Price bar*/
+#price-bar{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: #333;
+}
+#price-bar.fixed{
+    position: fixed;
+    z-index: 10;
+}
+#price-bar *{
+    font-family: 'CorporateA';
+}
+#price-bar h1{
+    font-weight: normal;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 25px;
+    height: 55px;
+}
+#price-bar .the-price{
+    float: right;
+    display: table;
+}
+#price-bar .car-title{
+    float: left;
+}
+#price-bar .form-link-container{
+    float: right;
+    display: table;
+    height: 55px;
+}
+#price-bar .form-link-container a.form-link{
+    vertical-align: middle;
+    display: table-cell;
+    height: 30px;
+    text-align: center;
+}
+#price-bar .form-link-container a.form-link span{
+    background: #078dc5 url(../images/interna-landing-onibus/intencao-compra-link.png) no-repeat right center;
+    font: normal 13px Arial, sans-serif;
+    padding: 7px 55px;
+    text-indent: -20px;
+    border-top: solid 1px #43b7ea;
+    border-left: solid 1px #43b7ea;
+    border-right: solid 1px #0d516e;
+    border-bottom: solid 1px #0d516e;
+}
+
+/*Title for all contents*/
+#content .title{
+    padding-bottom: 10px;
+    border-bottom: solid 1px #292929;
+    margin-bottom: 15px;
+    clear: both;
+}
+#content .title h2{
+    font-family: 'CorporateA';
+    font-weight: normal;
+    font-size: 24px;
+    float: left;
+}
+#content .title .ficha-tecnica, #content .title strong.model{
+    float: right;
+}
+
+/*Gallery*/
+#gallery, #info{
+    margin-bottom: 50px;
+}
+#gallery .title .ficha-tecnica{
+    font-size: 11px;
+    padding-top: 5px;
+}
+#gallery #large-image{
+    margin-bottom: 20px;
+}
+#gallery #large-image img{
+    border: solid 1px #0594cf;
+}
+#gallery .bx-wrapper{
+    position: relative;
+}
+#gallery #thumbs a.active img{
+    border: solid 1px #0594cf;
+}
+#gallery .bx-controls a{
+    position: absolute;
+    overflow: hidden;
+    width: 11px;
+    padding-top: 22px;
+    height: 0;
+    display: block;
+    top: 20px;
+}
+#gallery .bx-controls a.bx-prev{
+    background: url(../images/interna-landing/prev.png) no-repeat;
+    left: -40px
+}
+#gallery .bx-controls a.bx-next{
+    background: url(../images/interna-landing/next.png) no-repeat;
+    right: -40px;
+}
+
+/*Info*/
+#info .title strong.model{
+    font-family: 'CorporateA';
+    font-size: 24px;
+    font-weight: normal;
+}
+#info #info-container{
+    margin-top: 30px;
+    background: #141414;
+}
+#info #info-container .image-slogan{
+    background: #171717;
+}
+#info #info-container .image-slogan img{
+    width: 50%;
+    float: left;
+}
+#info #info-container .image-slogan .car-slogan{
+    float: right;
+    width: 50%;
+}
+#info #info-container .image-slogan .car-slogan h3{
+    font-family: 'CorporateA';
+    font-size: 40px;
+    font-weight: normal;
+}
+#info #info-container .image-slogan .car-slogan h4{
+    font-family: 'CorporateS-Regular';
+    font-size: 15px;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-style: italic;
+    margin: 7px 0;
+}
+#info #info-container .image-slogan .car-slogan p{
+    font-size: 12px;
+    color: #7a7575;
+}
+#info #info-container .image-slogan .car-slogan .box-padding{
+    display: table;
+    margin: 0 auto;
+    vertical-align: middle;
+    padding-top: 55px;
+}
+
+/*The Info*/
+#info #info-container ul li{
+    border: solid 1px #2a2929;
+    margin-bottom: 5px;
+    box-shadow: #000 0 0 10px;
+}
+#info #info-container ul li a{
+    font: normal 24px 'CorporateA';
+    padding: 15px 60px;
+    background: url(../images/interna-landing-onibus/bg-link.png) no-repeat 45px center;
+}
+#info #info-container ul li ul.specs{
+    padding: 10px 60px;
+    display: none;
+}
+#info #info-container ul li:first-child ul.specs{
+    padding: 10px 60px;
+    display: block;
+}
+
+
+#info #info-container .the-info{
+    padding-top: 30px;
+}
+#info #info-container .the-info ul li ul.specs li{
+    margin-bottom: 15px;
+    font-size: 12px;
+    font-style: italic;
+    line-height: 1.4em;
+    border: none;
+    box-shadow: none;
+    float: left;
+    width: 48%;
+    margin-right: 1%;
+}
+#info #info-container .the-info ul li ul.specs li strong{
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    font-style: normal;
+}
+
+/*Lojas*/
+#lojas{
+    margin-bottom: 150px;
+}
+#lojas li{
+    width: 48%;
+    float: left;
+    margin: 0 0.8%;
+    border: solid 1px #171717;
+}
+#lojas li a{
+    display: table;
+    margin: 0 auto;
+    padding: 15px 0;
+    line-height: 1.5em;
+    font-size: 15px;
+}
+#lojas li.agende-visita a{
+    padding: 15px;
+}
+#lojas li a strong{
+    display: inline;
+    font-family: 'CorporateA';
+    font-size: 24px;
+    font-weight: normal;
+}
+#lojas li.agende-visita a strong{
+    float: left;
+    width: 40%;
+}
+#lojas li a span{
+    display: inline;
+    font-size: 12px;
+}
+#lojas li.agende-visita a span{
+    float: left;
+    width: 60%;
+}

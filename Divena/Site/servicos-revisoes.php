@@ -3,10 +3,10 @@
 	<link rel="stylesheet" href="css/servicos.min.css">
     <style type="text/css">
         .main-bg-img{
-            background: url(../images/servicos/bg-funilaria.jpg) no-repeat center;
+            background: url(images/servicos/bg-revisoes.jpg) no-repeat center;
         }
         .slogan{
-            background: url(../images/servicos/banner-funilaria.jpg) no-repeat center;
+            background: url(images/servicos/banner-revisoes.jpg) no-repeat center;
         }
     </style>
 
@@ -35,8 +35,8 @@
             <div class="internal-menu">
                 <ul>
                     <li><a href="#" title="Oficina">Oficina</a></li>
-                    <li><a href="#" title="Revisões">Revisões</a></li>
-                    <li class="active"><a href="#" title="Funilaria">Funilaria</a></li>
+                    <li class="active"><a href="#" title="Revisões">Revisões</a></li>
+                    <li><a href="#" title="Funilaria">Funilaria</a></li>
                     <li><a href="#" title="Consórcio">Consórcio</a></li>
                     <li><a href="#" title="Agende um teste-drive">Agende um teste-drive</a></li>
                 </ul>
@@ -46,15 +46,24 @@
 
             <!--The content-->
             <div class="the-content">
-                <h1>Funilaria</h1>
-                <p>Contamos com técnicos com mais de 35 anos de experiência em serviços na marca e os melhores equipamentos para funilaria e pintura.</p>
+                <h1>Revisões</h1>
+                <p>Para a Divena Veículos a satisfaçăo é o foco principal, sendo assim proporciona serviços de manutençőes e revisőes que garantem o melhor funcionamento e desempenho dos veículos.</p>
                 <ul class="text">
-                    <li>Utilizamos o mesmo sistema de pintura da linha de produção das fábricas da Alemanha.</li>
-                    <li>Sistema de Repintura da Standox com 10 anos de garantia (descoloração, descolamento).</li>
-                    <li>Atendemos todas as principais seguradoras.</li>
-                    <li>Parcelamos sua franquia em até três vezes sem juros nos cartôes de crédito; Consulte-nos.</li>
-                    <li>Controle de Qualidade e garantia do serviço.</li>
+                    <li>Montagem e recuperaçăo de agregados</li>
+                    <li>Motores</li>
+                    <li>Caixa de câmbio</li>
+                    <li>Caixa de câmbio automáticos</li>
+                    <li>Caixa de câmbio manual</li>
+                    <li>Diferenciais</li>
+                    <li>Cabeçotes e outros</li>
+                    <li>Reparos em suspensăo</li>
+                    <li>Alinhamento</li>
+                    <li>Balanceamento</li>
+                    <li>Desempeno de rodas</li>
+                    <li>Equipamentos eletrônicos de última geraçăo.</li>
                 </ul>
+
+                <p>Faça revisões periodicamente evitando assim o desgaste prematuro de seu veículo.</p>
                 
                 <div class="internal-menu">
                     <ul>
