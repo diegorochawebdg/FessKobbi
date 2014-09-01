@@ -1,0 +1,216 @@
+@charset "UTF-8";
+
+#container{
+    background-position: 0 408px;
+}
+.main-bg-img{
+    background: url(../images/busca-carro/bg-busca-carro.jpg) no-repeat center;
+    height: 408px;
+}
+.slogan{
+    background: url(../images/busca-carro/banner-busca-carro.jpg) no-repeat center;
+}
+
+/*Slogan*/
+.slogan{
+    padding-top: 10px;
+    height: 176px;
+    position: relative;
+}
+
+/*Content*/
+#content{
+    margin-bottom: 60px;
+}
+
+/*Path*/
+#content .path{
+    border-bottom: solid 1px #2b2b2b;
+    margin-bottom: 25px;
+}
+#content .path li{
+    float: left;
+    padding: 10px 35px;
+    background: #2b2b2b;
+    position: relative;
+}
+#content .path li:after{
+    left: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(136, 183, 213, 0);
+    border-left-color: #2b2b2b;
+    border-width: 16px;
+    margin-top: -16px;
+    z-index: 1;
+}
+#content .path li:nth-child(even){
+    background: #202020;
+}
+#content .path li:nth-child(even):after{
+    border-left-color: #202020;
+}
+#content .path li, #content .path li a{
+    font-size: 12px;
+}
+#content .path li:last-child span{
+    color: #2bacdd;
+    font-weight: bold;
+}
+
+#content .content-center{
+    background: #151515;
+}
+
+/*Side Menu*/
+#side-menu{
+    float: left;
+    width: 220px;
+    background: #202020;
+}
+#side-menu h2{
+    background: #2b2b2b;
+    font: normal 30px 'CorporateA-Condensed', Arial, sans-serif;
+    text-align: center;
+    padding: 10px 0 5px 0;
+    margin: 0;
+    border-bottom: solid 1px #151515;
+}
+#side-menu .side-menu-content{
+    padding: 30px 25px;
+}
+#side-menu h3{
+    font: bold 16px Arial, sans-serif;
+    padding: 0 0 5px 25px;
+    margin-bottom: 5px;
+    border-bottom: solid 1px #363a3c;
+    background: url(../images/interna-landing-onibus/bg-link.png) no-repeat left center;
+}
+#side-menu ul li ul{
+    margin-bottom: 25px;
+}
+#side-menu ul li ul li{
+    margin-bottom: 5px;
+    back
+}
+#side-menu ul li ul li label{
+    font-size: 12px;
+    padding-top: 3px;
+    cursor: pointer; 
+}
+#side-menu ul li ul li label span{
+    color: #03a4e1;
+}
+
+/*Car list*/
+#car-list{
+    float: right;
+    width: 725px;
+    padding-bottom: 50px;
+}
+#car-list ul li{
+    margin-bottom: 15px;
+}
+#car-list ul li a{
+    display: block;
+}
+#car-list ul li {
+    display: block;
+}
+#car-list ul li .description{
+    background: #2b2b2b;
+    float: left;
+    width: 281px;
+    height: 272px;
+}
+#car-list ul li:hover .description{
+    background: #03a4e1;
+}
+#car-list ul li .description .box-padding{
+    padding: 50px 50px 0 50px;
+}
+#car-list ul li .description .box-padding h3{
+    font: bold 16px Arial, sans-serif;
+}
+#car-list ul li .description .box-padding span{
+    font: normal 14px Arial, sans-serif;
+    display: block;
+}
+#car-list ul li .description .box-padding strong{
+    font: normal 20px Arial, sans-serif;
+    display: block;
+    margin: 15px 0;
+}
+#car-list ul li .description .box-padding a{
+    font: normal 13px Arial,sans-serif;
+    padding: 10px;
+    display: table;
+    border-top: solid 1px #43b7ea;
+    border-left: solid 1px #43b7ea;
+    border-right: solid 1px #0d516e;
+    border-bottom: solid 1px #0d516e;
+    background: #049ad6;
+    background: -moz-linear-gradient(top,  #049ad6 0%, #0888bf 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#049ad6), color-stop(100%,#0888bf));
+    background: -webkit-linear-gradient(top,  #049ad6 0%,#0888bf 100%);
+    background: -o-linear-gradient(top,  #049ad6 0%,#0888bf 100%);
+    background: -ms-linear-gradient(top,  #049ad6 0%,#0888bf 100%);
+    background: linear-gradient(to bottom,  #049ad6 0%,#0888bf 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#049ad6', endColorstr='#0888bf',GradientType=0 );
+}
+#car-list ul li a.image{
+    float: left;
+    position: relative;
+    cursor: pointer;
+}
+#car-list ul li a.image .conheca{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 272px;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    text-align: center;
+}
+#car-list ul li:hover a.image .conheca{
+    display: table;
+}
+#car-list ul li a.image .conheca span{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/*Pagination*/
+#pagination{
+    border-top: solid 1px black;
+    margin-top: 100px;
+}
+#pagination ul{
+    border-top: solid 1px #2b2b2b;
+    padding-top: 15px;
+}
+#pagination ul li{
+    display: inline-block;
+    background: #2b2b2b;
+}
+#pagination ul li.active{
+    background: #0696d0;
+}
+#pagination ul li.active a{
+    color: white
+}
+#pagination ul li a{
+    color: #7a7a7a;
+    padding: 7px 10px;
+}
+
+
+
+
+/***************Interna*******************/
