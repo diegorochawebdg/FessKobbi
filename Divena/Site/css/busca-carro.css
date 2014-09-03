@@ -108,7 +108,7 @@
 }
 
 /*Car list*/
-#car-list{
+#car-list, #the-car{
     float: right;
     width: 725px;
     padding-bottom: 50px;
@@ -214,3 +214,126 @@
 
 
 /***************Interna*******************/
+
+/*Slider*/
+#slider{
+    background: #2b2b2b;
+    margin-bottom: 30px;
+}
+#slider #thumbs, #slider #large-img{
+    float: left;
+    position: relative;
+}
+#slider #thumbs li a{
+    width: 117px;
+    padding: 17px 19px;
+}
+#slider #thumbs li a.active{
+    background: #03a4e1;
+}
+#slider #large-img{
+    border: solid 1px #03a4e1;
+    width: 606px;
+    height: 373px;
+}
+#slider .bx-controls a{
+    position: absolute;
+    background-image: url(../images/busca-carro/slider-controls.png);
+    width: 23px;
+    padding-top: 24px;
+    overflow: hidden;
+    display: block;
+    height: 0;
+    left: 50%;
+    margin-left: -11px;
+}
+#slider .bx-controls a.bx-next{
+    bottom: -13px;
+    background-position: 0 -30px;
+}
+#slider .bx-controls a.bx-prev{
+    top: -13px;
+}
+#slider .bx-controls a.bx-next:hover{
+    background-position: -22px -30px;
+}
+#slider .bx-controls a.bx-prev:hover{
+    background-position: -22px 0;
+}
+
+/*Description | Price*/
+#description{
+    float: left;
+    width: 60%;
+    margin-bottom: 40px;
+}
+#description h1{
+    font: bold 15px Arial, sans-serif;
+    margin-bottom: 10px;
+}
+#description p{
+    font: normal 12px Arial, sans-serif;
+}
+
+#price{
+    float: right;
+    width: 30%;
+    text-align: right;
+}
+#price strong{
+    color: #03a4e1;
+    font: normal 30px Arial, sans-serif;
+    margin-bottom: 15px;
+    display: block;
+}
+#price a{
+    font: normal 13px Arial,sans-serif;
+    padding: 5px;
+    display: table;
+    margin: 0 0 0 auto;
+    border-top: solid 1px #43b7ea;
+    border-left: solid 1px #43b7ea;
+    border-right: solid 1px #0d516e;
+    border-bottom: solid 1px #0d516e;
+    background: #049ad6;
+    background: -moz-linear-gradient(top,  #049ad6 0%, #0888bf 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#049ad6), color-stop(100%,#0888bf));
+    background: -webkit-linear-gradient(top,  #049ad6 0%,#0888bf 100%);
+    background: -o-linear-gradient(top,  #049ad6 0%,#0888bf 100%);
+    background: -ms-linear-gradient(top,  #049ad6 0%,#0888bf 100%);
+    background: linear-gradient(to bottom,  #049ad6 0%,#0888bf 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#049ad6', endColorstr='#0888bf',GradientType=0 );
+}
+
+/*Internal Menu*/
+#content .internal-menu{
+    border-bottom: solid 1px #03a4e1;
+    margin-bottom: 40px;
+}
+#content .internal-menu li{
+    float: left;
+    padding: 0 13px;
+}
+#content .internal-menu li.active{
+    background: #03a4e1;
+}
+#content .internal-menu a{
+    float: left;
+    padding: 15px 0;
+    font-family: 'CorporateA-Condensed';
+    font-size: 20px;
+}
+
+/*txt*/
+#opcionais-descricao .txt *{
+    font: normal 14px Arial, sans-serif;
+}
+#opcionais-descricao .txt strong{
+    font-weight: bold;
+}
+#opcionais-descricao .txt div{
+    display: none;
+}
+#opcionais-descricao .txt div:first-child{
+    display: block;
+}

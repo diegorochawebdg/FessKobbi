@@ -2,6 +2,7 @@
 	
 	<link rel="stylesheet" href="css/busca-carro.css">
 
+
     <!--Slogan-->
     <div class="slogan">
         <div class="content-center">
@@ -102,15 +103,21 @@
                 <div id="slider">
                     <div id="thumbs">
                         <ul>
-                            <li><a href="#"><img src="http://placehold.it/79x59"></a></li>
-                            <li><a href="#"><img src="http://placehold.it/79x59"></a></li>
-                            <li><a href="#"><img src="http://placehold.it/79x59"></a></li>
-                            <li><a href="#"><img src="http://placehold.it/79x59"></a></li>
-                            <li><a href="#"><img src="http://placehold.it/79x59"></a></li>
+                            <li><a href="#" data-slide-index="0"><img src="http://placehold.it/79x59"></a></li>
+                            <li><a href="#" data-slide-index="1"><img src="http://placehold.it/79x59"></a></li>
+                            <li><a href="#" data-slide-index="2"><img src="http://placehold.it/79x59"></a></li>
+                            <li><a href="#" data-slide-index="3"><img src="http://placehold.it/79x59"></a></li>
+                            <li><a href="#" data-slide-index="4"><img src="http://placehold.it/79x59"></a></li>
                         </ul>
                     </div>
                     <div id="large-img">
-                        <img src="http://placehold.it/606x373">
+                        <ul>
+                            <li><img src="http://placehold.it/606x373"></li>
+                            <li><img src="http://placehold.it/606x373"></li>
+                            <li><img src="http://placehold.it/606x373"></li>
+                            <li><img src="http://placehold.it/606x373"></li>
+                            <li><img src="http://placehold.it/606x373"></li>
+                        </ul>
                     </div>
                     <div class="clear"></div>
                 </div>
@@ -152,6 +159,15 @@
                                 <li><strong>Placa:</strong> EQY1414</li>
                             </ul>
                         </div>
+                        <div class="item2">
+                            <ul>
+                                <li><strong>Kilometragem:</strong> 18.500km</li>
+                                <li><strong>Portas:</strong> 2</li>
+                                <li><strong>Cor:</strong> Preto</li>
+                                <li><strong>Combustível:</strong> Gasolina</li>
+                                <li><strong>Placa:</strong> EQY1414</li>
+                            </ul>
+                        </div>
                     </div>
 
                 </div>
@@ -161,5 +177,11 @@
             <div class="clear"></div>
         </div>
     </div>
+
+    <!-- Scripts -->
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+    <script type="text/javascript" src="js/busca-carro-interna.min.js"></script>
+    <!-- End Scripts -->
         
 <?php include "footer.php" ?>

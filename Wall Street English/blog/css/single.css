@@ -52,6 +52,10 @@
     display: block;
     margin: 15px 0 5px 0;
 }
+#the-post article p a, #the-post article p a span{
+    text-decoration: none;
+    display: inline;
+}
 #the-post article img{
     float: right;
     margin: 10px 0 0 10px;
