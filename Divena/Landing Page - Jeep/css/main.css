@@ -10,6 +10,15 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'Tungsten-Book';
+    src: url('../fonts/Tungsten-Book.eot');
+    src: url('../fonts/Tungsten-Book?#iefix') format('embedded-opentype'),
+        url('../fonts/Tungsten-Book.svg#Tungsten-Book') format('svg'),
+        url('../fonts/Tungsten-Book.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 /*Reset Css*/
 *{
@@ -218,24 +227,17 @@ a.more-info{
 }
 #footer .name{
     display: table;
-    float: left;
-    margin-bottom: 35px;
-}
-#footer .name:first-child{
-    margin-right: 160px;
-}
-#footer .name.last{
-    float: right;
+    margin: 0 auto 35px auto;
 }
 #footer .name span{
-    font-family: 'Lato';
-    font-size: 26px;
+    font-family: 'Tungsten-Book';
+    font-size: 30px;
     margin-bottom: 10px;
     display: block;
 }
 #footer .name a{
-    font-family: 'Din';
-    font-size: 14px;
+    font-family: 'Tungsten-Book';
+    font-size: 20px;
     display: block;
 }
 #footer small{
