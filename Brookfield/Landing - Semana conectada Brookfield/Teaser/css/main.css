@@ -76,8 +76,8 @@ a:hover{
 #header img{
     position: absolute;
     left: 50%;
-    margin-left: -353px;
-    top: 0;
+    margin-left: -323px;
+    bottom: -43px;
 }
 #header .info-timer{
     float: right;
@@ -169,14 +169,18 @@ a:hover{
 }
 #content .the-content .select select{
     height: 60px;
-    font: bold 16px Arial, sans-serif;
-    color: #00467f;
     width: 120%;
     background: transparent;
     cursor: pointer;
+    font: bold 16px Arial, sans-serif;
+    color: #00467f !important;
+}
+#content .the-content .select select option{
+    font: bold 16px Arial, sans-serif;
+    color: #00467f !important;
 }
 #content .the-content small{
-    font: bold 16px Arial, sans-serif;
+    font: bold 12px Arial, sans-serif;
     display: block;
     margin-bottom: 30px;
 }
@@ -223,7 +227,7 @@ a:hover{
         margin: 110px 2% 0 0;
     }
     #header .info-timer .timer .box-padding {
-        padding: 27px 0 0 20px;
+        padding: 27px 0 0 15px;
     }
     #header .info-timer .timer{
         width: 360px;
@@ -248,4 +252,91 @@ a:hover{
     #header .info-timer .txt p{
         font-size: 12px;
     }
+}
+
+@media screen and (max-width: 980px){
+
+    #header .header-content-center, #content .the-content{
+        max-width: 480px;
+        margin: 0 auto;
+    }
+    #header{
+        height: auto;
+        background: url(../images/mobile-bg-header.jpg) repeat;
+    }
+    #header h1{
+        float: none;
+        margin: 0 auto;
+        padding-top: 220px;
+        width: 280px;
+    }
+    #header .info-timer{
+        float: none;
+        margin: 0 auto 20px auto;
+    }
+    #header .info-timer .timer{
+        width: 90%;
+        margin: 0 auto 20px auto;
+        height: 72px;
+    }
+    #header .info-timer .timer span.aproveite{
+        font-size: 14px;
+    }
+    #header .info-timer #countdown, #header .info-timer #countdown *{
+        font-size: 26px;
+    }
+    #header .info-timer #countdown{
+        padding-top: 2px;
+    }
+    #header .info-timer .timer .box-padding {
+        padding: 23px 0 0 15px;
+        display: table;
+        margin: 0 auto;
+    }
+    #header .info-timer #countdown .dias{
+        font-size: 14px;
+    }
+    #header .info-timer .txt{
+        text-align: center;
+    }
+    #header .info-timer .txt h2 {
+        font: 400 22px 'Lato', sans-serif;
+    }
+    #header .info-timer .txt strong {
+        font-size: 23px;
+    }
+    #header .info-timer .txt p {
+        font-size: 15px;
+        margin: 0 10px;
+    }
+    #header img{ 
+        position: relative;
+        margin: 0 auto -26px auto;
+        display: table;
+        width: 320px;
+        left: auto;
+        bottom: -22px;
+    }
+    
+    #content{
+        background: url(../images/mobile-bg-content.jpg);
+    }
+    #content .the-content h2 {
+        font: bold 20px 'Arial Black', Arial, sans-serif;
+    }
+    #content .the-content input{
+        width: 96% !important;
+        padding: 0 2%;
+        float: none;
+        margin: 0 0 20px 0 !important;
+    }
+    #content .the-content .select{
+        width: 100% !important;
+        float: none;
+        margin: 0 0 20px 0 !important;
+    }
+    #footer{
+        display: none;
+    }
+
 }
