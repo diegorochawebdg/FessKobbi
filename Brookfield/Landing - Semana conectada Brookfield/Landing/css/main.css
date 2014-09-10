@@ -83,9 +83,9 @@ a:hover{
     background: url(../images/bg-main-select.png) no-repeat right center;
     outline: none;
 }
-#header #select select optgroup{
-    background: #fcfcfd;
-    border-bottom: solid 1px #e2e3e4;
+#header #select select option, #header #select select optgroup{
+    color: #00467f;
+    background: white;
 }
 
 #header h1{
@@ -160,6 +160,11 @@ a:hover{
     width: 30%;
     margin: 40px 1.6%;
 }
+#content .the-content li .relative{
+    height: 120px;
+    display: table-cell;
+    vertical-align: middle;
+}
 #content .the-content li .img-title{
     position: relative;
     border: solid 2px white;
@@ -199,7 +204,7 @@ a:hover{
     width: 100%;
 }
 #content .the-content li .name-price{
-    padding: 15px 0;
+    padding: 5px 0;
 }
 #content .the-content li .name-price .name{
     float: left;
@@ -217,6 +222,7 @@ a:hover{
 #content .the-content li .name-price .price{
     float: right;
     max-width: 40%;
+    padding-top: 5px;
 }
 #content .the-content li .name-price .price span{
     display: block;
@@ -225,7 +231,7 @@ a:hover{
     font: bold 11px Arial, sans-serif;
 }
 #content .the-content li .name-price .price strong{
-    font: bold 44.5px Arial, sans-serif;
+    font: bold 35px Arial, sans-serif;
     color: #ffc828;
 }
 #content .the-content li .corretor-link{
@@ -240,6 +246,9 @@ a:hover{
 }
 #content .the-content li .corretor-link:hover{
     opacity: 0.7;
+}
+#content .the-content li .leads{
+    display: none;
 }
 
 /*Footer*/
@@ -382,7 +391,7 @@ a:hover{
 
 @media screen and (max-width: 980px){
 
-    #header .header-content-center, #content .the-content{
+    #header .header-content-center, #content .the-content, #mobile-footer .leads{
         max-width: 480px;
         margin: 0 auto;
     }
@@ -458,8 +467,8 @@ a:hover{
     #header iframe{
         position: static;
         margin: 0;
-        width: 320px;
-        height: 180px;
+        width: 305px;
+        height: 172px;
         text-align: center;
         margin: 0 auto;
         display: table;
@@ -474,6 +483,10 @@ a:hover{
     }
     #content .the-content li:last-child{
         margin-bottom: 0;
+    }
+    #content .the-content li .relative{
+        height: auto;
+        display: block;
     }
     #content .the-content li .img-title span {
         font: 700 15px Arial,sans-serif;
@@ -523,27 +536,38 @@ a:hover{
         text-align: center;
         margin: 0 15px 20px 15px;
     }
-    #mobile-footer .leads{
+    .corretor-link{
+        display: none;
+    }
+    #content .the-content li .leads{
+        display: block;
+        background: none;
+        padding: 5px 0;
+    }
+    #content .the-content li .leads li{
+        margin: 0;
+    }
+    .leads{
         background: url(../images/mobile-leads-footer-bg.png) repeat-x top left, url(../images/mobile-leads-footer-bg.png) repeat-x bottom left;
     }
-    #mobile-footer .leads li{
-        float: left;
-        width: 50%;
+    .leads li{
+        float: left !important;
+        width: 50% !important;
     }
-    #mobile-footer .leads li a{
+    .leads li a{
         font: normal 12px Arial, sans-serif;
         padding: 25px 0 25px 65px;
         text-transform: uppercase;
     }
-    #mobile-footer .leads li a strong{
+    .leads li a strong{
         display: block;
         font-size: 14px;
         color: #c1e8fb;
     }
-    #mobile-footer .leads li.email-mobile-footer a{
+    .leads li.email-mobile-footer a{
         background: url(../images/email-mobile-footer.png) no-repeat 20px center;
     }
-    #mobile-footer .leads li.liguem-mobile-footer a{
+    .leads li.liguem-mobile-footer a{
         background: url(../images/liguem-mobile-footer.png) no-repeat 20px center;
     }
     #mobile-footer .logo-footer{

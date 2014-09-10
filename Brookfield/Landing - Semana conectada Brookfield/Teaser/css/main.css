@@ -129,9 +129,9 @@ a:hover{
 
 /*Content*/
 #content{
-    background: url(../images/bg-content.jpg) no-repeat center top;
-    min-height: 541px;
-    padding-top: 70px;
+    background: url(../images/bg-content.jpg) repeat-y center top;
+    padding: 70px 0 20px 0;
+    min-height: 611px;
 }
 #content .the-content{
     max-width: 700px;
@@ -198,33 +198,25 @@ a:hover{
     cursor: pointer;
 }
 
-/*Footer*/
-#footer{
-    height: 100px;
-    background: #147ca2;
-    background: -moz-linear-gradient(left,  #147ca2 0%, #008bbe 25%, #008bbe 79%, #147ca2 100%);
-    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#147ca2), color-stop(25%,#008bbe), color-stop(79%,#008bbe), color-stop(100%,#147ca2));
-    background: -webkit-linear-gradient(left,  #147ca2 0%,#008bbe 25%,#008bbe 79%,#147ca2 100%);
-    background: -o-linear-gradient(left,  #147ca2 0%,#008bbe 25%,#008bbe 79%,#147ca2 100%);
-    background: -ms-linear-gradient(left,  #147ca2 0%,#008bbe 25%,#008bbe 79%,#147ca2 100%);
-    background: linear-gradient(to right,  #147ca2 0%,#008bbe 25%,#008bbe 79%,#147ca2 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#147ca2', endColorstr='#147ca2',GradientType=1 );
-}
-
 /*---------------Responsible--------------------*/
 @media screen and (max-width: 1600px){
+    #header{
+        height: 258px;
+    }
     #header h1{
         width: 300px;
         background-size: 100% auto;
+        padding-top: 186px;
+        margin: 40px 0 0 3%;
     }
     #header img{
         width: 500px;
-        bottom: -32px;
+        bottom: -34px;
         top: auto;
         margin-left: -280px;
     }
     #header .info-timer {
-        margin: 110px 2% 0 0;
+        margin: 30px 2% 0 0;
     }
     #header .info-timer .timer .box-padding {
         padding: 27px 0 0 15px;

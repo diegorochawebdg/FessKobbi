@@ -1,6 +1,6 @@
 $(document).ready(function($) {
     //Countdown
-    var date = new Date(2014, 8, 10, 20);
+    var date = new Date(2014, 8, 14, 20);
     $('#countdown').countdown({
         until: date,
         padZeroes: true,
