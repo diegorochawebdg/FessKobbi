@@ -56,7 +56,7 @@ a:hover{
 
 /*Header*/
 #header{
-    background: #0b5886;
+    background: #08588a;
     height: 368px;
     position: relative;
 }
@@ -97,6 +97,7 @@ a:hover{
 }
 #header iframe{
     position: absolute;
+    top: 0;
     left: 50%;
     margin-left: -407px;
 }
@@ -154,9 +155,6 @@ a:hover{
     min-height: 541px;
     padding-top: 70px;
 }
-#content .the-content{
-    /*padding: 0 30px;*/
-}
 #content .the-content li{
     float: left;
     width: 30%;
@@ -180,11 +178,12 @@ a:hover{
     display: table;
     text-transform: uppercase;
     margin: 0 auto;
-    background: #fbae17;
+    background: #f1f3f5;
     border: solid 2px #fff;
-    box-shadow: #CCC 0 0 10px,inset #c58e10 0 0 6px;
+    box-shadow: #CCC 0 0 10px,inset #CCC 0 0 10px;
     text-align: center;
     padding: 10px 45px;
+    color: #00467f;
 }
 #content .the-content li .img-title strong{
     font: bold 17px Arial,sans-serif;
@@ -238,7 +237,6 @@ a:hover{
        -moz-transition: all 200ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
          -o-transition: all 200ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
             transition: all 200ms cubic-bezier(0.250, 0.100, 0.250, 1.000);
-    /*box-shadow: #FFF 0 0 10px;*/
 }
 #content .the-content li .corretor-link:hover{
     opacity: 0.7;
@@ -283,6 +281,9 @@ a:hover{
 }
 #footer li a strong{
     display: block;
+}
+#mobile-footer{
+    display: none;
 }
 
 /*---------------Responsible--------------------*/
@@ -340,7 +341,43 @@ a:hover{
     }
 }
 @media screen and (max-width: 1280px){
-
+    #header {
+        height: 230px;
+    }
+    #header h1 {
+        width: 180px;
+        padding-top: 133px;
+    }
+    #header iframe {
+        width: 409px;
+        height: 230px;
+        margin-left: -275px;
+    }
+    #header .info-timer {
+        margin: 37px 2% 0 0;
+    }
+    #header .info-timer .timer {
+        width: 330px;
+        height: 85px;
+    }
+    #header .info-timer .timer span.aproveite {
+        font-size: 16px;
+    }
+    #header .info-timer #countdown, #header .info-timer #countdown * {
+        font-size: 31px;
+    }
+    #header .info-timer .timer {
+        margin: 0 0 10px auto;
+    }
+    #header .info-timer .txt h2 {
+        font: 400 18px Lato,sans-serif;
+    }
+    #header .info-timer .txt strong {
+        font-size: 26px;
+    }
+    #header .info-timer .txt p {
+        font-size: 11px;
+    }
 }
 
 @media screen and (max-width: 980px){
@@ -410,19 +447,127 @@ a:hover{
     #content{
         background: url(../images/mobile-bg-content.jpg);
     }
-    #content .the-content h2 {
-        font: bold 20px 'Arial Black', Arial, sans-serif;
+    #header #select{
+        position: static;
+        margin-bottom: 10px;
+        width: 100%;
+        text-align: center;
+        background: rgba(0, 188, 255, 0.2);
+        padding: 4px 0;
     }
-    #content .the-content input{
-        width: 96% !important;
-        padding: 0 2%;
-        float: none;
-        margin: 0 0 20px 0 !important;
+    #header iframe{
+        position: static;
+        margin: 0;
+        width: 320px;
+        height: 180px;
+        text-align: center;
+        margin: 0 auto;
+        display: table;
     }
-    #content .the-content .select{
-        width: 100% !important;
+    #content .the-content{
+        padding: 0 10px;
+    }
+    #content .the-content li{
         float: none;
-        margin: 0 0 20px 0 !important;
+        width: 100%;
+        margin: 35px 0;
+    }
+    #content .the-content li:last-child{
+        margin-bottom: 0;
+    }
+    #content .the-content li .img-title span {
+        font: 700 15px Arial,sans-serif;
+        padding: 10px;
+    }
+    #content .the-content li .img-title strong {
+        font: 700 13px Arial,sans-serif;
+        padding: 5px 0;
+    }
+    #content .the-content li .name-price .name, #content .the-content li .name-price .price{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    #content .the-content li .name-price .name{
+        padding: 15px 0;
+    }
+    #content .the-content li .name-price .name h2{
+    }
+    #content .the-content li .name-price .name p{
+        font: 400 19px Arial,sans-serif;
+    }
+    #content .the-content li .name-price .price{
+        border-top: solid 1px white;
+        border-bottom: solid 1px white;
+        max-width: none;
+        padding: 5px 0;
+    }
+    #footer{
+        display: none;
+    }
+    #mobile-footer{
+        display: block;
+        background: #00498a;
+        padding-top: 15px;
+    }
+    #mobile-footer h3{
+        color: #ffc828;
+        font: 700 18px Arial,sans-serif;
+        text-transform: uppercase;
+        text-align: center;
+        margin: 0 15px 5px 15px;
+    }
+    #mobile-footer p{
+        font: normal 16px Arial,sans-serif;
+        text-transform: uppercase;
+        text-align: center;
+        margin: 0 15px 20px 15px;
+    }
+    #mobile-footer .leads{
+        background: url(../images/mobile-leads-footer-bg.png) repeat-x top left, url(../images/mobile-leads-footer-bg.png) repeat-x bottom left;
+    }
+    #mobile-footer .leads li{
+        float: left;
+        width: 50%;
+    }
+    #mobile-footer .leads li a{
+        font: normal 12px Arial, sans-serif;
+        padding: 25px 0 25px 65px;
+        text-transform: uppercase;
+    }
+    #mobile-footer .leads li a strong{
+        display: block;
+        font-size: 14px;
+        color: #c1e8fb;
+    }
+    #mobile-footer .leads li.email-mobile-footer a{
+        background: url(../images/email-mobile-footer.png) no-repeat 20px center;
+    }
+    #mobile-footer .leads li.liguem-mobile-footer a{
+        background: url(../images/liguem-mobile-footer.png) no-repeat 20px center;
+    }
+    #mobile-footer .logo-footer{
+        text-align: center;
+        padding: 25px 0;
+    }
+    #mobile-footer .logo-footer img{
+        display: inline;
+    }
+    #mobile-footer .terms{
+        background: white;
+        padding: 25px 15px;
+    }
+    #mobile-footer .terms h4{
+        text-transform: uppercase;
+        color: #333;
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+    #mobile-footer .terms small{
+        display: block;
+        color: #333;
+        font-size: 9px;
+        text-align: justify;
     }
 
 }
