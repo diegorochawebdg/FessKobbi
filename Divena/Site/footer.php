@@ -58,7 +58,7 @@
             <ul>
                 <li><a href="#" title="Informações por e-mail" class="footer-email">Informações por e-mail</a></li>
                 <li><a href="#" title="Ligamos para você" class="footer-ligamos">Ligamos para você</a></li>
-                <li><a href="#" title="Agende um teste drive" class="footer-agende">Agende um teste drive</a></li>
+                <li><a href="lead_testdrive.php" title="Agende um teste drive" class="footer-agende">Agende um teste drive</a></li>
                 <li><a href="#" title="Ver telefone" class="footer-telefone">Ver telefone</a></li>
             </ul>
             <div class="clear"></div>
@@ -68,6 +68,11 @@
 
 </div>
 <!--End Container-->
+
+<!-- Fancybox -->
+<link rel="stylesheet" href="js/fancybox/jquery.fancybox.min.css">
+<script type="text/javascript" src="js/fancybox/jquery.fancybox.pack.min.js"></script>
+<!-- End Fancybox -->
 
 </body>
 </html>

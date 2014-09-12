@@ -1,0 +1,235 @@
+
+/*Lightboxes*/
+.lightbox-icons{
+    background-image: url(../images/lightbox-icons.png);
+    background-repeat: no-repeat;
+}
+.lightbox{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: url(../images/lightbox-bg.png) repeat;
+    z-index: 9999;
+    display: block;
+}
+.lightbox .vendedor-lightbox, .lightbox .test-drive-lightbox, .lightbox .ligamos-lightbox, .lightbox .email-lightbox{
+    display: block;
+}
+.test-drive-lightbox.main-lightbox-content{
+    height: 560px;
+}
+.email-lightbox.main-lightbox-content{
+    height: 600px;
+}
+.main-lightbox-content{
+    width: 643px;
+    height: 525px;
+    overflow: hidden;
+    background: #f7f7f7;
+    background: -moz-linear-gradient(top,  #f7f7f7 0%, #ebebeb 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f7f7f7), color-stop(100%,#ebebeb));
+    background: -webkit-linear-gradient(top,  #f7f7f7 0%,#ebebeb 100%);
+    background: -o-linear-gradient(top,  #f7f7f7 0%,#ebebeb 100%);
+    background: -ms-linear-gradient(top,  #f7f7f7 0%,#ebebeb 100%);
+    background: linear-gradient(to bottom,  #f7f7f7 0%,#ebebeb 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#ebebeb',GradientType=0 );
+}
+
+.main-lightbox-content .header-lightbox{
+    border-bottom: solid 3px #a7a9ac;
+    padding: 13px 24px 12px 44px;
+    -webkit-box-shadow: 0 7px 24px -12px black;
+    -moz-box-shadow: 0 7px 24px -12px black;
+    box-shadow: 0 7px 24px -12px black;
+}
+.main-lightbox-content .header-lightbox h3{
+    height: 53px;
+    padding:5px 0 0 68px;
+    color: #231f20;
+    font-size: 15px;
+    text-transform: uppercase;
+    line-height: 1.3em;
+    float: left;
+}
+.main-lightbox-content .header-lightbox h3 strong{
+    display: block;
+    font: 22.5px 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+    line-height: inherit;
+}
+.test-drive-lightbox .header-lightbox h3{
+    background-position: 0px -200px;
+}
+.ligamos-lightbox .header-lightbox h3{
+    background-position: 0px -100px;
+    padding-left: 50px
+}
+.email-lightbox .header-lightbox h3{
+    background-position: 0px -290px;
+}
+.main-lightbox-content .header-lightbox a{
+    float: right;
+    width: 18px;
+    padding-top: 17px;
+    background-position: 0px -400px;
+    margin-top: 15px;
+}
+.main-lightbox-content .content-lightbox{
+    padding: 25px 35px 0 35px;
+}
+.main-lightbox-content .content-lightbox p{
+    font-size: 14px;
+    color: #000;
+    line-height: 1.3em;
+    margin-bottom: 25px;
+}
+.main-lightbox-content .content-lightbox input[type="text"], .main-lightbox-content .content-lightbox input[type="email"],
+.main-lightbox-content .content-lightbox textarea,
+.main-lightbox-content .content-lightbox .select{
+    background-color: #FFF;
+    border: solid 1px #727d84;
+    height: 33px;
+    border-radius: 7px;
+    padding: 0 10px;
+    width: 92%;
+    margin-bottom: 10px;
+    color: #606a70;
+}
+.main-lightbox-content .content-lightbox .select{
+    overflow: hidden;
+}
+.main-lightbox-content .content-lightbox .select select{
+    height: 33px;
+    width: 300px;
+    cursor: pointer;
+    color: #606a70;
+    background-position: 225px -487px;
+}
+.main-lightbox-content .content-lightbox textarea{
+    padding: 10px;
+    resize: none;
+    overflow: auto;
+    height: 90px;
+}
+.main-lightbox-content .content-lightbox .left{
+    float: left;
+    width: 47%;
+}
+.main-lightbox-content .content-lightbox .right{
+    float: right;
+    width: 47%;
+}
+.main-lightbox-content .content-lightbox small{
+    font-size: 10px;
+    color: #000;
+    margin-left: 5px;
+}
+.main-lightbox-content .content-lightbox .linha{
+    border-top: solid 1px #80949f;
+    border-bottom: solid 1px #FFF;
+    margin: 10px 0 16px 0;
+}
+.main-lightbox-content .content-lightbox input[type="checkbox"]{
+    float: left;
+    margin: 0 5px 10px 0;
+}
+.main-lightbox-content .content-lightbox span{
+    font-size: 11px;
+    display: block;
+    float: left;
+}
+.main-lightbox-content .content-lightbox .submit{
+    cursor: pointer;
+    display: table;
+    margin: 5px auto 0 auto;
+    color: #333132;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 16px 50px;
+    border-radius: 7px;
+    background: #fdb813;
+    background: -moz-linear-gradient(top,  #fdb813 1%, #faa61a 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#fdb813), color-stop(100%,#faa61a));
+    background: -webkit-linear-gradient(top,  #fdb813 1%,#faa61a 100%);
+    background: -o-linear-gradient(top,  #fdb813 1%,#faa61a 100%);
+    background: -ms-linear-gradient(top,  #fdb813 1%,#faa61a 100%);
+    background: linear-gradient(to bottom,  #fdb813 1%,#faa61a 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdb813', endColorstr='#faa61a',GradientType=0 );
+}
+.main-lightbox-content .content-lightbox .submit:hover{
+    opacity: 0.7;
+}
+
+input.error, select.error, textarea.error {
+    color: red !important;
+}
+
+
+
+.conc-tel-light {
+    height: auto;
+    color: #000000;
+    font-size: 36px;
+    font-weight: bold;
+    height: 245px;
+}
+
+.conc-tel-light .header-lightbox h3 {
+    background-position: left -595px;
+}
+
+.conc-tel-light .cima {
+    width: 100%;
+    clear: both;
+    border-bottom: 1px solid #80949f;
+    padding: 0 0 10px 0;
+    margin-bottom: 10px;
+}
+
+.conc-tel-light h2 {
+    font-size: 18px;
+}
+
+.conc-tel-light p {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+
+.conc-mapa-light {
+    height: auto;
+    color: #000000;
+    font-weight: bold;
+    height: 560px;
+}
+
+.conc-mapa-light .header-lightbox h3 {
+    background-position: 10px -695px;
+}
+
+.conc-mapa-light h2 {
+    font-size: 18px;
+}
+
+.conc-mapa-light p {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.conc-mapa-light .content-lightbox input[type="text"] {
+    width: 390px;
+    float: left;
+}
+
+.conc-mapa-light img {
+    float: right;
+    cursor: pointer;
+}
+
+.conc-mapa-light #mapa {
+    width: 100%;
+    height: 300px;
+    margin: 0 0 35px 0;
+}

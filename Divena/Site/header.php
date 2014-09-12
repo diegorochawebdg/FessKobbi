@@ -11,6 +11,8 @@
     <!--End of Stylesheets-->
     
     <!--Scripts-->
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/main.min.js"></script>
     <!--End of Scripts-->
 </head>
 
@@ -79,10 +81,118 @@
                     <div class="the-lines">
                         <span>Linha de produtos:</span>
                         <ul>
-                            <li><a href="#" title="A">A</a></li>
-                            <li><a href="#" title="B">B</a></li>
-                            <li><a href="#" title="C">C</a></li>
-                            <li><a href="#" title="CLA">CLA</a></li>
+                            <li>
+                                <a href="#" title="A">A</a>
+                                <ul class="four submenu-lines">
+                                    <li>
+                                        <a href="#" title="">
+                                            <img src="http://placehold.it/200x153" alt="" title="">
+                                            <div class="line-description">
+                                                <h3>Lorem ipsum dolor</h3>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">
+                                            <img src="http://placehold.it/200x153" alt="" title="">
+                                            <div class="line-description">
+                                                <h3>Lorem ipsum dolor</h3>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">
+                                            <img src="http://placehold.it/200x153" alt="" title="">
+                                            <div class="line-description">
+                                                <h3>Lorem ipsum dolor</h3>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">
+                                            <img src="http://placehold.it/200x153" alt="" title="">
+                                            <div class="line-description">
+                                                <h3>Lorem ipsum dolor</h3>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="clear"></div>
+                            </li>
+                            <li>
+                                <a href="#" title="B">B</a>
+                                <ul class="three submenu-lines">
+                                    <li>
+                                        <a href="#" title="">
+                                            <img src="http://placehold.it/200x153" alt="" title="">
+                                            <div class="line-description">
+                                                <h3>Lorem ipsum dolor</h3>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">
+                                            <img src="http://placehold.it/200x153" alt="" title="">
+                                            <div class="line-description">
+                                                <h3>Lorem ipsum dolor</h3>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">
+                                            <img src="http://placehold.it/200x153" alt="" title="">
+                                            <div class="line-description">
+                                                <h3>Lorem ipsum dolor</h3>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" title="C">C</a>
+                                <ul class="two submenu-lines">
+                                    <li>
+                                        <a href="#" title="">
+                                            <img src="http://placehold.it/200x153" alt="" title="">
+                                            <div class="line-description">
+                                                <h3>Lorem ipsum dolor</h3>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">
+                                            <img src="http://placehold.it/200x153" alt="" title="">
+                                            <div class="line-description">
+                                                <h3>Lorem ipsum dolor</h3>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" title="CLA">CLA</a>
+                                <ul class="one submenu-lines">
+                                    <li>
+                                        <a href="#" title="">
+                                            <img src="http://placehold.it/380x218" alt="" title="">
+                                            <div class="line-description">
+                                                <h3>Lorem ipsum dolor</h3>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                            </div>
+                                            <div class="clear"></div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
                             <li><a href="#" title="CLS">CLS</a></li>
                             <li><a href="#" title="E">E</a></li>
                             <li><a href="#" title="GL">GL</a></li>

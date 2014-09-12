@@ -95,7 +95,7 @@ a:hover{
 /*Header*/
 #header{
     position: relative;
-    z-index: 1;
+    z-index: 3;
 }
 #header .content-center{
     background: #181717;
@@ -212,6 +212,7 @@ a:hover{
 #lines{
     margin: 0 -15px;
     padding: 15px 28px;
+    position: relative;
 }
 #lines .the-lines{
     float: right;
@@ -222,16 +223,101 @@ a:hover{
 }
 #lines .the-lines ul, #lines .the-lines li{
     display: inline-block;
+    /*position: relative;*/
 }
 #lines .the-lines li{
-    border-left: solid 1px #464646;
+    margin-bottom: -30px;
+    padding: 3px 0 30px 0;
 }
-#lines .the-lines li:first-child{
+#lines .the-lines li:hover{
+    background: #03a4e1;
+}
+#lines .the-lines li:hover a{
+    border-left: solid 1px transparent;
+}
+#lines .the-lines li:first-child a{
     border-left: none;
 }
 #lines .the-lines li a{
     font-size:14px;
     padding: 0 8px 0 11px;
+    border-left: solid 1px #464646;
+}
+
+/*Lines | Submenu*/
+#lines ul.submenu-lines{
+    position: absolute;
+    top: 60px;
+    background: #1a1a1b;
+    border: solid 1px #03a4e1;
+    padding: 18px 38px;
+    left: 50%;
+    display: none;
+}
+#lines ul.submenu-lines.four, #lines ul.submenu-lines.three{
+    width: 892px;
+    margin-left: -480px;
+}
+#lines ul.submenu-lines.two{
+    width: 546px;
+    margin-left: -223px;
+}
+#lines ul.submenu-lines.one{
+    width: 650px;
+    margin-left: -364px;
+}
+#lines ul.submenu-lines li:hover{
+    background: transparent;
+}
+#lines ul.submenu-lines li{
+    float: left;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+#lines ul.submenu-lines li img{
+    display: table;
+    margin: 0 auto;
+}
+#lines ul.submenu-lines.one li img{
+    float: left;
+    max-width: 65%;
+}
+#lines ul.submenu-lines.four li{
+    width: 25%;
+}
+#lines ul.submenu-lines.three li{
+    width: 33.3%;
+}
+#lines ul.submenu-lines.two li{
+    width: 50%;
+}
+#lines ul.submenu-lines li a{
+    padding: 13px 9px !important;
+}
+#lines ul.submenu-lines li a:hover{
+    border: solid 1px #03a4e1;
+    background: transparent;
+    text-decoration: none;
+}
+#lines ul.submenu-lines li .line-description{
+    display: table-cell;
+    vertical-align: middle;
+    height: 90px;
+}
+#lines ul.submenu-lines.one li .line-description{
+    display: block;
+    width: 33%;
+    float: left;
+    padding: 40px 0 0 25px;
+    clear: right;
+}
+#lines ul.submenu-lines li .line-description h3{
+    font: normal 20px 'CorporateA', Arial, sans-serif;
+    margin-bottom: 3px;
+}
+#lines ul.submenu-lines li .line-description p{
+    font-size: 10px;
 }
 
 /*Slogan*/
@@ -364,4 +450,101 @@ a:hover{
 }
 #float-footer ul li a.footer-telefone{
     background: url(../images/telefone-float-footer.png) no-repeat left center;
+}
+
+/*Leads*/
+.leads{
+    width: 650px;
+    background: #2c2c2c;
+}
+.leads .box-padding{
+    padding: 15px 40px;
+}
+.leads .header-lightbox{
+    background: #202020;
+}
+
+.leads .header-lightbox h3{
+    height: 44px;
+    padding:5px 0 0 55px;
+    font-size: 15px;
+    line-height: 1.3em;
+    font-family: 'CorporateA';
+    background: url(../images/leads/ligamos-lead.png) no-repeat left center;
+}
+.leads .header-lightbox h3 strong{
+    display: block;
+    font: 22.5px 'CorporateA', Arial, sans-serif;
+    line-height: inherit;
+}
+
+.leads p{
+    font-size: 14px;
+    line-height: 1.3em;
+    margin-bottom: 25px;
+}
+.leads input[type="text"], .leads input[type="email"],
+.leads textarea,
+.leads .select{
+    background: transparent;
+    border: solid 1px #03a4e1;
+    height: 33px;
+    border-radius: 7px;
+    padding: 0 2%;
+    width: 105%;
+    margin-bottom: 10px;
+}
+.leads .select{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background: transparent url(../images/leads/bg-select.png) no-repeat right center;
+}
+.leads .select select{
+    height: 33px;
+    width: 120%;
+    cursor: pointer;
+    background: transparent;
+}
+.leads textarea{
+    padding: 10px;
+    resize: none;
+    overflow: auto;
+    height: 90px;
+}
+.leads .left{
+    float: left;
+    width: 47%;
+}
+.leads .right{
+    float: right;
+    width: 47%;
+}
+.leads small{
+    font-size: 10px;
+    margin-left: 5px;
+}
+.leads .linha{
+    border-top: solid 1px #80949f;
+    border-bottom: solid 1px #FFF;
+    margin: 10px 0 16px 0;
+}
+.leads input[type="checkbox"]{
+    float: left;
+    margin: 0 5px 10px 0;
+}
+.leads span{
+    font-size: 11px;
+    display: block;
+    float: left;
+}
+.leads #confirmar{
+    background: #0690ca;
+    padding: 5px 30px;
+    display: table;
+    margin: 0 0 0 auto;
+    cursor: pointer;
+}
+.leads #confirmar:hover{
+    opacity: 0.7;
 }
