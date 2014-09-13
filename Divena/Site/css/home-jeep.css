@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/*#404c0f;*/
+#brands-menu{
+    border-bottom: solid 2px #404c0f;
+}
+#brands-menu li.active, #lines, .cars-menu li.active, #section-menu li span, #seminovos-menu li a.saiba-mais, #float-footer, #lines .the-lines li:hover{
+    background-color: #404c0f;
+}
+#slider .bx-pager-item a.active, #seminovos-menu li a.car-name, #seminovos-menu .title a, #seminovos-menu li a.car-name:before, #corporate-menu li.active a{
+    color: #a5cb08;
+}
+#float-footer ul li{
+    border-right: solid 1px #53640c;
+    border-left: solid 1px #3d4324;
+}
+#lines ul.submenu-lines, #lines ul.submenu-lines li a:hover{
+    border: solid 1px #404c0f;
+}
+#slider .bx-pager-item a.active{
+    background: url(../images/home/bg-pager-active-jeep.png) no-repeat right center;
+}
+
+#section-menu li {
+    margin: 0 9px;
+}

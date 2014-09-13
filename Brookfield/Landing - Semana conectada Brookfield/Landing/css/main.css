@@ -94,6 +94,8 @@ a:hover{
     padding-top: 261px;
     float: left;
     margin: 60px 0 0 3%;
+    position: relative;
+    z-index: 2;
 }
 #header iframe{
     position: absolute;
@@ -105,6 +107,8 @@ a:hover{
     float: right;
     text-align: right;
     margin: 20px 2% 0 0;
+    position: relative;
+    z-index: 2;
 }
 #header .info-timer .timer{
     background: url(../images/bg-contador.jpg) no-repeat;
@@ -161,9 +165,9 @@ a:hover{
     margin: 40px 1.6%;
 }
 #content .the-content li .relative{
-    height: 120px;
+    height: 59px;
     display: table-cell;
-    vertical-align: middle;
+    vertical-align: bottom;
 }
 #content .the-content li .img-title{
     position: relative;
@@ -204,25 +208,24 @@ a:hover{
     width: 100%;
 }
 #content .the-content li .name-price{
-    padding: 5px 0;
+    padding: 0 0 5px 0;
 }
 #content .the-content li .name-price .name{
     float: left;
     width: 60%;
 }
 #content .the-content li .name-price .name h2{
-    font: bold 25px Arial, sans-serif;
+    font: bold 23px Arial, sans-serif;
 }
-#content .the-content li .name-price .name p{
+#content .the-content li p{
     font: bold 21px Arial, sans-serif;
 }
-#content .the-content li .name-price .name p sup{
-    font: bold 10px Arial, sans-serif;
+#content .the-content li p sup{
+    font: bold 8px Arial, sans-serif;
 }
 #content .the-content li .name-price .price{
     float: right;
     max-width: 40%;
-    padding-top: 5px;
 }
 #content .the-content li .name-price .price span{
     display: block;
@@ -235,10 +238,10 @@ a:hover{
     color: #ffc828;
 }
 #content .the-content li .corretor-link{
-    background: url(../images/fale-corretor-link.png) no-repeat;
+    /*background: url(../images/fale-corretor-link.png) no-repeat;
     background-size: 100% auto;
     width: 100%;
-    padding-top: 91px;
+    padding-top: 91px;*/
     -webkit-transition: all 200ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
        -moz-transition: all 200ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
          -o-transition: all 200ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
@@ -294,9 +297,17 @@ a:hover{
 #mobile-footer{
     display: none;
 }
+.textolegal{
+    font: normal 12px Arial, sans-serif;
+    color: #333;
+    padding: 20px 15px;
+}
 
 /*---------------Responsible--------------------*/
-@media screen and (max-width: 1800px){
+@media screen and (max-width: 1700px){
+    #content{
+        padding-top: 20px;
+    }
     #header{
         height: 290px;
     }
@@ -341,12 +352,27 @@ a:hover{
     }
 
     #content .the-content{
-        max-width: 1000px;
+        /*max-width: 1000px;*/
         margin: 0 auto;
     }
     #content .the-content li {
-        width: 46.7%;
+        /*width: 46.7%;*/
         margin: 30px 1.6%;
+    }
+    #content .the-content li .img-title span{
+        font: 700 18px Arial,sans-serif;
+    }
+    #content .the-content li .img-title strong{
+        font-size: 13px;
+    }
+    #content .the-content li .name-price .name h2 {
+        font: 700 15px Arial,sans-serif;
+    }
+    #content .the-content li .name-price .price strong {
+        font: 700 24px Arial,sans-serif;
+    }
+    #content .the-content li p {
+        font: 700 16px Arial,sans-serif;
     }
 }
 @media screen and (max-width: 1280px){
@@ -506,8 +532,9 @@ a:hover{
     }
     #content .the-content li .name-price .name h2{
     }
-    #content .the-content li .name-price .name p{
+    #content .the-content li p{
         font: 400 19px Arial,sans-serif;
+        text-align: center;
     }
     #content .the-content li .name-price .price{
         border-top: solid 1px white;
@@ -592,6 +619,9 @@ a:hover{
         color: #333;
         font-size: 9px;
         text-align: justify;
+    }
+    .textolegal{
+        display: none;
     }
 
 }

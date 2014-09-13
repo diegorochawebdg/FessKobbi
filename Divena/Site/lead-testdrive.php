@@ -52,11 +52,11 @@
                 <small>Todos os campos são obrigatórios</small>
                 <div class="linha"></div>
                 <input type="checkbox" checked name="info-email-lightbox-vendedor" id="info-email-lightbox-vendedor">
-                <span class="checkbox-span">Aceito receber informações e/ou promoções por e-mail.</span>
+                <label for="info-email-lightbox-vendedor" class="checkbox-span">Aceito receber informações e/ou promoções por e-mail.</span>
                 <div class="clear"></div>
 
                 <input type="checkbox" checked name="info-sms-lightbox-vendedor" id="info-sms-lightbox-vendedor">
-                <span class="checkbox-span">Aceito receber informações e/ou promoções por SMS.</span>
+                <label for="info-sms-lightbox-vendedor" class="checkbox-span">Aceito receber informações e/ou promoções por SMS.</span>
                 <div class="clear"></div>
                 <button type="button" id="confirmar" class="animate" title="Confirmar">Confirmar</button> 
             </form>

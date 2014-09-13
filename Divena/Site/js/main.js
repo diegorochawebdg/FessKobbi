@@ -10,9 +10,10 @@ $(document).ready(function() {
 	/*Footer Leads*/
 	$('#float-footer a').fancybox({
 		type: 				'iframe',
-		autoDimensions:		false,
-		width: 				'640',
-		height: 			'500',
+		scrolling: 			'no',
+		autoDimensions:		'no',
+		width: 				630,
+		height: 			500,
 		margin: 			0,
 		padding: 			0,
 		autoScale: 			false

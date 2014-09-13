@@ -453,8 +453,15 @@ a:hover{
 }
 
 /*Leads*/
+.fancybox-inner{
+    position: relative;
+    overflow: hidden;
+    max-height: 501px;
+}
 .leads{
     width: 650px;
+    height: 500px;
+    display: table;
     background: #2c2c2c;
 }
 .leads .box-padding{
@@ -466,15 +473,42 @@ a:hover{
 
 .leads .header-lightbox h3{
     height: 44px;
-    padding:5px 0 0 55px;
+    padding:5px 0 0 65px;
     font-size: 15px;
     line-height: 1.3em;
     font-family: 'CorporateA';
+}
+.test-drive-lightbox h3{
+    background: url(../images/leads/test-drive-lead.png) no-repeat left center;
+}
+.info-email-lightbox h3{
+    background: url(../images/leads/email-lead.png) no-repeat left center;
+}
+.ligamos-lightbox h3{
     background: url(../images/leads/ligamos-lead.png) no-repeat left center;
+    padding-left: 45px !important;
+}
+.ver-telefone h3{
+    background: url(../images/leads/telefone-lead.png) no-repeat left center;
+    padding-left: 75px !important;
+}
+.ver-telefone p{
+    font-size: 16px !important;
+    margin-bottom: 5px !important;
+}
+.ver-telefone strong{
+    font-size: 22px;
+    margin-bottom: 10px;
+    display: block;
+}
+.ver-telefone address{
+    font-size: 12px;
+    font-style: normal;
+    display: block;
 }
 .leads .header-lightbox h3 strong{
     display: block;
-    font: 22.5px 'CorporateA', Arial, sans-serif;
+    font: bold 24px 'CorporateA', Arial, sans-serif;
     line-height: inherit;
 }
 
@@ -487,7 +521,7 @@ a:hover{
 .leads textarea,
 .leads .select{
     background: transparent;
-    border: solid 1px #03a4e1;
+    border: solid 1px #202020;
     height: 33px;
     border-radius: 7px;
     padding: 0 2%;
@@ -510,7 +544,7 @@ a:hover{
     padding: 10px;
     resize: none;
     overflow: auto;
-    height: 90px;
+    height: 85px;
 }
 .leads .left{
     float: left;
@@ -530,16 +564,16 @@ a:hover{
     margin: 10px 0 16px 0;
 }
 .leads input[type="checkbox"]{
-    float: left;
     margin: 0 5px 10px 0;
+    display: inline;
 }
-.leads span{
+.leads label{
     font-size: 11px;
-    display: block;
-    float: left;
+    display: inline;
+    cursor: pointer;
 }
 .leads #confirmar{
-    background: #0690ca;
+    background: #202020;
     padding: 5px 30px;
     display: table;
     margin: 0 0 0 auto;

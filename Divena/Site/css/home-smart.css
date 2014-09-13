@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/*#f29900;*/
+#brands-menu{
+    border-bottom: solid 2px #f29900;
+}
+#brands-menu li.active, #lines, .cars-menu li.active, #section-menu li span, #seminovos-menu li a.saiba-mais, #float-footer, #lines .the-lines li:hover{
+    background-color: #f29900;
+}
+#slider .bx-pager-item a.active, #seminovos-menu li a.car-name, #seminovos-menu .title a, #seminovos-menu li a.car-name:before, #corporate-menu li.active a{
+    color: #f6bc13;
+}
+#float-footer ul li{
+    border-right: solid 1px #f29900;
+    border-left: solid 1px #CCC;
+}
+#lines ul.submenu-lines, #lines ul.submenu-lines li a:hover{
+    border: solid 1px #f29900;
+}
+#lines .the-lines li a{
+	border-left: solid 1px white;
+}
+#slider .bx-pager-item a.active{
+    background: url(../images/home/bg-pager-active-smart.png) no-repeat right center;
+}
+
+#section-menu li {
+    margin: 0 9px;
+}
