@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+/*The book*/
+.the-books ul{
+	text-align: center;
+}
+.the-books li{
+	width: 33%;
+	display: inline-block;
+	margin: 0 auto;
+}
+.the-books li a{
+	text-align: center;
+	padding: 10% 15%;
+	margin:1px;
+	height: 99%;
+	text-decoration: none;
+}
+.the-books li a:hover{
+	background: #39658b;
+	border: solid 1px #9db2c4;
+	margin: 0;
+}
+.the-books li a img{
+	display: inline;
+}
+.the-books li a span{
+	color: white;
+	font-size: 20px;
+}

@@ -66,13 +66,8 @@ $(document).ready(function($) {
                 if(theTime >=54.3 && theTime <=54.8 && stopped == false){
                     stopped = true;
                     pauseVideo();
-                    clearInterval('theInterval');
+                    clearInterval(theInterval);
                 }
-                /*if(theTime >=59.9 && theTime <=60.3 && stopped == false){
-                    stopped = true;
-                    pauseVideo();
-                    clearInterval('theInterval')
-                }*/
                 
             }
             

@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+/*Slider*/
+#content #e-book-slider{
+	float: left;
+	width: 38.1%;
+	margin-right: 1.9%;
+}
+#content #e-book-slider .bx-controls{
+	display: table;
+	margin: 0 auto
+}
+#content #e-book-slider .bx-controls .bx-pager-item{
+	display: inline-block;
+	margin: 0 5px;
+}
+#content #e-book-slider .bx-controls .bx-pager-item a{
+	background: white;
+	position: relative;
+	overflow: hidden;
+	width: 18px;
+	height: 0;
+	padding-top: 18px;
+	border-radius: 100%;
+}
+#content #e-book-slider .bx-controls .bx-pager-item a.active{
+	background: #a6b9c9;
+}
+
+/*Txt*/
+#content #e-book-txt{
+	float: left;
+	width: 60%;
+	clear: right;
+}
+#content #e-book-txt h2, #content #e-book-txt h3, #content #e-book-txt p, #content #e-book-txt li, #content #e-book-txt h4{
+	color: white;
+	text-transform: uppercase;
+	font-size: 21px;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+#content #e-book-txt h3, #content #e-book-txt p, #content #e-book-txt li{
+	font-size: 12px;
+}
+#content #e-book-txt p, #content #e-book-txt li{
+	text-transform: none;
+	line-height: 1.4em;
+	margin:0;
+}
+#content #e-book-txt ul{
+	margin: 15px 0;
+}
+#content #e-book-txt li{
+	padding-left: 15px;
+	background: url(../images/interna-e-book/bg-list.png) no-repeat left 3px;
+}
+#content #e-book-txt h4{
+	font-size: 16px;
+	line-height: 1.4em;
+}
+
+/*Form*/
+/*#content #e-book-txt .form{
+	display: none;
+}*/
+#content #e-book-txt form input{
+	width: 96%;
+	padding: 0 2%;
+	margin-bottom: 15px;
+	height: 45px;
+	color: #3f688c;
+	font-size: 14px;
+	font-family: 'avenirblack', Arial, sans-serif;
+	box-shadow: 0 0 0 2px #899ebf;
+	border-radius: 3px;
+}
+#content #e-book-txt form input#email, #content #e-book-txt form input#tel{
+	width: 44.9%;
+	float: left;
+}
+#content #e-book-txt form input#email{
+	margin-right: 2%;
+}
+#content #e-book-txt form .buttons{
+	display: table;
+	margin: 0 0 0 auto;
+}
+#content a.voltar, #content #e-book-txt form button{
+	color: white;
+	font: normal 16px 'avenirblack', Arial, sans-serif;
+	text-transform: uppercase;
+	box-shadow: 0 0 0 2px #899ebf;
+	border-radius: 3px;
+	display: inline-block;
+	padding: 15px 20px;
+	margin: 15px 0 0 auto;
+}
+#content a.voltar{
+	margin-right: 15px;
+	padding-left: 35px;
+	background: #1c4c7a url(../images/interna-e-book/voltar.png) no-repeat 10px center;
+}
+#content #e-book-txt form button{
+	background: #ef4035;
+	cursor: pointer
+}
+#content a.voltar:hover, #content #e-book-txt form button:hover{
+	opacity: 0.7;
+	text-decoration: none;
+}
+
+/*Thank You*/
+#content .thank-you{
+	display: none;
+}
+#content .thank-you h4{
+	text-transform: uppercase;
+	font-size: 21px;
+	margin-top: 100px;
+}
+#content .thank-you h4 strong{
+	font-size: 30px;
+	display: block;
+}
+#content .thank-you a.voltar{
+	float: left;
+	display: block;
+}
+#content .thank-you .share{
+	float: right;
+	display: table;
+	padding-top: 12px;
+}
+#content .thank-you .share a, #content .thank-you .share span{
+	display: block;
+	float: left;
+	margin-left: 10px;
+}
+#content .thank-you .share span{
+	text-transform: uppercase;
+	font-size: 20px;
+	color: white;
+	padding-top: 17px;
+}

@@ -301,6 +301,8 @@ a:hover{
     font: normal 12px Arial, sans-serif;
     color: #333;
     padding: 20px 15px;
+    margin: 0 auto;
+    max-width: 980px;
 }
 
 /*---------------Responsible--------------------*/
@@ -573,6 +575,9 @@ a:hover{
     }
     #content .the-content li .leads li{
         margin: 0;
+    }
+    #mobile-footer .leads{
+        display: none;
     }
     .leads{
         background: url(../images/mobile-leads-footer-bg.png) repeat-x top left, url(../images/mobile-leads-footer-bg.png) repeat-x bottom left;
