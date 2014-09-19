@@ -1,25 +1,5 @@
 @charset "UTF-8";
 
-/*Font*/
-@font-face {
-    font-family: 'Dosis';
-    src: url('../fonts/Dosis-Regular.eot');
-    src: url('../fonts/Dosis-Regular?#iefix') format('embedded-opentype'),
-        url('../fonts/Dosis-Regular.svg#Dosis') format('svg'),
-        url('../fonts/Dosis-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Dosis';
-    src: url('../fonts/Dosis-Bold.eot');
-    src: url('../fonts/Dosis-Bold?#iefix') format('embedded-opentype'),
-        url('../fonts/Dosis-Bold.svg#Dosis') format('svg'),
-        url('../fonts/Dosis-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
-
 /*Reset Css*/
 *{
     margin: 0;
@@ -187,9 +167,9 @@ a:hover{
 #header .header-contents #main-menu-1{
     background-position: 0 -349px;
     background-repeat: repeat-x;
-    display: table;
+    width: 611px;
     float: right;
-    margin-top: 28px;
+    margin-top: 40px;
     min-height: 23px;
 }
 #header .header-contents #main-menu-1 li{
@@ -198,7 +178,7 @@ a:hover{
 }
 #header .header-contents #main-menu-1 li a{
     color: #5e5857;
-    font-size: 13.5px;
+    font-size: 11px;
 }
 #header .header-contents #main-menu-1 li a:before{
     content: " | ";
@@ -212,17 +192,17 @@ a:hover{
 }
 
 #header .main-menu-2{
-    background: #4272a5;
-background: -moz-linear-gradient(top,  #4272a5 0%, #4e7aa9 50%, #4272a5 50%, #4272a5 100%);
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4272a5), color-stop(50%,#4e7aa9), color-stop(50%,#4272a5), color-stop(100%,#4272a5));
-background: -webkit-linear-gradient(top,  #4272a5 0%,#4e7aa9 50%,#4272a5 50%,#4272a5 100%);
-background: -o-linear-gradient(top,  #4272a5 0%,#4e7aa9 50%,#4272a5 50%,#4272a5 100%);
-background: -ms-linear-gradient(top,  #4272a5 0%,#4e7aa9 50%,#4272a5 50%,#4272a5 100%);
-background: linear-gradient(to bottom,  #4272a5 0%,#4e7aa9 50%,#4272a5 50%,#4272a5 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4272a5', endColorstr='#4272a5',GradientType=0 );
-}
-#header .main-menu-2 .content-center{
-    position: relative;
+    background: #3b6795;
+    background: -moz-linear-gradient(top,  #3b6795 0%, #4578ad 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3b6795), color-stop(100%,#4578ad));
+    background: -webkit-linear-gradient(top,  #3b6795 0%,#4578ad 100%);
+    background: -o-linear-gradient(top,  #3b6795 0%,#4578ad 100%);
+    background: -ms-linear-gradient(top,  #3b6795 0%,#4578ad 100%);
+    background: linear-gradient(to bottom,  #3b6795 0%,#4578ad 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b6795', endColorstr='#4578ad',GradientType=0 );
+    -webkit-box-shadow: inset 0px 9px 19px -6px rgba(56,56,56,1);
+    -moz-box-shadow: inset 0px 9px 19px -6px rgba(56,56,56,1);
+    box-shadow: inset 0px 9px 19px -6px rgba(56,56,56,1);
 }
 #header .main-menu-2 ul{
     position: relative;
@@ -256,18 +236,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4272a5', end
 }
 #header .main-menu-2 li a{
     color:#f1f2f2;
-    font:bold 16px 'Dosis', Arial, sans-serif;
+    font:bold 16px Arial, sans-serif;
     padding: 14px 0;
-    text-transform: uppercase;
-    text-shadow: #2f5684 1px 1px 0;
 }
 #header .main-menu-2 li a:hover{
     text-decoration: none;
-}
-#header .voltar-home-header{
-    position: absolute;
-    right: -30px;
-    top: 14px;
 }
 
 /*Submenus*/

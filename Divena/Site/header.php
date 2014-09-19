@@ -185,8 +185,10 @@
                                         <a href="#" title="">
                                             <img src="http://placehold.it/380x218" alt="" title="">
                                             <div class="line-description">
-                                                <h3>Lorem ipsum dolor</h3>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                                <div class="box-padding">
+                                                    <h3>Lorem ipsum dolor</h3>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                                </div>
                                             </div>
                                             <div class="clear"></div>
                                         </a>

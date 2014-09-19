@@ -1,164 +1,120 @@
 <?php include "header.php" ?>
 <link rel="stylesheet" href="css/home.css">
 
+<!-- Main Slider -->
+<div id="slider">
+    <ul>
+        <li><img src="http://placehold.it/1920x460"></li>
+    </ul>
+</div>
+<!-- End Main Slider -->
+
 <div class="content-center">
     
-    <!--Left column-->
-    <div class="left-column">
-        <!--Slider-->
-        <div id="main-slider-home">
-            <div class="slides_container">
-                <img src="images/home/slider-01.jpg" width="617" height="351" alt="" title="">
-                <img src="images/home/slider-01.jpg" width="617" height="351" alt="" title="">
-                <img src="images/home/slider-01.jpg" width="617" height="351" alt="" title="">
-                <img src="images/home/slider-01.jpg" width="617" height="351" alt="" title="">
-                <img src="images/home/slider-01.jpg" width="617" height="351" alt="" title="">
-            </div>
+    <!-- Cursos -->
+    <div id="links-cursos">
+        <ul>
+            <li><a href="#" title="Graduação"><img src="images/home/graduacao.jpg" alt="Graduação" title="Graduação"></a></li>
+            <li><a href="#" title="Pós Graduação"><img src="images/home/pos-graduacao.jpg" alt="Pós Graduação" title="Pós Graduação"></a></li>
+            <li><a href="#" title="Extensão"><img src="images/home/extensao.jpg" alt="Extensão" title="Extensão"></a></li>
+            <li class="last"><a href="#" title="Cursos Online"><img src="images/home/cursos-online.jpg" alt="Cursos Online" title="Cursos Online"></a></li>
+        </ul>
+    </div>
+    <!-- End Cursos -->
+
+    <!-- Notícias | Oportunidades | Eventos -->
+    <div id="tabs-sections">
+        <div class="titles">
+            <ul>
+                <li class="item1"><a href="#" title="Notícias">Notícias</a></li>
+                <li class="item2"><a href="#" title="Oportunidades">Oportunidades</a></li>
+                <li class="item3"><a href="#" title="Eventos">Eventos</a></li>
+            </ul>
         </div>
-        <!--End of Slider-->
-        
-        <!--Cursos Slider-->
-        <div id="cursos-slider">
-            <!--Selectors-->
-            <div class="selectors">
-                <ul>
-                    <li class="animate selected">
-                        <div class="bg"></div>
-                        <h2><a href="#" title="Graduação">Graduação</a></h2>
-                    </li>
-                    <li class="animate">
-                        <div class="bg"></div>
-                        <h2><a href="#" title="Pós-Graduação">Pós-Graduação</a></h2>
-                    </li>
-                    <li class="animate">
-                        <div class="bg"></div>
-                        <h2><a href="#" title="Extensão">Extensão</a></h2>
-                    </li>
-                </ul>
-            </div>
-            <!--End of Selectors-->
-            
-            <!--The sliders-->
-            <div class="overflow">
+        <div class="tabs-content">
+            <div class="box-padding">
                 <div class="item1">
-                    <ul class="slides_container">
+                    <ul>
                         <li>
-                            <div class="item">
-                                <h3>Pedagogia</h3>
-                                <div class="duracao icons-home">
-                                    <h4>Duração</h4>
-                                    <strong>4 anos</strong>
+                            <a href="#">
+                                <div class="item-title">
+                                    <h3>Formação continuada</h3>
                                 </div>
-                                <div class="tipo-formacao icons-home">
-                                    <h4>Tipo de formação</h4>
-                                    <strong>Bacharel</strong>
+                                <div class="post-img">
+                                    <img src="http://placehold.it/307x191">
                                 </div>
-                                <a href="#" title="Saiba mais" class="saiba-mais">Saiba mais</a>
-                            </div>
-                            <div class="item">
-                                <h3>Pedagogia</h3>
-                                <div class="duracao icons-home">
-                                    <h4>Duração</h4>
-                                    <strong>4 anos</strong>
+                                <div class="post-content">
+                                    <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, vero!</h4>
+                                    <small>Postado hoje às 00h00</small>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sint praesentium aliquam dicta quae. Cupiditate voluptates dolorem odio vitae hic magnam quas omnis tempore adipisci? Sequi id inventore consequuntur reprehenderit.</p>
                                 </div>
-                                <div class="tipo-formacao icons-home">
-                                    <h4>Tipo de formação</h4>
-                                    <strong>Bacharel</strong>
-                                </div>
-                                <a href="#" title="Saiba mais" class="saiba-mais">Saiba mais</a>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="item">
-                                <h3>Pedagogia</h3>
-                                <div class="duracao icons-home">
-                                    <h4>Duração</h4>
-                                    <strong>4 anos</strong>
-                                </div>
-                                <div class="tipo-formacao icons-home">
-                                    <h4>Tipo de formação</h4>
-                                    <strong>Bacharel</strong>
-                                </div>
-                                <a href="#" title="Saiba mais" class="saiba-mais">Saiba mais</a>
-                            </div>
-                            <div class="item">
-                                <h3>Pedagogia</h3>
-                                <div class="duracao icons-home">
-                                    <h4>Duração</h4>
-                                    <strong>4 anos</strong>
-                                </div>
-                                <div class="tipo-formacao icons-home">
-                                    <h4>Tipo de formação</h4>
-                                    <strong>Bacharel</strong>
-                                </div>
-                                <a href="#" title="Saiba mais" class="saiba-mais">Saiba mais</a>
-                            </div>
-                            <div class="clear"></div>
-                        </li>
-                        <li>
-                            <div class="item">
-                                <h3>Pedagogia</h3>
-                                <div class="duracao icons-home">
-                                    <h4>Duração</h4>
-                                    <strong>4 anos</strong>
-                                </div>
-                                <div class="tipo-formacao icons-home">
-                                    <h4>Tipo de formação</h4>
-                                    <strong>Bacharel</strong>
-                                </div>
-                                <a href="#" title="Saiba mais" class="saiba-mais">Saiba mais</a>
-                            </div>
-                            <div class="item">
-                                <h3>Pedagogia</h3>
-                                <div class="duracao icons-home">
-                                    <h4>Duração</h4>
-                                    <strong>4 anos</strong>
-                                </div>
-                                <div class="tipo-formacao icons-home">
-                                    <h4>Tipo de formação</h4>
-                                    <strong>Bacharel</strong>
-                                </div>
-                                <a href="#" title="Saiba mais" class="saiba-mais">Saiba mais</a>
-                            </div>
-                            <div class="clear"></div>
+                                <div class="clear"></div>
+                            </a>
                         </li>
                     </ul>
-                    <div class="clear"></div>
+                    <a href="#" title="Acessar o blog">Acessar o blog</a>
+                </div>
+                <div class="item2">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <div class="item-title">
+                                    <h3>Nome da Instituição</h3>
+                                </div>
+                                <div class="post-img">
+                                    <img src="http://placehold.it/307x191">
+                                </div>
+                                <div class="post-txt">
+                                    <h4>Estagiário de Lorem Ipsum</h4>
+                                    <span>Faixa salarial: R$ 1.350,00</span>
+                                    <span>Deadline: 16/09/2014</span>
+                                    <span>Vagas disponíveis: 2</span>
+                                    <p><strong>Descrição:</strong> Chillwave you probably haven't heard of them stumptown, gluten-free ethnic next level pour-over master cleanse Intelligentsia skateboard. Deep v keffiyeh art</p>
+                                </div>
+                                <div class="like-it">
+                                    <a href="#" title="Gostou dessa vaga?"><img src="" alt="Gostou dessa vaga?" title="Gostou dessa vaga?"></a>
+                                </div>
+                                <div class="clear"></div>
+                            </a>
+                        </li>
+                    </ul>
+                    <a href="#" title="Acessar o blog">Acessar o blog</a>
                 </div>
             </div>
-            <!--End of The sliders-->
-            <div class="clear"></div>
         </div>
-        <!--End of Cursos Slider-->
-        
-        <!--Singularidades nas redes-->
-        <div class="redes">
-            <h2 class="icons-home"><a href="#" title="Singularidades nas redes">Singularidades nas redes</a></h2>
-            <span class="time icons-home">12/12/13 16:00</span>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a magna viverra, aliquam purus eget, mollis leo. Integer iaculis Lorem ipsum dolor sit amet, consectetur...</p>
-            <a href="#" title="Veja mais" class="link-padding mais icons-home">Veja mais</a>
-        </div>
-        <!--End of Singularidades nas redes-->
-        
-        <!--Singularidades em vídeo-->
-        <div class="videos">
-            <div class="play-preview icons-home"></div>
-            <h2 class="icons-home"><a href="#" title="Singularidades em Vídeo">Singularidades em vídeo</a></h2>
-            <a href="#" title="Singularidades em vídeo"><img src="images/home/video-preview.jpg" width="271" height="184" alt="" title=""></a>
-        </div>
-        <!--End of Singularidades em vídeo-->
-        <div class="clear"></div>
     </div>
-    <!--End of Left column-->
-    
-    <!--Right column-->
-    <div class="right-column">
-        <a href="#" title="Pós-Graduação"><img src="images/home/pos-graduacao-banner.jpg" alt="" title=""></a>
-        <a href="#" title="Graduação"><img src="images/home/graduacao-banner.jpg" alt="" title=""></a>
-        <a href="#" title="Extensão"><img src="images/home/extensao-banner.jpg" alt="" title=""></a>
+    <!-- End Notícias | Oportunidades | Eventos -->
+
+    <!-- Canal Singularidades -->
+    <div id="canal-singularidades">
+        <div class="main-titles">
+            <h2>Canal Singularidades</h2>
+        </div>
+
+        <iframe width="100%" height="315" src="//www.youtube.com/embed/embed?list=PL9sTiblSfqt2tgvZPUqYu3pD8asGmxOdU&showinfo=1&controls=0&egm=1" frameborder="0" allowfullscreen></iframe>
+
     </div>
-    <!--End of Left column-->
-    <div class="clear"></div>
+    <!-- End Canal Singularidades -->
+
+    <!-- Nas redes sociais -->
+    <div id="redes-sociais">
+        <div class="main-titles">
+            <h2>Nas redes sociais</h2>
+        </div>
+
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+          fjs.parentNode.insertBefore(js, fjs);
+        }
+        (document, 'script', 'facebook-jssdk'));
+        </script>
+        <div class="fb-like" data-href="https://www.facebook.com/pages/Instituto-Singularidades/230182023664250" data-width="100%" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+    </div>
+    <!-- End Nas redes sociais -->
     
 </div>
 

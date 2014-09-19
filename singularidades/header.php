@@ -68,8 +68,8 @@
                     <li><a href="#" title="Revista eletrônica">Revista eletrônica</a></li>
                     <li><a href="#" title="Programa de benefícios">Programa de benefícios</a></li>
                     <li><a href="#" title="Biblioteca">Biblioteca</a></li>
-                    <li><a href="#" title="Escolas parceiras">Escolas parceiras</a></li>
-                    <li><a href="#" title="Blog">Blog</a></li>
+                    <!-- <li><a href="#" title="Escolas parceiras">Escolas parceiras</a></li>
+                    <li><a href="#" title="Blog">Blog</a></li> -->
                 </ul>
                 <!--End of Main menu #1-->
                 <div class="clear"></div>
@@ -83,7 +83,7 @@
             <div class="content-center">
                 <ul>
                     <li class="o-instituto">
-                        <a href="#" title="O Singularidades">O Singularidades</a>
+                        <a href="#" title="Singularidades">Singularidades</a>
                         <div class="submenu">
                             <ul>
                                 <li><a href="#" title="Quem somos">Quem somos</a></li>
@@ -97,7 +97,7 @@
                         </div>
                     </li>
                     <li class="graduacao">
-                        <a href="#" title="Graduação">Graduação</a>
+                        <a href="#" title="Cursos">Cursos</a>
                         
                         <div class="submenu">
                             <ul class="cursos">
@@ -113,24 +113,12 @@
                             </ul>
                         </div>
                     </li>
-                    <li class="pos-graduacao">
-                        <a href="#" title="Pós-graduação">Pós-graduação</a>
-                        <div class="submenu">
-                            <ul>
-                                <li><a href="#" title="Autoconhecimento para a formação do educador.">Autoconhecimento para a formação do educador.</a></li>
-                                <li><a href="#" title="Crianças de Zero a três anos: formação para as infâncias no Brasil.">Crianças de Zero a três anos: <br>formação para as infâncias no Brasil.</a></li>
-                                <li><a href="#" title="Didática para Educação Bilíngue.">Didática para Educação Bilíngue.</a></li>
-                                <li><a href="#" title="Educação em museus e centros culturais.">Educação em museus e centros culturais.</a></li>
-                                <li><a href="#" title="Gestão da educação no novo milênio: o sujeito, 
-                                    o saber e as práticas educativas.">Gestão da educação no novo milênio: o sujeito, <br>o saber e as práticas educativas.</a></li>
-                                <li><a href="#" title="Tradução e Interpretação &bull; Libras/ Português.">Tradução e Interpretação &bull; Libras/ Português.</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="extensao"><a href="#" title="Extensão">Extensão</a></li>
-                    <li><a href="#" title="EAD">EAD</a></li>
+                    <li class="calendario"><a href="#" title="Calendário">Calendário</a></li>
+                    <li><a href="#" title="Eventos">Eventos</a></li>
+                    <li><a href="#" title="Notícias">Notícias</a></li>
                 </ul>
                 <div class="clear"></div>
+                <a href="#" title="Voltar para a home" class="voltar-home-header"><img src="images/voltar-para-home.png" alt="Voltar para a home" title="Voltar para a home"></a>
             </div>
         </div>
         <!--End of Main Menu #2-->
