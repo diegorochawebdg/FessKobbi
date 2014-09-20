@@ -313,71 +313,90 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4272a5', end
 /*End of Content*/
 
 /*Footer*/
-#footer .footer-blue{
-    background-color: #1a365f;
-    -webkit-box-shadow: inset 0px 9px 19px -6px rgba(56,56,56,1);
-    -moz-box-shadow: inset 0px 9px 19px -6px rgba(56,56,56,1);
-    box-shadow: inset 0px 9px 19px -6px rgba(56,56,56,1);
-    padding: 15px 0;
+#footer{
+    background: #eaf0f6;
+    padding: 20px 0;
 }
-#footer .footer-blue li{
+
+/*Social*/
+#footer .social{
     float: left;
-    margin-top: 5px;
 }
-#footer .footer-blue a:before{
-    content:"|";
-    margin: 0 10px;
+#footer .social li{
+    display: inline-block;
 }
-#footer .footer-blue li:first-child a:before{
-    content:"";
-    margin: 0;
+#footer .social li a{
+    background: url(../images/social-links.png) no-repeat;
+    width: 50px;
+    padding-top: 50px;
 }
-#footer .footer-blue a{
-    color: #FFF;
-    font-size: 12px;
+#footer .social li a.twitter{
+    background-position: -60px 0;
 }
-#footer .footer-blue .links-left{
-    float: left;
-    padding-top: 11px;
+#footer .social li a.linkedin{
+    background-position: -120px 0;
 }
-#footer .footer-blue .social{
+#footer .social li a.youtube{
+    background-position: -180px 0;
+}
+#footer .social li a.flickr{
+    background-position: -240px 0;
+}
+#footer .social li a.feeds{
+    background-position: -300px 0;
+}
+
+/*Links*/
+#footer .links{
     float: right;
     display: table;
+    margin-bottom: 30px;
 }
-#footer .footer-blue .social a{
-    width: 38px;
-    padding-top: 38px;
-    margin-left: 15px;
+#footer .links ul{
+    display: table-cell;
+    vertical-align: middle;
+    height: 50px;
 }
-#footer .footer-blue .social a:hover{
-    opacity: 0.7;
+#footer .links li{
+    display: inline-block;
 }
-#footer .footer-blue .social .facebook{
-    background-position: 0 -464px;
+#footer .links li a{ 
+    text-transform: uppercase;
+    font: normal 15px 'Dosis', Arial, sans-serif;
+    color: #696969;
 }
-#footer .footer-blue .social .twitter{
-    background-position: 0 -576px;
+#footer .links li a:hover{ 
+    text-decoration: none;
+    color: #1a365f;
 }
-#footer .footer-blue .social .linkedin{
-    background-position: 0 -688px;
+#footer .links li a:before{ 
+    content: ">";
+    font: normal 20px 'Dosis', Arial, sans-serif;
+    margin: 0 10px;
 }
-#footer .footer-blue .social .youtube{
-    background-position: 0 -800px;
+
+#footer .address{ 
+    float: left;
+    display: table;
 }
-#footer .footer-blue .social .flickr{
-    background-position: 0 -912px;
+#footer address{ 
+    display: table-cell;
+    vertical-align: middle;
+    height: 45px;
+    color: #898989;
+    font: normal 15px Arial, sans-serif;
 }
-#footer .footer-blue .social .feeds{
-    background-position: 0 -1024px;
+#footer .mail-tel{
+    float: right;
+    text-align: right;
 }
-#footer .white-footer{
-    background-color: #FFF;
-    padding: 10px 0;
-    margin-bottom: 20px;
+#footer .mail-tel .mail-footer{
+    font: normal 14px Arial, sans-serif; 
+    color: #898989;
 }
-#footer .white-footer small{
-    font-size: 11px;
-    color: #a0b0c1;
+#footer .mail-tel .tel-footer{
+    font: bold 17px Arial, sans-serif; 
+    color: #898989;
 }
 /*End of Footer*/
 

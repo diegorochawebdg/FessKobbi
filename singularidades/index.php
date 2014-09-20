@@ -26,14 +26,14 @@
     <div id="tabs-sections">
         <div class="titles">
             <ul>
-                <li class="item1"><a href="#" title="Notícias">Notícias</a></li>
+                <li class="item1 active"><a href="#" title="Notícias">Notícias</a></li>
                 <li class="item2"><a href="#" title="Oportunidades">Oportunidades</a></li>
                 <li class="item3"><a href="#" title="Eventos">Eventos</a></li>
             </ul>
         </div>
         <div class="tabs-content">
             <div class="box-padding">
-                <div class="item1">
+                <!-- <div class="item1">
                     <ul>
                         <li>
                             <a href="#">
@@ -52,8 +52,8 @@
                             </a>
                         </li>
                     </ul>
-                    <a href="#" title="Acessar o blog">Acessar o blog</a>
-                </div>
+                    <a href="#" class="acessar-blog" title="Acessar o blog">Acessar o blog</a>
+                </div> -->
                 <div class="item2">
                     <ul>
                         <li>
@@ -65,20 +65,22 @@
                                     <img src="http://placehold.it/307x191">
                                 </div>
                                 <div class="post-txt">
-                                    <h4>Estagiário de Lorem Ipsum</h4>
-                                    <span>Faixa salarial: R$ 1.350,00</span>
-                                    <span>Deadline: 16/09/2014</span>
-                                    <span>Vagas disponíveis: 2</span>
-                                    <p><strong>Descrição:</strong> Chillwave you probably haven't heard of them stumptown, gluten-free ethnic next level pour-over master cleanse Intelligentsia skateboard. Deep v keffiyeh art</p>
+                                    <div class="box-padding">
+                                        <h4>Estagiário de Lorem Ipsum</h4>
+                                        <span>Faixa salarial: R$ 1.350,00</span>
+                                        <span>Deadline: 16/09/2014</span>
+                                        <span>Vagas disponíveis: 2</span>
+                                        <p><strong>Descrição:</strong> Chillwave you probably haven't heard of them stumptown, gluten-free ethnic next level pour-over master cleanse Intelligentsia skateboard. Deep v keffiyeh art</p>
+                                    </div>
                                 </div>
                                 <div class="like-it">
-                                    <a href="#" title="Gostou dessa vaga?"><img src="" alt="Gostou dessa vaga?" title="Gostou dessa vaga?"></a>
+                                    <a href="#" title="Gostou dessa vaga?"><img src="images/home/gostou-dessa-vaga.png" width="173" height="191" alt="Gostou dessa vaga?" title="Gostou dessa vaga?"></a>
                                 </div>
                                 <div class="clear"></div>
                             </a>
                         </li>
                     </ul>
-                    <a href="#" title="Acessar o blog">Acessar o blog</a>
+                    <a href="#" title="Mais oportunidades" class="mais-oportunidades">Mais oportunidades</a>
                 </div>
             </div>
         </div>
@@ -90,7 +92,8 @@
         <div class="main-titles">
             <h2>Canal Singularidades</h2>
         </div>
-
+        
+        
         <iframe width="100%" height="315" src="//www.youtube.com/embed/embed?list=PL9sTiblSfqt2tgvZPUqYu3pD8asGmxOdU&showinfo=1&controls=0&egm=1" frameborder="0" allowfullscreen></iframe>
 
     </div>
@@ -101,18 +104,20 @@
         <div class="main-titles">
             <h2>Nas redes sociais</h2>
         </div>
-
-        <div id="fb-root"></div>
-        <script>(function(d, s, id) {
-          var js, fjs = d.getElementsByTagName(s)[0];
-          if (d.getElementById(id)) return;
-          js = d.createElement(s); js.id = id;
-          js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
-          fjs.parentNode.insertBefore(js, fjs);
-        }
-        (document, 'script', 'facebook-jssdk'));
-        </script>
-        <div class="fb-like" data-href="https://www.facebook.com/pages/Instituto-Singularidades/230182023664250" data-width="100%" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+        
+        <div class="the-friends">
+            <div id="fb-root"></div>
+            <script>(function(d, s, id) {
+              var js, fjs = d.getElementsByTagName(s)[0];
+              if (d.getElementById(id)) return;
+              js = d.createElement(s); js.id = id;
+              js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+              fjs.parentNode.insertBefore(js, fjs);
+            }
+            (document, 'script', 'facebook-jssdk'));
+            </script>
+            <div class="fb-like" data-href="https://www.facebook.com/pages/Instituto-Singularidades/230182023664250" data-width="100%" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+        </div>
     </div>
     <!-- End Nas redes sociais -->
     

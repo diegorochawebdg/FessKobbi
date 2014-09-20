@@ -13,6 +13,143 @@
     display: inline-block;
     margin-right: 17px;
 }
+#links-cursos li:hover{
+    opacity: 0.8;
+}
 #links-cursos li.last{
     margin-right: 0;
+}
+
+/*Tabs sections*/
+#tabs-sections .titles li{
+	display: inline-block;
+	border: solid 1px #3f6d9d;
+	margin-right: 10px;
+	border-bottom: none;
+}
+#tabs-sections .titles li.active, #tabs-sections .titles li:hover{
+	background: #3f6d9d;
+}
+#tabs-sections .titles li a{
+	padding:10px 25px;
+	font: normal 20px 'Dosis', Arial, sans-serif;
+	text-transform: uppercase;
+	color: #1a365f;
+}
+#tabs-sections .titles li.active a, #tabs-sections .titles li:hover a{
+	color: white;
+	text-decoration: none;
+}
+#tabs-sections .tabs-content{
+	background: #3f6d9e;
+}
+#tabs-sections .tabs-content .box-padding{
+	padding: 46px 40px;
+}
+#tabs-sections .tabs-content .item-title{
+	background: url(../images/home/bg-title-tabs-section2.png) repeat-x left center;
+}
+#tabs-sections .tabs-content h3{
+	background: #3f6d9e url(../images/home/bg-title-tabs-section.png) no-repeat right center;
+	display: table;
+	font: normal 25px 'Dosis', Arial, sans-serif;
+	text-transform: uppercase;
+	color: white;
+	padding-right: 30px;
+	margin-bottom: 20px;
+}
+#tabs-sections .tabs-content .post-img{
+	float: left;
+	max-width: 307px;
+}
+#tabs-sections .tabs-content h4{
+	font: normal 25px 'Dosis', Arial, sans-serif;
+	text-transform: uppercase;
+	color: white;
+}
+#tabs-sections .tabs-content small{
+	font-size: 12px;
+	color: white;
+	margin-bottom: 20px;
+	display: block;
+}
+#tabs-sections .tabs-content p{
+	font: normal 18px 'Dosis', Arial, sans-serif;
+	color: white;
+	margin: 0;
+}
+#tabs-sections .tabs-content a.acessar-blog, #tabs-sections .tabs-content a.mais-oportunidades{
+	font: italic normal 12px Arial, sans-serif;
+	color: white;
+	display: table;
+	margin: 15px 0 0 auto;
+	background: url(../images/home/tabs-content-acessar.png) no-repeat right center;
+	padding: 10px 35px 10px 0;
+}
+/*Item1*/
+#tabs-sections .tabs-content .item1 .post-content{
+	float: right;
+	max-width: 510px;
+}
+
+/*Item2*/
+#tabs-sections .tabs-content .item2 .post-txt, #tabs-sections .tabs-content .item3 .post-txt{
+	float: left;
+	width: 376px;
+	margin: 0 2px;
+	background: #fea812;
+	height: 191px;
+}
+#tabs-sections .tabs-content .item2 .post-txt .box-padding, #tabs-sections .tabs-content .item3 .post-txt .box-padding{
+	padding: 22px 25px;
+}
+#tabs-sections .tabs-content .item2 .post-txt h4, #tabs-sections .tabs-content .item3 .post-txt h4{
+	font: bold 18px 'Dosis', Arial, sans-serif;
+	color: #1a365f;
+}
+#tabs-sections .tabs-content .item2 .post-txt span, #tabs-sections .tabs-content .item3 .post-txt span{
+	font: normal 14px 'Dosis', Arial, sans-serif;
+	color: #1a365f;
+	display: block;
+}
+#tabs-sections .tabs-content .item2 .post-txt p, #tabs-sections .tabs-content .item3 .post-txt p{
+	font: normal 16px 'Dosis', Arial, sans-serif;
+	color: #1a365f;
+}
+#tabs-sections .tabs-content .item2 .post-txt p strong, #tabs-sections .tabs-content .item3 .post-txt p strong{
+	font: bold 16px 'Dosis', Arial, sans-serif;
+}
+#tabs-sections .tabs-content .like-it{
+	float: right;
+}
+
+/*Main titles*/
+.main-titles{
+	background: #f4f4f5;
+	padding: 0 15px;
+	margin: 35px 0;
+}
+.main-titles h2{
+	text-transform: uppercase;
+	color: #1a365f;
+	background-color: white;
+	background-position: right center;
+	background-repeat: no-repeat;
+	display: table;
+	padding: 20px 47px 20px 8px;
+	font: bold 20px 'Dosis', Arial, sans-serif;
+}
+
+/*Canal Singularidades*/
+#canal-singularidades h2{
+	background-image: url(../images/home/canal-singularidades.png);
+}
+
+/*Nas Redes Sociais*/
+#redes-sociais 	.the-friends{
+	border: solid 1px #aaa;
+	padding: 10px;
+}
+#redes-sociais h2{
+	background-image: url(../images/home/nas-redes-sociais.png);
 }

@@ -32,9 +32,7 @@
             <div class="clear"></div>
             
             <div class="address">
-                <div class="relative">
-                    <address>R: Deputado Lacerda Franco, 88 - Pinheiros - São Paulo - SP - CEP: 05418-000</address>
-                </div>
+                <address>R: Deputado Lacerda Franco, 88 - Pinheiros - São Paulo - SP - CEP: 05418-000</address>
             </div>
 
             <div class="mail-tel">
