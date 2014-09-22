@@ -1,38 +1,57 @@
+/*Tabs Slider*/
+    window.slider;
+
 $(document).ready(function(e){
     
     /*Main Slider*/
-    $('#main-slider-home .slides_container').bxSlider({
+    $('#content #slider ul').bxSlider({
         pager:      true,
         controls:   false,
-        auto:       true
+        auto:       true,
+        pause:      7000
+    });
+
+    window.slider = $('#tabs-sections .tabs-content .item1 ul').bxSlider({
+        pager:          false,
+        controls:       true,
+        slideWidth:     860, 
+        auto:           true,
+        pause:          5000
+    });
+    window.slider2 = $('#tabs-sections .tabs-content .item2 ul').bxSlider({
+        pager:          false,
+        controls:       true,
+        slideWidth:     860, 
+        auto:           true,
+        pause:          5000
+    });
+    window.slider3 = $('#tabs-sections .tabs-content .item3 ul').bxSlider({
+        pager:          false,
+        controls:       true,
+        slideWidth:     860, 
+        auto:           true,
+        pause:          5000
     });
     
-    /*Selectors Transition*/
-    $('.left-column #cursos-slider .selectors li').hover(function(e){
-        $(this).addClass('selected2');
-    }, function(e){
-        $(this).removeClass('selected2');
-    });
-    $('.left-column #cursos-slider .selectors li a').click(function(e){
+    
+    /*Tabs Collapse*/
+    var currentClass = 'item1';
+    $('#tabs-sections .titles a').click(function(e){
+        /*debugger;*/
         e.preventDefault();
-        $('.left-column #cursos-slider .selectors li').removeClass('selected');
-        $(this).parent().parent().addClass('selected');
+        var linkClass = $(this).parent().attr('class');
+        if(currentClass != linkClass){
+            $('#tabs-sections .titles li').removeClass('active');
+            $(this).parent().addClass('active');
+            $('#tabs-sections .tabs-content .' + currentClass).hide();
+            $('#tabs-sections .tabs-content .' + linkClass).show(0, function(){
+                window.slider.reloadSlider();
+                window.slider2.reloadSlider();
+                window.slider3.reloadSlider();
+            });
+            currentClass = linkClass;
+            
+        }
     });
-    
-    /*Slider Cursos*/
-    /*$(function(){
-        $('#cursos-slider .overflow .item1').slides({
-            preload: false,
-            play: 5000,
-            pause: 2500,
-            hoverPause: true
-        });
-    });*/
-    $('#cursos-slider .overflow .item1 .slides_container').bxSlider({
-        pager:      true,
-        controls:   false
-    });
-    
-    
     
 });
