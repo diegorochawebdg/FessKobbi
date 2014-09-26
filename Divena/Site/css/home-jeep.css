@@ -14,7 +14,8 @@
     border-left: solid 1px #3d4324;
 }
 #lines ul.submenu-lines, #lines ul.submenu-lines li a:hover{
-    border: solid 1px #404c0f;
+    box-shadow: 0 0 0 1px #404c0f;
+    border: none;
 }
 #slider .bx-pager-item a.active{
     background: url(../images/home/bg-pager-active-jeep.png) no-repeat right center;

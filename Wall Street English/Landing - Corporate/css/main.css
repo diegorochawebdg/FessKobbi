@@ -401,6 +401,9 @@ a:hover{
     bottom: 0;
     width: 100%;
 }
+#float-footer .content-center{
+    position: relative;
+}
 #float-footer strong{
     color: white;
     font: bold 28px 'avenirmedium', Arial, sans-serif;
@@ -411,7 +414,7 @@ a:hover{
     font: normal 29px 'avenirmedium', Arial, sans-serif;
     display: block;
 }
-#float-footer a{
+#float-footer a[title="Agende agora uma visita"]{
     float: right;
     color: white;
     background: #003768;
@@ -420,4 +423,16 @@ a:hover{
     border-radius: 2px;
     font: normal 22px 'avenirblack', Arial, sans-serif;
     text-transform: uppercase;
+}
+
+/*Top*/
+.scroll-top{
+    position: fixed;
+    bottom: 300px;
+    left: 50%;
+    margin-left: 510px;
+    z-index: 10;
+    background: url(../images/top.png) no-repeat;
+    width: 37px;
+    padding-top: 21px;
 }

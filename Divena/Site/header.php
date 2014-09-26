@@ -25,13 +25,13 @@
                 <!--Brands Menu-->
                 <div id="brands-menu">
                     <ul>
-                        <li class="active"><a href="#" title="Mercedez-Benz">Mercedez-Benz</a></li>
-                        <li><a href="#" title="AMG">AMG</a></li>
-                        <li><a href="#" title="Smart">Smart</a></li>
-                        <li><a href="#" title="Chrysler">Chrysler</a></li>
-                        <li><a href="#" title="Jeep">Jeep</a></li>
-                        <li><a href="#" title="Dodge">Dodge</a></li>
-                        <li><a href="#" title="RAM">RAM</a></li>
+                        <li class="active"><a href="#" title="mercedez-benz">Mercedez-Benz</a></li>
+                        <li><a href="#" title="amg">AMG</a></li>
+                        <li><a href="#" title="smart">Smart</a></li>
+                        <li><a href="#" title="chrysler">Chrysler</a></li>
+                        <li><a href="#" title="jeep">Jeep</a></li>
+                        <li><a href="#" title="dodge">Dodge</a></li>
+                        <li><a href="#" title="ram">RAM</a></li>
                     </ul>
                     <div class="clear"></div>
                 </div>

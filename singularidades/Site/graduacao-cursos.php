@@ -46,31 +46,55 @@
                     <a href="#" title="">
                         <span class="link-padding inscricoes-abertas">Inscrições abertas</span>
                         <img src="http://lorempixel.com/213/213" alt="" title="">
-                        <span class="course-title">Letras</span>
+                        <span class="course-title">
+                            <div class="relative">
+                                Letras
+                            </div>
+                        </span>
                     </a>
                 </li>
                 <li>
                     <a href="#" title="">
+                        <span class="link-padding inscricoes-abertas">Inscrições abertas</span>
                         <img src="http://lorempixel.com/213/213" alt="" title="">
-                        <span class="course-title">Letras</span>
+                        <span class="course-title">
+                            <div class="relative">
+                                Letras
+                            </div>
+                        </span>
                     </a>
                 </li>
                 <li>
                     <a href="#" title="">
+                        <span class="link-padding inscricoes-abertas">Inscrições abertas</span>
                         <img src="http://lorempixel.com/213/213" alt="" title="">
-                        <span class="course-title">Letras</span>
+                        <span class="course-title">
+                            <div class="relative">
+                                Letras
+                            </div>
+                        </span>
                     </a>
                 </li>
                 <li>
                     <a href="#" title="">
+                        <span class="link-padding inscricoes-abertas">Inscrições abertas</span>
                         <img src="http://lorempixel.com/213/213" alt="" title="">
-                        <span class="course-title">Letras</span>
+                        <span class="course-title">
+                            <div class="relative">
+                                Letras
+                            </div>
+                        </span>
                     </a>
                 </li>
                 <li>
                     <a href="#" title="">
+                        <span class="link-padding inscricoes-abertas">Inscrições abertas</span>
                         <img src="http://lorempixel.com/213/213" alt="" title="">
-                        <span class="course-title">Letras</span>
+                        <span class="course-title">
+                            <div class="relative">
+                                Letras
+                            </div>
+                        </span>
                     </a>
                 </li>
             </ul>

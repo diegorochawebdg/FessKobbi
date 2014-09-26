@@ -1,31 +1,25 @@
 @charset "UTF-8";
 
-/*Font*/
-@font-face {
-    font-family: 'CorporateA';
-    src: url('../fonts/CorporateA.eot');
-    src: url('../fonts/CorporateA?#iefix') format('embedded-opentype'),
-        url('../fonts/CorporateA.svg#CorporateA') format('svg'),
-        url('../fonts/CorporateA.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+@font-face
+{
+    font-family: CorporateA;
+    src: url(../fonts/CorporateA.eot);
+    src: url(../fonts/CorporateA?#iefix) format('embedded-opentype'), url(../fonts/CorporateA.svg#CorporateA) format('svg'), url(../fonts/CorporateA.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal
 }
-@font-face {
-    font-family: 'CorporateA-Condensed';
-    src: url('../fonts/CorporateA-Condensed.eot');
-    src: url('../fonts/CorporateA-Condensed?#iefix') format('embedded-opentype'),
-        url('../fonts/CorporateA-Condensed.svg#CorporateA-Condensed') format('svg'),
-        url('../fonts/CorporateA-Condensed.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
+@font-face
+{
+    font-family: CorporateA-Condensed;
+    src: url(../fonts/CorporateA-Condensed.eot);
+    src: url(../fonts/CorporateA-Condensed?#iefix) format('embedded-opentype'), url(../fonts/CorporateA-Condensed.svg#CorporateA-Condensed) format('svg'), url(../fonts/CorporateA-Condensed.otf) format('opentype');
+    font-weight: 400;
+    font-style: normal
 }
-
-.font{
-    font-family: 'CorporateA', sans-serif;
+.font {
+    font-family: CorporateA, sans-serif
 }
-
-/*Reset Css*/
-*{
+* {
     margin: 0;
     padding: 0;
     border: none;
@@ -34,552 +28,536 @@
     list-style: none;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1em;
-    color: white;
+    color: #fff
 }
-body, html{
+body,
+html {
     width: 100%;
     min-height: 100%;
     background: #000;
-    min-width: 1000px;
+    min-width: 1000px
 }
-img{
+img {
     display: block;
     width: auto;
     height: auto;
-    max-width: 100%;
+    max-width: 100%
 }
-a{
+a {
     display: block;
-    text-decoration: none;
+    text-decoration: none
 }
-a:hover{
-    text-decoration: underline;
+a:hover {
+    text-decoration: underline
 }
-.link-padding, #brands-menu li a{
+#brands-menu li a,
+.link-padding {
     position: relative;
     overflow: hidden;
-    height: 0;
+    height: 0
 }
-.clear{
-    clear: both;
+.clear {
+    clear: both
 }
-.animate{
--webkit-transition: all 200ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
-   -moz-transition: all 200ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
-     -o-transition: all 200ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
-        transition: all 200ms cubic-bezier(0.250, 0.100, 0.250, 1.000);
+.animate {
+    -webkit-transition: all 200ms cubic-bezier(0.25, .1, .25, 1);
+    -moz-transition: all 200ms cubic-bezier(0.25, .1, .25, 1);
+    -o-transition: all 200ms cubic-bezier(0.25, .1, .25, 1);
+    transition: all 200ms cubic-bezier(0.25, .1, .25, 1)
 }
-.content-center{
+.content-center {
     width: 970px;
-    /*min-width: 768px;*/
     padding: 0 15px;
     margin: 0 auto;
     position: relative;
-    z-index: 1;
+    z-index: 1
 }
-#container{
+#container {
     background: #000 url(../images/bg-content.png) repeat-x;
-    padding-bottom: 70px;
+    padding-bottom: 70px
 }
-/*End of Reset Css*/
-
-/*Main Image BG*/
-.main-bg-img{
+.main-bg-img,
+.main-bg-img-interna {
     position: absolute;
     width: 100%;
     top: 0;
     left: 0;
-    z-index: 0;
+    z-index: 0
 }
-
-/*Header*/
-#header{
+#header {
     position: relative;
-    z-index: 3;
+    z-index: 3
 }
-#header .content-center{
-    background: #181717;
+#header .content-center {
+    background: #181717
 }
-
-/*Brands*/
-#brands-menu{
+#brands-menu {
     background: #000;
-    margin: 0 -15px;
+    margin: 0 -15px
 }
-#brands-menu li{
+#brands-menu li {
     float: left;
     width: 13.5%;
-    opacity: 0.6;
+    opacity: .6
 }
-#brands-menu li:first-child{
-    width: 19%;
+#brands-menu li:first-child {
+    width: 19%
 }
-#brands-menu li.active{
+#brands-menu li.active {
     opacity: 1;
-    background: #181717;
+    background: #181717
 }
-#brands-menu li a{
+#brands-menu li a {
     padding-top: 45px;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center
 }
-#brands-menu li a[title="Mercedez-Benz"]{
-    background-image: url(../images/mercedes-benz-logo.png);
+#brands-menu li a[title=mercedez-benz] {
+    background-image: url(../images/mercedes-benz-logo.png)
 }
-#brands-menu li a[title="AMG"]{
-    background-image: url(../images/amg-logo.png);
+#brands-menu li a[title=amg] {
+    background-image: url(../images/amg-logo.png)
 }
-#brands-menu li a[title="Smart"]{
-    background-image: url(../images/smart-logo.png);
+#brands-menu li a[title=smart] {
+    background-image: url(../images/smart-logo.png)
 }
-#brands-menu li a[title="Chrysler"]{
-    background-image: url(../images/chrysler-logo.png);
+#brands-menu li a[title=chrysler] {
+    background-image: url(../images/chrysler-logo.png)
 }
-#brands-menu li a[title="Jeep"]{
-    background-image: url(../images/jeep-logo.png);
+#brands-menu li a[title=jeep] {
+    background-image: url(../images/jeep-logo.png)
 }
-#brands-menu li a[title="Dodge"]{
-    background-image: url(../images/dodge-logo.png);
+#brands-menu li a[title=dodge] {
+    background-image: url(../images/dodge-logo.png)
 }
-#brands-menu li a[title="RAM"]{
-    background-image: url(../images/ram-logo.png);
+#brands-menu li a[title=ram] {
+    background-image: url(../images/ram-logo.png)
 }
-
-/*Logo*/
-.main-logo{
+.main-logo {
     float: left;
     background: url(../images/divena-logo.png) no-repeat center;
     padding-top: 80px;
-    width: 170px;
+    width: 170px
 }
-
-/*Corporate menu | Cars menu*/
-#corporate-cars-menu{
+#corporate-cars-menu {
+    float: right
+}
+#corporate-menu {
     float: right;
+    margin: 15px 0
 }
-
-/*Corporate Menu*/
-#corporate-menu{
-    margin: 10px 0;
-    float: right;
-    margin: 15px 0;
-}
-#corporate-menu li{
+#corporate-menu li {
     float: left;
     display: inline-block;
-    border-left: solid 1px #939393;
+    border-left: solid 1px #939393
 }
-#corporate-menu li:first-child{
-    border: none;
+#corporate-menu li:first-child {
+    border: none
 }
-#corporate-menu li a{
+#corporate-menu li a {
     padding: 0 15px;
     color: #939393;
-    font-size: 10px;
+    font-size: 10px
 }
-#corporate-menu li.active a{
-    color: #03a4e1;
+#corporate-menu li.active a {
+    color: #03a4e1
 }
-#corporate-menu li.header-facebook, #corporate-menu li.header-instagram{
-    border: none;
+#corporate-menu li.header-facebook,
+#corporate-menu li.header-instagram {
+    border: none
 }
-#corporate-menu li.header-facebook a, #corporate-menu li.header-instagram a{
+#corporate-menu li.header-facebook a,
+#corporate-menu li.header-instagram a {
     width: 18px;
-    padding: 18px 2px 0 2px;
-    margin-top: -4px;
+    padding: 18px 2px 0;
+    margin-top: -4px
 }
-#corporate-menu li.header-facebook a{
-    background: url(../images/facebook-header.png) no-repeat center;
+#corporate-menu li.header-facebook a {
+    background: url(../images/facebook-header.png) no-repeat center
 }
-#corporate-menu li.header-instagram a{
-    background: url(../images/instagram-header.png) no-repeat center;
+#corporate-menu li.header-instagram a {
+    background: url(../images/instagram-header.png) no-repeat center
 }
-
-/*Cars menu*/
-.cars-menu li{
-    float: left;
+.cars-menu li {
+    float: left
 }
-.cars-menu li.active, #lines{
-    background: #252424;
+#lines,
+.cars-menu li.active {
+    background: #252424
 }
-.cars-menu li a{
-    font-family: 'CorporateA';
+.cars-menu li a {
+    font-family: CorporateA;
     font-size: 16px;
-    padding: 5px 10px 25px 10px;
+    padding: 5px 10px 15px
 }
-
-/*Lines*/
-#lines{
+#lines {
     margin: 0 -15px;
-    padding: 15px 28px;
-    position: relative;
+    padding: 6px 28px;
+    position: relative
 }
-#lines .the-lines{
-    float: right;
+#lines .the-lines {
+    float: right
 }
-#lines .the-lines span{
+#lines .the-lines span {
     font-size: 11px;
-    display: inline-block;
+    display: inline-block
 }
-#lines .the-lines ul, #lines .the-lines li{
-    display: inline-block;
-    /*position: relative;*/
+#lines .the-lines li,
+#lines .the-lines ul {
+    display: inline-block
 }
-#lines .the-lines li{
+#lines .the-lines li {
     margin-bottom: -30px;
-    padding: 3px 0 30px 0;
+    padding: 3px 0 30px
 }
-#lines .the-lines li:hover{
-    background: #03a4e1;
+#lines .the-lines li:hover {
+    background: #03a4e1
 }
-#lines .the-lines li:hover a{
-    border-left: solid 1px transparent;
+#lines .the-lines li:hover a {
+    border-left: solid 1px transparent
 }
-#lines .the-lines li:first-child a{
-    border-left: none;
+#lines .the-lines li:first-child a {
+    border-left: none
 }
-#lines .the-lines li a{
-    font-size:14px;
+#lines .the-lines li a {
+    font-size: 14px;
     padding: 0 8px 0 11px;
-    border-left: solid 1px #464646;
+    border-left: solid 1px #464646
 }
-
-/*Lines | Submenu*/
-#lines ul.submenu-lines{
+#lines ul.submenu-lines {
     position: absolute;
-    top: 60px;
+    top: 35px;
     background: #1a1a1b;
     border: solid 1px #03a4e1;
     padding: 18px 38px;
     left: 50%;
-    display: none;
+    display: none
 }
-#lines ul.submenu-lines.four, #lines ul.submenu-lines.three{
+#lines ul.submenu-lines.four,
+#lines ul.submenu-lines.three {
     width: 892px;
-    margin-left: -480px;
+    margin-left: -480px
 }
-#lines ul.submenu-lines.two{
-    width: 546px;
-    margin-left: -223px;
+#lines ul.submenu-lines.two {
+    width: 640px;
+    margin-left: -223px
 }
-#lines ul.submenu-lines.one{
-    width: 650px;
-    margin-left: -364px;
+#lines ul.submenu-lines.one {
+    width: 770px;
+    margin-left: -364px
 }
-#lines ul.submenu-lines li:hover{
-    background: transparent;
+#lines ul.submenu-lines li:hover {
+    background: 0 0
 }
-#lines ul.submenu-lines li{
-    float: left;
+#lines ul.submenu-lines li {
+    display: inline-block;
     border: none;
     padding: 0;
-    margin: 0;
+    margin: 0
 }
-#lines ul.submenu-lines li img{
+#lines ul.submenu-lines li img {
     display: table;
-    margin: 0 auto;
+    margin: 0 auto
 }
-#lines ul.submenu-lines.one li img{
+#lines ul.submenu-lines.one li img {
     float: left;
-    max-width: 65%;
+    max-width: 60%;
+    margin-right: 2%
 }
-#lines ul.submenu-lines.four li{
-    width: 25%;
+#lines ul.submenu-lines.four li {
+    width: 24%
 }
-#lines ul.submenu-lines.three li{
-    width: 33.3%;
+#lines ul.submenu-lines.three li {
+    width: 33%
 }
-#lines ul.submenu-lines.two li{
-    width: 50%;
+#lines ul.submenu-lines.two li {
+    width: 49%
 }
-#lines ul.submenu-lines li a{
-    padding: 13px 9px !important;
+#lines ul.submenu-lines li a {
+    padding: 13px 9px!important
 }
-#lines ul.submenu-lines li a:hover{
+#lines ul.submenu-lines li a:hover {
     box-shadow: 0 0 0 1px #03a4e1;
-    background: transparent;
-    text-decoration: none;
+    background: 0 0;
+    text-decoration: none
 }
-#lines ul.submenu-lines li .line-description{
+#lines ul.submenu-lines li .line-description {
     display: table-cell;
     vertical-align: middle;
-    height: 90px;
+    height: 90px
 }
-#lines ul.submenu-lines.one li .line-description{
+#lines ul.submenu-lines.one li .line-description {
     display: block;
     width: 33%;
-    float: left;
+    float: left
 }
-#lines ul.submenu-lines.one li .line-description .box-padding{
-    padding: 40px 0 0 25px;
+#lines ul.submenu-lines.one li .line-description .box-padding {
+    padding: 40px 0 0 25px
 }
-#lines ul.submenu-lines li .line-description h3{
-    font: normal 20px 'CorporateA', Arial, sans-serif;
-    margin-bottom: 3px;
+#lines ul.submenu-lines li .line-description h3 {
+    font: 400 20px CorporateA, Arial, sans-serif;
+    margin-bottom: 3px
 }
-#lines ul.submenu-lines li .line-description p{
-    font-size: 10px;
+#lines ul.submenu-lines li .line-description p {
+    font-size: 10px
 }
-
-/*Slogan*/
-.slogan h2{
-    font-family: 'CorporateA-Condensed';
-    font-weight: normal;
+.slogan h2 {
+    font-family: CorporateA-Condensed;
+    font-weight: 400;
     font-size: 40px;
-    line-height: 1.2em;
+    line-height: 1.2em
 }
-.slogan p{
-    font-size: 14px;
+.slogan p {
+    font-size: 14px
 }
-
-/*Footer*/
-#footer .links{
-    margin-bottom: 25px;
+#footer .links {
+    margin-bottom: 25px
 }
-#footer-corporate-menu{
-    float: left;
+#footer-corporate-menu {
+    float: left
 }
-#footer-corporate-menu li, #footer-cars-menu li{
+#footer-cars-menu li,
+#footer-corporate-menu li {
     float: left;
     display: inline-block;
-    border-left: solid 1px #939393;
+    border-left: solid 1px #939393
 }
-#footer-corporate-menu li:first-child, #footer-cars-menu li:first-child{
-    border: none;
+#footer-cars-menu li:first-child,
+#footer-corporate-menu li:first-child {
+    border: none
 }
-#footer-corporate-menu li a, #footer-cars-menu li a{
+#footer-cars-menu li a,
+#footer-corporate-menu li a {
     padding: 0 15px;
-    font-size: 10px;
+    font-size: 10px
 }
-#footer-corporate-menu li.footer-facebook, #footer-corporate-menu li.footer-instagram{
-    border: none;
+#footer-corporate-menu li.footer-facebook,
+#footer-corporate-menu li.footer-instagram {
+    border: none
 }
-#footer-corporate-menu li.footer-facebook a, #footer-corporate-menu li.footer-instagram a{
+#footer-corporate-menu li.footer-facebook a,
+#footer-corporate-menu li.footer-instagram a {
     width: 18px;
-    padding: 18px 2px 0 2px;
-    margin-top: -4px;
+    padding: 18px 2px 0;
+    margin-top: -4px
 }
-#footer-corporate-menu li.footer-facebook a{
-    background: url(../images/facebook-header.png) no-repeat center;
+#footer-corporate-menu li.footer-facebook a {
+    background: url(../images/facebook-header.png) no-repeat center
 }
-#footer-corporate-menu li.footer-instagram a{
-    background: url(../images/instagram-header.png) no-repeat center;
+#footer-corporate-menu li.footer-instagram a {
+    background: url(../images/instagram-header.png) no-repeat center
 }
-#footer-cars-menu{
-    float: right;
+#footer-cars-menu {
+    float: right
 }
-
-/*Footer - Brands*/
-#brands-footer li{
+#brands-footer li {
     float: left;
     border: solid 1px #171717;
     text-align: center;
     width: 13%;
-    margin-left: 1.2%;
+    margin-left: 1.2%
 }
-#brands-footer li a{
+#brands-footer li a {
     color: #7e7e7e;
-    padding: 10px 0;
+    padding: 10px 0
 }
-#brands-footer li:first-child{
-    margin-left: 0;
+#brands-footer li:first-child {
+    margin-left: 0
 }
-#brands-footer li:last-child{
-    float: right;
+#brands-footer li:last-child {
+    float: right
 }
-
-/*Float Footer*/
-#float-footer{
+#float-footer {
     background: #0f739b;
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
-    z-index: 10;
+    z-index: 10
 }
-#float-footer .content-center{
-    position: relative;
+#float-footer .content-center {
+    position: relative
 }
-#float-footer .indicator{
+#float-footer .indicator {
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
     border-top: 10px solid #000;
     position: absolute;
     top: 0;
-    left: 54px;
+    left: 54px
 }
-#float-footer a{
-    font-family: 'CorporateA';
-    font-weight: bold;
-    font-size: 17px;
+#float-footer a {
+    font-family: CorporateA;
+    font-weight: 700;
+    font-size: 17px
 }
-#float-footer a.footer-logo{
+#float-footer a.footer-logo {
     background: url(../images/divena-logo-footer.png) no-repeat center;
     float: left;
     padding-top: 51px;
-    width: 100px;
+    width: 100px
 }
-#float-footer ul{
-    float: right;
+#float-footer ul {
+    float: right
 }
-#float-footer ul li{
+#float-footer ul li {
     float: left;
     padding: 0 17px;
     border-left: solid 1px #225266;
-    border-right: solid 1px #0593cc;
+    border-right: solid 1px #0593cc
 }
-#float-footer ul li:first-child{
-    border-left: none;
+#float-footer ul li:first-child {
+    border-left: none
 }
-#float-footer ul li:last-child{
-    border-right: none;
+#float-footer ul li:last-child {
+    border-right: none
 }
-#float-footer ul li a{
+#float-footer ul li a {
     padding-left: 30px;
     display: table-cell;
     vertical-align: middle;
-    height: 51px;
+    height: 51px
 }
-#float-footer ul li a.footer-email{
-    background: url(../images/info-email-float-footer.png) no-repeat left center;
+#float-footer ul li a.footer-email {
+    background: url(../images/info-email-float-footer.png) no-repeat left center
 }
-#float-footer ul li a.footer-ligamos{
-    background: url(../images/ligamos-float-footer.png) no-repeat left center;
+#float-footer ul li a.footer-ligamos {
+    background: url(../images/ligamos-float-footer.png) no-repeat left center
 }
-#float-footer ul li a.footer-agende{
-    background: url(../images/teste-drive-float-footer.png) no-repeat left center;
+#float-footer ul li a.footer-agende {
+    background: url(../images/teste-drive-float-footer.png) no-repeat left center
 }
-#float-footer ul li a.footer-telefone{
-    background: url(../images/telefone-float-footer.png) no-repeat left center;
+#float-footer ul li a.footer-telefone {
+    background: url(../images/telefone-float-footer.png) no-repeat left center
 }
-
-/*Leads*/
-.fancybox-inner{
+.fancybox-inner {
     position: relative;
     overflow: hidden;
-    max-height: 501px;
+    max-height: 501px
 }
-.leads{
+.leads {
     width: 650px;
     height: 500px;
     display: table;
-    background: #2c2c2c;
+    background: #2c2c2c
 }
-.leads .box-padding{
-    padding: 15px 40px;
+.leads .box-padding {
+    padding: 15px 40px
 }
-.leads .header-lightbox{
-    background: #202020;
+.leads .header-lightbox {
+    background: #202020
 }
-
-.leads .header-lightbox h3{
+.leads .header-lightbox h3 {
     height: 44px;
-    padding:5px 0 0 65px;
+    padding: 5px 0 0 65px;
     font-size: 15px;
     line-height: 1.3em;
-    font-family: 'CorporateA';
+    font-family: CorporateA
 }
-.test-drive-lightbox h3{
-    background: url(../images/leads/test-drive-lead.png) no-repeat left center;
+.test-drive-lightbox h3 {
+    background: url(../images/leads/test-drive-lead.png) no-repeat left center
 }
-.info-email-lightbox h3{
-    background: url(../images/leads/email-lead.png) no-repeat left center;
+.info-email-lightbox h3 {
+    background: url(../images/leads/email-lead.png) no-repeat left center
 }
-.ligamos-lightbox h3{
+.ligamos-lightbox h3 {
     background: url(../images/leads/ligamos-lead.png) no-repeat left center;
-    padding-left: 45px !important;
+    padding-left: 45px!important
 }
-.ver-telefone h3{
+.ver-telefone h3 {
     background: url(../images/leads/telefone-lead.png) no-repeat left center;
-    padding-left: 75px !important;
+    padding-left: 75px!important
 }
-.ver-telefone p{
-    font-size: 16px !important;
-    margin-bottom: 5px !important;
+.ver-telefone p {
+    font-size: 16px!important;
+    margin-bottom: 5px!important
 }
-.ver-telefone strong{
+.ver-telefone strong {
     font-size: 22px;
     margin-bottom: 10px;
-    display: block;
+    display: block
 }
-.ver-telefone address{
+.ver-telefone address {
     font-size: 12px;
     font-style: normal;
-    display: block;
+    display: block
 }
-.leads .header-lightbox h3 strong{
+.leads .header-lightbox h3 strong {
     display: block;
-    font: bold 24px 'CorporateA', Arial, sans-serif;
-    line-height: inherit;
+    font: 700 24px CorporateA, Arial, sans-serif;
+    line-height: inherit
 }
-
-.leads p{
+.leads p {
     font-size: 14px;
     line-height: 1.3em;
-    margin-bottom: 25px;
+    margin-bottom: 25px
 }
-.leads input[type="text"], .leads input[type="email"],
-.leads textarea,
-.leads .select{
-    background: transparent;
+.leads .select,
+.leads input[type=email],
+.leads input[type=text],
+.leads textarea {
+    background: 0 0;
     border: solid 1px #202020;
     height: 33px;
     border-radius: 7px;
     padding: 0 2%;
     width: 105%;
-    margin-bottom: 10px;
+    margin-bottom: 10px
 }
-.leads .select{
+.leads .select {
     overflow: hidden;
     position: relative;
     width: 100%;
-    background: transparent url(../images/leads/bg-select.png) no-repeat right center;
+    background: transparent url(../images/leads/bg-select.png) no-repeat right center
 }
-.leads .select select{
+.leads .select select {
     height: 33px;
     width: 120%;
     cursor: pointer;
-    background: transparent;
+    background: 0 0
 }
-.leads textarea{
+.leads textarea {
     padding: 10px;
     resize: none;
     overflow: auto;
-    height: 85px;
+    height: 85px
 }
-.leads .left{
+.leads .left {
     float: left;
-    width: 47%;
+    width: 47%
 }
-.leads .right{
+.leads .right {
     float: right;
-    width: 47%;
+    width: 47%
 }
-.leads small{
+.leads small {
     font-size: 10px;
-    margin-left: 5px;
+    margin-left: 5px
 }
-.leads .linha{
+.leads .linha {
     border-top: solid 1px #80949f;
     border-bottom: solid 1px #FFF;
-    margin: 10px 0 16px 0;
+    margin: 10px 0 16px
 }
-.leads input[type="checkbox"]{
+.leads input[type=checkbox] {
     margin: 0 5px 10px 0;
-    display: inline;
+    display: inline
 }
-.leads label{
+.leads label {
     font-size: 11px;
     display: inline;
-    cursor: pointer;
+    cursor: pointer
 }
-.leads #confirmar{
+.leads #confirmar {
     background: #202020;
     padding: 5px 30px;
     display: table;
     margin: 0 0 0 auto;
-    cursor: pointer;
+    cursor: pointer
 }
-.leads #confirmar:hover{
-    opacity: 0.7;
+.leads #confirmar:hover {
+    opacity: .7
+}
+.leads* {
+    color: #a9a9a9;
 }

@@ -14,7 +14,8 @@
     border-left: solid 1px #762515;
 }
 #lines ul.submenu-lines, #lines ul.submenu-lines li a:hover{
-    border: solid 1px #982f1a;
+    box-shadow: 0 0 0 1px #982f1a;
+    border: none;
 }
 #lines .the-lines li a{
 	border-left: solid 1px white;
