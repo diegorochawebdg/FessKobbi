@@ -48,3 +48,23 @@ a:hover{
     margin: 0 auto;
 }
 /*End of Reset Css*/
+
+/*Header*/
+#header{
+    background: url(../images/bg-header.jpg) repeat;
+    border-bottom: solid 10px white;
+}
+#header a{
+    background: url(../images/logotipo-brookfield-incorporacoes.png) no-repeat center;
+    width: 249px;
+    padding-top: 107px;
+    -webkit-box-shadow: inset 0 0 3px #005290;
+    box-shadow: inset 0 0 3px #005290;
+    background: #046daa url(../images/logotipo-brookfield-incorporacoes.png) no-repeat center;
+    background: url(../images/logotipo-brookfield-incorporacoes.png) no-repeat center, -moz-linear-gradient(top,  #046daa 0%, #00407e 100%);
+    background: url(../images/logotipo-brookfield-incorporacoes.png) no-repeat center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#046daa), color-stop(100%,#00407e));
+    background: url(../images/logotipo-brookfield-incorporacoes.png) no-repeat center, -webkit-linear-gradient(top,  #046daa 0%,#00407e 100%);
+    background: url(../images/logotipo-brookfield-incorporacoes.png) no-repeat center, -o-linear-gradient(top,  #046daa 0%,#00407e 100%);
+    background: url(../images/logotipo-brookfield-incorporacoes.png) no-repeat center, -ms-linear-gradient(top,  #046daa 0%,#00407e 100%);
+    background: url(../images/logotipo-brookfield-incorporacoes.png) no-repeat center, linear-gradient(to bottom,  #046daa 0%,#00407e 100%);
+}
