@@ -11,7 +11,7 @@ $(document).ready(function(e) {
 	});
 
 	/*Books Loupe*/
-    $("#e-book-slider ul img").mlens(
+    /*$("#e-book-slider ul img").mlens(
 	{
 		imgSrc: $("#e-book-slider ul img").attr("data-big"),
 		lensShape: "circle",
@@ -22,6 +22,7 @@ $(document).ready(function(e) {
 		imgOverlay: $("#green_monster").attr("data-overlay"),
 		overlayAdapt: true,
 		zoomLevel: 2
-	});
+	});*/
+	$("#e-book-slider ul a").zoomy('mouseover', {});
 
 });

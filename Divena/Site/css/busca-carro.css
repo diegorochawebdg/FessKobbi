@@ -150,6 +150,7 @@
     font: normal 13px Arial,sans-serif;
     padding: 10px;
     display: table;
+    margin: 15px 0;
     border-top: solid 1px #43b7ea;
     border-left: solid 1px #43b7ea;
     border-right: solid 1px #0d516e;
@@ -167,6 +168,7 @@
     float: left;
     position: relative;
     cursor: pointer;
+    width:442px;
 }
 #car-list ul li a.image .conheca{
     position: absolute;
@@ -198,6 +200,7 @@
 #pagination ul li{
     display: inline-block;
     background: #2b2b2b;
+    margin-right: 3px;
 }
 #pagination ul li.active{
     background: #0696d0;
@@ -234,7 +237,6 @@
 #slider #large-img{
     border: solid 1px #03a4e1;
     width: 606px;
-    height: 373px;
 }
 #slider .bx-controls a{
     position: absolute;

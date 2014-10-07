@@ -8,7 +8,7 @@
     <link rel="icon" href="favicon.png">
 
     <!--Stylesheets-->
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main.min.css">
     <!--End of Stylesheets-->
 
     <!-- Bootstrap core CSS -->
@@ -27,17 +27,17 @@
             <!-- Social -->
             <div class="social-header">
                 <ul>
-                    <li><a href="#" title="Facebook" class="link-padding facebook"></a></li>
-                    <li><a href="#" title="Twitter" class="link-padding twitter"></a></li>
-                    <li><a href="#" title="Linkedin" class="link-padding linkedin"></a></li>
-                    <li><a href="#" title="Flickr" class="link-padding flickr"></a></li>
-                    <li><a href="#" title="YouTube" class="link-padding youtube"></a></li>
-                    <li><a href="#" title="RSS" class="link-padding rss"></a></li>
+                    <li><a href="#" target="_blank" title="Facebook" class="link-padding facebook">Facebook</a></li>
+                    <li><a href="#" target="_blank" title="Twitter" class="link-padding twitter">Twitter</a></li>
+                    <li><a href="#" target="_blank" title="Linkedin" class="link-padding linkedin">Linkedin</a></li>
+                    <li><a href="#" target="_blank" title="Flickr" class="link-padding flickr">Flickr</a></li>
+                    <li><a href="#" target="_blank" title="YouTube" class="link-padding youtube">YouTube</a></li>
+                    <li><a href="#" target="_blank" title="RSS" class="link-padding rss">RSS</a></li>
                 </ul>
             </div>
             <!-- End Social -->
 
-            <a href="/" id="main-logo" title="Voltar para a página principal">Singularidades - Blog</a>
+            <a href="/" id="main-logo" class="link-padding" title="Voltar para a página principal">Singularidades - Blog</a>
             
             <!-- Main Menu -->
             <ul id="main-menu">

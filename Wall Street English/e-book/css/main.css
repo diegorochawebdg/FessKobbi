@@ -78,7 +78,7 @@ a:hover{
     border-bottom: solid 1px #99adbf;
 }
 #header .top{
-    padding: 55px 0 25px 0;
+    padding: 15px 0;
 }
 #header .top a#logo{
     float: left;
@@ -116,7 +116,7 @@ a:hover{
     width: 28%;
 }
 #header .veja-como-e-facil li .item{
-    height: 125px;
+    height: 95px;
     display: table-cell;
     vertical-align: middle;
 }
@@ -148,7 +148,7 @@ a:hover{
 /*Content*/
 #content{
     background: #003768;
-    padding: 65px 0;
+    padding: 15px 0;
 }
 
 /*Footer*/

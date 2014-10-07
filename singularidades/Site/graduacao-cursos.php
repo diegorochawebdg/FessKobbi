@@ -45,10 +45,11 @@
                 <li>
                     <a href="#" title="">
                         <span class="link-padding inscricoes-abertas">Inscrições abertas</span>
-                        <img src="http://lorempixel.com/213/213" alt="" title="">
+                        <img src="http://lorempixel.com/210/210" alt="" title="">
                         <span class="course-title">
                             <div class="relative">
-                                Letras
+                                <strong>Letras</strong>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde beatae earum, sequi, molestiae officiis ducimus ad.</p>
                             </div>
                         </span>
                     </a>
@@ -56,10 +57,11 @@
                 <li>
                     <a href="#" title="">
                         <span class="link-padding inscricoes-abertas">Inscrições abertas</span>
-                        <img src="http://lorempixel.com/213/213" alt="" title="">
+                        <img src="http://lorempixel.com/210/210" alt="" title="">
                         <span class="course-title">
                             <div class="relative">
-                                Letras
+                                <strong>Letras</strong>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde beatae earum, sequi, molestiae officiis ducimus ad.</p>
                             </div>
                         </span>
                     </a>
@@ -67,10 +69,11 @@
                 <li>
                     <a href="#" title="">
                         <span class="link-padding inscricoes-abertas">Inscrições abertas</span>
-                        <img src="http://lorempixel.com/213/213" alt="" title="">
+                        <img src="http://lorempixel.com/210/210" alt="" title="">
                         <span class="course-title">
                             <div class="relative">
-                                Letras
+                                <strong>Letras</strong>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde beatae earum, sequi, molestiae officiis ducimus ad.</p>
                             </div>
                         </span>
                     </a>
@@ -78,21 +81,11 @@
                 <li>
                     <a href="#" title="">
                         <span class="link-padding inscricoes-abertas">Inscrições abertas</span>
-                        <img src="http://lorempixel.com/213/213" alt="" title="">
+                        <img src="http://lorempixel.com/210/210" alt="" title="">
                         <span class="course-title">
                             <div class="relative">
-                                Letras
-                            </div>
-                        </span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#" title="">
-                        <span class="link-padding inscricoes-abertas">Inscrições abertas</span>
-                        <img src="http://lorempixel.com/213/213" alt="" title="">
-                        <span class="course-title">
-                            <div class="relative">
-                                Letras
+                                <strong>Letras</strong>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde beatae earum, sequi, molestiae officiis ducimus ad.</p>
                             </div>
                         </span>
                     </a>

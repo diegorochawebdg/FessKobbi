@@ -1,18 +1,19 @@
 <?php include "header.php"; ?>  
 	
 	<link rel="stylesheet" href="css/interna-livro.min.css">
+	<link rel="stylesheet" href="js/zoomy.css">
 	<script type="text/javascript" src="js/masked.min.js"></script>
 	<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
-	<script type="text/javascript" src="js/jquery.mlens-1.4.min.js"></script>
+	<script type="text/javascript" src="js/zoomy.min.js"></script>
 	<script type="text/javascript" src="js/interna-livro.min.js"></script>
 
 	<div class="content-center">
 		<!-- The book Slider -->
 		<div id="e-book-slider">
 			<ul>
-				<li><img src="images/interna-e-book/frente-ebook.png" data-big="images/interna-e-book/frente-ebook-big.png" width="340" height="258" alt="" title=""></li>
-				<li><img src="images/interna-e-book/frente-ebook.png" data-big="images/interna-e-book/frente-ebook-big.png" width="340" height="258" alt="" title=""></li>
-				<li><img src="images/interna-e-book/frente-ebook.png" data-big="images/interna-e-book/frente-ebook-big.png" width="340" height="258" alt="" title=""></li>
+				<li><a href="images/interna-e-book/1_zoom.jpg"><img src="images/interna-e-book/1.png" alt="" title=""></a></li>
+				<li><a href="images/interna-e-book/2_zoom.jpg"><img src="images/interna-e-book/2.png" alt="" title=""></a></li>
+				<li><a href="images/interna-e-book/3_zoom.jpg"><img src="images/interna-e-book/3.png" alt="" title=""></a></li>
 			</ul>
 		</div>
 		<!-- End The book Slider -->

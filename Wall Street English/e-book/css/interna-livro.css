@@ -8,7 +8,7 @@
 }
 #content #e-book-slider .bx-controls{
 	display: table;
-	margin: 0 auto
+	margin: 20px auto
 }
 #content #e-book-slider .bx-controls .bx-pager-item{
 	display: inline-block;

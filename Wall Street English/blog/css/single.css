@@ -43,6 +43,9 @@
     color: #0084a9;
     font: bold 28px 'Montserrat', sans-serif;
 }
+#the-post article a{
+    display: inline;
+}
 #the-post article p{
     color: #343434;
     font: normal 15px/1.4em 'Montserrat', sans-serif;

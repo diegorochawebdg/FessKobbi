@@ -8,16 +8,19 @@ $(document).ready(function() {
 		pagerCustom:    '#slider #thumbs ul'
 	});
 	$('#slider #thumbs ul').bxSlider({
-		mode: 			'vertical',
-		moveSlides:  	1,
-		slideWidth: 	117,
-        slideMargin:    0,
-        pager:          false,
-		controls:       true,
-        adaptiveHeight: false,
-        minSlides:      4,
-        maxSlides:      4,
-        infiniteLoop: 	false
+		mode: 			     'vertical',
+		moveSlides:  	    1,
+		slideWidth: 	    117,
+        slideMargin:        0,
+        pager:              false,
+		controls:           true,
+        adaptiveHeight:     false,
+        minSlides:          5,
+        maxSlides:          4,
+        infiniteLoop: 	    false,
+        hideControlOnEnd:   true,
+        nextText:           'Próximo',
+        prevText:           'Anterior'
 	});	
 
 	/*Tabs Collapse*/

@@ -22,61 +22,65 @@
 				<h2>Últimas Publicações</h2>
 
 				<ul>
-					<li class="noticias-post">
+					<li class="noticias-post col-md-6">
 						<a href="#" title="">
 							<article>
 								<time datetime="">29/08</time>
-								<img src="http://placehold.it/277x102" alt="" title="" width="277" height="102">
-								<blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit..</blockquote>
+								<img src="http://placehold.it/350x129" alt="" title="" width="277" height="102">
+								<blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit vero inventore veniam a doloribus!</blockquote>
 							</article>
 						</a>
 					</li>
-					<li class="noticias-post">
+					<li class="singularidades-post col-md-6">
 						<a href="#" title="">
 							<article>
 								<time datetime="">29/08</time>
-								<img src="http://placehold.it/277x102" alt="" title="" width="277" height="102">
-								<blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit..</blockquote>
+								<img src="http://placehold.it/350x129" alt="" title="" width="277" height="102">
+								<blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit vero inventore veniam a doloribus!</blockquote>
 							</article>
 						</a>
 					</li>
-					<li class="noticias-post">
+					<li class="artigos-post col-md-6">
 						<a href="#" title="">
 							<article>
 								<time datetime="">29/08</time>
-								<img src="http://placehold.it/277x102" alt="" title="" width="277" height="102">
-								<blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit..</blockquote>
+								<img src="http://placehold.it/350x129" alt="" title="" width="277" height="102">
+								<blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit vero inventore veniam a doloribus!</blockquote>
 							</article>
 						</a>
 					</li>
-					<li class="noticias-post">
+					<li class="vagas-post col-md-6">
 						<a href="#" title="">
 							<article>
 								<time datetime="">29/08</time>
-								<img src="http://placehold.it/277x102" alt="" title="" width="277" height="102">
-								<blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit..</blockquote>
+								<img src="http://placehold.it/350x129" alt="" title="" width="277" height="102">
+								<blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit vero inventore veniam a doloribus!</blockquote>
 							</article>
 						</a>
 					</li>
 				</ul>
+				<div class="clear"></div>
 			</div>
 			<!-- End Latests -->
 
 			<!-- Others Posts -->
 			<div class="others-posts">
 				<ul>
-					<li class="singularidades-post">
+					<li class="noticias-post">
 						<a href="#">
 							<time datetime="">
 								<div class="relative">
 									<span>29</span> agosto
 								</div>
 							</time>
-							<h2>Dicta molestias quos, reiciendis nemo consequatur quidem animi iure fuga eos.</h2>
+							<div class="other-post-title">
+								<h2>Dicta molestias quos, reiciendis nemo consequatur quidem animi iure fuga eos.</h2>
+							</div>
 							<div class="clear"></div>
 
 							<img src="http://placehold.it/277x153" width="277" height="153" alt="" title="">
 							<blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe architecto deleniti porro veritatis consectetur tenetur voluptates, aut quis distinctio quo. Accusamus aut ex consequatur molestias est soluta ducimus itaque minima!</blockquote>
+							<div class="clear"></div>
 						</a>
 					</li>
 					<li class="singularidades-post">
@@ -86,25 +90,48 @@
 									<span>29</span> agosto
 								</div>
 							</time>
-							<h2>Dicta molestias quos, reiciendis nemo consequatur quidem animi iure fuga eos.</h2>
+							<div class="other-post-title">
+								<h2>Dicta molestias quos, reiciendis nemo consequatur quidem animi iure fuga eos.</h2>
+							</div>
 							<div class="clear"></div>
 
 							<img src="http://placehold.it/277x153" width="277" height="153" alt="" title="">
 							<blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe architecto deleniti porro veritatis consectetur tenetur voluptates, aut quis distinctio quo. Accusamus aut ex consequatur molestias est soluta ducimus itaque minima!</blockquote>
+							<div class="clear"></div>
 						</a>
 					</li>
-					<li class="singularidades-post">
+					<li class="artigos-post">
 						<a href="#">
 							<time datetime="">
 								<div class="relative">
 									<span>29</span> agosto
 								</div>
 							</time>
-							<h2>Dicta molestias quos, reiciendis nemo consequatur quidem animi iure fuga eos.</h2>
+							<div class="other-post-title">
+								<h2>Dicta molestias quos, reiciendis nemo consequatur quidem animi iure fuga eos.</h2>
+							</div>
 							<div class="clear"></div>
 
 							<img src="http://placehold.it/277x153" width="277" height="153" alt="" title="">
 							<blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe architecto deleniti porro veritatis consectetur tenetur voluptates, aut quis distinctio quo. Accusamus aut ex consequatur molestias est soluta ducimus itaque minima!</blockquote>
+							<div class="clear"></div>
+						</a>
+					</li>
+					<li class="vagas-post">
+						<a href="#">
+							<time datetime="">
+								<div class="relative">
+									<span>29</span> agosto
+								</div>
+							</time>
+							<div class="other-post-title">
+								<h2>Dicta molestias quos, reiciendis nemo consequatur quidem animi iure fuga eos.</h2>
+							</div>
+							<div class="clear"></div>
+
+							<img src="http://placehold.it/277x153" width="277" height="153" alt="" title="">
+							<blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe architecto deleniti porro veritatis consectetur tenetur voluptates, aut quis distinctio quo. Accusamus aut ex consequatur molestias est soluta ducimus itaque minima!</blockquote>
+							<div class="clear"></div>
 						</a>
 					</li>
 				</ul>
@@ -119,7 +146,7 @@
 			<!--Search-->
 	        <div class="search">
 	            <form role="search" method="get" id="searchform" class="searchform">
-	                <input type="text" name="s" id="search-input" placeholder="Busca">
+	                <input type="text" name="s" id="search-input" placeholder="BUSCA">
 	                <button type="submit" id="search-button" title="Procurar no blog..." class="link-padding">Procurar no blog...</button>
 	                <div class="clear"></div>
 	            </form>
@@ -158,6 +185,7 @@
 	        			</a>
 	        		</li>
 	        	</ul>
+	        	<a href="#" title="Acessar todas" class="acessar-todas-vagas">Acessar todas</a>
 	        </div>
 	        <!-- End Vagas -->
 
@@ -180,20 +208,28 @@
 	        	</div>
 	        	<ul>
 	        		<li class="uol">
-	        			<i>Uol Educação</i>
-	        			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque expedita voluptate dolores, quam eum doloremque doloribus necessitatibus unde veritatis.</p>
+	        			<a href="#" title="">
+		        			<i>Uol Educação</i>
+		        			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque expedita voluptate dolores, quam eum doloremque doloribus necessitatibus unde veritatis.</p>
+	        			</a>
 	        		</li>
-	        		<li class="uol">
-	        			<i>Uol Educação</i>
-	        			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque expedita voluptate dolores, quam eum doloremque doloribus necessitatibus unde veritatis.</p>
+	        		<li class="estadao">
+	        			<a href="#" title="">
+		        			<i>Estadão</i>
+		        			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque expedita voluptate dolores, quam eum doloremque doloribus necessitatibus unde veritatis.</p>
+	        			</a>
 	        		</li>
-	        		<li class="uol">
-	        			<i>Uol Educação</i>
-	        			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque expedita voluptate dolores, quam eum doloremque doloribus necessitatibus unde veritatis.</p>
+	        		<li class="universia">
+	        			<a href="#" title="">
+		        			<i>Universia</i>
+		        			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque expedita voluptate dolores, quam eum doloremque doloribus necessitatibus unde veritatis.</p>
+	        			</a>
 	        		</li>
-	        		<li class="uol">
-	        			<i>Uol Educação</i>
-	        			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque expedita voluptate dolores, quam eum doloremque doloribus necessitatibus unde veritatis.</p>
+	        		<li class="terra">
+	        			<a href="#" title="">
+		        			<i>Terra</i>
+		        			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque expedita voluptate dolores, quam eum doloremque doloribus necessitatibus unde veritatis.</p>
+	        			</a>
 	        		</li>
 	        	</ul>
 	        	<a href="#" title="Carregar mais" class="load-more-education">Carregar mais</a>
