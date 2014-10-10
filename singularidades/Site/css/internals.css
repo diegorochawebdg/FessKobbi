@@ -29,16 +29,30 @@ h1 strong{
     width: 100%;
     background: url(../images/internals/bg-menu-li.png) no-repeat;
 }
-#content .left li.active, #content .left li:hover{
-    background: url(../images/internals/bg-menu-li-hover.png) no-repeat;
+/*EDIT 24/07/2014*/
+#content .left .singularidades li.active, #content .left .singularidades li:hover{
+    background: url(../images/internals/bg-menu-li-hover-singularidades.png) no-repeat;
 }
+#content .left .graduacao li.active, #content .left .graduacao li:hover{
+    background: url(../images/internals/bg-menu-li-hover-graduacao.png) no-repeat;
+}
+#content .left .pos li.active, #content .left .pos li:hover{
+    background: url(../images/internals/bg-menu-li-hover-pos.png) no-repeat;
+}
+#content .left .extensao li.active, #content .left .extensao li:hover{
+    background: url(../images/internals/bg-menu-li-hover-extensao.png) no-repeat;
+}
+#content .left .ead li.active, #content .left .ead li:hover{
+    background: url(../images/internals/bg-menu-li-hover-ead.png) no-repeat;
+}
+/*//EDIT 24/07/2014*/
 #content .left li:hover a, #content .left li.active a{
     font-weight: bold;
     color: white;
     text-decoration: none;
 }
 .left li a{
-    padding: 11px 0 13px 25px;
+    padding: 11px 0 13px 18px;
     color: #6d6e71;
     font-size: 14px;
 }
@@ -53,7 +67,7 @@ h1 strong{
     margin-bottom: 30px;
 }
 .right .banner{
-    margin-bottom: 60px;
+    margin-bottom: 25px;
     text-align: center;
 }
 .right .banner img{
@@ -72,13 +86,13 @@ h1 strong{
     margin-bottom: 20px;
 }
 .right .text p{
-    color: #939598;
+    color: #333333;
     font-size: 12px;
     margin-bottom: 20px;
     line-height: 1.4em;
 }
 .right .text li{
-    color: #939598;
+    color: #333333;
     font-size: 12px;
     margin-bottom: 5px;
     line-height: 1.4em;
@@ -146,7 +160,7 @@ h1 strong{
 }
 .right .text .box-missao li{
     font-size: 12px;
-    color: #939598;
+    color: #333333;
     list-style-type: disc;
     list-style-position: inside;
     line-height: 1.3em;
@@ -158,12 +172,13 @@ h1 strong{
 }
 .right .text .left-column li{
     margin-bottom: 1px;
+    list-style: none;
 }
 .right .text .left-column li a{
     color: white;
     font-weight: bold;
     font-size: 16px;
-    padding: 16px 30px;
+    padding: 13px 30px;
     background: #4578ad url(../images/internals/li-closed.png) no-repeat right center, -moz-linear-gradient(top,  #4578ad 0%, #37608b 100%);
     background: url(../images/internals/li-closed.png) no-repeat right center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4578ad), color-stop(100%,#37608b));
     background: url(../images/internals/li-closed.png) no-repeat right center, -webkit-linear-gradient(top,  #4578ad 0%,#37608b 100%);
@@ -172,6 +187,7 @@ h1 strong{
     background: url(../images/internals/li-closed.png) no-repeat right center, linear-gradient(to bottom,  #4578ad 0%,#37608b 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4578ad', endColorstr='#37608b',GradientType=0 );
 }
+
 .right .text .left-column li a.active{
     background: #4578ad url(../images/internals/li-opened.png) no-repeat right center, -moz-linear-gradient(top,  #4578ad 0%, #37608b 100%);
     background: url(../images/internals/li-opened.png) no-repeat right center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4578ad), color-stop(100%,#37608b));
@@ -187,6 +203,12 @@ h1 strong{
     margin-bottom: 30px;
     display: none;
 }
+.right .text .left-column li div li a{
+    background: none !important;
+    font: inherit !important;
+    color: #333 !important;
+    font-weight: bold;
+}
 .right .text .left-column li p:last-child{
     margin-bottom: 0;
 }
@@ -199,7 +221,7 @@ h1 strong{
 .right .text .right-column .viewport{
     position: relative;
     overflow-y: scroll;
-    height: 330px
+    height: 250px;
 }
 .right .text .right-column li{
     margin-bottom: 30px;
@@ -218,10 +240,10 @@ h1 strong{
 }
 .right .text .right-column .viewport .name .relative span{
     display: table-cell;
-    vertical-align: bottom;
     font-size: 11px;
     color: #333;
     padding-left: 10px;
+    width: 100px;
 }
 .right .text .right-column .viewport .name .relative span strong{
     display: block;
@@ -240,9 +262,9 @@ h1 strong{
     color: #333;
     max-width: 170px;
 }
-.right .quem-somos .slider .bx-wrapper .bx-viewport{
+/*.right .quem-somos .slider .bx-wrapper .bx-viewport{
     height: 113px !important;
-}
+}*/
 .bx-wrapper .bx-controls-direction a{
     background: url(../images/internals/arrows.png) no-repeat;
     width: 23px;
@@ -276,4 +298,28 @@ h1 strong{
 
 .bottom-banner{
     margin-top: 50px;
+}
+
+/*Correção dos links da galeria*/
+.thumbs li a, .thumbs li a.active{
+    background: none !important;
+    padding: 0 !important;
+}
+.thumbs li {
+    background: none !important;
+    float: left;
+    width: 30%;
+    margin: 1.6%;
+    text-align: center;
+}
+.thumbs li img{
+    display: inline;
+}
+
+.left-column .slider .bx-controls{
+    /*position: absolute;*/
+    width: 427px;
+}
+.left-column .slider .bx-wrapper .bx-viewport{
+    min-height: 77px !important;
 }

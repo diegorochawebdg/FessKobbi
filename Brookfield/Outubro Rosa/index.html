@@ -9,9 +9,12 @@
     <meta name="keywords" lang="pt-br" content="">
     <meta name="Author" content="Fess'Kobbi">
     <link href="favicon.png" rel="icon" type="image/x-icon" />
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 
     <!--Scripts-->
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/main.min.js"></script>
     <!--End of Scripts-->
 </head>
 
@@ -40,32 +43,34 @@
                         <p class="dicas">Acompanhe dicas de prevenção e tratamento em nossas redes sociais.</p>
                         <div class="social">
                             <ul>
-                                <li><a href="#" class="link-padding facebook">Facebook</a></li>
-                                <li><a href="#" class="link-padding twitter">Twitter</a></li>
-                                <li><a href="#" class="link-padding instagram">Instagram</a></li>
-                                <li><a href="#" class="link-padding youtube">YouTube</a></li>
+                                <li><a href="https://www.facebook.com/BrookfieldIncorporacoes" target="_blank" class="link-padding facebook" target="_blank">Facebook</a></li>
+                                <li><a href="https://twitter.com/brbrookfield" class="link-padding twitter" target="_blank">Twitter</a></li>
+                                <li><a href="http://instagram.com/brbrookfield" class="link-padding instagram" target="_blank">Instagram</a></li>
+                                <li><a href="https://www.youtube.com/user/brookfieldbrasil" class="link-padding youtube" target="_blank">YouTube</a></li>
                             </ul>
                         </div>
                     </div>
-                    <img src="" alt="#OutubroRosaBrookfield" title="#OutubroRosaBrookfield" class="outubro-rosa-img">
+                    <img src="images/outubro-rosa-brookfield.png" height="407" width="247" alt="#OutubroRosaBrookfield" title="#OutubroRosaBrookfield" class="outubro-rosa-img">
                 </div>
+                <img src="images/laco.png" height="37" width="43" alt="Laço - Outubro Rosa" class="laco">
             </div>
             <!-- End Main -->
 
             <!-- Como funciona -->
             <div id="como-funciona">
                 <div class="content-center">
-                    <h2>Como Funciona</h2>
+                    <div class="steps">
+                        <ul>
+                            <li><img src="images/venha-ate-um-stand-da-brookfield.png" height="201" width="193" alt="1. Venha até um stand da Brookfield" title="1. Venha até um stand da Brookfield"></li>
+                            <li><img src="images/traga-um-lenco-estilo-pashmina.png" height="202" width="206" alt="2. Traga um lenço estilo Pashmina" title="2. Traga um lenço estilo Pashmina"></li>
+                            <li><img src="images/troque-pelo-livro-da-flavia-flores.png" height="206" width="156" alt="3. Troque pelo livro da Flávia Flores :)" title="3. Troque pelo livro da Flávia Flores :)"></li>
+                        </ul>
+                    </div>
+                    <h2 class="link-padding">Como Funciona</h2>
                     <p>Una-se a nós e mande sua energia positiva para quem está enfrentando  este momento.</p>
                     <p>De 13/10 a 26/10, leve um lenço de cabelo até um dos stands da Brookfield Incorporações e troque pelo livro “Quimioterapia e Beleza” da Flávia Flores.</p>
                     <p>Os lenços serão doados para o "Banco de Lenços", projeto inspirado na blogueira e ex-modelo Flávia Flores, o qual arrecada e encaminha lenços de cabelos às mulheres que estão em tratamento, como forma de apoio e carinho.</p>
-                    <div class="steps">
-                        <ul>
-                            <li><img src="" alt="1. Venha até um stand da Brookfield" title="1. Venha até um stand da Brookfield"></li>
-                            <li><img src="" alt="2. Traga um lenço estilo Pashmina" title="2. Traga um lenço estilo Pashmina"></li>
-                            <li><img src="" alt="3. Troque pelo livro da Flávia Flores :)" title="3. Troque pelo livro da Flávia Flores :)"></li>
-                        </ul>
-                    </div>
+                    <div class="clear"></div>
                 </div>
             </div>
             <!-- End Como funciona -->
@@ -73,36 +78,57 @@
             <!-- Postos de troca -->
             <div id="postos-de-troca">
                 <div class="content-center">
-                    <img src="" alt="Lenço Outubro Rosa" title="Lenço Outubro Rosa" class="lenco-outubro-rosa">
+                    <img src="images/laco-outubro-rosa-brookfield.png" height="310" width="187" alt="Lenço Outubro Rosa" title="Lenço Outubro Rosa" class="lenco-outubro-rosa">
                     <div class="postos-txt">
-                        <h2>Postos de troca</h2>
+                        <h2 class="link-padding">Postos de troca</h2>
                         <ul>
-                            <li><span>Rio de Janeiro</span><a href="#">Ver endereços</a></li>
-                            <li><span>São Paulo</span><a href="#">Ver endereços</a></li>
-                            <li><span>Campinas</span><a href="#">Ver endereços</a></li>
-                            <li><span>Brasília</span><a href="#">Ver endereços</a></li>
-                            <li><span>Cuiabá</span><a href="#">Ver endereços</a></li>
-                            <li><span>Goiânia</span><a href="#">Ver endereços</a></li>
+                            <li class="rio-endereco"><span>rio de Janeiro</span><a href="#">Ver endereços</a></li>
+                            <li class="sp-endereco"><span>são Paulo</span><a href="#">Ver endereços</a></li>
+                            <li class="campinas-endereco"><span>campinas</span><a href="#">Ver endereços</a></li>
+                            <li class="brasilia-endereco"><span>brasília</span><a href="#">Ver endereços</a></li>
+                            <li class="cuiaba-endereco"><span>cuiabá</span><a href="#">Ver endereços</a></li>
+                            <li class="goiania-endereco"><span>goiânia</span><a href="#">Ver endereços</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
             <!-- End Postos de troca -->
 
+            <!-- Accessorize -->
+            <div id="acessorize">
+                <div class="content-center">
+                    <div class="txt">
+                        <h2 class="link-padding">20% off em lenços Accessorize London</h2>
+                        <p>Acesse a página especial da Accessorize e tenha 20% de <br><strong>desconto</strong> na compra de lenços destinados à doação.</p>
+                        <a href="http://www.accessorize.com.br/brookfieldoutubrorosa" target="_blank" class="clique-lencos link-padding">Clique aqui</a>
+                        <span>Utilize o código: LENCOS_OUTUBROROSA</span>
+                        <div class="clear"></div>
+                    </div>
+                    <img src="images/lencos-accessorize-london.png" height="262" width="459" alt="Lenços da Marca Accessorize London" title="Accessorize London" class="lencos-accessorize">
+                </div>
+            </div>
+            <!-- End Accessorize -->
+
             <!-- A Artista -->
             <div id="conheca-flavia-torres">
                 <div class="content-center">
-                    <h2></h2>
-                    <img src="" alt="Projeto: Quimioterapia e Beleza" title="Projeto: Quimioterapia e Beleza">
-                    <div class="txt">
-                        <h3>Projeto: Quimioterapia e Beleza</h3>
-                        <p>Flávia Flores é a idealizadora do “Quimioterapia e Beleza” um projeto inédito voltado para o bem-estar durante o tratamento e um canal para as pacientes de câncer tirarem dúvidas, se inspirarem, conhecerem produtos e técnicas. Mostrando como a vida durante a quimioterapia pode ser proveitosa e que é possível se reinventar diariamente. <a href="#" target="_blank" title="Visite o site.">Visite o site.</a></p>
+                    <h2 class="link-padding">Conheça a Flávia Torres</h2>
+                    <div class="item">
+                        <img src="images/quimioterapia-e-beleza.png" height="110" width="88" alt="Projeto: Quimioterapia e Beleza" title="Projeto: Quimioterapia e Beleza">
+                        <div class="txt">
+                            <h3>Projeto: Quimioterapia e Beleza</h3>
+                            <p>Flávia Flores é a idealizadora do “Quimioterapia e Beleza” um projeto inédito voltado para o bem-estar durante o tratamento e um canal para as pacientes de câncer tirarem dúvidas, se inspirarem, conhecerem produtos e técnicas. Mostrando como a vida durante a quimioterapia pode ser proveitosa e que é possível se reinventar diariamente. <a href="http://quimioterapiaebeleza.wordpress.com/" target="_blank" title="Visite o site.">Visite o site.</a></p>
+                        </div>
                     </div>
-                    <img src="" alt="Capa do livro: Quimioterapia e Beleza" title="Livro: Quimioterapia e Beleza">
-                    <div class="txt">
-                        <h3>Livro: Quimioterapia e Beleza</h3>
-                        <p>A obra reúne dicas de uma ex-modelo para superar o câncer e manter a saúde, a sensualidade e o alto astral. Flávia abre o coração e conta todos os percalços que o tratamento quimioterápico para combater um câncer de mama - principalmente para uma ex-modelo e jovem - traz.</p>
+                    
+                    <div class="item last">
+                        <img src="images/capa-livro-quimioterapia-e-beleza.png" height="154" width="123" alt="Capa do livro: Quimioterapia e Beleza" title="Livro: Quimioterapia e Beleza">
+                        <div class="txt">
+                            <h3>Livro: Quimioterapia e Beleza</h3>
+                            <p>A obra reúne dicas de uma ex-modelo para superar o câncer e manter a saúde, a sensualidade e o alto astral. Flávia abre o coração e conta todos os percalços que o tratamento quimioterápico para combater um câncer de mama - principalmente para uma ex-modelo e jovem - traz.</p>
+                        </div>
                     </div>
+                    <div class="clear"></div>
                 </div>
             </div>
             <!-- End A Artista -->
@@ -115,10 +141,146 @@
             <div class="content-center">
                 <a href="http://br.brookfield.com" target="_blank">br.brookfield.com</a>
                 <span>Referência no brasil e no mundo.</span>
-                <img src="" alt="Logotipo Brookfield Incorporações" title="Brookfield Incorporações">
+                <img src="images/logotipo-brookfield-incorporacoes.png" height="40" width="132" alt="Logotipo Brookfield Incorporações" title="Brookfield Incorporações">
+                <div class="clear"></div>
             </div>
         </div>
         <!--End of Footer-->
+
+        <!-- Lightboxes -->
+        <div id="lightboxes">
+            <div id="rio-de-janeiro" class="lightbox-content">
+                <h3>Rio de Janeiro</h3>
+                <span class="title link-padding">Postos de troca</span>
+                <div class="clear"></div>
+                <a href="#" title="Fechar" class="fechar">X</a>
+                <ul>
+                    <li>
+                        <a href="https://goo.gl/maps/0cFvz" target="_blank">
+                            <strong>Stand Soho Residence</strong>
+                            <address>Avenida Embaixador Abelardo Bueno, 600 - Barra da Tijuca</address>
+                            <a href="#" class="mapa">Mapa</a>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://goo.gl/maps/vkDXY" target="_blank">
+                            <strong>Estande Damai</strong>
+                            <address>Avenida Das Américas, KM 16 Altura do 16.500 - Recreio dos Bandeirantes</address>
+                            <a href="#" class="mapa">Mapa</a>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://goo.gl/maps/Q8GuL" target="_blank">
+                            <strong>Estande Sahy (Mangaratiba)</strong>
+                            <address>Rodovia Rio-Santos, Km 38</address>
+                            <a href="#" class="mapa">Mapa</a>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="sao-paulo" class="lightbox-content">
+                <h3>São Paulo</h3>
+                <span class="title link-padding">Postos de troca</span>
+                <div class="clear"></div>
+                <a href="#" title="Fechar" class="fechar">X</a>
+                <ul>
+                    <li>
+                        <a href="https://goo.gl/maps/jXVgS" target="_blank">
+                            <strong>Estande Caminhos da Lapa</strong>
+                            <address>Rua Fortunato Ferraz, 625 – Vila Anastácio</address>
+                            <a href="#" class="mapa">Mapa</a>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://goo.gl/maps/ewdxo" target="_blank">
+                            <strong>Brookfield Center Pinheiros</strong>
+                            <address>Avenida Eusébio Matoso, 786 - Pinheiros</address>
+                            <a href="#" class="mapa">Mapa</a>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://goo.gl/maps/kraxx" target="_blank">
+                            <strong>Estande Art Work</strong>
+                            <address>Rua Domingos de Morais, 2781 – Vila Mariana</address>
+                            <a href="#" class="mapa">Mapa</a>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://goo.gl/maps/xGTVO" target="_blank">
+                            <strong>Flores Parque do Carmo</strong>
+                            <address>Av. Aricanduva, 9.110 – Aricanduva</address>
+                            <a href="#" class="mapa">Mapa</a>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="campinas" class="lightbox-content">
+                <h3>Campinas</h3>
+                <span class="title link-padding">Postos de troca</span>
+                <div class="clear"></div>
+                <a href="#" title="Fechar" class="fechar">X</a>
+                <ul>
+                    <li>
+                        <a href="https://goo.gl/maps/WNwg9" target="_blank">
+                            <strong>Talipô Exclusive Club</strong>
+                            <address>R. Luiz Otavio, 2.245 - Mansões Santo Antonio</address>
+                            <a href="#" class="mapa">Mapa</a>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="brasilia" class="lightbox-content">
+                <h3>Brasília</h3>
+                <span class="title link-padding">Postos de troca</span>
+                <div class="clear"></div>
+                <a href="#" title="Fechar" class="fechar">X</a>
+                <ul>
+                    <li>
+                        <a href="https://goo.gl/maps/RAEFc" target="_blank">
+                            <strong>Brookfield Center</strong>
+                            <address>Av. Araucárias com Rua 36 sul - Águas Claras</address>
+                            <a href="#" class="mapa">Mapa</a>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="cuiaba" class="lightbox-content">
+                <h3>Cuiabá</h3>
+                <span class="title link-padding">Postos de troca</span>
+                <div class="clear"></div>
+                <a href="#" title="Fechar" class="fechar">X</a>
+                <ul>
+                    <li>
+                        <a href="https://goo.gl/maps/5TKmJ" target="_blank">
+                            <strong>Brookfield Center</strong>
+                            <address>Av A, esquina com Av Juliano da Costa Marques, ao lado do Pantanal Shopping</address>
+                            <a href="#" class="mapa">Mapa</a>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="goiania" class="lightbox-content">
+                <h3>goiânia</h3>
+                <span class="title link-padding">Postos de troca</span>
+                <div class="clear"></div>
+                <a href="#" title="Fechar" class="fechar">X</a>
+                <ul>
+                    <li>
+                        <a href="https://goo.gl/maps/KLohZ" target="_blank">
+                            <strong>Brookfield Center da Vila Alpes</strong>
+                            <address>Av. dos Alpes, esquina com Rua Flemington, Vila Alpes</address>
+                            <a href="#" class="mapa">Mapa</a>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- End Lightboxes -->
 
     </div>
     <!--End of Container-->

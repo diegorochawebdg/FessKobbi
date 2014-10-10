@@ -1,0 +1,207 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../font/gotham-book.eot');
+    src: url('../font/gotham-book.eot?#iefix') format('embedded-opentype'),
+         url('../font/gotham-book.woff') format('woff'),
+         url('../font/gotham-book.ttf') format('truetype'),
+         url('../font/gotham-book.svg#gotham-book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gotham';
+    src: url('../font/gotham-bold.eot');
+    src: url('../font/gotham-bold.eot?#iefix') format('embedded-opentype'),
+         url('../font/gotham-bold.woff') format('woff'),
+         url('../font/gotham-bold.ttf') format('truetype'),
+         url('../font/gotham-bold.svg#gotham-bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/*Reset Css*/
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    -webkit-font-smoothing: antialiased;
+    background-repeat: no-repeat;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1em;
+}
+body, html{
+    width: 100%;
+    min-height: 100%;
+}
+img{
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+}
+a{
+    display: block;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.link-padding{
+    position: relative;
+    overflow: hidden;
+    height: 0;
+}
+.clear{
+    clear: both;
+}
+.animate{
+-webkit-transition: all 200ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+   -moz-transition: all 200ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+     -o-transition: all 200ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+        transition: all 200ms cubic-bezier(0.250, 0.100, 0.250, 1.000);
+}
+.content-center{
+    width: 940px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+/*End of Reset Css*/
+
+/*Header*/
+#header img{
+    display: table;
+    margin: 0 auto;
+}
+
+/*Main Menu*/
+#main-menu {
+    background: url(../images/bg-main-menu.png);
+    position: relative;
+}
+#main-menu h1{
+    background: url(../images/carolina-village-logo.png);
+    width: 232px;
+    padding-top: 232px;
+    position: absolute;
+    left: 50%;
+    margin-left: -470px;
+    top: -50px;
+}
+
+/*Menu Leads*/
+#main-menu .menu-leads{
+    border-bottom: solid 1px #b41219;
+}
+#main-menu .menu-leads ul, #main-menu .main-menu ul{
+    display: table;
+    margin: 0 0 0 auto;
+}
+#main-menu .menu-leads ul li, #main-menu .main-menu ul li{
+    display: inline-block;
+    margin: 0 0 0 auto;
+    margin-left: 40px;
+}
+#main-menu .menu-leads ul li a{
+    font: normal 14px 'Gotham', Arial, sans-serif;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: -1px -1px 2px #a80e14;
+    padding: 25px 0;
+}
+#main-menu .menu-leads ul li a:hover{
+    text-decoration: none;
+    color: #f57c20;
+}
+#main-menu .menu-leads ul li.email-menu a{
+    background: url(../images/informacoes-por-email.png) no-repeat left center;
+    padding-left: 47px
+}
+#main-menu .menu-leads ul li.ligamos-menu a{
+    background: url(../images/ligamos-para-voce.png) no-repeat left center;
+    padding-left: 35px
+}
+#main-menu .menu-leads ul li.corretor-menu a{
+    background: url(../images/fale-agora-com-um-corretor-on-line.png) no-repeat left center;
+    padding-left: 80px;
+}
+#main-menu .menu-leads ul li a strong{
+    font-weight: bold;
+    display: block;
+}
+
+/*The menu*/
+#main-menu .main-menu{
+    border-top: solid 1px #d4242b;
+}
+#main-menu .main-menu ul li{
+    margin: 0;
+    border-left: solid 1px #d9292f;
+    border-right: solid 1px #9f0b10;
+}
+#main-menu .main-menu ul li:first-child{
+    border-left: none;
+}
+#main-menu .main-menu ul li:last-child{
+    border-right: none;
+}
+#main-menu .main-menu ul li a{
+    color: #ffdd00;
+    font: normal 14px 'Gotham', Arial, sans-serif;
+    text-transform: uppercase;
+    text-shadow: -1px -1px 2px #a80e14;
+    padding: 20px 30px;
+}
+#main-menu .main-menu ul li a:hover{
+    color: white;
+    text-decoration: none;
+}
+#main-menu .main-menu ul li:last-child a{
+    padding-right: 0;
+}
+
+/*Localização*/
+#localizacao{
+    background: #b8c1c9;
+    padding: 65px 0 10px 0;
+}
+#localizacao h2{
+    color: #464646;
+    text-transform: uppercase;
+    font: normal 31px 'Gotham', Arial, sans-serif;
+    text-shadow: -1px 1px 2px #c5ced6;
+    margin-left: 40px;
+    float: left;
+}
+#localizacao form{
+    float: right;
+    display: table;
+}
+#localizacao form input{
+    color: #9b1c1f;
+    font: normal 13px 'Gotham', Arial, sans-serif;
+    height: 46px;
+    padding: 0 21px;
+    width: 260px;
+    border: solid 1px #b4b7b9;
+}
+#localizacao form button{
+    height: 47px;
+    color: #9b1c1f;
+    font: bold 14px/1em 'Gotham', Arial, sans-serif;
+    text-transform: uppercase;
+    padding-left: 39px;
+    text-align: center;
+    border: solid 1px #f1b833;
+    cursor: pointer;
+    width: 180px;
+    background: #ffea26 url(../images/tracar-rota.png) no-repeat 15px center;
+    background: url(../images/tracar-rota.png) no-repeat 15px center, -moz-linear-gradient(top,  #ffea26 0%, #ffb709 100%);
+    background: url(../images/tracar-rota.png) no-repeat 15px center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffea26), color-stop(100%,#ffb709));
+    background: url(../images/tracar-rota.png) no-repeat 15px center, -webkit-linear-gradient(top,  #ffea26 0%,#ffb709 100%);
+    background: url(../images/tracar-rota.png) no-repeat 15px center, -o-linear-gradient(top,  #ffea26 0%,#ffb709 100%);
+    background: url(../images/tracar-rota.png) no-repeat 15px center, -ms-linear-gradient(top,  #ffea26 0%,#ffb709 100%);
+    background: url(../images/tracar-rota.png) no-repeat 15px center, linear-gradient(to bottom,  #ffea26 0%,#ffb709 100%);
+}

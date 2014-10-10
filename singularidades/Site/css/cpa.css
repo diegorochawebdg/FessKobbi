@@ -30,37 +30,37 @@
     font-size: 13px;
     margin-top: 20px;
 }
-.the-table thead tr{
+tbody th{
     background: #26406c;
 }
-.the-table thead td{
+tbody th{
     color: white;
     height: 43px;
     padding: 0 10px;
     font-size: 12px;
 }
-.the-table tbody tr td{
+tbody tr td{
     border-left: solid 1px #7cd0f3;
     border-top: solid 1px #7cd0f3;
     border-bottom: none;
 }
-.the-table tbody tr td:last-child{
+tbody tr td:last-child{
     border-right: solid 1px #7cd0f3;
 }
-.the-table tbody tr:first-child td{
+tbody tr:first-child td{
     border-top: solid 3px #7cd0f3;
 }
-.the-table tbody tr:last-child td{
+tbody tr:last-child td{
     border-bottom: solid 1px #7cd0f3;
 }
-.the-table tbody td{
+tbody td{
     color: #26406c;
     height: 39px;
     padding: 0 10px;
     font-size: 12px;
     max-width: 232px;
 }
-.the-table tbody td span.active{
+tbody td span.active{
     background: url(../images/internals/active.png) no-repeat;
     width: 21px;
     height: 0;

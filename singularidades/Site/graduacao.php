@@ -74,7 +74,16 @@
                     <li>
                         <a href="#" title="Horário das Aulas">Horário das Aulas</a>
                         <div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas molestie, metus vitae eleifend interdum, ipsum nisl luctus erat, eget laoreet purus felis ut risus. Vivamus elit risus, malesuada sit amet tellus ac, convallis suscipit nibh. Nulla et convallis arcu. Aenean magna nunc, euismod eu tellus eu, vehicula egestas neque. Ut ante ipsum, laoreet vitae pulvinar ut, blandit ut nisi. Curabitur mi tortor, cursus vel porta ac, condimentum in dolor. Sed sit amet consequat nibh. Duis metus ligula, lobortis ultricies libero id, pellentesque congue magna. Donec eleifend, nunc ut laoreet hendrerit, ligula velit tristique tortor, a imperdiet est justo ut ante. Donec lobortis justo augue, vitae convallis ipsum sollicitudin sit amet. Fusce erat sem, iaculis vitae tincidunt in, rutrum sit amet nisi. Donec commodo quam et urna condimentum lacinia. Etiam mollis sem vitae sollicitudin molestie. Sed tristique tempus nibh in egestas. Etiam sodales, dolor a posuere convallis, ante arcu cursus elit, ut malesuada massa libero sollicitudin neque.entesque congue magna.</p>
+                                <p>1º semestre de 2014:</p>
+                                <ul>
+                                    <li><a href="http://www.faculdadesingularidades.edu.br/wp-content/uploads/2012/08/Grade-de-Hor%C3%A1rio-141o-_MATUTINO_Sistema_13-12-081.pdf" target="_blank">Horário das Aulas – MATUTINO</a></li>
+                                    <li><a href="http://www.faculdadesingularidades.edu.br/wp-content/uploads/2012/08/Grade-de-Hor%C3%A1rio-141o-_NOTURNO_Sistema_13-12-081.pdf" target="_blank">Horário das Aulas – NOTURNO</a></li>
+                                    </ul>
+                                    <p>2º semestre de 2014:</p>
+                                    <ul>
+                                    <li><a href="http://www.faculdadesingularidades.edu.br/wp-content/uploads/2012/08/Hor%C3%A1rios-Pedagogia_Matutino_2014-2_def1.pdf" target="_blank">Horário das Aulas – MATUTINO</a></li>
+                                    <li><a href="http://www.faculdadesingularidades.edu.br/wp-content/uploads/2012/08/Hor%C3%A1rios-Pedagogia_Noturno_2014-2_def1.pdf" target="_blank">Horário das Aulas – NOTURNO</a></li>
+                                </ul>  
                         </div>
                     </li>
                     <li>

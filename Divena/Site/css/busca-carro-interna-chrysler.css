@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+#side-menu ul li ul li label span, #content .path li:last-child span{
+	color: #18497d !important;
+}
+#car-list ul li .description:hover, #car-list ul li:hover .description, #pagination ul li.active, #slider #thumbs li a.active, #content .internal-menu li.active, #car-list ul li .description .box-padding a{
+	background: #18497d !important;
+	-webkit-background: #18497d !important;
+}
+#slider #large-img{
+	border: solid 1px #18497d !important;
+}
+#price a{
+	border:none !important;
+}
+#car-list ul li .description .box-padding a{
+	border: solid 1px white !important;
+}
+#content .internal-menu{
+	border-bottom: solid 1px #18497d !important;
+}
