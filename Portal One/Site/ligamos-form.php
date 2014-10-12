@@ -17,7 +17,6 @@
     <div class="all-content">
         <div class="title">
             <h1>Ligamos para você</h1>
-            <a href="#" title="fechar" class="fechar link-padding">fechar</a>
             <div class="clear"></div>
         </div>
 

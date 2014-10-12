@@ -58,7 +58,7 @@ a:hover{
 
 .all-content{
     border-bottom: solid 4px #c4161c;
-    height: 550px;
+    height: 580px;
     background: url(../images/imoveis/bg-pattern.png) repeat;
 }
 .title{
@@ -84,7 +84,7 @@ a:hover{
 }
 
 .form{
-    padding: 107px 163px;
+    padding: 150px 163px;
 }
 .form label.form-title{
     display: block;
@@ -93,7 +93,7 @@ a:hover{
     font-size: 16px;
     color: #363537;
 }
-.form input{
+.form input, .form textarea{
     background: #FFF;
     padding: 0 5px;
     height: 44px;
@@ -110,20 +110,11 @@ a:hover{
 .form input.half.right{
     float: right;
 }
-.form .select{
-    width: 48.5%;
-    background: #FFF;
-    position: relative;
-    overflow: hidden;
-}
-.form .select select{
-    padding: 0 5px;
-    height: 44px;
-    color: #808285;
-    width: 350px;
-    text-transform: uppercase;
-    background: url(../images/forms/select.png) no-repeat 250px center;
-    cursor: pointer;
+.form textarea{
+    padding: 5px;
+    overflow: auto;
+    resize: none;
+    height: 170px;
 }
 .form input[type="checkbox"]{
     display: block;

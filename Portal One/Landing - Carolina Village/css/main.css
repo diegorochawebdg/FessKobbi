@@ -35,6 +35,7 @@
 body, html{
     width: 100%;
     min-height: 100%;
+    min-width: 970px;
 }
 img{
     display: block;
@@ -204,4 +205,328 @@ a:hover{
     background: url(../images/tracar-rota.png) no-repeat 15px center, -o-linear-gradient(top,  #ffea26 0%,#ffb709 100%);
     background: url(../images/tracar-rota.png) no-repeat 15px center, -ms-linear-gradient(top,  #ffea26 0%,#ffb709 100%);
     background: url(../images/tracar-rota.png) no-repeat 15px center, linear-gradient(to bottom,  #ffea26 0%,#ffb709 100%);
+}
+
+/*Infraestrutura*/
+#infraestrutura{
+    background: #b8c1c9;
+    padding-bottom: 30px;
+}
+#infraestrutura .one-third{
+    float: left;
+    width: 33%;
+}
+#infraestrutura .one-third.first{
+    padding-top: 20px;
+}
+#infraestrutura .one-third.middle{
+    margin: 0 0.5%;
+}
+#infraestrutura .one-third img{
+    margin: 0 auto;
+}
+#infraestrutura h3{
+    color: #144e8c;
+    text-shadow: #ccd5dd 0 1px 2px;
+    font: normal 17px/1em 'Gotham', Arial, sans-serif; 
+    margin-bottom: 40px;
+}
+#infraestrutura h3.middle{
+    margin: 20px 0;
+}
+#infraestrutura p, #infraestrutura li, #infraestrutura small{
+    color: #555;
+    text-shadow: #ccd5dd 0 1px 2px;
+    font: normal 13px/1.3em 'Gotham', Arial, sans-serif; 
+    margin-bottom: 10px;
+}
+#infraestrutura li{
+    list-style-type: disc;
+    list-style-position: inside;
+}
+#infraestrutura small{
+    font-size: 10px;
+}
+
+/*Projeto*/
+#projeto{
+    padding: 10px;
+    background: url(../images/bg-projeto.png) repeat;
+}
+#projeto .txt, #projeto #slider-projeto{
+    float: left;
+    width: 50%;
+}
+#projeto .txt{
+    background: white;
+    margin-top: 30px;
+    border: solid 1px #e2e1e1;
+    border-radius: 10px 0 0 10px;
+    margin: 35px -1px -1px -1px;
+}
+#projeto .txt .box-padding{
+    padding: 40px;
+}
+#projeto .txt .box-padding h2{
+    color: #464646;
+    text-transform: uppercase;
+    font: normal 31px 'Gotham', Arial, sans-serif; 
+    margin-bottom: 15px;
+}
+#projeto .txt .box-padding h3{
+    color: #ffc20e;
+    text-transform: uppercase;
+    font: bold 18px/1.3em 'Gotham', Arial, sans-serif; 
+    margin-bottom: 15px;
+}
+#projeto .txt .box-padding h3 strong{
+    font: normal 16px 'Gotham', Arial, sans-serif; 
+    display: block;
+    color: #144e8c;
+}
+#projeto .txt .box-padding h4{
+    font: bold 14px 'Gotham', Arial, sans-serif;
+    color: #ffc20e;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+}
+#projeto .txt .box-padding li{
+    font: normal 13px/1.3em 'Gotham', Arial, sans-serif;
+    color: #555;
+    margin-bottom: 3px;
+}
+#slider-projeto{
+    position: relative;
+}
+#slider-projeto .bx-controls{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 45px;
+}
+#slider-projeto .bx-controls a{
+    float: left;
+    position: relative;
+    overflow: hidden;
+    height: 0;
+    width: 20px;
+    padding-top: 20px;
+    background: url(../images/pager.png);
+}
+#slider-projeto .bx-controls a.active{
+    background: url(../images/pager-active.png);
+}
+
+/*Lazer*/
+#lazer{
+    background: url(../images/bg-lazer.png) repeat top center;
+}
+#lazer .content-center{
+    position: relative;
+    padding: 45px 0;
+}
+#lazer .arrow {
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #fcca0c;
+    position: absolute;
+    bottom: -10px;
+    left: 47%;
+}
+#lazer h2{
+    color: #c4161c;
+    font: normal 31px 'Gotham', Arial, sans-serif;
+    text-transform: uppercase;
+    float: left;
+    padding: 20px 0 0 30px;
+}
+#lazer .txt{
+    float: right;
+    margin-right: 40px;
+    text-align: center;
+}
+#lazer .txt h3{
+    color: #c4161c;
+    font: bold 21px/1.6em 'Gotham', Arial, sans-serif;
+    text-transform: uppercase;
+}
+#lazer .txt h3 strong{
+    color: #ffdd00;
+    font: bold 18px 'Gotham', Arial, sans-serif;
+    text-transform: uppercase;
+    background: #c4161c;
+    padding: 10px 0 7px 0;
+    display: block;
+    width: 410px;
+    margin: 0 auto;
+    text-align: center;
+    border: solid 2px white;
+    border-radius: 20px;
+}
+#gallery .selectors{
+    position: relative;
+}
+#gallery .selectors .links{
+    display: table;
+    margin: 0 auto;
+}
+#gallery .selectors a:hover{
+    opacity: 0.7;
+}
+#gallery .bx-wrapper .bx-controls-direction a, #slider-plantas .bx-wrapper .bx-controls-direction a {
+    position: absolute;
+    top: 50%;
+    margin-top: -16px;
+    outline: 0;
+    width: 32px;
+    height: 32px;
+    text-indent: -9999px;
+    z-index: 9999;
+}
+
+#gallery .bx-wrapper .bx-controls-direction a.disabled, #slider-plantas .bx-wrapper .bx-controls-direction a.disabled{
+    display: none;
+}
+#gallery .bx-wrapper .bx-prev, #slider-plantas .bx-wrapper .bx-prev {
+    left: 10px;
+    background: url(../images/slider/controls.png) no-repeat 0 -32px;
+}
+
+#gallery .bx-wrapper .bx-next, #slider-plantas .bx-wrapper .bx-next {
+    right: 10px;
+    background: url(../images/slider/controls.png) no-repeat -43px -32px;
+}
+
+#gallery .bx-wrapper .bx-prev:hover, #slider-plantas .bx-wrapper .bx-prev:hover {
+    background-position: 0 0;
+}
+
+#gallery .bx-wrapper .bx-next:hover, #slider-plantas .bx-wrapper .bx-next:hover {
+    background-position: -43px 0;
+}
+
+/*Plantas*/
+#plantas{
+    padding: 80px;
+    background: url(../images/bg-plantas.jpg) repeat;
+}
+#plantas h2{
+    color: #464646;
+    font: normal 31px 'Gotham', Arial, sans-serif;
+    float: left;
+}
+#plantas ul#plantas-selector{
+    float: right;
+    margin-bottom: 40px;
+}
+#plantas ul#plantas-selector li{
+    display: inline-block;
+    margin: 0 3px;
+}
+#plantas ul#plantas-selector li a{
+    color: #464646;
+    padding: 14px;
+    font: normal 18px 'Gotham', Arial, sans-serif;
+    background: white;
+    border: 1px solid #989898;
+    border-radius: 10px;
+}
+#plantas ul#plantas-selector li a.active{
+    color: white;
+    text-shadow: #676161 -1px -1px 1px;
+    background: #777;
+}
+#slider-plantas{
+    margin-bottom: 30px;
+}
+#plantas .content-center{
+    position: relative;
+}
+
+/*Realização*/
+#realizacao, #construtora{
+    background: url(../images/bg-lazer.png) repeat;
+    padding: 60px 0;
+}
+#realizacao h2, #construtora h2{
+    color: #c4161c;
+    font: normal 31px 'Gotham', Arial, sans-serif;
+}
+#realizacao img.logo-realizacao, #construtora img.construtora-logo{
+    margin-top: 115px;
+    float: left;
+}
+#realizacao .txt, #construtora .txt{
+    float: right;
+    width: 580px;
+    margin-bottom: 30px;    
+}
+#realizacao .txt h3, #construtora .txt h3{
+    color: #144e8c;
+    font: bold 18px 'Gotham', Arial, sans-serif;
+    text-decoration: uppercase;
+    margin: 15px 0;
+}
+#realizacao .txt p, #construtora .txt p{
+    color: #555555;
+    font: normal 13px/1.4em 'Gotham', Arial, sans-serif;
+    text-decoration: uppercase;
+    margin-bottom: 10px;
+}
+#realizacao li, #construtora li{
+    display: block;
+    float: left;
+    width: 20%;
+}
+#realizacao li img, #realizacao li span, #construtora li img, #construtora li span{
+    text-align: center;
+}
+#realizacao li img, #construtora li img{
+    display: table;
+    margin-bottom: 10px;
+}
+#realizacao li span, #construtora li span{
+    display: block;
+    color: #555;
+    font: normal 11px 'Gotham', Arial, sans-serif;
+}
+
+/*Construtora*/
+#construtora{
+    background: url(../images/bg-plantas.jpg) repeat;
+}
+
+/*Address*/
+#address, #legal{
+    background: url(../images/bg-main-menu.png);
+    text-align: center;
+    padding: 20px 0;
+}
+#address address{
+    color: #ffdd00;
+    font: bold 21px 'Gotham', Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+/*Logos*/
+#logos{
+    padding: 45px 0;
+}
+#logos .item{
+    width: 50%;
+    text-align: center;
+    float: left;
+}
+#logos .item img{
+    display: inline;
+}
+
+/*Legal*/
+#legal{
+    text-align: justify;
+}
+#legal small{
+    font: normal 10px/1.4em 'Gotham', Arial, sans-serif;
+   color: white;
+   display: inherit;
 }
