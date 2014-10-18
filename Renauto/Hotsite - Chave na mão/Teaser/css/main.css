@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'lcd';
+    src: url('../fonts/lcd-bold.eot');
+    src: url('../fonts/lcd-bold?#iefix') format('embedded-opentype'),
+        url('../fonts/lcd-bold.svg#lcd') format('svg'),
+        url('../fonts/lcd-bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*Reset Css*/
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    -webkit-font-smoothing: antialiased;
+    background-repeat: no-repeat;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1em;
+}
+body, html{
+    min-height: 100%;
+    min-width: 960px;
+}
+img{
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+}
+a{
+    display: block;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.link-padding{
+    position: relative;
+    overflow: hidden;
+    height: 0;
+}
+.clear{
+    clear: both;
+}
+.animate{
+-webkit-transition: all 200ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+   -moz-transition: all 200ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+     -o-transition: all 200ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+        transition: all 200ms cubic-bezier(0.250, 0.100, 0.250, 1.000);
+}
+.content-center{
+    width: 940px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+.absolute{
+    left: 50%;
+    position: absolute;
+}
+/*End of Reset Css*/
+
+/*Content*/
+#content{
+    background: url(../images/bg-content.jpg) center no-repeat;
+    height: 733px;
+}
+#content h1{
+    text-transform: uppercase;
+    color: #363636;
+    font: normal 30px 'Arial Black', Arial, sans-serif;
+    text-shadow: #f6f6f6 -1px 1px 1px;
+    text-align: center;
+    padding-top: 30px;
+}
+#content h2{
+    text-transform: uppercase;
+    color: #363636;
+    font: normal 29px/1.2em 'Arial Black', Arial, sans-serif;
+    text-shadow: #f6f6f6 -1px 1px 1px;
+}
+#content img{
+    top: 80px;
+    margin-left: -646px;
+}
+#content .txt{
+    top: 321px;
+    margin-left: 43px;
+}
+#content .txt span.date{
+    display: block;
+    font: normal 30px 'Lcd', Arial, sans-serif;
+    margin-top: 25px;
+    color: #030303;
+    text-shadow: #000 0 -1px 1px;
+}
+#content .txt span.date strong{
+    font: normal 49px 'Lcd', Arial, sans-serif;
+}
+#content .txt a.confira{
+    background:  url(../images/clique-e-confira.png) no-repeat;
+    width: 259px;
+    padding-top: 63px;
+    margin-top: 25px;
+}
+#content .txt a.confira:hover{
+    opacity: 0.7;
+}
+
+/*Footer*/
+#footer{
+    padding: 35px 0;
+    background: #fafafa;
+    background: -moz-linear-gradient(top,  #fafafa 0%, #d9d9d9 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fafafa), color-stop(100%,#d9d9d9));
+    background: -webkit-linear-gradient(top,  #fafafa 0%,#d9d9d9 100%);
+    background: -o-linear-gradient(top,  #fafafa 0%,#d9d9d9 100%);
+    background: -ms-linear-gradient(top,  #fafafa 0%,#d9d9d9 100%);
+    background: linear-gradient(to bottom,  #fafafa 0%,#d9d9d9 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', endColorstr='#d9d9d9',GradientType=0 );
+}
+#footer h3{
+    text-transform: uppercase;
+    color: #363636;
+    font: normal 23px/1.2em 'Arial Black', Arial, sans-serif;
+    text-shadow: #c5c5c5 -1px 1px 1px;
+    margin-bottom: 15px;
+}
+#footer h3 strong{
+    display: block;
+    font: normal 40px/1.2em 'Arial Black', Arial, sans-serif;
+}
+#footer .links{
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+}
+#footer .links li{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+#footer span.seguir-site{
+    color: #5e5252;
+    font: normal 14.5px Arial, sans-serif;
+}
+#footer span.seguir-site a{
+    text-decoration: underline;
+    color: inherit;
+    display: inline;
+}
+
+/*for less than 1024px*/
+@media screen and (max-width: 1200px){
+    #content{
+        height: 620px;
+    }
+    #content img{
+        width: 600px;
+        margin-left: -560px;
+        top: 90px;
+    }
+    #content .txt{
+        top: 250px;
+    }
+}

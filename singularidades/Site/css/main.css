@@ -229,7 +229,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4272a5', end
     position: relative;
 }
 #header .main-menu-2 li{
-    width: 186px;
+    width: 178px;
     float: left;
     text-align: center;
     border-bottom: 4px solid #7cd0f3;
@@ -254,6 +254,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4272a5', end
 }
 #header .main-menu-2 li.ead:hover{
     border-bottom: 4px solid #797d83;
+}
+#header .main-menu-2 li.home{
+	width: 36px;
+    border-bottom: 4px solid #7cd0f3;
+    position: relative;
+}
+#header .main-menu-2 li.home a{
+    padding: 12px 0;
+}
+#header .main-menu-2 li.home img{
+	margin: 0 auto;
 }
 #header .main-menu-2 li a{
     color:#f1f2f2;
@@ -298,7 +309,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4272a5', end
 }
 .submenu li a{
     text-align: left !important;
-    font: normal 16px Arial, Helvetica, sans-serif !important;
     padding: 8px 12px !important;
     color: #a2cae1;
     border-bottom: solid 1px #132846;
@@ -335,13 +345,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4272a5', end
     background-position: -60px 0;
 }
 #footer .social li a.linkedin{
-    background-position: -120px 0;
+    background-position: -240px 0;
 }
 #footer .social li a.youtube{
-    background-position: -180px 0;
+    background-position: -118px 0;
 }
 #footer .social li a.flickr{
-    background-position: -240px 0;
+    background-position: -180px 0;
 }
 #footer .social li a.feeds{
     background-position: -300px 0;

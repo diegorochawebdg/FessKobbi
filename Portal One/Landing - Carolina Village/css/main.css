@@ -35,7 +35,7 @@
 body, html{
     width: 100%;
     min-height: 100%;
-    min-width: 970px;
+    min-width: 980px;
 }
 img{
     display: block;
@@ -407,7 +407,7 @@ a:hover{
 
 /*Plantas*/
 #plantas{
-    padding: 80px;
+    padding: 80px 0;
     background: url(../images/bg-plantas.jpg) repeat;
 }
 #plantas h2{
@@ -439,6 +439,9 @@ a:hover{
 #slider-plantas{
     margin-bottom: 30px;
 }
+#slider-plantas .bx-wrapper{
+    margin: 0 auto;
+}
 #plantas .content-center{
     position: relative;
 }
@@ -464,13 +467,12 @@ a:hover{
 #realizacao .txt h3, #construtora .txt h3{
     color: #144e8c;
     font: bold 18px 'Gotham', Arial, sans-serif;
-    text-decoration: uppercase;
+    text-transform: uppercase;
     margin: 15px 0;
 }
 #realizacao .txt p, #construtora .txt p{
     color: #555555;
     font: normal 13px/1.4em 'Gotham', Arial, sans-serif;
-    text-decoration: uppercase;
     margin-bottom: 10px;
 }
 #realizacao li, #construtora li{
