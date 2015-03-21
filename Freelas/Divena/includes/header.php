@@ -19,7 +19,8 @@
         <header>
             <div class="container">
                 <a href="#" title="Voltar para a página inicial" id="divena-logo">Divena</a>
-                <h1></h1>
+                <div class="brand-logo pull-right"></div>
+                <div class="clearfix"></div>
             </div>
         </header>
         <!-- End Header -->
