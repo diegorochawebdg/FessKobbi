@@ -8,6 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="../assets/css/main.css">
+        <script type="text/javascript" src="../assets/js/jquery.min.js"></script>
         <!-- Recognize HTML for older browser's -->
         <!--[if IE]>
         <script type="text/javascript" src="../assets/js/html5shiv.min.js"></script>
@@ -18,7 +19,7 @@
         <!-- Header -->
         <header>
             <div class="container">
-                <a href="#" title="Voltar para a página inicial" id="divena-logo">Divena</a>
+                <a href="#" title="Voltar para a página inicial" id="divena-logo" class="link-padding pull-left">Divena</a>
                 <div class="brand-logo pull-right"></div>
                 <div class="clearfix"></div>
             </div>

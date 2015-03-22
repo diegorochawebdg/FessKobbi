@@ -1,0 +1,199 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    -webkit-font-smoothing: antialiased;
+    background-repeat: no-repeat;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1em;
+    color: #fff
+}
+body,
+html {
+    width: 100%;
+    min-height: 100%;
+    background: #000;
+}
+img {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%
+}
+a {
+    display: block;
+    text-decoration: none
+}
+a:hover {
+    text-decoration: underline
+}
+.link-padding {
+    position: relative;
+    overflow: hidden;
+    height: 0
+}
+.clear {
+    clear: both
+}
+.animate {
+    -webkit-transition: all 200ms cubic-bezier(0.25, .1, .25, 1);
+    -moz-transition: all 200ms cubic-bezier(0.25, .1, .25, 1);
+    -o-transition: all 200ms cubic-bezier(0.25, .1, .25, 1);
+    transition: all 200ms cubic-bezier(0.25, .1, .25, 1)
+}
+
+.main-bg-img,
+.main-bg-img-interna {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0
+}
+#header {
+    position: relative;
+    z-index: 3
+}
+#header .content-center {
+    background: #181717
+}
+#brands-menu {
+    background: #000;
+    margin: 0 -15px
+}
+
+.main-logo {
+    float: left;
+    background: url(../assets/images/divena-logo.png) no-repeat center;
+    padding-top: 80px;
+    width: 170px
+}
+
+.leads {
+    width: 650px;
+    height: 500px;
+    display: table;
+    background: #2c2c2c
+}
+.leads .box-padding {
+    padding: 15px 40px
+}
+.leads .header-lightbox {
+    background: #202020
+}
+.leads .header-lightbox h3 {
+    height: 44px;
+    padding: 5px 0 0 65px;
+    font-size: 15px;
+    line-height: 1.3em;
+}
+.test-drive-lightbox h3 {
+    background: url(../assets/images/leads/test-drive-lead.png) no-repeat left center
+}
+.info-email-lightbox h3 {
+    background: url(../assets/images/leads/email-lead.png) no-repeat left center
+}
+.ligamos-lightbox h3 {
+    background: url(../assets/images/leads/ligamos-lead.png) no-repeat left center;
+    padding-left: 45px!important
+}
+.ver-telefone h3 {
+    background: url(../assets/images/leads/telefone-lead.png) no-repeat left center;
+    padding-left: 75px!important
+}
+.ver-telefone p {
+    font-size: 16px!important;
+    margin-bottom: 5px!important
+}
+.ver-telefone strong {
+    font-size: 22px;
+    margin-bottom: 10px;
+    display: block
+}
+.ver-telefone address {
+    font-size: 12px;
+    font-style: normal;
+    display: block
+}
+.leads .header-lightbox h3 strong {
+    display: block;
+    font: 700 24px Arial, sans-serif;
+    line-height: inherit
+}
+.leads p {
+    font-size: 14px;
+    line-height: 1.3em;
+    margin-bottom: 25px
+}
+.leads .select,
+.leads input[type=email],
+.leads input[type=text],
+.leads textarea {
+    background: 0 0;
+    border: solid 1px #202020;
+    height: 33px;
+    border-radius: 7px;
+    padding: 0 2%;
+    width: 105%;
+    margin-bottom: 10px
+}
+.leads .select {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background: transparent url(../assets/images/leads/bg-select.png) no-repeat right center
+}
+.leads .select select {
+    height: 33px;
+    width: 120%;
+    cursor: pointer;
+    background: 0 0
+}
+.leads textarea {
+    padding: 10px;
+    resize: none;
+    overflow: auto;
+    height: 85px
+}
+.leads .left {
+    float: left;
+    width: 47%
+}
+.leads .right {
+    float: right;
+    width: 47%
+}
+.leads small {
+    font-size: 10px;
+    margin-left: 5px
+}
+.leads .linha {
+    border-top: solid 1px #80949f;
+    border-bottom: solid 1px #FFF;
+    margin: 10px 0 16px
+}
+.leads input[type=checkbox] {
+    margin: 0 5px 10px 0;
+    display: inline
+}
+.leads label {
+    font-size: 11px;
+    display: inline;
+    cursor: pointer
+}
+.leads #confirmar {
+    background: #202020;
+    padding: 5px 30px;
+    display: table;
+    margin: 0 0 0 auto;
+    cursor: pointer
+}
+.leads #confirmar:hover {
+    opacity: .7
+}
+.leads* {
+    color: #a9a9a9;
+}
