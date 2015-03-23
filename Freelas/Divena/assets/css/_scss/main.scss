@@ -115,7 +115,8 @@ header,
 footer{
 	background: #292929;
 	padding: 15px 0;
-	#divena-logo{
+	#divena-logo,
+	#divena-logo-footer{
 		background: url(../images/divena-logo.png) center no-repeat;
 		width: 131px;
 		padding-top: 35px;
@@ -179,10 +180,21 @@ footer{
 			font: 400 13px $font;
 		}
         a{
+        	text-decoration: none !important;
             @include transition(200ms);
             &:hover{
                 opacity: 0.7;
                 text-decoration: none;
+            }
+            &.slide-active figcaption{
+            	color:#ffc700;
+            }
+            &.slide-active:after{
+            	content: "";
+				width: 100%;
+				height: 20px;
+				display: block;
+				background: url(../images/active-slide.png) no-repeat center;
             }
         }
 	}
@@ -358,7 +370,7 @@ main{
                 width: 100%;
                 padding: 0 2%;
                 height: 45px;
-                box-shadow: inset 0 0 0 1px #adafb2;
+                border: solid 1px #adafb2;
             }
             input[type="checkbox"]{
                 display: inline-block;
@@ -506,5 +518,168 @@ footer{
     max-height: 501px !important;
 }
 
+/*===================================
+=            Responsible            =
+===================================*/
+@media screen and (min-width: 768px) and (max-width:992px){
+	.button{
+		font-size: 13px;
+	}
+	/* Webdoors */
+	#webdoors{
+		background-size: auto 100%;
+		height: 480px;
+		.webdoor-txt{
+			top: 220px;
+			margin-left: 120px;
+			h3{
+				font-size: 33px;
+				span{
+					font-size: 22px;
+				}
+			}
+			pre{
+				font-size: 20px;
+			}
+		}
+	}
 
+	/* Main */
+	main{
+		figure{
+			text-align: center;
+			margin-bottom: 20px;
+		}
+		h1{
+			text-align: center;
+		}
+		.car-text{
+			.price,
+			.the-leads{
+				text-align: center;
+			}
 
+		}
+	}
+
+	/* Outros Servicos */
+	#outros-servicos{
+		padding: 0;
+	}
+}
+
+@media screen and (max-width: 767px){
+	/* Webdoor */
+	#webdoors{
+		.mobile-overlay{
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			background: rgba(0, 0, 0, 0.7);
+			left: 0;
+			top: 0;
+		}
+		background-size: cover !important;
+		height: 550px;
+		.webdoor-txt{
+			z-index: 2;
+			top: 180px;
+			margin-left: -120px;
+			h3{
+				font-size: 33px;
+				span{
+					font-size: 22px;
+				}
+			}
+			pre{
+				font-size: 20px;
+			}
+		}
+	}
+	/* Common */
+	.content-padding{
+		padding: 40px 0 !important;
+	}
+	.line{
+		margin: 45px -14px;
+	}
+	/* Slider */
+	.slider .bx-controls a.bx-next{
+		right: 0;
+	}
+	.slider .bx-controls a.bx-prev{
+		left: 0;
+	}
+	/* Outros Servicos */
+	#outros-servicos{
+		padding: 0;
+		nav{
+			li{
+				margin: 0;
+				width: 32%;
+			}
+		}
+	}
+	/* Main */
+	main{
+		figure{
+			text-align: center;
+			margin-bottom: 20px;
+		}
+		h1{
+			text-align: center;
+		}
+		.car-text{
+			.price,
+			.the-leads{
+				text-align: center;
+				a{
+					width: 250px;
+				}
+			}
+
+		}
+	}
+	/* Localizacao */
+	#localizacao {
+		.addresses{
+			width: 260px;
+		}
+		.map{
+			margin: 0 -14px;
+		}
+	}
+	/* Footer */
+	footer{
+		#divena-logo-footer{
+			width: 100%;
+			margin-bottom: 20px;
+			float: none !important;
+		}
+		.footer-leads{
+			float: none !important;
+			margin-right: 0 !important;
+			ul{
+				width: 100%;
+				text-align: center;
+			}
+			li{
+				margin-bottom: 10px;
+				a{
+					width:200px;
+					margin-left: 0;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 480px){
+	#webdoors{
+		height: 300px;
+		.webdoor-txt{
+			top: 60px;
+			margin-left: -128px;
+		}
+	}
+}

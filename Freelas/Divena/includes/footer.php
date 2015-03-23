@@ -2,7 +2,7 @@
     <footer>
         <div class="container">
             
-			<a href="#" title="Voltar para a página inicial" id="divena-logo" class="pull-left link-padding">Divena</a>
+			<a href="#" title="Voltar para a página inicial" id="divena-logo-footer" class="pull-left link-padding">Divena</a>
 			<!-- <span>Avenida Ricardo Jafet</span> -->
 
 			<!-- Leads -->
@@ -28,9 +28,9 @@
     <!-- Scripts -->
     <script type="text/javascript" src="../assets/js/jquery.bxslider.min.js"></script>
     
-    <script type="text/javascript" src="../assets/js/fancybox/jquery.fancybox.pack.js"></script>
-    <script type="text/javascript" src="../assets/js/main.js"></script>
-    <link rel="stylesheet" type="text/css" href="../assets/js/fancybox/jquery.fancybox.css">
+    <script type="text/javascript" src="../assets/js/fancybox/jquery.fancybox.pack.min.js"></script>
+    <script type="text/javascript" src="../assets/js/main.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../assets/js/fancybox/jquery.fancybox.min.css">
     <!-- End Scripts -->
         
     </body>

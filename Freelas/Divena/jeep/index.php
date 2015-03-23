@@ -7,6 +7,11 @@
 				width: 80px;
 				padding-top:35px;
 			}
+			@media screen and (max-width: 767px){
+				#webdoors{
+					background: url(../assets/images/jeep/webdoor-mobile.jpg) no-repeat center top;
+				}
+			}
 		</style>
 		<!-- End Styles -->
 
@@ -40,6 +45,7 @@
 				<pre>A aventura está chegando. <br>Prepare-se.</pre>
 				<a href="../includes/lead-info-email.php" class="button email-webdoor fancybox">informações <strong>por e-mail</strong></a>
 			</div>
+			<div class="mobile-overlay"></div>
 		</div>
 		<!-- End Webdoors -->
 
@@ -54,7 +60,7 @@
 	                	<div class="slider">
 	                		<ul>
 		                		<li>
-		                			<a href="#">
+		                			<a href="#" data-slide-index="0" class="slide-active">
 		                				<figure>
 		                					<img src="../assets/images/jeep/compass.jpg" height="54" width="133" alt="Compass" title="Compass">
 		                					<figcaption>Compass</figcaption>
@@ -62,7 +68,7 @@
 		                			</a>
 		                		</li>
 		                		<li>
-		                			<a href="#">
+		                			<a href="#" data-slide-index="1">
 		                				<figure>
 		                					<img src="../assets/images/jeep/wrangler.jpg" height="55" width="112" alt="Wrangler" title="Wrangler">
 		                					<figcaption>Wrangler</figcaption>
@@ -70,7 +76,7 @@
 		                			</a>
 		                		</li>
 		                		<li>
-		                			<a href="#">
+		                			<a href="#" data-slide-index="2">
 		                				<figure>
 		                					<img src="../assets/images/jeep/wrangler-unlimited.jpg" height="56" width="131" alt="Wrangler Unlimited" title="Wrangler Unlimited">
 		                					<figcaption>Wrangler Unlimited</figcaption>
@@ -78,7 +84,7 @@
 		                			</a>
 		                		</li>
 		                		<li>
-		                			<a href="#">
+		                			<a href="#" data-slide-index="3">
 		                				<figure>
 		                					<img src="../assets/images/jeep/grand-cherokee.jpg" height="54" width="130" alt="Grand Cherokee" title="Grand Cherokee">
 		                					<figcaption>Grand Cherokee</figcaption>
@@ -86,7 +92,7 @@
 		                			</a>
 		                		</li>
 		                		<li>
-		                			<a href="#">
+		                			<a href="#" data-slide-index="4">
 		                				<figure>
 		                					<img src="../assets/images/jeep/cherokee.jpg" height="56" width="133" alt="Cherokee" title="Cherokee">
 		                					<figcaption>Cherokee</figcaption>
@@ -94,7 +100,7 @@
 		                			</a>
 		                		</li>
 		                		<li>
-		                			<a href="#">
+		                			<a href="#" data-slide-index="5">
 		                				<figure>
 		                					<img src="../assets/images/jeep/renegade.jpg" height="59" width="124" alt="Renegade" title="Renegade">
 		                					<figcaption>Renegade</figcaption>
@@ -102,7 +108,7 @@
 		                			</a>
 		                		</li>
 		                		<li>
-		                			<a href="#">
+		                			<a href="#" data-slide-index="6">
 		                				<figure>
 		                					<img src="../assets/images/jeep/renegade.jpg" height="59" width="124" alt="Renegade" title="Renegade">
 		                					<figcaption>Renegade</figcaption>
@@ -114,39 +120,253 @@
 	                	<!-- End Slider -->
 						
 	                	<main>
-	                		<!-- Car Image -->
-	                		<div class="col-md-6">
-	                			<figure><img src="../assets/images/jeep/wrangler-unlimited-big.jpg" height="337" width="429" alt="Wrangler Unlimited" title="Wrangler Unlimited"></figure>
-	                		</div>
-	                		<!-- End Car Image -->
+	                		<ul id="car-selector">
+	                			<li>
+	                				<!-- Car Image -->
+			                		<div class="col-md-6">
+			                			<figure><img src="../assets/images/jeep/wrangler-unlimited-big.jpg" height="337" width="429" alt="Wrangler Unlimited" title="Wrangler Unlimited"></figure>
+			                		</div>
+			                		<!-- End Car Image -->
 
-	                		<!-- Car Text -->
-	                		<div class="col-md-6 car-text">
-	                			<h1>Wrangler <span>Unlimited</span></h1>
-	                			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget blandit urna. Maecenas sollicitudin, nibh et bibendum congue, odio ligula tristique purus, eget lobortis urna sem ut lectus. Cras scelerisque quis libero quis semper. Sed pulvinar non nisl a consectetur. Integer convallis eros nec nulla gravida molestie.</p>
-	                			<div class="link">
-	                				<a href="#" class="ficha-tecnica">Ficha técnica</a>
-	                				<a href="../assets/images/jeep/fotos/galeria1.jpg" class="fotos">Fotos</a>
-	                			</div>
+			                		<!-- Car Text -->
+			                		<div class="col-md-6 car-text">
+			                			<h1>Wrangler <span>Unlimited</span></h1>
+			                			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget blandit urna. Maecenas sollicitudin, nibh et bibendum congue, odio ligula tristique purus, eget lobortis urna sem ut lectus. Cras scelerisque quis libero quis semper. Sed pulvinar non nisl a consectetur. Integer convallis eros nec nulla gravida molestie.</p>
+			                			<div class="link">
+			                				<a href="#" class="ficha-tecnica">Ficha técnica</a>
+			                				<a href="../assets/images/jeep/fotos/galeria1.jpg" class="fotos">Fotos</a>
+			                			</div>
 
-	                			<!-- Price -->
-	                			<div class="price">
-	                				<div class="prefix">
-	                					A partir de <span>R$</span>
-	                				</div>
-	                				<div class="the-price"><strong>255.900,00</strong></div>
-	                			</div>
-	                			<!-- End Price -->
+			                			<!-- Price -->
+			                			<div class="price">
+			                				<div class="prefix">
+			                					A partir de <span>R$</span>
+			                				</div>
+			                				<div class="the-price"><strong>255.900,00</strong></div>
+			                			</div>
+			                			<!-- End Price -->
 
-	                			<div class="the-leads">
-	                				<ul>
-	                					<li class="agende"><a href="../includes/lead-testdrive.php" title="Agende um test-drive" class="button fancybox">Agende um <strong>test-drive</strong></a></li>
-										<li class="ligamos"><a href="../includes/lead-ligamos.php" title="Ligamos para você" class="button fancybox">Ligamos <strong>para você</strong></a></li>
-	                				</ul>
-	                			</div>
-	                		</div>	
-	                		<!-- End Car Text -->
-	                		<div class="clearfix"></div>
+			                			<div class="the-leads">
+			                				<ul>
+			                					<li class="agende"><a href="../includes/lead-testdrive.php" title="Agende um test-drive" class="button fancybox">Agende um <strong>test-drive</strong></a></li>
+												<li class="ligamos"><a href="../includes/lead-ligamos.php" title="Ligamos para você" class="button fancybox">Ligamos <strong>para você</strong></a></li>
+			                				</ul>
+			                			</div>
+			                		</div>	
+			                		<!-- End Car Text -->
+			                		<div class="clearfix"></div>
+	                			</li>
+	                			<li>
+	                				<!-- Car Image -->
+			                		<div class="col-md-6">
+			                			<figure><img src="../assets/images/jeep/wrangler-unlimited-big.jpg" height="337" width="429" alt="Wrangler Unlimited" title="Wrangler Unlimited"></figure>
+			                		</div>
+			                		<!-- End Car Image -->
+
+			                		<!-- Car Text -->
+			                		<div class="col-md-6 car-text">
+			                			<h1>Wrangler <span>Unlimited</span></h1>
+			                			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget blandit urna. Maecenas sollicitudin, nibh et bibendum congue, odio ligula tristique purus, eget lobortis urna sem ut lectus. Cras scelerisque quis libero quis semper. Sed pulvinar non nisl a consectetur. Integer convallis eros nec nulla gravida molestie.</p>
+			                			<div class="link">
+			                				<a href="#" class="ficha-tecnica">Ficha técnica</a>
+			                				<a href="../assets/images/jeep/fotos/galeria1.jpg" class="fotos">Fotos</a>
+			                			</div>
+
+			                			<!-- Price -->
+			                			<div class="price">
+			                				<div class="prefix">
+			                					A partir de <span>R$</span>
+			                				</div>
+			                				<div class="the-price"><strong>255.900,00</strong></div>
+			                			</div>
+			                			<!-- End Price -->
+
+			                			<div class="the-leads">
+			                				<ul>
+			                					<li class="agende"><a href="../includes/lead-testdrive.php" title="Agende um test-drive" class="button fancybox">Agende um <strong>test-drive</strong></a></li>
+												<li class="ligamos"><a href="../includes/lead-ligamos.php" title="Ligamos para você" class="button fancybox">Ligamos <strong>para você</strong></a></li>
+			                				</ul>
+			                			</div>
+			                		</div>	
+			                		<!-- End Car Text -->
+			                		<div class="clearfix"></div>
+	                			</li>
+	                			<li>
+	                				<!-- Car Image -->
+			                		<div class="col-md-6">
+			                			<figure><img src="../assets/images/jeep/wrangler-unlimited-big.jpg" height="337" width="429" alt="Wrangler Unlimited" title="Wrangler Unlimited"></figure>
+			                		</div>
+			                		<!-- End Car Image -->
+
+			                		<!-- Car Text -->
+			                		<div class="col-md-6 car-text">
+			                			<h1>Wrangler <span>Unlimited2</span></h1>
+			                			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget blandit urna. Maecenas sollicitudin, nibh et bibendum congue, odio ligula tristique purus, eget lobortis urna sem ut lectus. Cras scelerisque quis libero quis semper. Sed pulvinar non nisl a consectetur. Integer convallis eros nec nulla gravida molestie.</p>
+			                			<div class="link">
+			                				<a href="#" class="ficha-tecnica">Ficha técnica</a>
+			                				<a href="../assets/images/jeep/fotos/galeria1.jpg" class="fotos">Fotos</a>
+			                			</div>
+
+			                			<!-- Price -->
+			                			<div class="price">
+			                				<div class="prefix">
+			                					A partir de <span>R$</span>
+			                				</div>
+			                				<div class="the-price"><strong>255.900,00</strong></div>
+			                			</div>
+			                			<!-- End Price -->
+
+			                			<div class="the-leads">
+			                				<ul>
+			                					<li class="agende"><a href="../includes/lead-testdrive.php" title="Agende um test-drive" class="button fancybox">Agende um <strong>test-drive</strong></a></li>
+												<li class="ligamos"><a href="../includes/lead-ligamos.php" title="Ligamos para você" class="button fancybox">Ligamos <strong>para você</strong></a></li>
+			                				</ul>
+			                			</div>
+			                		</div>	
+			                		<!-- End Car Text -->
+			                		<div class="clearfix"></div>
+	                			</li>
+	                			<li>
+	                				<!-- Car Image -->
+			                		<div class="col-md-6">
+			                			<figure><img src="../assets/images/jeep/wrangler-unlimited-big.jpg" height="337" width="429" alt="Wrangler Unlimited" title="Wrangler Unlimited"></figure>
+			                		</div>
+			                		<!-- End Car Image -->
+
+			                		<!-- Car Text -->
+			                		<div class="col-md-6 car-text">
+			                			<h1>Wrangler <span>Unlimited3</span></h1>
+			                			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget blandit urna. Maecenas sollicitudin, nibh et bibendum congue, odio ligula tristique purus, eget lobortis urna sem ut lectus. Cras scelerisque quis libero quis semper. Sed pulvinar non nisl a consectetur. Integer convallis eros nec nulla gravida molestie.</p>
+			                			<div class="link">
+			                				<a href="#" class="ficha-tecnica">Ficha técnica</a>
+			                				<a href="../assets/images/jeep/fotos/galeria1.jpg" class="fotos">Fotos</a>
+			                			</div>
+
+			                			<!-- Price -->
+			                			<div class="price">
+			                				<div class="prefix">
+			                					A partir de <span>R$</span>
+			                				</div>
+			                				<div class="the-price"><strong>255.900,00</strong></div>
+			                			</div>
+			                			<!-- End Price -->
+
+			                			<div class="the-leads">
+			                				<ul>
+			                					<li class="agende"><a href="../includes/lead-testdrive.php" title="Agende um test-drive" class="button fancybox">Agende um <strong>test-drive</strong></a></li>
+												<li class="ligamos"><a href="../includes/lead-ligamos.php" title="Ligamos para você" class="button fancybox">Ligamos <strong>para você</strong></a></li>
+			                				</ul>
+			                			</div>
+			                		</div>	
+			                		<!-- End Car Text -->
+			                		<div class="clearfix"></div>
+	                			</li>
+	                			<li>
+	                				<!-- Car Image -->
+			                		<div class="col-md-6">
+			                			<figure><img src="../assets/images/jeep/wrangler-unlimited-big.jpg" height="337" width="429" alt="Wrangler Unlimited" title="Wrangler Unlimited"></figure>
+			                		</div>
+			                		<!-- End Car Image -->
+
+			                		<!-- Car Text -->
+			                		<div class="col-md-6 car-text">
+			                			<h1>Wrangler <span>Unlimited4</span></h1>
+			                			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget blandit urna. Maecenas sollicitudin, nibh et bibendum congue, odio ligula tristique purus, eget lobortis urna sem ut lectus. Cras scelerisque quis libero quis semper. Sed pulvinar non nisl a consectetur. Integer convallis eros nec nulla gravida molestie.</p>
+			                			<div class="link">
+			                				<a href="#" class="ficha-tecnica">Ficha técnica</a>
+			                				<a href="../assets/images/jeep/fotos/galeria1.jpg" class="fotos">Fotos</a>
+			                			</div>
+
+			                			<!-- Price -->
+			                			<div class="price">
+			                				<div class="prefix">
+			                					A partir de <span>R$</span>
+			                				</div>
+			                				<div class="the-price"><strong>255.900,00</strong></div>
+			                			</div>
+			                			<!-- End Price -->
+
+			                			<div class="the-leads">
+			                				<ul>
+			                					<li class="agende"><a href="../includes/lead-testdrive.php" title="Agende um test-drive" class="button fancybox">Agende um <strong>test-drive</strong></a></li>
+												<li class="ligamos"><a href="../includes/lead-ligamos.php" title="Ligamos para você" class="button fancybox">Ligamos <strong>para você</strong></a></li>
+			                				</ul>
+			                			</div>
+			                		</div>	
+			                		<!-- End Car Text -->
+			                		<div class="clearfix"></div>
+	                			</li>
+	                			<li>
+	                				<!-- Car Image -->
+			                		<div class="col-md-6">
+			                			<figure><img src="../assets/images/jeep/wrangler-unlimited-big.jpg" height="337" width="429" alt="Wrangler Unlimited" title="Wrangler Unlimited"></figure>
+			                		</div>
+			                		<!-- End Car Image -->
+
+			                		<!-- Car Text -->
+			                		<div class="col-md-6 car-text">
+			                			<h1>Wrangler <span>Unlimited5</span></h1>
+			                			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget blandit urna. Maecenas sollicitudin, nibh et bibendum congue, odio ligula tristique purus, eget lobortis urna sem ut lectus. Cras scelerisque quis libero quis semper. Sed pulvinar non nisl a consectetur. Integer convallis eros nec nulla gravida molestie.</p>
+			                			<div class="link">
+			                				<a href="#" class="ficha-tecnica">Ficha técnica</a>
+			                				<a href="../assets/images/jeep/fotos/galeria1.jpg" class="fotos">Fotos</a>
+			                			</div>
+
+			                			<!-- Price -->
+			                			<div class="price">
+			                				<div class="prefix">
+			                					A partir de <span>R$</span>
+			                				</div>
+			                				<div class="the-price"><strong>255.900,00</strong></div>
+			                			</div>
+			                			<!-- End Price -->
+
+			                			<div class="the-leads">
+			                				<ul>
+			                					<li class="agende"><a href="../includes/lead-testdrive.php" title="Agende um test-drive" class="button fancybox">Agende um <strong>test-drive</strong></a></li>
+												<li class="ligamos"><a href="../includes/lead-ligamos.php" title="Ligamos para você" class="button fancybox">Ligamos <strong>para você</strong></a></li>
+			                				</ul>
+			                			</div>
+			                		</div>	
+			                		<!-- End Car Text -->
+			                		<div class="clearfix"></div>
+	                			</li>
+	                			<li>
+	                				<!-- Car Image -->
+			                		<div class="col-md-6">
+			                			<figure><img src="../assets/images/jeep/wrangler-unlimited-big.jpg" height="337" width="429" alt="Wrangler Unlimited" title="Wrangler Unlimited"></figure>
+			                		</div>
+			                		<!-- End Car Image -->
+
+			                		<!-- Car Text -->
+			                		<div class="col-md-6 car-text">
+			                			<h1>Wrangler <span>Unlimited7</span></h1>
+			                			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget blandit urna. Maecenas sollicitudin, nibh et bibendum congue, odio ligula tristique purus, eget lobortis urna sem ut lectus. Cras scelerisque quis libero quis semper. Sed pulvinar non nisl a consectetur. Integer convallis eros nec nulla gravida molestie.</p>
+			                			<div class="link">
+			                				<a href="#" class="ficha-tecnica">Ficha técnica</a>
+			                				<a href="../assets/images/jeep/fotos/galeria1.jpg" class="fotos">Fotos</a>
+			                			</div>
+
+			                			<!-- Price -->
+			                			<div class="price">
+			                				<div class="prefix">
+			                					A partir de <span>R$</span>
+			                				</div>
+			                				<div class="the-price"><strong>255.900,00</strong></div>
+			                			</div>
+			                			<!-- End Price -->
+
+			                			<div class="the-leads">
+			                				<ul>
+			                					<li class="agende"><a href="../includes/lead-testdrive.php" title="Agende um test-drive" class="button fancybox">Agende um <strong>test-drive</strong></a></li>
+												<li class="ligamos"><a href="../includes/lead-ligamos.php" title="Ligamos para você" class="button fancybox">Ligamos <strong>para você</strong></a></li>
+			                				</ul>
+			                			</div>
+			                		</div>	
+			                		<!-- End Car Text -->
+			                		<div class="clearfix"></div>
+	                			</li>
+	                		</ul>
 	                	</main>
 	                </section>
 	                <!-- End Conheça -->
