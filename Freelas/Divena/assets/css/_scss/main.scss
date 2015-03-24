@@ -128,9 +128,10 @@ footer{
 ===============================*/
 /* Webdoors */
 #webdoors{
-	background: url(../images/jeep/webdoor.jpg) no-repeat top;
-	height: 650px;
 	position: relative;
+	li{
+		height: 650px;
+	}
 	.webdoor-txt{
 		position: absolute;
 		left: 50%;
@@ -279,7 +280,7 @@ main{
 			li{
 				display: inline-block;
 				&.agende a{
-					background-position: -22px -179px, 0 0;
+					background-position: -17px -179px, 0 0;
 				}
 				&.ligamos a{
 					background-position: -12px -95px, 0 0;
@@ -338,6 +339,15 @@ main{
             }
         }
     }
+    .services-overflow{
+    	position: relative;
+	    overflow: hidden;
+	    max-height: 9999px;
+	    @include transition(300ms);
+    	&.inactive{
+	    	max-height: 0;
+    	}
+    }
     .acessorios,
     .pecas,
     .servicos{
@@ -357,6 +367,9 @@ main{
             display: block;
             margin: 0 0 22px;
             padding: 0;
+            &.check{
+            	margin-bottom: 10px;
+            }
             label{
                 display: block;
                 margin-bottom: 3px;
@@ -478,12 +491,6 @@ main{
     }
 }
 
-
-
-
-
-
-
 /*==============================
 =            Footer            =
 ==============================*/
@@ -502,6 +509,7 @@ footer{
                 background-position: -15px -101px, 0 0;
             }
             a{
+            	font-size: 13px;
                 margin-left: 10px;
                 padding: 10px 15px 3px 45px;
                 strong{
@@ -526,7 +534,7 @@ footer{
 		font-size: 13px;
 	}
 	/* Webdoors */
-	#webdoors{
+	#webdoors li{
 		background-size: auto 100%;
 		height: 480px;
 		.webdoor-txt{
@@ -579,20 +587,22 @@ footer{
 			left: 0;
 			top: 0;
 		}
-		background-size: cover !important;
-		height: 550px;
-		.webdoor-txt{
-			z-index: 2;
-			top: 180px;
-			margin-left: -120px;
-			h3{
-				font-size: 33px;
-				span{
-					font-size: 22px;
+		li{
+			background-size: cover !important;
+			height: 550px;
+			.webdoor-txt{
+				z-index: 2;
+				top: 180px;
+				margin-left: -120px;
+				h3{
+					font-size: 33px;
+					span{
+						font-size: 22px;
+					}
 				}
-			}
-			pre{
-				font-size: 20px;
+				pre{
+					font-size: 20px;
+				}
 			}
 		}
 	}
@@ -675,7 +685,7 @@ footer{
 }
 
 @media screen and (max-width: 480px){
-	#webdoors{
+	#webdoors li{
 		height: 300px;
 		.webdoor-txt{
 			top: 60px;

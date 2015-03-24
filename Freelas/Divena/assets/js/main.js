@@ -1,5 +1,12 @@
 $(document).ready(function() {
-	//Slider
+	//Slider Webdoors
+	$('#webdoors ul').bxSlider({
+		controls: 		false,
+		pager: 			false,
+		auto: 			true
+	});
+
+	//Slider Cars
 	var settings = function() {
 		var settings1 = {
 			controls: 		true,
@@ -46,11 +53,18 @@ $(document).ready(function() {
 	$('#outros-servicos .the-services').bxSlider({
 		pagerCustom: 	'#acessorios-nav ul',
 		touchEnabled: 	false,
-		controls: 		false
+		controls: 		false,
+		mode: 			'fade'
+	});
+	$('#acessorios-nav a').removeClass('active');
+	$('#acessorios-nav a').click(function(event) {
+		$('.services-overflow').removeClass('inactive');
+		$(this).addClass('active');
 	});
 
 	//The Cars Slider
 	$('main ul#car-selector').bxSlider({
+		mode: 			'fade',
 		pagerCustom: 	'.slider ul',
 		touchEnabled: 	false,
 		controls: 		false
