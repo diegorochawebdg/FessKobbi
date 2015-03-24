@@ -16,6 +16,19 @@
 				width: 80px;
 				padding-top:35px;
 			}
+			.button{
+				background: #ebc12e url(../assets/images/icons-sprite.png) no-repeat;
+				background: url(../assets/images/icons-sprite.png) no-repeat, -moz-linear-gradient(top,  #ebc12e 0%, #b68312 100%);
+				background: url(../assets/images/icons-sprite.png) no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ebc12e), color-stop(100%,#b68312));
+				background: url(../assets/images/icons-sprite.png) no-repeat, -webkit-linear-gradient(top,  #ebc12e 0%,#b68312 100%);
+				background: url(../assets/images/icons-sprite.png) no-repeat, -o-linear-gradient(top,  #ebc12e 0%,#b68312 100%);
+				background: url(../assets/images/icons-sprite.png) no-repeat, -ms-linear-gradient(top,  #ebc12e 0%,#b68312 100%);
+				background: url(../assets/images/icons-sprite.png) no-repeat, linear-gradient(to bottom,  #ebc12e 0%,#b68312 100%);
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebc12e', endColorstr='#b68312',GradientType=0 );
+				border-top: solid 1px #f5df40;
+				border-bottom: solid 1px #a76a0c;
+				color: #000;
+			}
 			@media screen and (max-width: 767px){
 				#webdoors li.webdoor1{
 				background: url(../assets/images/jeep/webdoor-mobile.jpg) no-repeat top;
